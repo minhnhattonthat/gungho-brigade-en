@@ -1,58 +1,58 @@
 id	max	jp	en	notes
-s18_0004	75	勝利条件：ガンシップ（ＮＰＣ）が指定領域/          からマップ外へ脱出する		
-s18_0050	63	敗北条件：プレーヤーユニットの撃破/          ガンシップの撃破		
-s18_0090	71	目的：ガンシップ（ＮＰＣ）が移動可能になる/      まで、敵の足止めをする		
-s18_00d8	23	「くっ、ドジった!!」		
-s18_00f0	31	「マスタング……。ごめん！」		
-s18_0110	27	「うおっ！  やられたっ！」		
-s18_012c	31	「あぁっ、逃げ切れないよぉ！」		
-s18_014c	87	シャベス/「ガンシップの準備ができ次第、ズラかるぞ。/それまで、遠距離砲戦に徹して粘る」		
-s18_01a4	51	ビズリィ/「あの黒くてデカイのさえ潰せば勝てるぜ」		
-s18_01d8	95	「ダメだ。寄ったが最後、フクロにされる。/  遠間から敵の頭を叩きつつ後退して、時間を/稼ぐんだ」		
-s18_0238	15	「ちぇっ！」/		
-s18_0248	51	ビズリィ/「ちぃっ！  あの黒いヤツ、やっぱ固ぇぞ！」		
-s18_027c	63	マイコ/「あの黒いヤツ、強い！  簡単にはいかないっ/てこと!?」		
-s18_02bc	75	シャベス/「くそっ、駄目だ！  あの黒いヤツは、一発や/二発じゃ倒せねぇ！」		
-s18_0308	47	ブレインズ/「ダイブツ、このコンテナも頼みます」		
-s18_0338	35	ダイブツ/「えー、間に合わないよー」		
-s18_035c	19	「お願いします！」/		
-s18_0370	15	「う゛ー…」/		
-s18_0380	39	ビズリィ/「まだか!?  もう時間だぞ！」		
-s18_03a8	43	ダイブツ/「ごめん、あと３分ちょうだい！」		
-s18_03d4	31	「バカッ、さっさとしろっ！」/		
-s18_03f4	27	ダイブツ/「おっまたせー！」		
-s18_0410	63	ダイブツ/「先にいくよーっ！  みんなうまく逃げてきて/ねーっ!!」		
-s18_0450	51	シャベス/「ダイブツ！  先に行け！  すぐ追いつく！」		
-s18_0484	55	「格納庫がゴチャゴチャで、武器弾薬の射出が/できないよ」		
-s18_04bc	31	ビズリィ{n}「いいから、行け！」		
-s18_04dc	15	「わかった」/		
-s18_04ec	43	ビズリィ/「…やつら、人間を狩ってやがった」		
-s18_0518	99	ブレインズ/「ようやく、敵の主体が『人間の操る機械』で/はなく『人間』であると気づいたのでしょう」		
-s18_057c	31	/「それより、問題はこれです」/		
-s18_059c	31	シャベス/「クロームデビル！」		
-s18_05bc	63	「『ウィザード』。地球軍の開発コードはそう/なっていました」/		
-s18_05fc	95	「地球軍試作無人マシンレッグ『ウィザード』/完全自律戦闘兵団『クルセーダーズ』の指揮機/です」		
-s18_065c	87	マイコ/「で、そのロボット軍団の親玉がどこかでジャ/ンキーに乗っ取られた、ってわけ？」		
-s18_06b4	23	/「まず間違いなく…」/		
-s18_06cc	39	/「地球人よ、呪われてしまえ、だな」/		
-s18_06f4	43	/「人類よ、呪われよ！ です。より正しくは」/		
-s18_0720	11	/「？」/		
-s18_072c	59	ラジオ放送/「…こちらは火星向け放送局、『火星の虹』で/す」		
-s18_0768	95	火星の虹/「火星で、苦難に耐えているみなさん。本日は/明るいニュースをお伝えすることができます」		
-s18_07c8	123	火星の虹「本日、わが地球連邦航宙軍は『火星/奪還艦隊の先遣隊は、さる某日に出港した。現/在、某地点を順調に航宙中である』…」		
-s18_0844	127	火星の虹「…との声明を発表しました。作戦の/詳細は明らかにされませんでしたが、この戦争/が新たな局面を迎えた事だけは事実です…」		
-s18_08c4	27	ダイブツ/「ふん、ふふん」		
-s18_08e0	15	ベティ/「…」		
-s18_08f0	35	「あれ、ベティさん、どうしたの？」/		
-s18_0914	31	「…べつに。どうもしないわ」/		
-s18_0934	11	「そう？」/		
-s18_0940	23	「…ふん、ふふふん」/		
-s18_0958	83	「『ウィザード』と『クルセーダーズ』開発の/きっかけは、『水戦争』にありました」/		
-s18_09ac	95	「軍を構成する多くの人間を火星に派遣する事/は、裕福な地球にとっても、莫大な負担だった/のです」		
-s18_0a0c	63	「軍隊の無人化はその負担を劇的に軽減すると/見込まれました」/		
-s18_0a4c	35	「…俺達火星人が悪いってのか？」		
-s18_0a70	31	/「いいえ、我々人類が、です」/		
-s18_0a90	123	「単純な環境改造用自己複製機械だったはずの/ジャンキーに戦争という問題解決手段を教えた/のは、おそらく我々人類ですから…」		
-s18_0b0c	7	「…」		
-s18_0b14	59	  翌朝、ベティさんの姿が、アパッチと共に消/えていました。		
-s18_0b50	79	  しかし、心配する私たちに、シャベスは冷た/く『放っておけ』と言い放ったのです。		
+s18_0004	75	勝利条件：ガンシップ（ＮＰＣ）が指定領域/          からマップ外へ脱出する	Victory: The Gunship (NPC) escapes the map/         from the marked area	
+s18_0050	63	敗北条件：プレーヤーユニットの撃破/          ガンシップの撃破	Defeat: Player unit destroyed, or/         Gunship destroyed	
+s18_0090	71	目的：ガンシップ（ＮＰＣ）が移動可能になる/      まで、敵の足止めをする	Goal: Hold off the enemy until the/     Gunship (NPC) can move	
+s18_00d8	23	「くっ、ドジった!!」	"Ugh, I screwed up!!"	
+s18_00f0	31	「マスタング……。ごめん！」	"Mustang... I'm sorry!"	
+s18_0110	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s18_012c	31	「あぁっ、逃げ切れないよぉ！」	"Aah, I can't get away!"	
+s18_014c	87	シャベス/「ガンシップの準備ができ次第、ズラかるぞ。/それまで、遠距離砲戦に徹して粘る」	Chavez/"Once the Gunship's ready, we bolt. Till/then, stick to long-range fire."	
+s18_01a4	51	ビズリィ/「あの黒くてデカイのさえ潰せば勝てるぜ」	Bizley/"Just smash that big black one and we/win."	
+s18_01d8	95	「ダメだ。寄ったが最後、フクロにされる。/  遠間から敵の頭を叩きつつ後退して、時間を/稼ぐんだ」	"No. Get close and they'll gang up on you./Hit their leaders from range while falling/back, and buy time."	
+s18_0238	15	「ちぇっ！」/	"Tch!"/	
+s18_0248	51	ビズリィ/「ちぃっ！  あの黒いヤツ、やっぱ固ぇぞ！」	Bizley/"Tch! That black one's tough, all right!"	
+s18_027c	63	マイコ/「あの黒いヤツ、強い！  簡単にはいかないっ/てこと!?」	Maiko/"That black one's strong! Not gonna be/easy, huh?!"	
+s18_02bc	75	シャベス/「くそっ、駄目だ！  あの黒いヤツは、一発や/二発じゃ倒せねぇ！」	Chavez/"Damn, no good! That black one won't go/down in one or two shots!"	
+s18_0308	47	ブレインズ/「ダイブツ、このコンテナも頼みます」	Brains/"Daibutsu, this container too, please."	
+s18_0338	35	ダイブツ/「えー、間に合わないよー」	Daibutsu/"Awww, we won't make it."	
+s18_035c	19	「お願いします！」/	"Please!"/	
+s18_0370	15	「う゛ー…」/	"Uggh..."/	
+s18_0380	39	ビズリィ/「まだか!?  もう時間だぞ！」	Bizley/"Not yet?! Time's up!"	
+s18_03a8	43	ダイブツ/「ごめん、あと３分ちょうだい！」	Daibutsu/"Sorry, gimme 3 more minutes!"	
+s18_03d4	31	「バカッ、さっさとしろっ！」/	"Idiot, hurry it up!"/	
+s18_03f4	27	ダイブツ/「おっまたせー！」	Daibutsu/"Sorry for the waaait!"	
+s18_0410	63	ダイブツ/「先にいくよーっ！  みんなうまく逃げてきて/ねーっ!!」	Daibutsu/"I'm going ahead! Everybody get away safe,/okaaay!!"	
+s18_0450	51	シャベス/「ダイブツ！  先に行け！  すぐ追いつく！」	Chavez/"Daibutsu! Go ahead! We'll catch up!"	
+s18_0484	55	「格納庫がゴチャゴチャで、武器弾薬の射出が/できないよ」	"The hangar's a mess, I can't launch any/weapons or ammo."	
+s18_04bc	31	ビズリィ{n}「いいから、行け！」	Bizley{n}"Never mind, go!"	
+s18_04dc	15	「わかった」/	"Okay."/	
+s18_04ec	43	ビズリィ/「…やつら、人間を狩ってやがった」	Bizley/"...They were hunting people."	
+s18_0518	99	ブレインズ/「ようやく、敵の主体が『人間の操る機械』で/はなく『人間』であると気づいたのでしょう」	Brains/"They've finally seen their foe isn't/'machines run by people' but 'people'."	
+s18_057c	31	/「それより、問題はこれです」/	/"More importantly, there's this problem."/	
+s18_059c	31	シャベス/「クロームデビル！」	Chavez/"The Chrome Devil!"	
+s18_05bc	63	「『ウィザード』。地球軍の開発コードはそう/なっていました」/	"'Wizard'. That was the Earth Army's/development code."/	
+s18_05fc	95	「地球軍試作無人マシンレッグ『ウィザード』/完全自律戦闘兵団『クルセーダーズ』の指揮機/です」	"Earth Army prototype unmanned machine leg/'Wizard', command unit of the autonomous/combat legion 'Crusaders'."	
+s18_065c	87	マイコ/「で、そのロボット軍団の親玉がどこかでジャ/ンキーに乗っ取られた、ってわけ？」	Maiko/"So the boss of that robot army got/hijacked by the Junkies somewhere?"	
+s18_06b4	23	/「まず間違いなく…」/	/"Almost certainly..."/	
+s18_06cc	39	/「地球人よ、呪われてしまえ、だな」/	/"Damn you, Earthmen, huh."/	
+s18_06f4	43	/「人類よ、呪われよ！ です。より正しくは」/	/"'Damn you all, mankind!' would be more/accurate."/	
+s18_0720	11	/「？」/	/"?"/	
+s18_072c	59	ラジオ放送/「…こちらは火星向け放送局、『火星の虹』で/す」	Radio Broadcast/"...This is the broadcast station for/Mars, 'Rainbow of Mars'."	
+s18_0768	95	火星の虹/「火星で、苦難に耐えているみなさん。本日は/明るいニュースをお伝えすることができます」	Rainbow of Mars/"To all of you enduring hardship on Mars:/today we bring you good news."	
+s18_07c8	123	火星の虹「本日、わが地球連邦航宙軍は『火星/奪還艦隊の先遣隊は、さる某日に出港した。現/在、某地点を順調に航宙中である』…」	Rainbow of Mars: "The Earth Federation/Space Force says its Mars recapture/vanguard 'sailed on a certain day...'"	
+s18_0844	127	火星の虹「…との声明を発表しました。作戦の/詳細は明らかにされませんでしたが、この戦争/が新たな局面を迎えた事だけは事実です…」	Rainbow of Mars: "'...and is proceeding as/planned.' No details were given, but the/war has clearly entered a new phase..."	
+s18_08c4	27	ダイブツ/「ふん、ふふん」	Daibutsu/"Hm, hmm hmm."	
+s18_08e0	15	ベティ/「…」	Betty/"..."	
+s18_08f0	35	「あれ、ベティさん、どうしたの？」/	"Huh, Betty-san, what's wrong?"/	
+s18_0914	31	「…べつに。どうもしないわ」/	"...Nothing. Nothing at all."/	
+s18_0934	11	「そう？」/	"Really?"/	
+s18_0940	23	「…ふん、ふふふん」/	"...Hm, hmm hmm hmm."/	
+s18_0958	83	「『ウィザード』と『クルセーダーズ』開発の/きっかけは、『水戦争』にありました」/	"The 'Wizard' and 'Crusaders' were born/out of the 'Water War'."/	
+s18_09ac	95	「軍を構成する多くの人間を火星に派遣する事/は、裕福な地球にとっても、莫大な負担だった/のです」	"Sending the many people an army needs to/Mars was a huge burden, even for wealthy/Earth."	
+s18_0a0c	63	「軍隊の無人化はその負担を劇的に軽減すると/見込まれました」/	"Unmanned forces were expected to cut that/burden dramatically."/	
+s18_0a4c	35	「…俺達火星人が悪いってのか？」	"...So it's us Martians' fault?"	
+s18_0a70	31	/「いいえ、我々人類が、です」/	/"No. It's ours, humanity's."/	
+s18_0a90	123	「単純な環境改造用自己複製機械だったはずの/ジャンキーに戦争という問題解決手段を教えた/のは、おそらく我々人類ですから…」	"The Junkies were simple self-replicating/terraformers. Likely it was we humans who/taught them war..."	
+s18_0b0c	7	「…」	"..."	
+s18_0b14	59	  翌朝、ベティさんの姿が、アパッチと共に消/えていました。	  The next morning, Betty-san was gone,/along with the Apache.	
+s18_0b50	79	  しかし、心配する私たちに、シャベスは冷た/く『放っておけ』と言い放ったのです。	  But when we worried, Chavez coldly told/us to 'leave her be'.	

@@ -2,10 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (s00-s05 done = b006-b011, 249/2713 rows). Last build: build/gungho_en.bin 2026-11-22 =
+- **Phase:** 6. Translate in progress (s00-s19 done = b006-b025, 1209/2713 rows; next b026 = s20). Last build: build/gungho_en.bin 2026-11-22 =
   **marker build + glyph torture** (`insert.py --marker --qa s08_0140=.. --qa s08_049c=.. --qa s08_0748=..`);
   states in work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
 - **Done:**
+  - Phase 6, second session (2026-11-22): s06-s19 translated + merged (b012-b025); glossary (places, units, Union
+    terms, 「射撃」 Shoot / 「格闘」 Melee commands) and docs/synopsis.md extended to s19. New `tools/tl_patch.py bNNN
+    FIX.tsv` (replace rows of a .out.tsv; write fixes with the file tool). Fit tip: a 42x2 row with its speaker line
+    holds ~80 chars of body. Stock defeat lines: "Damn... Did I blow it?!", "Mustang... I'm sorry!", "Whoa! I'm hit!",
+    "They got me. Bizley, heeelp!". Polish candidates: s14 "Mars Year 168" vs s17 "166" (JP as is); ルブルー = "Le
+    Bleu" (guess); s08_0d5c/0d88 and s16_0250 JP end in a stray "v" (dropped).
   - Phase 6 so far (2026-11-22): `tools/batches.py` (split/check/merge/fit; translators write the body only, it adds
     the glossary speaker line, wraps at 42, keeps the JP's leading/trailing breaks; lint = glyphs, %s/%d, glossary,
     honorifics after katakana names, 42x3 box; tests/test_batches.py gates merged English). 44 batches in work/tl
@@ -58,7 +64,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
 - **Next (phase 6):** continue in story order: `python -X utf8 tools/batches.py split --size 3500` (only if
-  work/tl is missing), then for each stage batch from s06 (b012): read `cut -f1,2,5 work/tl/bNNN.tsv` in <4 KB
+  work/tl is missing), then for each stage batch from s20 (b026): read `cut -f1,2,5 work/tl/bNNN.tsv` in <4 KB
   chunks, write work/tl/bNNN.out.tsv, `check`, `fit ID "text"` for 4-line overflows, `merge`; extend
   docs/synopsis.md per stage and glossary.md for new names. Then the non-story batches (b001 ending 48 chars; b002
   gunho: help lines 50 chars, names = small font, keep `@` = mm glyph and %d/%s; b005 pilots; b003/b004/b043/b044

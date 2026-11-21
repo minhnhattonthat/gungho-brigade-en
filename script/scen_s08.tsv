@@ -1,136 +1,136 @@
 id	max	jp	en	notes
-s08_0004	51	オールドマン/「明朝５時をもって、強行突破を図る」		
-s08_0038	23	シャベス/「…無茶です」		
-s08_0050	75	「同感だ。が、このまま挟撃されるわけにはい/かん。シャトルも待ってはくれん」		
-s08_009c	35	「向こうの司令部の決定ですか？」/		
-s08_00c0	11	「そうだ」/		
-s08_00cc	51	ブレインズ{n}「どの程度の損害を覚悟しているんです？」		
-s08_0100	47	「軍の損害１００％。避難民の損害２０～/５０％」		
-s08_0130	15	「…１００％」/		
-s08_0140	83	「先日の戦闘から、奴らは発砲炎に対し、優先/的に攻撃してくることがわかったそうだ」		
-s08_0194	15	ビズリィ/「…」		
-s08_01a4	51	「弾を撃ち続けることで、民間人の盾になる。/と？」		
-s08_01d8	55	「ふん、どうして軍人ってのは、そう死にたが/るのかね」		
-s08_0210	15	「ビズリィ！」/		
-s08_0220	79	「ビズリィ君、君たちは民間人だ。無論、明日/の作戦に参加させるわけにはいかない」		
-s08_0270	27	「頼まれたってお断りだ！」/		
-s08_028c	35	マイコ/「確かに気に入らないわね」		
-s08_02b0	31	「マイコ、おまえまで何だ！」/		
-s08_02d0	63	「要は他人にサイコロを預けて、１か２の目で/お陀仏ってことだろ」		
-s08_0310	59	「とてもじゃないが、自分の命を張りたい博打/じゃぁないね」		
-s08_034c	59	「それはそうだが、崖の上の要塞が相手じゃ…/どうにも手が…」		
-s08_0388	43	ブレインズ/「…手は…ないこともないです」		
-s08_03b4	7	「？」/		
-s08_03bc	115	「旧北軍のＧＦライン、通称『火星マジノ線』/の始点であるランルザック要塞は、重砲群で/地峡を完全に封鎖しています」		
-s08_0430	107	「その反面、陣地後方の防備はかなり薄い。地/形上、対岸のクォード高地からの支援を前提と/しているためです」		
-s08_049c	71	「すなわち、あの要塞を無力化するには防備の/薄い、背後から叩けばいい」/		
-s08_04e4	39	「そのクォード高地も占領されてたら？」		
-s08_050c	63	「それはありません。本日、我々が目の前を通/過してきました」/		
-s08_054c	15	「あ、そう…」		
-s08_055c	55	「ここまで妨害なしにたどりつけます。そこ/から先は…」		
-s08_0594	15	「…白兵突撃」/		
-s08_05a4	15	「…そうです」/		
-s08_05b4	55	「わかった。君たちはもう休みたまえ。私は/司令部へ行く」		
-s08_05ec	19	「私もお供します」/		
-s08_0600	39	「火星軍ではあの要塞は落とせません…」/		
-s08_0628	7	「!?」/		
-s08_0630	67	「この道は細く荒れているため、大部隊の速や/かな進行は望めません」/		
-s08_0674	127	「トランスポーターの通行も困難なため、強行/突破後に部隊展開、という手も使えません。/  先頭から各個撃破される事になります…」		
-s08_06f4	7	「…」		
-s08_06fc	39	「あの要塞を今夜中に攻略できるのは…」/		
-s08_0724	11	「……」		
-s08_0730	7	「…」/		
-s08_0738	15	「続けたまえ」		
-s08_0748	67	「…あの要塞を今夜中に攻略できるのは、我々/ラグライダーだけです」		
-s08_078c	91	マイコ/「それで、ブレインズ。この無茶苦茶な作戦、/いったい生還率はどれぐらいなのかしら？」		
-s08_07e8	95	ブレインズ/「作戦の成功を前提とするなら１００％。ちな/みに作戦の成功率は８０％強とみています」		
-s08_0848	39	/「なんの冗談？  それとも気休め？」/		
-s08_0870	75	オールドマン/「私のドラグーンの頑丈さを、信頼してくれて/いるということだ」		
-s08_08bc	11	/「？」/		
-s08_08c8	39	/「諸君、これより、敵要塞を攻略する」/		
-s08_08f0	123	「この先の悪路では、ドラグーンはともかく、/君たちのマシンは本来の機動性を発揮できず、/ハーキュリーズは前進すら困難である」		
-s08_096c	119	「そのため、敵前衛（エゼキエル、ロスコウ）/との戦闘に拘束され、敵砲兵（ハンバー）から/アウトレンジされる可能性がある」		
-s08_09e4	111	「そこで、機動性に制約のないドラグーンのみ/で敵前衛を排除し、しかる後に各個に突撃、/残余の敵砲兵を撃破する」		
-s08_0a54	39	シャベス{n}「おやっさん！  それじゃぁ…」		
-s08_0a7c	35	/「ドラグーンの装甲を信頼しろ。」/		
-s08_0aa0	19	「…イエス、サー」/		
-s08_0ab4	91	「敵の集中目標となるため、突撃開始まで発砲/は禁止。同様に、格闘を仕掛けることも禁止す/る」		
-s08_0b10	123	「ハーキュリーズは、マシンレッグに随伴し、/支援をする事が困難である。各員、機体の損傷/状況と残弾には十分注意するように」		
-s08_0b8c	11	「……」/		
-s08_0b98	27	「ビズリィ、わかったな？」/		
-s08_0bb4	83	「俺の親父にでもなったつもりか？  いちいち/指図するんじゃねぇ。俺は好きにやる！」		
-s08_0c08	31	シャベス/「いいかげんにしろ！」		
-s08_0c28	23	「シャベス、かまうな」/		
-s08_0c40	59	「マイコ、訂正です。生還率は６０％、として/おきましょう」		
-s08_0c7c	51	「おとなしく下で祈ってたほうがよかったかし/らね」		
-s08_0cb0	19	「いまさら何を…」/		
-s08_0cc4	11	「冗談よ」{n}		
-s08_0cd0	83	「キャラバンの移動開始まで、あと２０分。/敵がキャラバンを射程に捕えるまで、１０分」		
-s08_0d24	55	「都合、あと３０分しかない。/さっさと始めるとしよう」		
-s08_0d5c	43	ビズリィ/「…オールドマン、どうして…？v」		
-s08_0d88	39	オールドマン/「いいから下がってろ…v」		
-s08_0db0	51	ビズリィ/「オールドマン、どうして俺をかばった!?」		
-s08_0de4	43	オールドマン/「おまえはシャベスの仲間だ」		
-s08_0e10	19	「そ、それだけ…」/		
-s08_0e24	27	シャベス/「おやっさん!」		
-s08_0e40	27	オールドマン/「心配ない」		
-s08_0e5c	19	ビズリィ/「……」		
-s08_0e70	35	オールドマン/「よぅし、片付いた」		
-s08_0e94	51	オールドマン/「いかなドラグーンといえど、限界か!?」		
-s08_0ec8	11	「突撃！」/		
-s08_0ed4	27	「やむをえん。…突撃！」/		
-s08_0ef0	19	シャベス/「ヤー！」		
-s08_0f04	19	マイコ/「ヤー！」		
-s08_0f18	35	「どうした、ビズリィ？  出番だぞ」/		
-s08_0f3c	19	「了解…しました」/		
-s08_0f50	51	ビズリィ/「くっそぅ、要塞ん中にもいやがったのか!?」		
-s08_0f84	55	オールドマン/「全員、下がれ！  ドラグーンを盾にする」		
-s08_0fbc	43	シャベス/「おやっさん、突っ込みましょう！」		
-s08_0fe8	59	「まだ要塞内に敵が残っている可能性がある。/無理はするな」		
-s08_1024	19	「イエス、サー！」/		
-s08_1038	79	通信音/「ルナ方面軍司令部よりオールドマン准将へ。/これより進撃を開始します」		
-s08_1088	75	通信音/「要塞への砲撃は１０分後。敵の射程圏内への/進入と同時に行います」		
-s08_10d4	43	通信音/「貴隊は速やかに撤退してください」/		
-s08_1100	27	オールドマン/「了解した」		
-s08_111c	35	シャベス/「おやっさん、まさか!?」/		
-s08_1140	55	「聞いたか!?  あと、１０分だ！/一気にやっつけるぞ!!」		
-s08_1178	31	ビズリィ/「イエス、サー！」/		
-s08_1198	35	「しまった……、やっちまったか！」		
-s08_11bc	31	「マスタング……。ごめん！」		
-s08_11dc	27	「うおっ！  やられたっ！」		
-s08_11f8	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s08_1224	23	「無理をしすぎたか…」		
-s08_123c	63	オールドマン/「時間切れだ。味方の砲撃が始まる。/撤退するぞ」		
-s08_127c	43	/勝利条件：３０ターン以内に敵を全滅させる/		
-s08_12a8	43	/勝利条件：２９ターン以内に敵を全滅させる/		
-s08_12d4	43	/勝利条件：２８ターン以内に敵を全滅させる/		
-s08_1300	43	/勝利条件：２７ターン以内に敵を全滅させる/		
-s08_132c	43	/勝利条件：２６ターン以内に敵を全滅させる/		
-s08_1358	43	/勝利条件：２５ターン以内に敵を全滅させる/		
-s08_1384	43	/勝利条件：２４ターン以内に敵を全滅させる/		
-s08_13b0	43	/勝利条件：２３ターン以内に敵を全滅させる/		
-s08_13dc	43	/勝利条件：２２ターン以内に敵を全滅させる/		
-s08_1408	43	/勝利条件：２１ターン以内に敵を全滅させる/		
-s08_1434	43	/勝利条件：２０ターン以内に敵を全滅させる/		
-s08_1460	43	/勝利条件：１９ターン以内に敵を全滅させる/		
-s08_148c	43	/勝利条件：１８ターン以内に敵を全滅させる/		
-s08_14b8	43	/勝利条件：１７ターン以内に敵を全滅させる/		
-s08_14e4	43	/勝利条件：１６ターン以内に敵を全滅させる/		
-s08_1510	43	/勝利条件：１５ターン以内に敵を全滅させる/		
-s08_153c	43	/勝利条件：１４ターン以内に敵を全滅させる/		
-s08_1568	43	/勝利条件：１３ターン以内に敵を全滅させる/		
-s08_1594	43	/勝利条件：１２ターン以内に敵を全滅させる/		
-s08_15c0	43	/勝利条件：１１ターン以内に敵を全滅させる/		
-s08_15ec	43	/勝利条件：１０ターン以内に敵を全滅させる/		
-s08_1618	43	/勝利条件：９ターン以内に敵を全滅させる/		
-s08_1644	43	/勝利条件：８ターン以内に敵を全滅させる/		
-s08_1670	43	/勝利条件：７ターン以内に敵を全滅させる/		
-s08_169c	43	/勝利条件：６ターン以内に敵を全滅させる/		
-s08_16c8	43	/勝利条件：５ターン以内に敵を全滅させる/		
-s08_16f4	43	/勝利条件：４ターン以内に敵を全滅させる/		
-s08_1720	43	/勝利条件：３ターン以内に敵を全滅させる/		
-s08_174c	43	/勝利条件：２ターン以内に敵を全滅させる/		
-s08_1778	39	/勝利条件：本ターン中に敵を全滅させる/		
-s08_17a0	79	敗北条件：プレーヤーユニットの撃破、/          もしくは、制限ターン数の超過/		
-s08_17f0	123	特殊ルール：オールドマンの指示があるまで、{n}  マスタングＨとスーパーコブラは、「射撃」/  「格闘」「ＳＰ」を行ってはならない		
-s08_186c	71	    同様に、ハーキュリーズは、「射撃」/  「格闘」を行ってはならない/		
+s08_0004	51	オールドマン/「明朝５時をもって、強行突破を図る」	Oldman/"At 0500 tomorrow, we attempt to force a/breakthrough."	
+s08_0038	23	シャベス/「…無茶です」	Chavez/"...That's insane."	
+s08_0050	75	「同感だ。が、このまま挟撃されるわけにはい/かん。シャトルも待ってはくれん」	"Agreed. But we can't let ourselves get/caught in a pincer. And the shuttle won't/wait."	
+s08_009c	35	「向こうの司令部の決定ですか？」/	"Is that HQ's decision over there?"/	
+s08_00c0	11	「そうだ」/	"It is."/	
+s08_00cc	51	ブレインズ{n}「どの程度の損害を覚悟しているんです？」	Brains{n}"How heavy are the losses you're prepared/for?"	
+s08_0100	47	「軍の損害１００％。避難民の損害２０～/５０％」	"Military losses 100%. Refugee losses 20/to 50%."	
+s08_0130	15	「…１００％」/	"...100%."/	
+s08_0140	83	「先日の戦闘から、奴らは発砲炎に対し、優先/的に攻撃してくることがわかったそうだ」	"From the last battle, they found the/enemy attacks muzzle flashes first."	
+s08_0194	15	ビズリィ/「…」	Bizley/"..."	
+s08_01a4	51	「弾を撃ち続けることで、民間人の盾になる。/と？」	"So by firing nonstop, you shield the/civilians, huh?"	
+s08_01d8	55	「ふん、どうして軍人ってのは、そう死にたが/るのかね」	"Hmph. Why are soldiers always so eager to/die?"	
+s08_0210	15	「ビズリィ！」/	"Bizley!"/	
+s08_0220	79	「ビズリィ君、君たちは民間人だ。無論、明日/の作戦に参加させるわけにはいかない」	"Bizley-kun, you are civilians. Naturally,/you can't take part in tomorrow's/operation."	
+s08_0270	27	「頼まれたってお断りだ！」/	"Wouldn't do it if you begged me!"/	
+s08_028c	35	マイコ/「確かに気に入らないわね」	Maiko/"I don't like it either, I'll admit."	
+s08_02b0	31	「マイコ、おまえまで何だ！」/	"Maiko, you too?!"/	
+s08_02d0	63	「要は他人にサイコロを預けて、１か２の目で/お陀仏ってことだろ」	"Point is, we hand someone else the dice,/and roll a 1 or 2, we're dead."	
+s08_0310	59	「とてもじゃないが、自分の命を張りたい博打/じゃぁないね」	"That's not a gamble I'd ever bet my life/on."	
+s08_034c	59	「それはそうだが、崖の上の要塞が相手じゃ…/どうにも手が…」	"True, but against a fortress up on a/cliff... there's nothing we can..."	
+s08_0388	43	ブレインズ/「…手は…ないこともないです」	Brains/"...There... might be a way."	
+s08_03b4	7	「？」/	"?"/	
+s08_03bc	115	「旧北軍のＧＦライン、通称『火星マジノ線』/の始点であるランルザック要塞は、重砲群で/地峡を完全に封鎖しています」	"Lanrezac Fortress, start of the old/Northern Army's 'Martian Maginot Line',/seals the isthmus with heavy guns."	
+s08_0430	107	「その反面、陣地後方の防備はかなり薄い。地/形上、対岸のクォード高地からの支援を前提と/しているためです」	"But its rear defenses are thin. The/terrain means it relies on support from/Quad Heights across the way."	
+s08_049c	71	「すなわち、あの要塞を無力化するには防備の/薄い、背後から叩けばいい」/	"So, to neutralize that fortress, hit it/from behind, where it's weak."/	
+s08_04e4	39	「そのクォード高地も占領されてたら？」	"And if Quad Heights is occupied too?"	
+s08_050c	63	「それはありません。本日、我々が目の前を通/過してきました」/	"It isn't. We passed right in front of it/today."/	
+s08_054c	15	「あ、そう…」	"Oh, right..."	
+s08_055c	55	「ここまで妨害なしにたどりつけます。そこ/から先は…」	"We can get this far unhindered. From/there on..."	
+s08_0594	15	「…白兵突撃」/	"...A close-quarters assault."/	
+s08_05a4	15	「…そうです」/	"...Yes."/	
+s08_05b4	55	「わかった。君たちはもう休みたまえ。私は/司令部へ行く」	"Understood. You may all rest now. I'm/going to HQ."	
+s08_05ec	19	「私もお供します」/	"I'll come with you."/	
+s08_0600	39	「火星軍ではあの要塞は落とせません…」/	"The Martian Army can't take that/fortress..."/	
+s08_0628	7	「!?」/	"!?"/	
+s08_0630	67	「この道は細く荒れているため、大部隊の速や/かな進行は望めません」/	"This road is narrow and rough. A large/force can't advance quickly."/	
+s08_0674	127	「トランスポーターの通行も困難なため、強行/突破後に部隊展開、という手も使えません。/  先頭から各個撃破される事になります…」	"Transporters can barely pass, so no/deploying after a breakthrough./They'd be picked off one by one..."	
+s08_06f4	7	「…」	"..."	
+s08_06fc	39	「あの要塞を今夜中に攻略できるのは…」/	"The only ones who can take that fortress/tonight..."/	
+s08_0724	11	「……」	"......"	
+s08_0730	7	「…」/	"..."/	
+s08_0738	15	「続けたまえ」	"Go on."	
+s08_0748	67	「…あの要塞を今夜中に攻略できるのは、我々/ラグライダーだけです」	"...The only ones who can take that/fortress tonight are us Rug Riders."	
+s08_078c	91	マイコ/「それで、ブレインズ。この無茶苦茶な作戦、/いったい生還率はどれぐらいなのかしら？」	Maiko/"So, Brains. What's the survival rate for/this crazy plan of yours?"	
+s08_07e8	95	ブレインズ/「作戦の成功を前提とするなら１００％。ちな/みに作戦の成功率は８０％強とみています」	Brains/"If the operation succeeds, 100%. And I/put its odds at a bit over 80%."	
+s08_0848	39	/「なんの冗談？  それとも気休め？」/	/"Is that a joke? Or just to cheer us up?"/	
+s08_0870	75	オールドマン/「私のドラグーンの頑丈さを、信頼してくれて/いるということだ」	Oldman/"It means he trusts in how tough my/Dragoon is."	
+s08_08bc	11	/「？」/	/"?"/	
+s08_08c8	39	/「諸君、これより、敵要塞を攻略する」/	/"Everyone, we will now take the enemy/fortress."/	
+s08_08f0	123	「この先の悪路では、ドラグーンはともかく、/君たちのマシンは本来の機動性を発揮できず、/ハーキュリーズは前進すら困難である」	"On the rough road ahead, the Dragoon/aside, your machines lose their mobility,/and the Hercules can barely advance."	
+s08_096c	119	「そのため、敵前衛（エゼキエル、ロスコウ）/との戦闘に拘束され、敵砲兵（ハンバー）から/アウトレンジされる可能性がある」	"So we could get pinned by their vanguard/(Ezekiel, Roscoe) and outranged by their/artillery (Humber)."	
+s08_09e4	111	「そこで、機動性に制約のないドラグーンのみ/で敵前衛を排除し、しかる後に各個に突撃、/残余の敵砲兵を撃破する」	"So the Dragoon alone, its mobility/unhindered, clears the vanguard; then you/charge in one by one and crush the guns."	
+s08_0a54	39	シャベス{n}「おやっさん！  それじゃぁ…」	Chavez{n}"Old man! But that means..."	
+s08_0a7c	35	/「ドラグーンの装甲を信頼しろ。」/	/"Trust the Dragoon's armor."/	
+s08_0aa0	19	「…イエス、サー」/	"...Yes, sir."/	
+s08_0ab4	91	「敵の集中目標となるため、突撃開始まで発砲/は禁止。同様に、格闘を仕掛けることも禁止す/る」	"Until the charge, no firing: it makes you/their main target. Melee attacks are/forbidden too."	
+s08_0b10	123	「ハーキュリーズは、マシンレッグに随伴し、/支援をする事が困難である。各員、機体の損傷/状況と残弾には十分注意するように」	"The Hercules can't keep up with the/machine legs to support them. Watch your/damage and your ammo."	
+s08_0b8c	11	「……」/	"......"/	
+s08_0b98	27	「ビズリィ、わかったな？」/	"Bizley, understood?"/	
+s08_0bb4	83	「俺の親父にでもなったつもりか？  いちいち/指図するんじゃねぇ。俺は好きにやる！」	"Who d'you think you are, my old man? Quit/bossin' me around. I'll do as I please!"	
+s08_0c08	31	シャベス/「いいかげんにしろ！」	Chavez/"That's enough!"	
+s08_0c28	23	「シャベス、かまうな」/	"Chavez, leave him be."/	
+s08_0c40	59	「マイコ、訂正です。生還率は６０％、として/おきましょう」	"Maiko, a correction. Let's call the/survival rate 60%."	
+s08_0c7c	51	「おとなしく下で祈ってたほうがよかったかし/らね」	"Maybe I should've stayed down there and/prayed quietly."	
+s08_0cb0	19	「いまさら何を…」/	"Bit late for that..."/	
+s08_0cc4	11	「冗談よ」{n}	"Just kidding."{n}	
+s08_0cd0	83	「キャラバンの移動開始まで、あと２０分。/敵がキャラバンを射程に捕えるまで、１０分」	"20 minutes until the caravan moves. 10/more until the enemy has it in range."	
+s08_0d24	55	「都合、あと３０分しかない。/さっさと始めるとしよう」	"So, just 30 minutes left. Let's get/started."	
+s08_0d5c	43	ビズリィ/「…オールドマン、どうして…？v」	Bizley/"...Oldman, why...?"	
+s08_0d88	39	オールドマン/「いいから下がってろ…v」	Oldman/"Just get back..."	
+s08_0db0	51	ビズリィ/「オールドマン、どうして俺をかばった!?」	Bizley/"Oldman, why'd you cover for me?!"	
+s08_0de4	43	オールドマン/「おまえはシャベスの仲間だ」	Oldman/"You're Chavez's friend."	
+s08_0e10	19	「そ、それだけ…」/	"J-just for that..."/	
+s08_0e24	27	シャベス/「おやっさん!」	Chavez/"Old man!"	
+s08_0e40	27	オールドマン/「心配ない」	Oldman/"Don't worry."	
+s08_0e5c	19	ビズリィ/「……」	Bizley/"......"	
+s08_0e70	35	オールドマン/「よぅし、片付いた」	Oldman/"Right, that's done."	
+s08_0e94	51	オールドマン/「いかなドラグーンといえど、限界か!?」	Oldman/"So even a Dragoon has its limits?!"	
+s08_0ec8	11	「突撃！」/	"Charge!"/	
+s08_0ed4	27	「やむをえん。…突撃！」/	"No choice. ...Charge!"/	
+s08_0ef0	19	シャベス/「ヤー！」	Chavez/"Yah!"	
+s08_0f04	19	マイコ/「ヤー！」	Maiko/"Yah!"	
+s08_0f18	35	「どうした、ビズリィ？  出番だぞ」/	"What's wrong, Bizley? You're up."/	
+s08_0f3c	19	「了解…しました」/	"Under...stood."/	
+s08_0f50	51	ビズリィ/「くっそぅ、要塞ん中にもいやがったのか!?」	Bizley/"Damn, there's more of 'em inside the/fortress?!"	
+s08_0f84	55	オールドマン/「全員、下がれ！  ドラグーンを盾にする」	Oldman/"Everyone, fall back! I'll use the Dragoon/as a shield."	
+s08_0fbc	43	シャベス/「おやっさん、突っ込みましょう！」	Chavez/"Old man, let's charge in!"	
+s08_0fe8	59	「まだ要塞内に敵が残っている可能性がある。/無理はするな」	"There may still be enemies inside. Don't/push it."	
+s08_1024	19	「イエス、サー！」/	"Yes, sir!"/	
+s08_1038	79	通信音/「ルナ方面軍司令部よりオールドマン准将へ。/これより進撃を開始します」	Radio/"Luna Front HQ to Brigadier General/Oldman. We are beginning our advance."	
+s08_1088	75	通信音/「要塞への砲撃は１０分後。敵の射程圏内への/進入と同時に行います」	Radio/"Shelling of the fortress in 10 minutes,/as soon as we enter enemy range."	
+s08_10d4	43	通信音/「貴隊は速やかに撤退してください」/	Radio/"Your unit must withdraw at once."/	
+s08_1100	27	オールドマン/「了解した」	Oldman/"Understood."	
+s08_111c	35	シャベス/「おやっさん、まさか!?」/	Chavez/"Old man, you're not...?!"/	
+s08_1140	55	「聞いたか!?  あと、１０分だ！/一気にやっつけるぞ!!」	"You heard! 10 minutes left! Let's finish/'em in one go!!"	
+s08_1178	31	ビズリィ/「イエス、サー！」/	Bizley/"Yes, sir!"/	
+s08_1198	35	「しまった……、やっちまったか！」	"Damn... Did I blow it?!"	
+s08_11bc	31	「マスタング……。ごめん！」	"Mustang... I'm sorry!"	
+s08_11dc	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s08_11f8	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s08_1224	23	「無理をしすぎたか…」	"Pushed too hard, did I..."	
+s08_123c	63	オールドマン/「時間切れだ。味方の砲撃が始まる。/撤退するぞ」	Oldman/"Time's up. Our guns are about to open/fire. Withdraw."	
+s08_127c	43	/勝利条件：３０ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 30 turns/	
+s08_12a8	43	/勝利条件：２９ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 29 turns/	
+s08_12d4	43	/勝利条件：２８ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 28 turns/	
+s08_1300	43	/勝利条件：２７ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 27 turns/	
+s08_132c	43	/勝利条件：２６ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 26 turns/	
+s08_1358	43	/勝利条件：２５ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 25 turns/	
+s08_1384	43	/勝利条件：２４ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 24 turns/	
+s08_13b0	43	/勝利条件：２３ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 23 turns/	
+s08_13dc	43	/勝利条件：２２ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 22 turns/	
+s08_1408	43	/勝利条件：２１ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 21 turns/	
+s08_1434	43	/勝利条件：２０ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 20 turns/	
+s08_1460	43	/勝利条件：１９ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 19 turns/	
+s08_148c	43	/勝利条件：１８ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 18 turns/	
+s08_14b8	43	/勝利条件：１７ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 17 turns/	
+s08_14e4	43	/勝利条件：１６ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 16 turns/	
+s08_1510	43	/勝利条件：１５ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 15 turns/	
+s08_153c	43	/勝利条件：１４ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 14 turns/	
+s08_1568	43	/勝利条件：１３ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 13 turns/	
+s08_1594	43	/勝利条件：１２ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 12 turns/	
+s08_15c0	43	/勝利条件：１１ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 11 turns/	
+s08_15ec	43	/勝利条件：１０ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 10 turns/	
+s08_1618	43	/勝利条件：９ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 9 turns/	
+s08_1644	43	/勝利条件：８ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 8 turns/	
+s08_1670	43	/勝利条件：７ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 7 turns/	
+s08_169c	43	/勝利条件：６ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 6 turns/	
+s08_16c8	43	/勝利条件：５ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 5 turns/	
+s08_16f4	43	/勝利条件：４ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 4 turns/	
+s08_1720	43	/勝利条件：３ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 3 turns/	
+s08_174c	43	/勝利条件：２ターン以内に敵を全滅させる/	/Victory: Wipe out the enemy in 2 turns/	
+s08_1778	39	/勝利条件：本ターン中に敵を全滅させる/	/Victory: Wipe out the enemy this turn/	
+s08_17a0	79	敗北条件：プレーヤーユニットの撃破、/          もしくは、制限ターン数の超過/	Defeat: Player unit destroyed, or turn/         limit exceeded/	
+s08_17f0	123	特殊ルール：オールドマンの指示があるまで、{n}  マスタングＨとスーパーコブラは、「射撃」/  「格闘」「ＳＰ」を行ってはならない	Special rule: Until Oldman's order,/Mustang H and Super Cobra may not use/"Shoot", "Melee" or "SP"	
+s08_186c	71	    同様に、ハーキュリーズは、「射撃」/  「格闘」を行ってはならない/	  Likewise, the Hercules may not use/"Shoot" or "Melee"/	

@@ -83,6 +83,9 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | 村人 | Villager | | speaker | |
 | 兵 | Soldier | | speaker | |
 | 館内放送 | PA System | | speaker | |
+| レイモンド・トーヴィー | Raymond Tovey | | Vice Admiral, Union Space Force, Dunkirk commander (s06) | |
+| ベティ・クリムゾン | Betty Crimson | | Betty's old sniper alias (s15) | |
+| ダンカン | Duncan | | speaker; thug turned bandit (s15) | |
 
 ## Places
 | JP | EN | max | notes | Avoid |
@@ -99,6 +102,13 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | ディエップ | Dieppe | | | |
 | アラモ | Alamo | | | |
 | パヴォニス | Pavonis | | | |
+| ダーラ高地 | Darra Highlands | | s14 landing site | |
+| マコーリフ砦 | Fort McAuliffe | | at the foot of Olympus; John's father | |
+| スキアパレリ・カタパルト | Schiaparelli Catapult | | s09 | |
+| サントス川 | Santos River | | s12 sim | |
+| ルブルー | Le Bleu | | Betty's sniper debut (s19) | |
+| マリク鉱山村 | Malik mining village | | s19 | |
+| チタ | Chita | | Oldman's home (s06) | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |
@@ -143,5 +153,23 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | 『水戦争』 | Water War | | | |
 | マスドライバー | mass driver | | | |
 | 『通信機』 | transmitter / radio | | | |
+| 外惑星連合 | Outer Planets Union / Union | | | |
+| 連合宙軍 | Union Space Force | | | |
+| ジャンク | Junk | | alien wreckage the Junkies are named after (s06) | |
+| １０１騎兵旅団 | 101st Cavalry Brigade | | Oldman's brigade, called the Gungho Brigade | |
+| ドラグーン２ | Dragoon 2 | | | |
+| マスタングＨ | Mustang H | | Maiko's one-off custom | |
+| スーパーコブラ | Super Cobra | | | |
+| エゼキエル | Ezekiel | | enemy unit | |
+| ロスコウ | Roscoe | | enemy unit | |
+| ハンバー | Humber | | enemy artillery | |
+| バッファロー | Buffalo | | | |
+| ピーシューター | Peashooter | | | |
+| ホークアイ | Hawkeye | | | |
+| エクスキューショナー | Executioner | | Betty rumour (s19) | |
+| 地球急行 | Earth Express | | evacuation shuttle | |
+| 「射撃」 | Shoot | | unit command | |
+| 「格闘」 | Melee | | unit command | |
+| クリア条件 | Goal | | objective label (sim stages) | |
 
 ## Decisions from earlier batches

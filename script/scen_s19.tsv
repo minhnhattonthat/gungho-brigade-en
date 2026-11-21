@@ -1,52 +1,52 @@
 id	max	jp	en	notes
-s19_0004	87	シャベス/「ミス・クリムゾン、ナッツロッカー、/キャストレーター、フェアリーメーカー」		
-s19_005c	55	「すべて一人の南軍女スナイパーにつけられた/あだ名だ」/		
-s19_0094	123	ブレインズ「ルブルーでの鮮烈なデビューから/休戦までの２０週間に、撃破したマシンレッグ/は５００機を越えると言われました」		
-s19_0110	35	ビズリィ/「５００機？  嘘だぁ」/		
-s19_0134	95	「そう、ただの噂です。戦後の調査で、彼女の/対北軍・地球軍の戦果はマシンレッグの撃破/１３５…」		
-s19_0194	59	「人員の被害は重軽傷７４、死亡０、と確認さ/れています」/		
-s19_01d0	47	ジョン/「けが人だけ？  誰も死ななかったの？」/		
-s19_0200	87	「遠距離から装甲の薄い腰椎部を狙撃し、一撃/で無力化する。それが彼女の戦法でしたから」/		
-s19_0258	35	/「パイロットが死なないように？」/		
-s19_027c	35	/「さぁ、どうなんでしょう…？」/		
-s19_02a0	67	マイコ/「…『エクスキューショナー』の話なら聞いた/ことがあるわ」		
-s19_02e4	79	「休戦に反対し反乱を起こしたかつての仲間を/ひとりで殲滅した凄腕のスナイパー」/		
-s19_0334	75	「恋人だった反乱部隊のリーダーをためらいも/なく射殺した冷酷非情な美女…」/		
-s19_0380	19	「恋人を射殺!?」/		
-s19_0394	23	/「それも噂の一つだ」/		
-s19_03ac	15	「真相は？」/		
-s19_03bc	51	「全ては本人だけが知っている、ということで/す」/		
-s19_03f0	59	「…で、ベティがそのスナイパーだとして、/どうすんだよ？」		
-s19_042c	55	「どうもしない。『馬に水は飲ませられん』と/言うしな」/		
-s19_0464	19	「冷たいんだな」/		
-s19_0478	15	/「あぁ…」/		
-s19_0488	7	「…」/		
-s19_0490	31	ダイブツ/「ねぇ、ビズリィ」/		
-s19_04b0	15	「なんだよ？」/		
-s19_04c0	79	「もうこの軍用レーション、食べあきたよぉ。/もっとおいしいものが食べたいよぉ」/		
-s19_0510	59	「おまえねぇ、ひとり黙々と食ってて、いきな/りそれかぁ？」		
-s19_054c	103	翌１６８年５月第２月曜日。私たちはダイブツ/のたっての願いで、最寄りのマリク鉱山村跡へ/立ち寄りました。		
-s19_05b4	35	シャベス/「あの村…。誰かいるな」/		
-s19_05d8	63	ブレインズ/「……人がいる？  ジャンキーと人がいっしょ/に？」		
-s19_0618	83	ビズリィ/「そんなことあるかい。あのビデオを見ただろ/う!?  奴等は人を殺すんだ！」		
-s19_066c	51	「ともかく、食事はレーションで我慢しましょ/う」/		
-s19_06a0	47	/「そうだな、メシが不味くても死にはしない」/		
-s19_06d0	67	「だとよ、ダイブツ。あきらめ…、あれ？/ダイブツ、どこ行った？」/		
-s19_0714	39	/「いました。ビズリィ、あそこです」/		
-s19_073c	43	「あのバカいつの間に!?  なに考えてんだ!?」		
-s19_0768	91	「ダイブツにはビデオを見せませんでしたから/ね…。ホークアイを組むのに忙しかったです/し…」		
-s19_07c4	35	「よけいな手間かけさせやがって!!」		
-s19_07e8	35	マイコ/「ジョン、無理しちゃ駄目よ」		
-s19_080c	27	ジョン/「わかってまぁす！」		
-s19_0828	27	女の子/「…あ、ありがとう」		
-s19_0844	35	ダイブツ/「…えへっ、えへへへ…」		
-s19_0868	55	女の子/「…なぜ？/  なぜみんなここで戦争をするの…？」		
-s19_08a0	47	ダイブツ/「あぶないよ。どっかに隠れていようよ」		
-s19_08d0	27	/「え？  ええ、そうね」{n}		
-s19_08ec	27	「ちぃっ、舐めすぎたっ！」		
-s19_0908	43	「あーぁ、こんな連中にやられるなんて…」		
-s19_0934	31	「くそっ、俺としたことがっ！」		
-s19_0954	23	「ビズリィ、助けてぇ」		
-s19_096c	43	「…いきなりこれでは…向いていないですね」		
-s19_0998	19	勝利条件：敵の全滅		
-s19_09ac	35	敗北条件：プレーヤーユニットの撃破		
+s19_0004	87	シャベス/「ミス・クリムゾン、ナッツロッカー、/キャストレーター、フェアリーメーカー」	Chavez/"Miss Crimson, Nutcracker, Castrator,/Fairy Maker."	
+s19_005c	55	「すべて一人の南軍女スナイパーにつけられた/あだ名だ」/	"All nicknames given to one female/Southern Army sniper."/	
+s19_0094	123	ブレインズ「ルブルーでの鮮烈なデビューから/休戦までの２０週間に、撃破したマシンレッグ/は５００機を越えると言われました」	Brains: "From her stunning debut at Le/Bleu to the truce, 20 weeks, she was said/to have downed over 500 machine legs."	
+s19_0110	35	ビズリィ/「５００機？  嘘だぁ」/	Bizley/"500? No way."/	
+s19_0134	95	「そう、ただの噂です。戦後の調査で、彼女の/対北軍・地球軍の戦果はマシンレッグの撃破/１３５…」	"Just a rumor. Postwar studies confirmed/135 machine legs downed, Northern and/Earth Army..."	
+s19_0194	59	「人員の被害は重軽傷７４、死亡０、と確認さ/れています」/	"...and in personnel, 74 wounded, 0 dead."/	
+s19_01d0	47	ジョン/「けが人だけ？  誰も死ななかったの？」/	John/"Only wounded? Nobody died?"/	
+s19_0200	87	「遠距離から装甲の薄い腰椎部を狙撃し、一撃/で無力化する。それが彼女の戦法でしたから」/	"Snipe the thin lumbar armor from long/range, disable in one shot. That was her/style."/	
+s19_0258	35	/「パイロットが死なないように？」/	/"So the pilots wouldn't die?"/	
+s19_027c	35	/「さぁ、どうなんでしょう…？」/	/"Well, who can say...?"/	
+s19_02a0	67	マイコ/「…『エクスキューショナー』の話なら聞いた/ことがあるわ」	Maiko/"...I've heard stories about the/'Executioner'."	
+s19_02e4	79	「休戦に反対し反乱を起こしたかつての仲間を/ひとりで殲滅した凄腕のスナイパー」/	"A crack sniper who single-handedly wiped/out her old comrades when they rebelled/against the truce."/	
+s19_0334	75	「恋人だった反乱部隊のリーダーをためらいも/なく射殺した冷酷非情な美女…」/	"A cold, heartless beauty who shot her/lover, the rebel leader, without/hesitation..."/	
+s19_0380	19	「恋人を射殺!?」/	"Shot her lover?!"/	
+s19_0394	23	/「それも噂の一つだ」/	/"That's just another rumor."/	
+s19_03ac	15	「真相は？」/	"And the truth?"/	
+s19_03bc	51	「全ては本人だけが知っている、ということで/す」/	"Only she knows, as they say."/	
+s19_03f0	59	「…で、ベティがそのスナイパーだとして、/どうすんだよ？」	"...So say Betty's that sniper. What're we/gonna do?"	
+s19_042c	55	「どうもしない。『馬に水は飲ませられん』と/言うしな」/	"Nothing. 'You can't make a horse drink,'/as they say."/	
+s19_0464	19	「冷たいんだな」/	"That's cold."/	
+s19_0478	15	/「あぁ…」/	/"Yeah..."/	
+s19_0488	7	「…」/	"..."/	
+s19_0490	31	ダイブツ/「ねぇ、ビズリィ」/	Daibutsu/"Hey, Bizley."/	
+s19_04b0	15	「なんだよ？」/	"What?"/	
+s19_04c0	79	「もうこの軍用レーション、食べあきたよぉ。/もっとおいしいものが食べたいよぉ」/	"I'm sick of these army rations. I wanna/eat something tastier."/	
+s19_0510	59	「おまえねぇ、ひとり黙々と食ってて、いきな/りそれかぁ？」	"Seriously? You munch away in silence,/then hit me with that?"	
+s19_054c	103	翌１６８年５月第２月曜日。私たちはダイブツ/のたっての願いで、最寄りのマリク鉱山村跡へ/立ち寄りました。	The next day, 2nd Monday of May, 168. At/Daibutsu's earnest request, we stopped by/the nearby ruins of Malik mining village.	
+s19_05b4	35	シャベス/「あの村…。誰かいるな」/	Chavez/"That village... Someone's there."/	
+s19_05d8	63	ブレインズ/「……人がいる？  ジャンキーと人がいっしょ/に？」	Brains/"......People? Junkies and people/together?"	
+s19_0618	83	ビズリィ/「そんなことあるかい。あのビデオを見ただろ/う!?  奴等は人を殺すんだ！」	Bizley/"No way. You saw that video, right?! They/kill people!"	
+s19_066c	51	「ともかく、食事はレーションで我慢しましょ/う」/	"In any case, let's make do with rations."/	
+s19_06a0	47	/「そうだな、メシが不味くても死にはしない」/	/"Yeah. Bad grub never killed anyone."/	
+s19_06d0	67	「だとよ、ダイブツ。あきらめ…、あれ？/ダイブツ、どこ行った？」/	"Hear that, Daibutsu? Give it... huh?/Daibutsu, where'd he go?"/	
+s19_0714	39	/「いました。ビズリィ、あそこです」/	/"There he is. Bizley, over there."/	
+s19_073c	43	「あのバカいつの間に!?  なに考えてんだ!?」	"When did that idiot...?! What's he/thinkin'?!"	
+s19_0768	91	「ダイブツにはビデオを見せませんでしたから/ね…。ホークアイを組むのに忙しかったです/し…」	"We never showed Daibutsu the video... He/was busy assembling the Hawkeye..."	
+s19_07c4	35	「よけいな手間かけさせやがって!!」	"Makin' more trouble for us!!"	
+s19_07e8	35	マイコ/「ジョン、無理しちゃ駄目よ」	Maiko/"John, don't overdo it."	
+s19_080c	27	ジョン/「わかってまぁす！」	John/"I knooow!"	
+s19_0828	27	女の子/「…あ、ありがとう」	Girl/"...Th-thank you."	
+s19_0844	35	ダイブツ/「…えへっ、えへへへ…」	Daibutsu/"...Hehe, hehehe..."	
+s19_0868	55	女の子/「…なぜ？/  なぜみんなここで戦争をするの…？」	Girl/"...Why? Why does everyone fight their/wars here...?"	
+s19_08a0	47	ダイブツ/「あぶないよ。どっかに隠れていようよ」	Daibutsu/"It's dangerous. Let's go hide somewhere."	
+s19_08d0	27	/「え？  ええ、そうね」{n}	/"Huh? Oh, yes, right."{n}	
+s19_08ec	27	「ちぃっ、舐めすぎたっ！」	"Tch, I got cocky!"	
+s19_0908	43	「あーぁ、こんな連中にやられるなんて…」	"Aww, losing to these guys..."	
+s19_0934	31	「くそっ、俺としたことがっ！」	"Damn, how could I!"	
+s19_0954	23	「ビズリィ、助けてぇ」	"Bizley, heeelp."	
+s19_096c	43	「…いきなりこれでは…向いていないですね」	"...Like this, right off... I'm not cut/out for it."	
+s19_0998	19	勝利条件：敵の全滅	Victory: Wipe out the enemy	
+s19_09ac	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	

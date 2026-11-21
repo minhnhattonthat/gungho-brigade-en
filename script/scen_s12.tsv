@@ -1,69 +1,69 @@
 id	max	jp	en	notes
-s12_0004	75	クリア条件：敵ユニットの全滅、もしくは{n}            プレーヤーユニットの全滅		
-s12_0050	63	マイコ/「ダイブツ、で、ここは何処で、なにをすれば/いいの？」		
-s12_0090	95	ダイブツ/「わからないよ。適当にゲームを選んだだけだ/から。見たとこ味方しかいないみたいだし…」		
-s12_00f0	79	ブレインズ/「あのバッファローとピーシューターが、この/ゲームのターゲットです」		
-s12_0140	127	「このゲームは、水戦争中の１６４年１０月/第２木曜の深夜に、乾季で干上がったサントス/川で発生した戦闘をシミュレートしています」		
-s12_01c0	111	「南軍の最新鋭機アパッチと、北軍の在来型機/バッファローの遭遇戦で、アパッチが数的に/劣勢であるにも関わらず…」		
-s12_0230	71	「あー、わかったわかった。あのポンコツを/やっつければいいんでしょ？」		
-s12_0278	19	/「…そうです」/		
-s12_028c	27	「ダイブツ、始めるわよ」/		
-s12_02a8	31	「オーケー、いつでもいいよ」		
-s12_02c8	23	シャベス/「ビズリィ」		
-s12_02e0	15	ビズリィ/「…」		
-s12_02f0	55	「…１０１騎兵旅団長オールドマン准将から/伝言がある」		
-s12_0328	23	「…おやじさんから？」/		
-s12_0340	47	オールドマン/「…シャベス、ひとつ頼みがある」		
-s12_0370	43	「ビズリィに、私からの伝言を伝えてくれ」/		
-s12_039c	19	シャベス/「はい」		
-s12_03b0	67	「おまえはひとりの人間としては正しい。/勇気も決断力も十分にある…」		
-s12_03f4	63	「ただ、もうすこし頭を使え。目的と手段とを/しっかり認識しろ」		
-s12_0434	55	「そうすれば、もうすこしはスマートになれる/…以上だ」		
-s12_046c	39	「はっ、一言一句違えず必ず伝えます」		
-s12_0494	11	「うむ」/		
-s12_04a0	15	「…だそうだ」		
-s12_04b0	39	ビズリィ/「…ちぇっ、余計なお世話だ…」		
-s12_04d8	59	アナウンス/「地球へ向かわれる火星の方々にお知らせしま/す」		
-s12_0514	95	「小惑星ユーフロシーンへの移動の準備が整い/ました。係員の指示に従い整然と行動してくだ/さい」		
-s12_0574	91	「これ以降のご飲食は、お目覚めの際、気分が/悪くなるおそれがございますのでご遠慮くださ/い」		
-s12_05d0	95	「ユーフロシーンでは、外惑星連邦制式の緊急/冷凍睡眠カプセルがあなたがたをお待ちしてお/ります」		
-s12_0630	23	/「では、よい旅を」/		
-s12_0648	35	ダイブツ/「緊急冷凍睡眠カプセル？」		
-s12_066c	55	「…って、極低代謝型コールドスリープカプセ/ルの事？」		
-s12_06a4	71	「冗談じゃないよ。あんな冷凍庫じゃぁ、２割/は蘇生に失敗するんじゃ…」		
-s12_06ec	71	地球軍士官/「それは大昔のデータです。/  今では蘇生率９９．８％ですよ」		
-s12_0734	71	ビズリィ/「…シャベス、おやじさんは他に何か？/  あんたには、なんて？」		
-s12_077c	27	シャベス/「…別になにも」		
-s12_0798	51	「…おやっさんとは、長い付き合いだったから/な…」		
-s12_07cc	7	「…」		
-s12_07d4	23	ダイブツ/「…ええと？」		
-s12_07ec	67	地球軍士官/「失礼、私は地球軍技術少佐ウィリアム・/ニーソンです」		
-s12_0830	27	「レジィ・シモンズ…です」/		
-s12_084c	79	ニーソン/「よろしくシモンズ君。それとも『ダイブツ』/君とお呼びしましょうか？」		
-s12_089c	55	「どうして僕の事を？  えっと、ミスター…・/ニーソン？」		
-s12_08d4	87	「あれだけ大活躍をすれば、有名にもなります/よ。それと私を呼ぶときはビリーで結構です」/		
-s12_092c	123	ニーソン「先ほどの話ですがスリープカプセル/の不調で１８０万人の０．２％にあたる４千人/が死ぬ。これはおそらく事実でしょう」		
-s12_09a8	27	ダイブツ/「それじゃぁ…」		
-s12_09c4	115	「ユーフロシーンにあるスリープカプセルは、/外惑星連合の緊急用カプセルのほぼ全てです。/これは何を意味しますか？」		
-s12_0a38	59	「…カプセルを必要とする事態に遭遇した人が/１００％死ぬ」		
-s12_0a74	91	「御名答。外惑星連合ではカプセルの不備に/よって失われる人命を、４千から８千とみてい/ます」		
-s12_0ad0	7	「…」/		
-s12_0ad8	47	マイコ/「あーっ、つまんない！  つまんない!!」		
-s12_0b08	87	「ダイブツ！  なんでこんな豆鉄砲しかないの/よ！  ７５とか８８とかって大砲はどこよ!?」		
-s12_0b60	35	「ダイブツッたら、聞こえないの!?」/		
-s12_0b84	99	ブレインズ{n}「ドラグーンが登場し、その５６口径８８ｍｍ/砲が絶大な威力を発揮するのが１６５年８月」		
-s12_0be8	107	「アパッチやマスタング用の大口径砲はドラ/グーンの戦果に影響されて開発され、配備は/１６６年初頭からです」		
-s12_0c54	71	「ですから、１６４年の段階では、標準装備の/２０ｍｍマシンガンしか…」/		
-s12_0c9c	55	「やっかましいっ！  つまんないものはつまん/ないの！」		
-s12_0cd4	11	/「…」/		
-s12_0ce0	79	「ダイブツ！  さっさとクリアしちゃうから、/次は、もっと派手なのを頼むわよ!!」		
-s12_0d30	51	マイコ/「はい、オワリ！  ダイブツ、次のをお願い」		
-s12_0d64	83	マイコ/「あーぁ、負けちゃった。ま、いいや、退屈だ/ったし。ダイブツ、次、お願い」		
-s12_0db8	51	マイコ/「おぉい、ダイブツ！  ダイブツッたら！」/		
-s12_0dec	127	ニーソン「また、１８０万のスリープカプセル/からあぶれた人々に寝床を提供するため、今も/外惑星連合軍将兵が火星へ降下しています」		
-s12_0e6c	27	ダイブツ/「…知らなかった」		
-s12_0e88	103	「なに、負い目を感じる必要はありませんよ。/外惑星連合軍は、彼らの国益のためにここに来/ているのです」		
-s12_0ef0	67	「ただ、彼らなりに全力を尽くしている事を/知っておくべきでしょう」/		
-s12_0f34	11	「…はい」{n}		
-s12_0f40	63	「聞こえないの!?  ダイブツ、早く次のゲーム/を出してよぉ！」/		
-s12_0f80	23	「あ、ごめん、ごめん」/		
+s12_0004	75	クリア条件：敵ユニットの全滅、もしくは{n}            プレーヤーユニットの全滅	Goal: All enemy units destroyed, or all/           player units destroyed	
+s12_0050	63	マイコ/「ダイブツ、で、ここは何処で、なにをすれば/いいの？」	Maiko/"So, Daibutsu, where are we, and what are/we supposed to do?"	
+s12_0090	95	ダイブツ/「わからないよ。適当にゲームを選んだだけだ/から。見たとこ味方しかいないみたいだし…」	Daibutsu/"Dunno. I just picked a game at random./Looks like there's only our side here..."	
+s12_00f0	79	ブレインズ/「あのバッファローとピーシューターが、この/ゲームのターゲットです」	Brains/"That Buffalo and Peashooter are this/game's targets."	
+s12_0140	127	「このゲームは、水戦争中の１６４年１０月/第２木曜の深夜に、乾季で干上がったサントス/川で発生した戦闘をシミュレートしています」	"It simulates a Water War battle on the/dried-up Santos River, late on the 2nd/Thursday of October 164."	
+s12_01c0	111	「南軍の最新鋭機アパッチと、北軍の在来型機/バッファローの遭遇戦で、アパッチが数的に/劣勢であるにも関わらず…」	"Southern Army's new Apaches meet the/Northern Army's old Buffaloes, and though/outnumbered, the Apaches..."	
+s12_0230	71	「あー、わかったわかった。あのポンコツを/やっつければいいんでしょ？」	"Yeah, yeah, got it. We just beat up those/pieces of junk, right?"	
+s12_0278	19	/「…そうです」/	/"...Yes."/	
+s12_028c	27	「ダイブツ、始めるわよ」/	"Daibutsu, let's start."/	
+s12_02a8	31	「オーケー、いつでもいいよ」	"Okay, whenever you're ready."	
+s12_02c8	23	シャベス/「ビズリィ」	Chavez/"Bizley."	
+s12_02e0	15	ビズリィ/「…」	Bizley/"..."	
+s12_02f0	55	「…１０１騎兵旅団長オールドマン准将から/伝言がある」	"...I have a message from the commander of/the 101st Cavalry Brigade, Brigadier/General Oldman."	
+s12_0328	23	「…おやじさんから？」/	"...From the old man?"/	
+s12_0340	47	オールドマン/「…シャベス、ひとつ頼みがある」	Oldman/"...Chavez, I have one favor to ask."	
+s12_0370	43	「ビズリィに、私からの伝言を伝えてくれ」/	"Pass a message from me to Bizley."/	
+s12_039c	19	シャベス/「はい」	Chavez/"Yes, sir."	
+s12_03b0	67	「おまえはひとりの人間としては正しい。/勇気も決断力も十分にある…」	"As a man, you're in the right. You have/courage and decisiveness enough..."	
+s12_03f4	63	「ただ、もうすこし頭を使え。目的と手段とを/しっかり認識しろ」	"But use your head a little more. Keep/your goal and your means clear."	
+s12_0434	55	「そうすれば、もうすこしはスマートになれる/…以上だ」	"Do that, and you'll be a bit smarter./...That's all."	
+s12_046c	39	「はっ、一言一句違えず必ず伝えます」	"Sir. I'll pass it on word for word."	
+s12_0494	11	「うむ」/	"Good."/	
+s12_04a0	15	「…だそうだ」	"...That's what he said."	
+s12_04b0	39	ビズリィ/「…ちぇっ、余計なお世話だ…」	Bizley/"...Tch. Mind his own business..."	
+s12_04d8	59	アナウンス/「地球へ向かわれる火星の方々にお知らせしま/す」	Announcement/"Attention, all Martians bound for Earth."	
+s12_0514	95	「小惑星ユーフロシーンへの移動の準備が整い/ました。係員の指示に従い整然と行動してくだ/さい」	"Preparations for transfer to the asteroid/Euphrosyne are complete. Please follow/staff instructions in an orderly manner."	
+s12_0574	91	「これ以降のご飲食は、お目覚めの際、気分が/悪くなるおそれがございますのでご遠慮くださ/い」	"Please refrain from eating or drinking/from now on, as it may make you feel/unwell when you wake."	
+s12_05d0	95	「ユーフロシーンでは、外惑星連邦制式の緊急/冷凍睡眠カプセルがあなたがたをお待ちしてお/ります」	"On Euphrosyne, standard-issue Outer/Planets emergency cryosleep capsules await/you."	
+s12_0630	23	/「では、よい旅を」/	/"Have a pleasant journey."/	
+s12_0648	35	ダイブツ/「緊急冷凍睡眠カプセル？」	Daibutsu/"Emergency cryosleep capsules?"	
+s12_066c	55	「…って、極低代謝型コールドスリープカプセ/ルの事？」	"...You mean ultra-low-metabolism cold/sleep capsules?"	
+s12_06a4	71	「冗談じゃないよ。あんな冷凍庫じゃぁ、２割/は蘇生に失敗するんじゃ…」	"No way. In those freezers, 20% never wake/up..."	
+s12_06ec	71	地球軍士官/「それは大昔のデータです。/  今では蘇生率９９．８％ですよ」	Earth Army Officer/"That's ancient data./These days the revival rate is 99.8%."	
+s12_0734	71	ビズリィ/「…シャベス、おやじさんは他に何か？/  あんたには、なんて？」	Bizley/"...Chavez, did the old man say anything/else? What'd he tell you?"	
+s12_077c	27	シャベス/「…別になにも」	Chavez/"...Nothing in particular."	
+s12_0798	51	「…おやっさんとは、長い付き合いだったから/な…」	"...We go back a long way, the old man and/I..."	
+s12_07cc	7	「…」	"..."	
+s12_07d4	23	ダイブツ/「…ええと？」	Daibutsu/"...Um?"	
+s12_07ec	67	地球軍士官/「失礼、私は地球軍技術少佐ウィリアム・/ニーソンです」	Earth Army Officer/"Pardon me. I am Earth Army Technical/Major William Neeson."	
+s12_0830	27	「レジィ・シモンズ…です」/	"Reggie Simmons... sir."/	
+s12_084c	79	ニーソン/「よろしくシモンズ君。それとも『ダイブツ』/君とお呼びしましょうか？」	Neeson/"A pleasure, Simmons-kun. Or shall I call/you 'Daibutsu'?"	
+s12_089c	55	「どうして僕の事を？  えっと、ミスター…・/ニーソン？」	"How do you know about me? Um, Mister.../Neeson?"	
+s12_08d4	87	「あれだけ大活躍をすれば、有名にもなります/よ。それと私を呼ぶときはビリーで結構です」/	"Do that well and you get famous. And/please, just call me Billy."/	
+s12_092c	123	ニーソン「先ほどの話ですがスリープカプセル/の不調で１８０万人の０．２％にあたる４千人/が死ぬ。これはおそらく事実でしょう」	Neeson: "About earlier: with capsule/failures, 0.2% of 1.8 million, 4,000/people, will die. That's probably true."	
+s12_09a8	27	ダイブツ/「それじゃぁ…」	Daibutsu/"Then..."	
+s12_09c4	115	「ユーフロシーンにあるスリープカプセルは、/外惑星連合の緊急用カプセルのほぼ全てです。/これは何を意味しますか？」	"The capsules on Euphrosyne are nearly all/of the Union's emergency capsules. What/does that mean?"	
+s12_0a38	59	「…カプセルを必要とする事態に遭遇した人が/１００％死ぬ」	"...Anyone who hits an emergency needing a/capsule dies, 100%."	
+s12_0a74	91	「御名答。外惑星連合ではカプセルの不備に/よって失われる人命を、４千から８千とみてい/ます」	"Correct. The Union expects 4,000 to 8,000/lives lost to the capsule shortage."	
+s12_0ad0	7	「…」/	"..."/	
+s12_0ad8	47	マイコ/「あーっ、つまんない！  つまんない!!」	Maiko/"Aaargh, boring! So boring!!"	
+s12_0b08	87	「ダイブツ！  なんでこんな豆鉄砲しかないの/よ！  ７５とか８８とかって大砲はどこよ!?」	"Daibutsu! Why's there only these/peashooters?! Where are the big guns, the/75s and 88s?!"	
+s12_0b60	35	「ダイブツッたら、聞こえないの!?」/	"Daibutsu, can't you hear me?!"/	
+s12_0b84	99	ブレインズ{n}「ドラグーンが登場し、その５６口径８８ｍｍ/砲が絶大な威力を発揮するのが１６５年８月」	Brains{n}"The Dragoon and its fearsome 56-caliber/88 mm gun debuted in August 165."	
+s12_0be8	107	「アパッチやマスタング用の大口径砲はドラ/グーンの戦果に影響されて開発され、配備は/１６６年初頭からです」	"Big guns for the Apache and Mustang were/developed after the Dragoon's success, and/fielded from early 166."	
+s12_0c54	71	「ですから、１６４年の段階では、標準装備の/２０ｍｍマシンガンしか…」/	"So in 164, there's only the standard 20/mm machine gun..."/	
+s12_0c9c	55	「やっかましいっ！  つまんないものはつまん/ないの！」	"Shut uuup! Boring is boring!"	
+s12_0cd4	11	/「…」/	/"..."/	
+s12_0ce0	79	「ダイブツ！  さっさとクリアしちゃうから、/次は、もっと派手なのを頼むわよ!!」	"Daibutsu! I'll clear this in no time, so/next, give me something flashier!!"	
+s12_0d30	51	マイコ/「はい、オワリ！  ダイブツ、次のをお願い」	Maiko/"Done! Daibutsu, next one, please."	
+s12_0d64	83	マイコ/「あーぁ、負けちゃった。ま、いいや、退屈だ/ったし。ダイブツ、次、お願い」	Maiko/"Aww, I lost. Oh well, it was boring/anyway. Daibutsu, next, please."	
+s12_0db8	51	マイコ/「おぉい、ダイブツ！  ダイブツッたら！」/	Maiko/"Hey, Daibutsu! Daibutsu, c'mon!"/	
+s12_0dec	127	ニーソン「また、１８０万のスリープカプセル/からあぶれた人々に寝床を提供するため、今も/外惑星連合軍将兵が火星へ降下しています」	Neeson: "And Union soldiers are still/dropping to Mars to make room for those/left out of the 1.8 million capsules."	
+s12_0e6c	27	ダイブツ/「…知らなかった」	Daibutsu/"...I didn't know."	
+s12_0e88	103	「なに、負い目を感じる必要はありませんよ。/外惑星連合軍は、彼らの国益のためにここに来/ているのです」	"Now, no need to feel guilty. The Union/forces are here for their own national/interests."	
+s12_0ef0	67	「ただ、彼らなりに全力を尽くしている事を/知っておくべきでしょう」/	"But you should know that they're doing/all they can, in their own way."/	
+s12_0f34	11	「…はい」{n}	"...Okay."{n}	
+s12_0f40	63	「聞こえないの!?  ダイブツ、早く次のゲーム/を出してよぉ！」/	"Can't you hear me?! Daibutsu, hurry up/and start the next game!"/	
+s12_0f80	23	「あ、ごめん、ごめん」/	"Oh, sorry, sorry."/	

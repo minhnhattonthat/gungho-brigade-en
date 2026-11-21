@@ -1,59 +1,59 @@
 id	max	jp	en	notes
-s17_0004	43	シナリオ目的：指定領域への全ユニットの移動/		
-s17_0030	19	勝利条件：敵の全滅		
-s17_0044	35	敗北条件：プレーヤーユニットの撃破		
-s17_0068	27	「ド、ドラグーン２がっ！」		
-s17_0084	35	「こんな奴等に…、このあたしが!?」		
-s17_00a8	35	「しくじった！  こんな連中にっ！」		
-s17_00cc	35	「ビズリィ、やられちゃったよぉ！」		
-s17_00f0	83	  火星暦１６６年５月第２土曜日。私たちは、/最近壊滅したと思われる地球軍基地を発見。		
-s17_0144	63	  生存者と遺留品の捜索のため、その基地へと/足を踏み入れました。		
-s17_0184	63	ビズリィ/「なぁ、これって火事場泥棒って言うんじゃ/ねぇのか？」		
-s17_01c4	59	シャベス/「そうだ。軍隊で勝手にこれをやると銃殺にな/る」		
-s17_0200	19	/「おいおい…」/		
-s17_0214	55	「物資は多いにこしたことはない。黙って見/張ってろ」{n}		
-s17_024c	15	/「やれやれ」/		
-s17_025c	19	マイコ/「敵よっ！」		
-s17_0270	39	シャベス/「待ち伏せてやがったのか？」		
-s17_0298	43	ビズリィ/「その割には貧弱なヤツばっかりだ」		
-s17_02c4	43	マイコ/「もっともね、蹴散らしましょう！」		
-s17_02f0	15	ベティ/「…」		
-s17_0300	71	ジョン/「ベティさん、敵襲ですよ！  起きてくださ/い！  ベティさん！」		
-s17_0348	19	「…ん、んぅん…」{n}		
-s17_035c	35	シャベス/「無駄だ、ほっとけ！」/		
-s17_0380	23	ビズリィ/「楽勝、楽勝」		
-s17_0398	55	ブレインズ/「連中がいたとなると、無駄足でしたかね？」		
-s17_03d0	23	シャベス/「そうだなぁ」		
-s17_03e8	35	ダイブツ/「とりあえず見てみようよ」		
-s17_040c	27	ビズリィ/「ほい、コーヒー」		
-s17_0428	59	マイコ/「ありがと。…らしくないじゃない。どうかし/たの？」		
-s17_0464	35	「ジョンがくれたんだ。…ふたつ」/		
-s17_0488	35	/「そんなことだろうと思ったわ」/		
-s17_04ac	83	「どうせ俺は直情バカだよ。器用に立ち回った/りできないんだ。ま、したくもないけどな」		
-s17_0500	47	「そうね。…でも、そういうとこ悪くないわ/よ」/		
-s17_0530	7	「…」/		
-s17_0538	39	/「ガ、ガンホー・キッドらしくてさ！」/		
-s17_0560	23	「…わ、悪かったな」/		
-s17_0578	39	/「なによ、誉めてあげてんじゃない…」/		
-s17_05a0	11	/「…」/		
-s17_05ac	19	「あ、あれは？」/		
-s17_05c0	71	ダイブツ/「ブレインズ。コンピューターのデータは、/ほとんど消えてたよ」		
-s17_0608	63	「直せそうなデータだけ取っておいたから、/あとで好きに使って」/		
-s17_0648	95	「それから、コンテナの中身のリストを作って/おいたから、要るものを選んでおいてね。/じゃっ！」		
-s17_06a8	63	ブレインズ/「『じゃっ』って、ダイブツはどうするんです/か？」		
-s17_06e8	51	「お宝をたくさん見つけたから、これから積み/込み」/		
-s17_071c	51	ジョン/「…ベティさん、コーヒーあるけど、どう？」/		
-s17_0750	19	ベティ/「ふぅ…」/		
-s17_0764	59	「お宝ったって、どうということないパーツが/あるだけじゃ…」		
-s17_07a0	55	「トップ・シークレット？  この『通信機』/ってのが？」		
-s17_07d8	35	シャベス/「敵襲だ！  逃げ出すぞ！」		
-s17_07fc	39	「荷物を積み込むのに、１０分かかるよ」/		
-s17_0824	23	「５分で済ませろ！」/		
-s17_083c	19	「うん、わかった」/		
-s17_0850	11	「…ふぅ」/		
-s17_085c	35	「ベティ、…いいかげんにしとけ」/		
-s17_0880	27	「トップ・シークレット…」/		
-s17_089c	59	シャベス/「ビズリィ！  マイコ！  ライフルを持ってい/け！」		
-s17_08d8	47	ビズリィ/「えーっ？  俺、長いの苦手なんだよ」		
-s17_0908	55	「敵が多すぎる。アウトレンジしつつ後退する/しかない」/		
-s17_0940	11	「ぶーっ」/		
+s17_0004	43	シナリオ目的：指定領域への全ユニットの移動/	Scenario goal: Move all units to the/marked area/	
+s17_0030	19	勝利条件：敵の全滅	Victory: Wipe out the enemy	
+s17_0044	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
+s17_0068	27	「ド、ドラグーン２がっ！」	"Th-the Dragoon 2!"	
+s17_0084	35	「こんな奴等に…、このあたしが!?」	"By these guys... ME?!"	
+s17_00a8	35	「しくじった！  こんな連中にっ！」	"I blew it! To this bunch!"	
+s17_00cc	35	「ビズリィ、やられちゃったよぉ！」	"Bizley, they got meee!"	
+s17_00f0	83	  火星暦１６６年５月第２土曜日。私たちは、/最近壊滅したと思われる地球軍基地を発見。	  Mars Year 166, 2nd Saturday of May. We/found an Earth Army base that seemed to/have been destroyed recently.	
+s17_0144	63	  生存者と遺留品の捜索のため、その基地へと/足を踏み入れました。	  We set foot in the base to search for/survivors and anything left behind.	
+s17_0184	63	ビズリィ/「なぁ、これって火事場泥棒って言うんじゃ/ねぇのか？」	Bizley/"Hey, ain't this what they call lootin' a/burning house?"	
+s17_01c4	59	シャベス/「そうだ。軍隊で勝手にこれをやると銃殺にな/る」	Chavez/"Yes. Do this on your own in the army and/you get shot."	
+s17_0200	19	/「おいおい…」/	/"Hey, hey..."/	
+s17_0214	55	「物資は多いにこしたことはない。黙って見/張ってろ」{n}	"The more supplies, the better. Shut up/and keep watch."{n}	
+s17_024c	15	/「やれやれ」/	/"Geez."/	
+s17_025c	19	マイコ/「敵よっ！」	Maiko/"Enemies!"	
+s17_0270	39	シャベス/「待ち伏せてやがったのか？」	Chavez/"Were they lying in ambush?"	
+s17_0298	43	ビズリィ/「その割には貧弱なヤツばっかりだ」	Bizley/"If so, they're all pretty puny."	
+s17_02c4	43	マイコ/「もっともね、蹴散らしましょう！」	Maiko/"Good point. Let's scatter 'em!"	
+s17_02f0	15	ベティ/「…」	Betty/"..."	
+s17_0300	71	ジョン/「ベティさん、敵襲ですよ！  起きてくださ/い！  ベティさん！」	John/"Betty-san, we're under attack! Wake up!/Betty-san!"	
+s17_0348	19	「…ん、んぅん…」{n}	"...Mm, mmh..."{n}	
+s17_035c	35	シャベス/「無駄だ、ほっとけ！」/	Chavez/"Forget it, leave her!"/	
+s17_0380	23	ビズリィ/「楽勝、楽勝」	Bizley/"Easy, easy."	
+s17_0398	55	ブレインズ/「連中がいたとなると、無駄足でしたかね？」	Brains/"If they were here, was this a wasted/trip?"	
+s17_03d0	23	シャベス/「そうだなぁ」	Chavez/"Maybe so."	
+s17_03e8	35	ダイブツ/「とりあえず見てみようよ」	Daibutsu/"Let's take a look anyway."	
+s17_040c	27	ビズリィ/「ほい、コーヒー」	Bizley/"Here, coffee."	
+s17_0428	59	マイコ/「ありがと。…らしくないじゃない。どうかし/たの？」	Maiko/"Thanks. ...That's not like you. What's/up?"	
+s17_0464	35	「ジョンがくれたんだ。…ふたつ」/	"John gave it to me. ...Two of 'em."/	
+s17_0488	35	/「そんなことだろうと思ったわ」/	/"I figured as much."/	
+s17_04ac	83	「どうせ俺は直情バカだよ。器用に立ち回った/りできないんだ。ま、したくもないけどな」	"Sure, I'm a hotheaded idiot. Can't play/it smart. Not that I want to."	
+s17_0500	47	「そうね。…でも、そういうとこ悪くないわ/よ」/	"Yeah. ...But that side of you isn't so/bad."/	
+s17_0530	7	「…」/	"..."/	
+s17_0538	39	/「ガ、ガンホー・キッドらしくてさ！」/	/"I-it's so Gungho Kid, you know!"/	
+s17_0560	23	「…わ、悪かったな」/	"...W-well, sorry."/	
+s17_0578	39	/「なによ、誉めてあげてんじゃない…」/	/"What? I'm complimenting you..."/	
+s17_05a0	11	/「…」/	/"..."/	
+s17_05ac	19	「あ、あれは？」/	"Wh-what's that?"/	
+s17_05c0	71	ダイブツ/「ブレインズ。コンピューターのデータは、/ほとんど消えてたよ」	Daibutsu/"Brains. Most of the computer data was/wiped."	
+s17_0608	63	「直せそうなデータだけ取っておいたから、/あとで好きに使って」/	"I saved just the data that looked/fixable, so use it however you like/later."/	
+s17_0648	95	「それから、コンテナの中身のリストを作って/おいたから、要るものを選んでおいてね。/じゃっ！」	"And I made a list of what's in the/containers, so pick what you need. Bye!"	
+s17_06a8	63	ブレインズ/「『じゃっ』って、ダイブツはどうするんです/か？」	Brains/"'Bye'? What are you going to do,/Daibutsu?"	
+s17_06e8	51	「お宝をたくさん見つけたから、これから積み/込み」/	"I found loads of treasure, so now I'm/loading it up."/	
+s17_071c	51	ジョン/「…ベティさん、コーヒーあるけど、どう？」/	John/"...Betty-san, there's coffee. Want some?"/	
+s17_0750	19	ベティ/「ふぅ…」/	Betty/"Phew..."/	
+s17_0764	59	「お宝ったって、どうということないパーツが/あるだけじゃ…」	"Treasure? It's just a bunch of ordinary/parts..."	
+s17_07a0	55	「トップ・シークレット？  この『通信機』/ってのが？」	"Top secret? This 'transmitter' thing?"	
+s17_07d8	35	シャベス/「敵襲だ！  逃げ出すぞ！」	Chavez/"Enemy attack! We're getting out!"	
+s17_07fc	39	「荷物を積み込むのに、１０分かかるよ」/	"Loading the cargo takes 10 minutes."/	
+s17_0824	23	「５分で済ませろ！」/	"Do it in 5!"/	
+s17_083c	19	「うん、わかった」/	"Okay, got it."/	
+s17_0850	11	「…ふぅ」/	"...Phew."/	
+s17_085c	35	「ベティ、…いいかげんにしとけ」/	"Betty... that's enough."/	
+s17_0880	27	「トップ・シークレット…」/	"Top secret..."/	
+s17_089c	59	シャベス/「ビズリィ！  マイコ！  ライフルを持ってい/け！」	Chavez/"Bizley! Maiko! Take rifles!"	
+s17_08d8	47	ビズリィ/「えーっ？  俺、長いの苦手なんだよ」	Bizley/"Awww? I'm no good with the long ones."	
+s17_0908	55	「敵が多すぎる。アウトレンジしつつ後退する/しかない」/	"Too many enemies. All we can do is fall/back while outranging them."/	
+s17_0940	11	「ぶーっ」/	"Boooo."/	

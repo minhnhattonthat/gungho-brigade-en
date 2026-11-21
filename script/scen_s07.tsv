@@ -1,64 +1,64 @@
 id	max	jp	en	notes
-s07_0004	59	通信員/「触接機から入電。敵部隊６０に増速。方位変/わらず」		
-s07_0040	47	ベーア大佐/「触接はもういい。引き上げさせろ」/		
-s07_0070	19	通信員/「了解」/		
-s07_0084	51	参謀１/「捕捉されるまで、あと２時間、ですかな」/		
-s07_00b8	71	参謀２/「３日前からつけていながら、今、金槌を振り/下ろすという事は…」		
-s07_0100	51	参謀１/「鉄床の準備ができた、とみるべきでしょう」/		
-s07_0134	107	「お聞きのとおりです。ついては閣下にキャラ/バンの護衛をお願いしたい。/  我々のアパッチ隊をお預けします」		
-s07_01a0	51	オールドマン/「…了解した。して、後方の奴らには？」		
-s07_01d4	35	/「我々がここで阻止線を張ります」/		
-s07_01f8	35	オールドマン/「大佐…、それでは…」		
-s07_021c	83	「閣下、…結果はどうあれ、私はあの時の閣下/の判断は正しかったと信じております」/		
-s07_0270	95	「自分は、この局面でかつての閣下と同じ判断/を迷うことなく下せる事を、誇りに思っており/ます」		
-s07_02d0	67	通信音/「…コマンドー、コマンドシップの民間人の/移乗を急がせろ」		
-s07_0314	71	通信音/「…トマホーク各隊は、降車終了後、直ちに/展開。警戒態勢に入れ」		
-s07_035c	51	通信音/「…コマンドーの配置はどうなっているか？」/		
-s07_0390	59	ダイブツ/「無線は使っちゃいけないんじゃぁなかった/の？」		
-s07_03cc	51	シャベス/「電波を出すと敵に見つかっちまうからな」		
-s07_0400	23	/「じゃぁ、なんで？」/		
-s07_0418	35	「もう見つかっちまったんだろう」/		
-s07_043c	47	ブレインズ/「シャベス、思い出しませんか？」/		
-s07_046c	7	「？」/		
-s07_0474	75	「現状は、あなたの１０１騎兵旅団が全滅した/ときの状況によく似ています」/		
-s07_04c0	15	「…そうだな」/		
-s07_04d0	43	通信音/「レンジャーよりボーイスカウト」/		
-s07_04fc	27	「こちら、ボーイスカウト」/		
-s07_0518	39	オールドマン/「パーティーの時間だ」/		
-s07_0540	55	オールドマン/「我々は、これよりキャラバン前方に進出」		
-s07_0578	31	「敵の待ち伏せ部隊を掃討し、」		
-s07_0598	27	「渓谷出口より脱出する」		
-s07_05b4	51	「直接護衛のアパッチ隊は残念ながら当てに/できない」		
-s07_05e8	71	「よって、一機たりともキャラバンに近づけて/はならない。何か質問は？」		
-s07_0630	51	ビズリィ/「なんで、待ち伏せがあるって判るんだい？」		
-s07_0664	75	「私には経験があるのだよ。奴らにはめられて/部下を全滅させられた経験がな」		
-s07_06b0	11	「……」/		
-s07_06bc	27	「他になければ、行動開始」/		
-s07_06d8	43	シャベス/「前回、我々は残る側にいました」		
-s07_0704	31	オールドマン/「皮肉なものだな」		
-s07_0724	55	オールドマン/「シャベス、あの時の事を思い出していたよ」		
-s07_075c	23	シャベス/「私もです」/		
-s07_0774	83	「ベーア大佐は本当に正しいのだろうか？/あの時の私は本当に正しかったのだろうか？」		
-s07_07c8	99	「…失礼ですがより良い考えをお持ちですか？/こうすればよい、と。もしくは、こうすればよ/かったと」		
-s07_082c	15	「…いいや」/		
-s07_083c	63	「でしたら、考えない方がよろしいでしょう。/少なくとも、今は」/		
-s07_087c	19	「……そうだな」/		
-s07_0890	63	ビズリィ/「楽勝だぜ！  歯ごたえも何も、あったもん/じゃねぇ」		
-s07_08d0	63	オールドマン/「心配しなくても、メインディッシュはこれか/らだ」		
-s07_0910	35	/「そうかぃ。そいつは楽しみだ」/		
-s07_0934	19	シャベス/「…」/		
-s07_0948	47	シャベス/「…トニー、レン、ラリィ、ジャック…」		
-s07_0978	31	「…ロバート…、アーサー……」/		
-s07_0998	91	オールドマン/「シャベス！  奴等はジャンキーだ！/亡霊兵団だ！  思い悩むのはあとにしろ！」		
-s07_09f4	31	/「貴様もそう言ったはずだ！」/		
-s07_0a14	19	「…イエス、サー」/		
-s07_0a28	35	「しまった…。やっちまったか！」		
-s07_0a4c	27	「マスタング…、ごめん！」		
-s07_0a68	27	「うおっ！  やられたっ！」		
-s07_0a84	43	「やられちゃったぁ。ビズリィ、助けてよぉ」		
-s07_0ab0	27	「トレーラーが…全滅…！」		
-s07_0acc	31	「…助けられなかった…誰も…」		
-s07_0aec	15	「…すまん…」		
-s07_0afc	67	勝利条件：「アムトラック」の表示エリアから{n}          のマップ脱出		
-s07_0b40	75	敗北条件：「アムトラック」の全滅、または/          プレーヤーユニットの撃破		
-s07_0b8c	71	勝利条件：鹵獲（ろかく）された１０１騎兵/          旅団ユニットの全滅		
+s07_0004	59	通信員/「触接機から入電。敵部隊６０に増速。方位変/わらず」	Comms Officer/"Contact plane reports in. Enemy force/speeding up to 60. Heading unchanged."	
+s07_0040	47	ベーア大佐/「触接はもういい。引き上げさせろ」/	Colonel Baer/"Enough contact. Pull it back."/	
+s07_0070	19	通信員/「了解」/	Comms Officer/"Roger."/	
+s07_0084	51	参謀１/「捕捉されるまで、あと２時間、ですかな」/	Staff Officer 1/"Two more hours until they catch us, I'd/say."/	
+s07_00b8	71	参謀２/「３日前からつけていながら、今、金槌を振り/下ろすという事は…」	Staff Officer 2/"They've tailed us for 3 days, and now/they swing the hammer down..."	
+s07_0100	51	参謀１/「鉄床の準備ができた、とみるべきでしょう」/	Staff Officer 1/"We should assume the anvil is ready."/	
+s07_0134	107	「お聞きのとおりです。ついては閣下にキャラ/バンの護衛をお願いしたい。/  我々のアパッチ隊をお預けします」	"As you heard. So, sir, we'd like you to/escort the caravan./We'll entrust our Apache unit to you."	
+s07_01a0	51	オールドマン/「…了解した。して、後方の奴らには？」	Oldman/"...Understood. And what of the ones/behind us?"	
+s07_01d4	35	/「我々がここで阻止線を張ります」/	/"We will hold a blocking line here."/	
+s07_01f8	35	オールドマン/「大佐…、それでは…」	Oldman/"Colonel... But that means..."	
+s07_021c	83	「閣下、…結果はどうあれ、私はあの時の閣下/の判断は正しかったと信じております」/	"Sir... Whatever the outcome, I believe/your judgment back then was right."/	
+s07_0270	95	「自分は、この局面でかつての閣下と同じ判断/を迷うことなく下せる事を、誇りに思っており/ます」	"I'm proud that, here and now, I can make/the same call you once made, without/hesitation."	
+s07_02d0	67	通信音/「…コマンドー、コマンドシップの民間人の/移乗を急がせろ」	Radio/"...Commando, hurry the civilians'/transfer to the Command Ship."	
+s07_0314	71	通信音/「…トマホーク各隊は、降車終了後、直ちに/展開。警戒態勢に入れ」	Radio/"...All Tomahawk units, deploy as soon as/you've unloaded. Go to alert status."	
+s07_035c	51	通信音/「…コマンドーの配置はどうなっているか？」/	Radio/"...What's the status of the Commando/deployment?"/	
+s07_0390	59	ダイブツ/「無線は使っちゃいけないんじゃぁなかった/の？」	Daibutsu/"Weren't we not supposed to use the/radio?"	
+s07_03cc	51	シャベス/「電波を出すと敵に見つかっちまうからな」	Chavez/"'Cause sending signals gets us spotted by/the enemy."	
+s07_0400	23	/「じゃぁ、なんで？」/	/"Then why?"/	
+s07_0418	35	「もう見つかっちまったんだろう」/	"Guess we've already been spotted."/	
+s07_043c	47	ブレインズ/「シャベス、思い出しませんか？」/	Brains/"Chavez, doesn't this remind you of/something?"/	
+s07_046c	7	「？」/	"?"/	
+s07_0474	75	「現状は、あなたの１０１騎兵旅団が全滅した/ときの状況によく似ています」/	"It's very like when your 101st Cavalry/Brigade was wiped out."/	
+s07_04c0	15	「…そうだな」/	"...Yeah."/	
+s07_04d0	43	通信音/「レンジャーよりボーイスカウト」/	Radio/"Ranger to Boy Scout."/	
+s07_04fc	27	「こちら、ボーイスカウト」/	"This is Boy Scout."/	
+s07_0518	39	オールドマン/「パーティーの時間だ」/	Oldman/"Time for the party."/	
+s07_0540	55	オールドマン/「我々は、これよりキャラバン前方に進出」	Oldman/"We'll now move out ahead of the caravan,"	
+s07_0578	31	「敵の待ち伏せ部隊を掃討し、」	"sweep out the enemy ambush,"	
+s07_0598	27	「渓谷出口より脱出する」	"and break out through the canyon exit."	
+s07_05b4	51	「直接護衛のアパッチ隊は残念ながら当てに/できない」	"Sadly, we can't count on the Apache unit/on close escort."	
+s07_05e8	71	「よって、一機たりともキャラバンに近づけて/はならない。何か質問は？」	"So not a single one gets near the/caravan. Any questions?"	
+s07_0630	51	ビズリィ/「なんで、待ち伏せがあるって判るんだい？」	Bizley/"How do you know there's an ambush?"	
+s07_0664	75	「私には経験があるのだよ。奴らにはめられて/部下を全滅させられた経験がな」	"Experience. The experience of being/trapped by them and losing every one of my/men."	
+s07_06b0	11	「……」/	"......"/	
+s07_06bc	27	「他になければ、行動開始」/	"If there's nothing else, move out."/	
+s07_06d8	43	シャベス/「前回、我々は残る側にいました」	Chavez/"Last time, we were the ones staying/behind."	
+s07_0704	31	オールドマン/「皮肉なものだな」	Oldman/"Ironic, isn't it."	
+s07_0724	55	オールドマン/「シャベス、あの時の事を思い出していたよ」	Oldman/"Chavez, I was thinking back to that/time."	
+s07_075c	23	シャベス/「私もです」/	Chavez/"So was I."/	
+s07_0774	83	「ベーア大佐は本当に正しいのだろうか？/あの時の私は本当に正しかったのだろうか？」	"Is Colonel Baer really right? Was I/really right back then?"	
+s07_07c8	99	「…失礼ですがより良い考えをお持ちですか？/こうすればよい、と。もしくは、こうすればよ/かったと」	"...Forgive me, but do you have a better/idea? 'Do this.' Or, 'I should have done/that.'"	
+s07_082c	15	「…いいや」/	"...No."/	
+s07_083c	63	「でしたら、考えない方がよろしいでしょう。/少なくとも、今は」/	"Then better not to dwell on it. For now,/at least."/	
+s07_087c	19	「……そうだな」/	"......Right."/	
+s07_0890	63	ビズリィ/「楽勝だぜ！  歯ごたえも何も、あったもん/じゃねぇ」	Bizley/"Piece of cake! Nothin' to sink my teeth/into at all!"	
+s07_08d0	63	オールドマン/「心配しなくても、メインディッシュはこれか/らだ」	Oldman/"Don't worry. The main course is still to/come."	
+s07_0910	35	/「そうかぃ。そいつは楽しみだ」/	/"That so? Can't wait."/	
+s07_0934	19	シャベス/「…」/	Chavez/"..."/	
+s07_0948	47	シャベス/「…トニー、レン、ラリィ、ジャック…」	Chavez/"...Tony, Ren, Larry, Jack..."	
+s07_0978	31	「…ロバート…、アーサー……」/	"...Robert... Arthur......"/	
+s07_0998	91	オールドマン/「シャベス！  奴等はジャンキーだ！/亡霊兵団だ！  思い悩むのはあとにしろ！」	Oldman/"Chavez! Those are Junkies! A ghost/legion! Agonize later!"	
+s07_09f4	31	/「貴様もそう言ったはずだ！」/	/"You said so yourself!"/	
+s07_0a14	19	「…イエス、サー」/	"...Yes, sir."/	
+s07_0a28	35	「しまった…。やっちまったか！」	"Damn... Did I blow it?!"	
+s07_0a4c	27	「マスタング…、ごめん！」	"Mustang... I'm sorry!"	
+s07_0a68	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s07_0a84	43	「やられちゃったぁ。ビズリィ、助けてよぉ」	"They got me. Bizley, heeelp!"	
+s07_0ab0	27	「トレーラーが…全滅…！」	"The trailers... all lost...!"	
+s07_0acc	31	「…助けられなかった…誰も…」	"...Couldn't save them... anyone..."	
+s07_0aec	15	「…すまん…」	"...Forgive me..."	
+s07_0afc	67	勝利条件：「アムトラック」の表示エリアから{n}          のマップ脱出	Victory: The Amtrac escapes the map/         from the marked area	
+s07_0b40	75	敗北条件：「アムトラック」の全滅、または/          プレーヤーユニットの撃破	Defeat: All Amtracs destroyed, or/         player unit destroyed	
+s07_0b8c	71	勝利条件：鹵獲（ろかく）された１０１騎兵/          旅団ユニットの全滅	Victory: All captured 101st Cavalry/         Brigade units destroyed	

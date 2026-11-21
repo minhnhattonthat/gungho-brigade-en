@@ -1,95 +1,95 @@
 id	max	jp	en	notes
-s13_0004	87	クリア条件：プレーヤーユニットに「ラグ/  ボール」を装備し、画面右のゴールへ到着/  する		
-s13_005c	67	  もしくは、敵ユニットの全滅/  もしくは、プレーヤーユニットの全滅/		
-s13_00a0	59	ダイブツ/「ボールが場外に出たから、まん中に置きなお/すよ」		
-s13_00dc	23	ビズリィ/「シャベス」		
-s13_00f4	19	シャベス/「ん？」		
-s13_0108	43	「どうしておやじさんは、そうまで俺に…」/		
-s13_0134	43	「おまえが、ガンホー・キッドだから、かな」/		
-s13_0160	11	「…？」/		
-s13_016c	39	「『ガンホー』の意味は知っているか？」/		
-s13_0194	27	ジョン/「…ぐすっ、…ぅっ」		
-s13_01b0	43	ベティ/「いいかげん、泣くのはおよしなさい」		
-s13_01dc	27	「だっておとうさんがぁ…」/		
-s13_01f8	7	「…」/		
-s13_0200	23	「…帰りたいよぅ…」/		
-s13_0218	55	「マコーリフは敵の真っ只中よ。それでも帰り/たいの？」		
-s13_0250	27	「うん。…でも、でも…」/		
-s13_026c	71	ベティ/「ジョン、あなたが最初に私たちに会ったとき/の事を憶えてる？」		
-s13_02b4	19	ジョン/「…うん」		
-s13_02c8	63	「あのとき、出来ないからとか、難しいから、/とか考えてた？」/		
-s13_0308	59	「ううん。…でも、今度はみんなをあたし/ひとりのために…」		
-s13_0344	87	「願い事がいつも叶うとは限らない。でも、口/に出さないと絶対に叶わない願いもあるのよ」/		
-s13_039c	35	/「きっと、みんな待ってるわよ」/		
-s13_03c0	11	「…うん」/		
-s13_03cc	35	ビズリィ/「…『ガンホー』の意味…」		
-s13_03f0	67	「昔の軍隊のかけ声だって聞いた。/『トツゲキ！』って意味だって…」		
-s13_0434	63	ブレインズ/「『一緒に働こう』、もともとはそういう意味/です」		
-s13_0474	39	シャベス/「『ガンホー・ブリゲイド』」/		
-s13_049c	11	「えっ？」/		
-s13_04a8	87	「『ガンホー・ブリゲイド』だ。/  １０１騎兵旅団は全滅するまでそう呼ばれて/いたんだ」		
-s13_0500	27	「ガンホー・…ブリゲイド」/		
-s13_051c	23	ビズリィ/「シャベス…」		
-s13_0534	75	「おやっさんの話は、よくわからない。/けど、俺はこのまま地球に逃げたくない」		
-s13_0580	75	「火星に戻ってどうする？  俺達でクロームデ/ビルを倒す、とでも言うのか？」		
-s13_05cc	15	「それは…」{n}		
-s13_05dc	43	「火星に未練があるのは、俺も同じだが…」/		
-s13_0608	27	ブレインズ/「僕だって…」		
-s13_0624	15	ジョン/「…」		
-s13_0634	19	ベティ/「ジョン…」		
-s13_0648	19	「…あの、あのう」/		
-s13_065c	27	「…ジョン、ベティ…？」/		
-s13_0678	11	「ほら…」/		
-s13_0684	83	「オリュンポスの麓のマコーリフ砦まで、僕を/連れていってください！  お願いします!!」		
-s13_06d8	35	「マコーリフにはおとうさんが…」/		
-s13_06fc	59	「わかった。必ずマコーリフへ連れていってや/る。約束する」		
-s13_0738	15	「ビズリィ！」/		
-s13_0748	27	「…渡りに船、ってやつか」/		
-s13_0764	75	「いいんじゃないですか。言い訳であれ、なん/であれ目的ができたって事で？」		
-s13_07b0	63	「ビズリィ、ご立派な約束だけど、どうやって/火星に帰るつもりよ」		
-s13_07f0	43	「えぇと。シャトルを無断で拝借してでも…」/		
-s13_081c	55	エスメラルダ/「そんな物騒な話は冗談でも止めて頂きたい」		
-s13_0854	23	「エスメラルダ大尉！」/		
-s13_086c	51	「あなたたちのマシンレッグと、武器を徴発し/ます」		
-s13_08a0	11	「徴発？」/		
-s13_08ac	55	「わが火星・外惑星連合軍は、火星に再降下し/ています」		
-s13_08e4	87	「しかし火星脱出時に多量の重装備を放棄した/ため武器が足りません。そのための措置です」		
-s13_093c	35	「ちょうどいいや。俺達も火星へ…」/		
-s13_0960	39	「駄目です。あなたがたは民間人です」/		
-s13_0988	83	「マシンレッグの徴発は３０分後とします。/私物の整理をしておいて下さい。いいですね」		
-s13_09dc	11	「……」/		
-s13_09e8	15	「ふふっ…」/		
-s13_09f8	7	「？」/		
-s13_0a00	51	ビズリィ/「大尉があんなわからずやだったなんて…」/		
-s13_0a34	59	マイコ/「しかたないでしょ。立場ってもんがあるんだ/から」		
-s13_0a70	59	「…ダイブツ、このＬＳＴでいい。なんとか降/ろしてくれよ」/		
-s13_0aac	27	/「無茶、言わないでよ」/		
-s13_0ac8	43	ダイブツ/「だいじょうぶ。降ろせるよぉ」/		
-s13_0af4	15	/「なにぃ!?」/		
-s13_0b04	19	/「なんだって!?」/		
-s13_0b18	99	「だって、オートパイロットは設定済みだし、/母艦側のガントリーは外れてるし、なんの問題/もないよ」		
-s13_0b7c	39	シャベス/「…ふぅん、やってくれるねぇ」		
-s13_0ba4	23	/「いったい誰が？」/		
-s13_0bbc	27	「さぁな。で、どうする？」/		
-s13_0bd8	15	/「もちろん」/		
-s13_0be8	19	ジョン/「あははっ」		
-s13_0bfc	27	トーヴィー/「何事かね？」/		
-s13_0c18	75	エスメラルダ/「事故が発生しました。ＬＳＴ４１７が脱落。/火星に落下します」		
-s13_0c64	23	/「ＬＳＴ４１７？」/		
-s13_0c7c	59	「試作機２機、民間機２機、在来型１機を積ん/でいました」/		
-s13_0cb8	67	「…君が世話になったという、あの勇敢な民間/人たちはどこにいる？」/		
-s13_0cfc	19	/「所在不明です」/		
-s13_0d10	31	/「ＬＳＴ４１７の救出は？」/		
-s13_0d30	115	「間に合いません。ですが、我々のオートパイ/ロットは優秀です。彼らが目をつぶっていても/無事、着陸できるでしょう」		
-s13_0da4	11	/「…」/		
-s13_0db0	15	/「…ふふっ」/		
-s13_0dc0	95	「…もし、彼らが乗っていたなら不運だったと/しか言いようがないが、事故であればいたしか/たない」		
-s13_0e20	75	マイコ/「ここ、アーツタノフの競技場じゃない？/まさか、アレをやれっての？」		
-s13_0e6c	99	ブレインズ/「格闘訓練としても、レクリエーションとして/も、ラグバトルは悪くないってことでしょう」		
-s13_0ed0	107	「あれぇ？  機体はあたしのマスタングＨだ。/ダイブツ、これはあたしのワンメイクカスタム/よ。どうやったの？」		
-s13_0f3c	83	ダイブツ{n}「機体整備用のデータをちょっとイジったら、/使えたんだ。他のもそうだよ」		
-s13_0f90	31	/「さっすが、見事なもんね」/		
-s13_0fb0	15	/「へへへっ」/		
-s13_0fc0	47	「ところで、相手がちょっと貧相なんじゃな/い？」		
-s13_0ff0	123	「うぅん…。じゃ、ハンデ戦ってことで、これ/でどう？  相手は、最初から撃って来るから、/ラグボールに関係なく撃っていいよ」		
-s13_106c	31	「Ａ．Ｏ．Ｋ．！  始めましょ」/		
+s13_0004	87	クリア条件：プレーヤーユニットに「ラグ/  ボール」を装備し、画面右のゴールへ到着/  する	Goal: Get a player unit holding the/ "Rug Ball" to the goal on the right	
+s13_005c	67	  もしくは、敵ユニットの全滅/  もしくは、プレーヤーユニットの全滅/	  or destroy all enemy units/or all player units are destroyed/	
+s13_00a0	59	ダイブツ/「ボールが場外に出たから、まん中に置きなお/すよ」	Daibutsu/"The ball went out of bounds, so I'll put/it back in the middle."	
+s13_00dc	23	ビズリィ/「シャベス」	Bizley/"Chavez."	
+s13_00f4	19	シャベス/「ん？」	Chavez/"Hm?"	
+s13_0108	43	「どうしておやじさんは、そうまで俺に…」/	"Why'd the old man go so far for me..."/	
+s13_0134	43	「おまえが、ガンホー・キッドだから、かな」/	"Because you're the Gungho Kid, maybe."/	
+s13_0160	11	「…？」/	"...?"/	
+s13_016c	39	「『ガンホー』の意味は知っているか？」/	"Do you know what 'gung ho' means?"/	
+s13_0194	27	ジョン/「…ぐすっ、…ぅっ」	John/"...*sniff*... *hic*"	
+s13_01b0	43	ベティ/「いいかげん、泣くのはおよしなさい」	Betty/"That's enough crying now."	
+s13_01dc	27	「だっておとうさんがぁ…」/	"But my dad..."/	
+s13_01f8	7	「…」/	"..."/	
+s13_0200	23	「…帰りたいよぅ…」/	"...I wanna go home..."/	
+s13_0218	55	「マコーリフは敵の真っ只中よ。それでも帰り/たいの？」	"McAuliffe is right in the middle of the/enemy. You still want to go back?"	
+s13_0250	27	「うん。…でも、でも…」/	"Yeah. ...But, but..."/	
+s13_026c	71	ベティ/「ジョン、あなたが最初に私たちに会ったとき/の事を憶えてる？」	Betty/"John, do you remember when you first met/us?"	
+s13_02b4	19	ジョン/「…うん」	John/"...Yeah."	
+s13_02c8	63	「あのとき、出来ないからとか、難しいから、/とか考えてた？」/	"Back then, were you thinking 'I can't' or/'it's too hard'?"/	
+s13_0308	59	「ううん。…でも、今度はみんなをあたし/ひとりのために…」	"No. ...But this time, everyone, just for/me..."	
+s13_0344	87	「願い事がいつも叶うとは限らない。でも、口/に出さないと絶対に叶わない願いもあるのよ」/	"Wishes don't always come true. But some/never will unless you say them out loud."/	
+s13_039c	35	/「きっと、みんな待ってるわよ」/	/"I'm sure they're all waiting."/	
+s13_03c0	11	「…うん」/	"...Okay."/	
+s13_03cc	35	ビズリィ/「…『ガンホー』の意味…」	Bizley/"...What 'gung ho' means..."	
+s13_03f0	67	「昔の軍隊のかけ声だって聞いた。/『トツゲキ！』って意味だって…」	"I heard it was an old army battle cry./That it means 'Charge!'..."	
+s13_0434	63	ブレインズ/「『一緒に働こう』、もともとはそういう意味/です」	Brains/"'Work together.' That's what it/originally meant."	
+s13_0474	39	シャベス/「『ガンホー・ブリゲイド』」/	Chavez/"'Gungho Brigade.'"/	
+s13_049c	11	「えっ？」/	"Huh?"/	
+s13_04a8	87	「『ガンホー・ブリゲイド』だ。/  １０１騎兵旅団は全滅するまでそう呼ばれて/いたんだ」	"'Gungho Brigade.'/That's what the 101st Cavalry Brigade was/called, until it was wiped out."	
+s13_0500	27	「ガンホー・…ブリゲイド」/	"Gungho... Brigade."/	
+s13_051c	23	ビズリィ/「シャベス…」	Bizley/"Chavez..."	
+s13_0534	75	「おやっさんの話は、よくわからない。/けど、俺はこのまま地球に逃げたくない」	"I don't really get the old man's talk./But I don't wanna just run off to Earth/like this."	
+s13_0580	75	「火星に戻ってどうする？  俺達でクロームデ/ビルを倒す、とでも言うのか？」	"And do what back on Mars? Take down the/Chrome Devil ourselves?"	
+s13_05cc	15	「それは…」{n}	"That's..."{n}	
+s13_05dc	43	「火星に未練があるのは、俺も同じだが…」/	"I can't let go of Mars either, but..."/	
+s13_0608	27	ブレインズ/「僕だって…」	Brains/"Me neither..."	
+s13_0624	15	ジョン/「…」	John/"..."	
+s13_0634	19	ベティ/「ジョン…」	Betty/"John..."	
+s13_0648	19	「…あの、あのう」/	"...Um, um..."/	
+s13_065c	27	「…ジョン、ベティ…？」/	"...John, Betty...?"/	
+s13_0678	11	「ほら…」/	"Go on..."/	
+s13_0684	83	「オリュンポスの麓のマコーリフ砦まで、僕を/連れていってください！  お願いします!!」	"Please take me to Fort McAuliffe at the/foot of Olympus! Please!!"	
+s13_06d8	35	「マコーリフにはおとうさんが…」/	"My dad's at McAuliffe..."/	
+s13_06fc	59	「わかった。必ずマコーリフへ連れていってや/る。約束する」	"Got it. I'll get you to McAuliffe, no/matter what. I promise."	
+s13_0738	15	「ビズリィ！」/	"Bizley!"/	
+s13_0748	27	「…渡りに船、ってやつか」/	"...Just what we needed, huh."/	
+s13_0764	75	「いいんじゃないですか。言い訳であれ、なん/であれ目的ができたって事で？」	"Why not? Excuse or not, at least we've/got a goal now."	
+s13_07b0	63	「ビズリィ、ご立派な約束だけど、どうやって/火星に帰るつもりよ」	"Bizley, that's a fine promise, but how do/you plan to get back to Mars?"	
+s13_07f0	43	「えぇと。シャトルを無断で拝借してでも…」/	"Uhh. Even if we have to borrow a shuttle/without asking..."/	
+s13_081c	55	エスメラルダ/「そんな物騒な話は冗談でも止めて頂きたい」	Esmeralda/"I'd rather you not talk of such things,/even as a joke."	
+s13_0854	23	「エスメラルダ大尉！」/	"Captain Esmeralda!"/	
+s13_086c	51	「あなたたちのマシンレッグと、武器を徴発し/ます」	"I am requisitioning your machine legs and/weapons."	
+s13_08a0	11	「徴発？」/	"Requisitioning?"/	
+s13_08ac	55	「わが火星・外惑星連合軍は、火星に再降下し/ています」	"Our Mars and Outer Planets Union forces/are dropping back to Mars."	
+s13_08e4	87	「しかし火星脱出時に多量の重装備を放棄した/ため武器が足りません。そのための措置です」	"But we abandoned much heavy equipment/escaping Mars, so we're short of arms./Hence this measure."	
+s13_093c	35	「ちょうどいいや。俺達も火星へ…」/	"Perfect. We're going to Mars too..."/	
+s13_0960	39	「駄目です。あなたがたは民間人です」/	"No. You are civilians."/	
+s13_0988	83	「マシンレッグの徴発は３０分後とします。/私物の整理をしておいて下さい。いいですね」	"The machine legs will be requisitioned in/30 minutes. Sort out your belongings./Understood?"	
+s13_09dc	11	「……」/	"......"/	
+s13_09e8	15	「ふふっ…」/	"Heh..."/	
+s13_09f8	7	「？」/	"?"/	
+s13_0a00	51	ビズリィ/「大尉があんなわからずやだったなんて…」/	Bizley/"Never thought the Captain was such a/hardhead..."/	
+s13_0a34	59	マイコ/「しかたないでしょ。立場ってもんがあるんだ/から」	Maiko/"Can't be helped. She's got her position/to think of."	
+s13_0a70	59	「…ダイブツ、このＬＳＴでいい。なんとか降/ろしてくれよ」/	"...Daibutsu, this LST'll do. Get it down/there somehow."/	
+s13_0aac	27	/「無茶、言わないでよ」/	/"Don't ask the impossible."/	
+s13_0ac8	43	ダイブツ/「だいじょうぶ。降ろせるよぉ」/	Daibutsu/"It's fine. I can take it dooown."/	
+s13_0af4	15	/「なにぃ!?」/	/"What?!"/	
+s13_0b04	19	/「なんだって!?」/	/"Say what?!"/	
+s13_0b18	99	「だって、オートパイロットは設定済みだし、/母艦側のガントリーは外れてるし、なんの問題/もないよ」	"Well, the autopilot's already set, and/the mothership's gantry is off. No problem/at all."	
+s13_0b7c	39	シャベス/「…ふぅん、やってくれるねぇ」	Chavez/"...Hmm. Somebody's done us a favor."	
+s13_0ba4	23	/「いったい誰が？」/	/"Who on earth?"/	
+s13_0bbc	27	「さぁな。で、どうする？」/	"Who knows. So, what'll it be?"/	
+s13_0bd8	15	/「もちろん」/	/"Obviously."/	
+s13_0be8	19	ジョン/「あははっ」	John/"Ahaha!"	
+s13_0bfc	27	トーヴィー/「何事かね？」/	Tovey/"What's going on?"/	
+s13_0c18	75	エスメラルダ/「事故が発生しました。ＬＳＴ４１７が脱落。/火星に落下します」	Esmeralda/"There's been an accident. LST 417 has/detached. It's falling to Mars."	
+s13_0c64	23	/「ＬＳＴ４１７？」/	/"LST 417?"/	
+s13_0c7c	59	「試作機２機、民間機２機、在来型１機を積ん/でいました」/	"It carried 2 prototypes, 2 civilian/machines and 1 standard model."/	
+s13_0cb8	67	「…君が世話になったという、あの勇敢な民間/人たちはどこにいる？」/	"...Where are those brave civilians who/you say helped you?"/	
+s13_0cfc	19	/「所在不明です」/	/"Whereabouts unknown."/	
+s13_0d10	31	/「ＬＳＴ４１７の救出は？」/	/"And the rescue of LST 417?"/	
+s13_0d30	115	「間に合いません。ですが、我々のオートパイ/ロットは優秀です。彼らが目をつぶっていても/無事、着陸できるでしょう」	"Too late. But our autopilot is excellent./They could land safely with their eyes/shut."	
+s13_0da4	11	/「…」/	/"..."/	
+s13_0db0	15	/「…ふふっ」/	/"...Heh."/	
+s13_0dc0	95	「…もし、彼らが乗っていたなら不運だったと/しか言いようがないが、事故であればいたしか/たない」	"...If they were aboard, it's simply bad/luck. But an accident is an accident."	
+s13_0e20	75	マイコ/「ここ、アーツタノフの競技場じゃない？/まさか、アレをやれっての？」	Maiko/"Isn't this the Artsutanov arena? Don't/tell me you want us to do THAT?"	
+s13_0e6c	99	ブレインズ/「格闘訓練としても、レクリエーションとして/も、ラグバトルは悪くないってことでしょう」	Brains/"I suppose Rug Battle works fine as melee/training and as recreation."	
+s13_0ed0	107	「あれぇ？  機体はあたしのマスタングＨだ。/ダイブツ、これはあたしのワンメイクカスタム/よ。どうやったの？」	"Huh? This machine's my Mustang H./Daibutsu, this is my one-off custom. How'd/you do it?"	
+s13_0f3c	83	ダイブツ{n}「機体整備用のデータをちょっとイジったら、/使えたんだ。他のもそうだよ」	Daibutsu{n}"I tweaked the maintenance data a little,/and it worked. Same with the others."	
+s13_0f90	31	/「さっすが、見事なもんね」/	/"Wow, you're amazing."/	
+s13_0fb0	15	/「へへへっ」/	/"Heh heh heh."/	
+s13_0fc0	47	「ところで、相手がちょっと貧相なんじゃな/い？」	"By the way, isn't the other side kinda/weak?"	
+s13_0ff0	123	「うぅん…。じゃ、ハンデ戦ってことで、これ/でどう？  相手は、最初から撃って来るから、/ラグボールに関係なく撃っていいよ」	"Hmm... Then how about this, as a handicap/match? They shoot from the start, so you/can shoot regardless of the Rug Ball."	
+s13_106c	31	「Ａ．Ｏ．Ｋ．！  始めましょ」/	"A-O-K! Let's start."/	

@@ -1,49 +1,49 @@
 id	max	jp	en	notes
-s11_0004	95	エスメラルダ/「彼らを乗せたＬＳＴ４１７が第３パイロンに/到着します。予定時刻は１５１０です」		
-s11_0064	23	ベティ/「ありがとう」		
-s11_007c	39	/「オールドマン准将の事は伺いました」/		
-s11_00a4	7	「…」/		
-s11_00ac	43	/「もういちど会って、お礼が言いたかった」/		
-s11_00d8	15	「残念です」/		
-s11_00e8	51	ジョン/「あの、…マコーリフ砦の人たちはどこに？」		
-s11_011c	11	/「…？」/		
-s11_0128	55	「父がそこにいたんです。お願いします。/教えてください」		
-s11_0160	111	「…アルカディア区の脱出は、マコーリフ砦の/前方で、敵の圧力に会い失敗しました。現在、/砦を防衛中とのことです」		
-s11_01d0	15	「そんな…」{n}		
-s11_01e0	19	/「お気の毒です」/		
-s11_01f4	7	「…」{n}		
-s11_01fc	83	参謀/「長官、第３師団第１大隊の装備が４５％不足/します。そのまま降下させますか？」		
-s11_0250	35	トーヴィー/「残りあと何部隊か？」		
-s11_0274	39	参謀/「第３師団第１大隊で最後です」{n}		
-s11_029c	79	「火星軍と民間人のマシンレッグが、いくらか/上がっているはずだ。それを徴発する」		
-s11_02ec	15	参謀/「了解」{n}		
-s11_02fc	23	ベティ/「シャベス…」		
-s11_0314	39	シャベス/「…俺は大丈夫だ。それより…」		
-s11_033c	15	ビズリィ/「…」		
-s11_034c	23	ジョン/「…ぐすぐす…」		
-s11_0364	31	/「心配なのはわかるけど…」{n}		
-s11_0384	19	「…そうだなぁ」/		
-s11_0398	71	マイコ/「ねぇねぇ！ 面白いもの見つけたんだ！/ちょっとつきあってよ！」		
-s11_03e0	55	管制官/「長官、火星軍が装備の引き渡しを拒否しまし/た」		
-s11_0418	31	トーヴィー/「…バカやろうが」		
-s11_0438	23	参謀/「長官、何と？」{n}		
-s11_0450	59	管制官/「火星軍は、火星降下部隊への参加を要求して/います」		
-s11_048c	51	「好きにさせろ。どいつもこいつもバカやろう/揃いだ」		
-s11_04c0	71	マイコ/「マシンレッグシミュレーターだよ！  これが/よくできててさ！」		
-s11_0508	47	「せっかくだから、ちょっと遊ぼうよ！ /ねぇ！」/		
-s11_0538	15	/「ふぅ…」/		
-s11_0548	39	ベティ/「…シャベス、ジョンは任せて」/		
-s11_0570	23	シャベス/「わかった」		
-s11_0588	43	「よぅし、行こうか。ビズリィ、ブレインズ」/		
-s11_05b4	23	ブレインズ/「僕はパス」		
-s11_05cc	51	「んなこと言わずつきあえ。ビズリィも。/行くぞ!」		
-s11_0600	23	「…しょうがないね」{n}		
-s11_0618	15	「ビズリィ！」/		
-s11_0628	27	「…あぁ、わかったよ…」/		
-s11_0644	15	ダイブツ/「…」		
-s11_0654	27	ジョン/「…ぐす、ぐすっ…」		
-s11_0670	27	「ああっ、僕も行くよぉ」/		
-s11_068c	27	ダイブツ/「準備できたよー」		
-s11_06a8	59	マイコ/「ダイブツ、初めての機械なのによく扱えるわ/ね？」		
-s11_06e4	39	「マニュアルがあるんだもん。簡単だよ」/		
-s11_070c	23	/「そういうもん？」/		
+s11_0004	95	エスメラルダ/「彼らを乗せたＬＳＴ４１７が第３パイロンに/到着します。予定時刻は１５１０です」	Esmeralda/"LST 417, carrying them, arrives at Pylon/3. Scheduled time is 1510."	
+s11_0064	23	ベティ/「ありがとう」	Betty/"Thank you."	
+s11_007c	39	/「オールドマン准将の事は伺いました」/	/"I heard about Brigadier General Oldman."/	
+s11_00a4	7	「…」/	"..."/	
+s11_00ac	43	/「もういちど会って、お礼が言いたかった」/	/"I wanted to see him once more and thank/him."/	
+s11_00d8	15	「残念です」/	"I'm sorry."/	
+s11_00e8	51	ジョン/「あの、…マコーリフ砦の人たちはどこに？」	John/"Um... where are the people from Fort/McAuliffe?"	
+s11_011c	11	/「…？」/	/"...?"/	
+s11_0128	55	「父がそこにいたんです。お願いします。/教えてください」	"My father was there. Please. Tell me."	
+s11_0160	111	「…アルカディア区の脱出は、マコーリフ砦の/前方で、敵の圧力に会い失敗しました。現在、/砦を防衛中とのことです」	"...The Arcadia evacuation was stopped by/the enemy outside Fort McAuliffe. They're/said to be holding the fort now."	
+s11_01d0	15	「そんな…」{n}	"No..."{n}	
+s11_01e0	19	/「お気の毒です」/	/"I'm so sorry."/	
+s11_01f4	7	「…」{n}	"..."{n}	
+s11_01fc	83	参謀/「長官、第３師団第１大隊の装備が４５％不足/します。そのまま降下させますか？」	Staff Officer/"Commander, 3rd Division, 1st Battalion is/45% short on equipment. Drop them as is?"	
+s11_0250	35	トーヴィー/「残りあと何部隊か？」	Tovey/"How many units are left?"	
+s11_0274	39	参謀/「第３師団第１大隊で最後です」{n}	Staff Officer/"3rd Division, 1st Battalion is the last."{n}	
+s11_029c	79	「火星軍と民間人のマシンレッグが、いくらか/上がっているはずだ。それを徴発する」	"Some Martian Army and civilian machine/legs should have come up. Requisition/them."	
+s11_02ec	15	参謀/「了解」{n}	Staff Officer/"Roger."{n}	
+s11_02fc	23	ベティ/「シャベス…」	Betty/"Chavez..."	
+s11_0314	39	シャベス/「…俺は大丈夫だ。それより…」	Chavez/"...I'm all right. More importantly..."	
+s11_033c	15	ビズリィ/「…」	Bizley/"..."	
+s11_034c	23	ジョン/「…ぐすぐす…」	John/"...*sniff sniff*..."	
+s11_0364	31	/「心配なのはわかるけど…」{n}	/"I know you're worried, but..."{n}	
+s11_0384	19	「…そうだなぁ」/	"...Yeah."/	
+s11_0398	71	マイコ/「ねぇねぇ！ 面白いもの見つけたんだ！/ちょっとつきあってよ！」	Maiko/"Hey, hey! I found something fun! Come/with me a sec!"	
+s11_03e0	55	管制官/「長官、火星軍が装備の引き渡しを拒否しまし/た」	Controller/"Commander, the Martian Army refuses to/hand over its equipment."	
+s11_0418	31	トーヴィー/「…バカやろうが」	Tovey/"...The damn fools."	
+s11_0438	23	参謀/「長官、何と？」{n}	Staff Officer/"Sir, what did you say?"{n}	
+s11_0450	59	管制官/「火星軍は、火星降下部隊への参加を要求して/います」	Controller/"The Martian Army demands to join the Mars/descent force."	
+s11_048c	51	「好きにさせろ。どいつもこいつもバカやろう/揃いだ」	"Let them. Damn fools, every last one of/them."	
+s11_04c0	71	マイコ/「マシンレッグシミュレーターだよ！  これが/よくできててさ！」	Maiko/"It's a machine leg simulator! And it's/really well made!"	
+s11_0508	47	「せっかくだから、ちょっと遊ぼうよ！ /ねぇ！」/	"Since we're here, let's play a bit!/C'mon!"/	
+s11_0538	15	/「ふぅ…」/	/"Phew..."/	
+s11_0548	39	ベティ/「…シャベス、ジョンは任せて」/	Betty/"...Chavez, leave John to me."/	
+s11_0570	23	シャベス/「わかった」	Chavez/"All right."	
+s11_0588	43	「よぅし、行こうか。ビズリィ、ブレインズ」/	"Right, let's go. Bizley, Brains."/	
+s11_05b4	23	ブレインズ/「僕はパス」	Brains/"I'll pass."	
+s11_05cc	51	「んなこと言わずつきあえ。ビズリィも。/行くぞ!」	"Don't say that, come along. You too,/Bizley. Let's go!"	
+s11_0600	23	「…しょうがないね」{n}	"...Guess I have no choice."{n}	
+s11_0618	15	「ビズリィ！」/	"Bizley!"/	
+s11_0628	27	「…あぁ、わかったよ…」/	"...Yeah, all right..."/	
+s11_0644	15	ダイブツ/「…」	Daibutsu/"..."	
+s11_0654	27	ジョン/「…ぐす、ぐすっ…」	John/"...*sniff, sniff*..."	
+s11_0670	27	「ああっ、僕も行くよぉ」/	"Aah, I'm coming toooo."/	
+s11_068c	27	ダイブツ/「準備できたよー」	Daibutsu/"All seeet!"	
+s11_06a8	59	マイコ/「ダイブツ、初めての機械なのによく扱えるわ/ね？」	Maiko/"Daibutsu, you sure handle a machine/you've never used well, huh?"	
+s11_06e4	39	「マニュアルがあるんだもん。簡単だよ」/	"There's a manual. It's easy."/	
+s11_070c	23	/「そういうもん？」/	/"Is that how it works?"/	
