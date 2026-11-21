@@ -25,7 +25,14 @@ All **verified** by the warp runs in `tools/debug/` unless marked.
   0x800315d4/d8 store stage N in the NEW GAME branch; 0x800318d8 `jal 0x8002c504` -> `jal 0x80031cd8` (CLEAR) or
   `jal 0x80031f84` (ENDING); arrival marker `sh $ra,0x9d2($gp)` in 0x8002c50c (0x800A1B22 = 0x18E0 once the
   post-intro check runs).
-- **Not reached yet:** a game over (defeat) screen. FACE.DAT entries 106 "Game over" / 107 "Map clear!" are English
-  images; their caller is unknown. Next step: find who loads FACE entry 106 (a FACE loader call with 0x6a), or
-  the defeat event id, or zero the player units' HP in battle (unit table 0x800100E0, HP +0x50, GameShark
-  80010130 / 800101A6; the battle may use its own copy).
+- **Event args:** 0x80022eac stores id/a1/a2 at gp+0x9c8/0x9a8/0x9ac (0x800A1B18/1AF8/1AFC). Overlay-only checks
+  read them: 0x8005146c(a0, a1) = "event 6 and a1 == a0 and a2 == a1" (unit destroyed: index, unit id), 0x800514b0 =
+  event 7 with a1 == a0, 0x800514e0 = event 8. **verified** for 6 (go08 below).
+- **Game over:** each stage overlay's defeat handler (stage 8: 0x8015b1f0..0x8015b428, first check `0x8005146c(0,
+  0x55)`) checks each leader in turn; on a hit: leader face (0x8004f924(face, 0)), FACE 106 "Game over"
+  (0x8004f924(0x6a, 1)), the defeat line (0x800506b0, string from the overlay table), then 0x80031cfc (title).
+  Stage 0 (tutorial) has no defeat handler (no 0x80031cfc call in its overlay). FACE 107 "Map clear!" caller not
+  looked for. **verified**: warp.lua GAMEOVER=1 (event 6 instead of intro 9, 0x8005146c forced to return 1) shows
+  the stage 8 leader's line, then "Game over" (scenes go08, go08_over). Limits: the battle view is never drawn
+  (shown over the loading screen), and only the first leader's line; other defeat lines are overlay text, reached by
+  the text tours.

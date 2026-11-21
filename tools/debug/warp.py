@@ -69,12 +69,14 @@ def run(scene, rows, cue):
         cmd += ["--route-str", r["route"], "--shot-every", "120"]
     else:
         # modes: battle (stop at battle start), clear (win after the intro, stop at the intermission),
-        # ending (staff roll; timed), timed (no arrival marker: run TIMED_FRAMES and stop)
+        # ending (staff roll; timed), gameover (defeat event instead of the intro), timed (no arrival marker: run TIMED_FRAMES and stop)
         timed = r["mode"] in ("ending", "timed")
         cmd += ["--script", str(ROOT / "tools/debug/warp.lua"), "--var", f"STAGE={int(r['stage'])}",
                 "--frames", str(TIMED_FRAMES if timed else 30000), "--shot-every", "300"]
-        if r["mode"] in ("clear", "ending"):
+        if r["mode"] in ("clear", "ending", "gameover"):
             cmd += ["--var", f"{r['mode'].upper()}=1"]
+        if r["mode"] == "gameover":   # stop on the defeat line; a based scene presses circle for "Game over"
+            cmd += ["--var", "NOMASH=1"]
         if timed:
             cmd += ["--var", "TOUR=1"]
     p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")

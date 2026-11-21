@@ -43,3 +43,5 @@ i08_save			i08	6 circle;400 -	intermission GAME SAVE slot screen (blank card)
 i08_tune			i08	6 down;60 -;6 circle;400 -	intermission TUNE UP
 i08_status			i08	6 down;60 -;6 down;60 -;6 circle;400 -	intermission STATUS
 i08_next			i08	6 up;60 -;6 circle;3000 -	intermission NEXT TALE: stage 9 starts
+go08	8	gameover			stage 8 defeat handler (event 6, first leader check forced): leader face + defeat line, over the loading screen
+go08_over			go08	6 circle;240 -	game over: FACE 106 "Game over" image after the defeat line, then back to the title

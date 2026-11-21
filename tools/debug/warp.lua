@@ -5,7 +5,8 @@
 --   (0x80031638) reads it. Then mash circle (Japanese confirm) so dialogue advances.
 -- Opt-in globals: STAGE=<n> (skip the table), NOMASH=1 (no circle mash), GOD=1 (pin the two leads' HP),
 -- CLEAR=1 (win the stage right after its intro), ENDING=1 (staff roll after the intro), TOUR=1 (don't stop at
--- arrival), SETTLE=<frames after arrival>, EVENT=<id> (run stage event id instead of intro 9; RE aid, ids unmapped).
+-- arrival), SETTLE=<frames after arrival>, GAMEOVER=1 (defeat line + "Game over" instead of the intro; use with NOMASH=1
+-- to stop on the line), EVENT=<id> (run stage event id instead of intro 9; RE aid, ids unmapped).
 -- GOD is untested (addresses from a GameShark code for the roster copy; battle may use another copy).
 -- Run with --sav work/saves/blank.mcd (tools/debug/warp.py does): an intermission mash can save to the card.
 local ffi = require("ffi")
@@ -50,6 +51,14 @@ L.on_frame(function(n)
     -- own stage-clear path (to the MENU.EXE intermission, or straight into the next stage). Restored below once
     -- it has fired, so the next stage plays normally.
     -- EVENT=<id>: run stage event <id> instead of intro event 9 (0x800318C8 addiu $a0,$zero,9)
+    -- GAMEOVER=1: run event 6 ("unit destroyed", args gp+0x9a8/0x9ac) instead, with 0x8005146c (the overlay's
+    -- check "event 6 for unit a0/a1", used only by each stage's defeat handler) forced to return 1: the handler's
+    -- first check shows the leader's face, FACE 106 "Game over", the defeat line, then 0x80031cfc (title).
+    if GAMEOVER then
+      if r32(0x8005146C) ~= 0x3C03800A then error("GUNHO.EXE code moved: re-find the destroyed-unit check") end
+      w16(0x8005146C, 0x0008); w16(0x8005146E, 0x03E0); w16(0x80051470, 0x0001); w16(0x80051472, 0x2402)
+      EVENT = 6
+    end
     if EVENT then
       if r32(0x800318C8) ~= 0x24040009 then error("GUNHO.EXE code moved: re-find the intro event call") end
       w16(0x800318C8, EVENT)
@@ -79,7 +88,10 @@ L.on_frame(function(n)
   -- not MENU.EXE) is up and still ~1000 frames later. Stop mashing, let it settle SETTLE frames, then end the run
   -- with final.png (+ --state-out). TOUR=1 keeps running to --frames instead (intro/dialogue tours).
   if written and not arrived then
-    if CLEAR and cleared then
+    if GAMEOVER and r16(0x800A1B18) == 6 then   -- gp+0x9c8: event 6 posted; the defeat line opens a few hundred frames later
+      arrived = n
+      L.log(string.format("%d arrived: event 6 (game over), stage %d", n, r16(0x80010000)))
+    elseif CLEAR and cleared then
       arrived = n
       L.log(string.format("%d arrived: stage clear, stage %d", n, r16(0x80010000)))
     elseif not CLEAR and r16(0x800A1B22) == 0x18E0 then
@@ -87,7 +99,7 @@ L.on_frame(function(n)
       L.log(string.format("%d arrived: battle, stage %d", n, r16(0x80010000)))
     end
   end
-  if arrived and not TOUR and n == arrived + (SETTLE or (cleared and 1500 or 120)) then
+  if arrived and not TOUR and n == arrived + (SETTLE or (cleared and 1500 or GAMEOVER and 600 or 120)) then
     PCSX.SIO0.slots[1].pads[1].clearOverride(PCSX.CONSTS.PAD.BUTTON.CIRCLE)
     L.shot("final.png"); L.log("final frame " .. n)
     if STATE_OUT then L.save_state(STATE_OUT) end
