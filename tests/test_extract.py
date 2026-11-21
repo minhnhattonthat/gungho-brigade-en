@@ -100,6 +100,14 @@ def test_ending_relocate(rows, files):
     assert x.cstr(out, at).split(b"\n")[int(group[0]["id"].split("_")[1])] == SJIS.encode("Ａ" * 20)
 
 
+def test_roll_lines_keep_count_and_sections():
+    """{n} rows: the added line takes a blank from the next run of 2+ blanks; count and later sections stay."""
+    lines = [b"a", b"b\nc", b"", b"d", b"", b"", b"", b"e", b"f\ng\nh", b"", b"", b""]
+    assert x.roll_lines(lines) == [b"a", b"b", b"c", b"", b"d", b"", b"", b"e", b"f", b"g", b"h", b""]
+    with pytest.raises(AssertionError):
+        x.roll_lines([b"a\nb\nc", b"", b""])
+
+
 def test_overlays(files):
     dat, offs, ends = x.scen_entries()
     stages = []

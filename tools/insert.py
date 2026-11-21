@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract as x  # noqa: E402
+import gfx_captions  # noqa: E402
 import gfx_labels  # noqa: E402
 import smallfont  # noqa: E402
 from digraph import BITMAPS, RAW, Digraph, units  # noqa: E402
@@ -29,7 +30,7 @@ from sjis import SJIS  # noqa: E402
 
 OVERLAY = x.ROOT / "work/build/files"
 STRINGS = x.ROOT / "build/strings.tsv"
-GFX = [gfx_labels]  # graphics redraws: module with FILE, patch(data), ranges(name) (diffcheck)
+GFX = [gfx_labels, gfx_captions]  # graphics redraws: module with FILE, patch(data), ranges(name) (diffcheck)
 # Title-side exes and TABLE.BIN's memory-card screens draw with a font keyed by the real SJIS code (the patched
 # bitmaps never show there: verified, title GAME LOAD and intermission GAME SAVE showed the kana of the pair codes),
 # so their text goes out as fullwidth Latin, 12 px per letter.
@@ -104,6 +105,7 @@ def write_strings(rows, encode, path):
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         for r in rows:
             b = encode(r) if r["new"] else SJIS.encode(r["jp"])
+            b = b.split(b"\n")[0] if r["_file"] == "ENDING.BIN" else b  # textcover keys a roll line up to its 0x0A
             f.write(f"{r['id']}\t{text_key(b):08X}\n")
 
 

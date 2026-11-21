@@ -33,11 +33,11 @@ ending_060		森岡俊広	Toshihiro Morioka	staff roll line
 ending_062		メインプロデューサー：	Main Producers:	staff roll line
 ending_063		横田村主　芹沢浩	Suguri Yokota, Hiroshi Serizawa	staff roll line
 ending_065		ディレクター：	Directors:	staff roll line
-ending_066		手塚友浩　小林正臣	Tomohiro Tezuka, Masaomi Kobayashi	staff roll line
+ending_066		手塚友浩　小林正臣	Tomohiro Tezuka,{n}Masaomi Kobayashi	staff roll line
 ending_068		マーケティングプロモーション：	Marketing Promotion:	staff roll line
-ending_069		伊藤泰次郎　李美鍵　小山泰司	Taijiro Ito, Lee Mi-geon, Yasushi Koyama	staff roll line
+ending_069		伊藤泰次郎　李美鍵　小山泰司	Taijiro Ito, Lee Mi-geon,{n}Yasushi Koyama	staff roll line
 ending_071		セールスプロモーション：	Sales Promotion:	staff roll line
-ending_072		大内裕幸　宇佐美博之　猪瀬昌義	Hiroyuki Ouchi, Hiroyuki Usami, Masayoshi Inose	staff roll line
+ending_072		大内裕幸　宇佐美博之　猪瀬昌義	Hiroyuki Ouchi, Hiroyuki Usami,{n}Masayoshi Inose	staff roll line
 ending_073		松崎浩　　石田出　　宮澤隆充	Hiroshi Matsuzaki, Izuru Ishida,	staff roll line
 ending_074		伊藤智洋	Takamitsu Miyazawa, Tomohiro Ito	staff roll line
 ending_081		有限会社サイン・プロジェクツ	Sign Projects Ltd.	staff roll line
@@ -63,7 +63,7 @@ ending_109		原田俊也　川邊照久	Toshiya Harada, Teruhisa Kawabe	staff ro
 ending_111		マッピング：	Mapping:	staff roll line
 ending_112		川邊照久	Teruhisa Kawabe	staff roll line
 ending_113		福岡祐一	Yuichi Fukuoka	staff roll line
-ending_114		出石沃　　原田俊也　瀬川佳久	Yutaka Izuishi, Toshiya Harada, Yoshihisa Segawa	staff roll line
+ending_114		出石沃　　原田俊也　瀬川佳久	Yutaka Izuishi, Toshiya Harada,{n}Yoshihisa Segawa	staff roll line
 ending_116		モーション・デザイン：	Motion Design:	staff roll line
 ending_117		原田俊也	Toshiya Harada	staff roll line
 ending_118		川邊照久　田中秀明	Teruhisa Kawabe, Hideaki Tanaka	staff roll line
@@ -83,8 +83,8 @@ ending_141		外堀裕典	Hironori Sotobori	staff roll line
 ending_142		後藤寛啓	Hiroaki Goto	staff roll line
 ending_143		古原裕美	Hiromi Furuhara	staff roll line
 ending_145		イベントグラフィック彩色：	Event Graphics Coloring:	staff roll line
-ending_146		松本康之　山口初美　中村竜彦	Yasuyuki Matsumoto, Hatsumi Yamaguchi,	staff roll line
-ending_147		榊　　　　笹森満	Tatsuhiko Nakamura, Sakaki, Mitsuru Sasamori	staff roll line
+ending_146		松本康之　山口初美　中村竜彦	Yasuyuki Matsumoto,{n}Hatsumi Yamaguchi,	staff roll line
+ending_147		榊　　　　笹森満	Tatsuhiko Nakamura, Sakaki,{n}Mitsuru Sasamori	staff roll line
 ending_149		サウンド：	Sound:	staff roll line
 ending_150		Ｎ．ＳＵＧＡ	N.SUGA	staff roll line
 ending_151		伊藤健一	Kenichi Ito	staff roll line
@@ -118,9 +118,9 @@ ending_198		内田聡　　浜野茜	Satoshi Uchida, Akane Hamano	staff roll lin
 ending_200		色指定・検査：	Color Check:	staff roll line
 ending_201		佐々木夏江	Natsue Sasaki	staff roll line
 ending_203		仕上げ：	Finishing:	staff roll line
-ending_204		真崎克巳　原弘樹　　前田徹	Katsumi Masaki, Hiroki Hara, Toru Maeda	staff roll line
-ending_205		山田健司　笹野雄介　永尾憲一	Kenji Yamada, Yusuke Sasano, Kenichi Nagao	staff roll line
-ending_206		内田春菜　彩恋寿鈴鹿　大地留美	Haruna Uchida, Suzuka Ayakoju, Rumi Daichi	staff roll line
+ending_204		真崎克巳　原弘樹　　前田徹	Katsumi Masaki, Hiroki Hara,{n}Toru Maeda	staff roll line
+ending_205		山田健司　笹野雄介　永尾憲一	Kenji Yamada, Yusuke Sasano,{n}Kenichi Nagao	staff roll line
+ending_206		内田春菜　彩恋寿鈴鹿　大地留美	Haruna Uchida, Suzuka Ayakoju,{n}Rumi Daichi	staff roll line
 ending_207		星山企画	Hoshiyama Kikaku	staff roll line
 ending_209		美術監督：	Art Director:	staff roll line
 ending_210		森亜矢子	Ayako Mori	staff roll line
@@ -128,21 +128,21 @@ ending_212		背景：	Backgrounds:	staff roll line
 ending_213		Ｔｅａｍ’ｓ　Ａｒｔ	Team's Art	staff roll line
 ending_214		星山企画	Hoshiyama Kikaku	staff roll line
 ending_215		原田俊也	Toshiya Harada	staff roll line
-ending_217		撮影：ＡＣＣ谷原プロダクション	Photography: ACC Tanihara Production	staff roll line
+ending_217		撮影：ＡＣＣ谷原プロダクション	Photography:{n}ACC Tanihara Production	staff roll line
 ending_218		川崎健司	Kenji Kawasaki	staff roll line
 ending_220		音響：	Sound:	staff roll line
 ending_221		株式会社ハーフエイチピースタジオ	Half H.P Studio Inc.	staff roll line
 ending_228		デバッグ：	Debug:	staff roll line
 ending_229		佐々木裕司	Yuji Sasaki	staff roll line
-ending_230		青柳美和　藤井康彦　大西健二郎	Miwa Aoyagi, Yasuhiko Fujii, Kenjiro Onishi	staff roll line
+ending_230		青柳美和　藤井康彦　大西健二郎	Miwa Aoyagi, Yasuhiko Fujii,{n}Kenjiro Onishi	staff roll line
 ending_231		ＣａｔｚＰａｗｚ	CatzPawz	staff roll line
-ending_232		田中秀明　福岡祐一　柴田耕平	Hideaki Tanaka, Yuichi Fukuoka, Kohei Shibata	staff roll line
+ending_232		田中秀明　福岡祐一　柴田耕平	Hideaki Tanaka, Yuichi Fukuoka,{n}Kohei Shibata	staff roll line
 ending_235		Ｓｐｅｃｉａｌ　Ｔｈａｎｋｓ	Special Thanks	staff roll line
 ending_236		高橋直也	Naoya Takahashi	staff roll line
 ending_243		オープニングテーマ：	Opening Theme:	staff roll line
 ending_244		「Ｄｏｇｇｅｄ　Ｄｒａｇｏｏｎ」	"Dogged Dragoon"	staff roll line
 ending_245		作詞：出石沃	Lyrics: Yutaka Izuishi	staff roll line
-ending_246		作曲／編曲：伊藤健一	Music and Arrangement: Kenichi Ito	staff roll line
+ending_246		作曲／編曲：伊藤健一	Music and Arrangement:{n}Kenichi Ito	staff roll line
 ending_247		歌：ＭＩＯ	Vocals: MIO	staff roll line
 ending_250		エンディングテーマ：	Ending Theme:	staff roll line
 ending_251		「Ａｍａｚｉｎｇ　Ｇｒａｃｅ」	"Amazing Grace"	staff roll line

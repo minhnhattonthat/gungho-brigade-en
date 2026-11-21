@@ -212,6 +212,29 @@ def scen_layout(enc, pos, end, ovl_len):
     return n, -(-rest // 0x800) * 0x800
 
 
+def roll_lines(lines):
+    """Staff roll lines with rows that hold several lines ({n} -> 0x0A) split out. The pictures and the closing
+    logos run on time, so the roll keeps its line count: each added line takes a blank from the next run of 2+
+    blank lines after it (one blank always stays), and every section starts where it did."""
+    out, pending, k = [], 0, 0
+    while k < len(lines):
+        if lines[k]:
+            parts = lines[k].split(b"\n")
+            pending += len(parts) - 1
+            out += parts
+            k += 1
+            continue
+        j = k
+        while j < len(lines) and not lines[j]:
+            j += 1
+        drop = min(pending, j - k - 1)
+        pending -= drop
+        out += [b""] * (j - k - drop)
+        k = j
+    assert not pending and len(out) == len(lines), "staff roll: not enough blank lines to absorb {n} rows"
+    return out
+
+
 def write_back(name, data, rows, field="jp", encode=None, extra=None, tree=TREE):
     """Return a copy of file `name` with each row's `field` text written into its slot (NUL-padded).
     Rows whose `field` is empty keep the original bytes. Raises if a string does not fit its slot.
@@ -227,7 +250,7 @@ def write_back(name, data, rows, field="jp", encode=None, extra=None, tree=TREE)
             k = int(r["id"].split("_")[1])
             if r[field]:
                 lines[k] = enc_row(r)
-        new = b"\n".join(lines)
+        new = b"\n".join(roll_lines(lines))
         room = ((ENDING + len(blob) + 4) & ~3) - ENDING - 1  # NUL + 4-alignment padding
         if len(new) <= room:
             out[ENDING:ENDING + room + 1] = new + bytes(room + 1 - len(new))

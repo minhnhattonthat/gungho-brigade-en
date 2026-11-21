@@ -155,6 +155,15 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | マスドライバー | mass driver | | | |
 | 『通信機』 | transmitter / radio | | | |
 | 外惑星連合 | Outer Planets Union / Union | | | |
+| 火星暦 | Mars Year | | dates ("Mars Year 168") in narration and the prologue captions (tools/gfx_captions.py) | |
+| 火星歴 | Mars Century | | the calendar's name, prologue caption | |
+| 外惑星自治区 | Outer Planets Autonomous Zone | | prologue caption | |
+| 火星諸州連合 | Union of Martian States | | prologue caption | |
+| 火星連合 | Mars Union | | prologue caption | |
+| 南部連合 | Southern Confederation | | prologue caption (101st Cavalry Brigade's side) | |
+| 地球連邦平和実施軍 | Earth Federation peace forces | | prologue caption | |
+| ジャンクス・ラッシュ | Junk Rush | | prologue caption | |
+| 『失われた大隊』 | Lost Battalion | | prologue caption | |
 | 連合宙軍 | Union Space Force | | | |
 | ジャンク | Junk | | alien wreckage the Junkies are named after (s06) | |
 | １０１騎兵旅団 | 101st Cavalry Brigade | | Oldman's brigade, called the Gungho Brigade | |

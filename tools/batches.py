@@ -38,7 +38,9 @@ SMALL = re.compile(r"[\x20-\x7e｡-ﾟ]*")
 FULLWIDTH_FILES = {"menu", "slps", "menumv", "table"}
 # Measured budgets (docs/windows.md): chars per line, lines per box.
 # roll = stage 35's own staff roll (scen_s35 from 0x420): shortcut: 48 wide like ENDING.BIN, line count unmeasured; check at the s35 warp (credits ~frame 7000).
-BOX = {"dlg": (42, 3), "help": (50, 1), "credit": (48, 1), "roll": (48, 6), "full": (18, 5)}
+# credit = ENDING.BIN roll line: 16 cells of 12 px (the JP's widest; a longer line spills past VRAM x 512 into the
+# picture texture, phase 8), aligned pairs = 32 chars; {n} starts another roll line (extract.write_back).
+BOX = {"dlg": (42, 3), "help": (50, 1), "credit": (32, 3), "roll": (48, 6), "full": (18, 5)}
 FULL_LIMIT = {"table_00430": 6, "table_00440": 4, "table_11800": 32}  # 11800 = card save title (JP length)
 # small font at the 6-px pitch (tools/smallfont.py): chars per window, docs/windows.md
 NAME_BUDGET = {"pilot": 12, "weapon": 12, "unit": 10, "skill": 13}
@@ -122,7 +124,7 @@ def compose(entry, body, names=None):
     if f != "dlg":
         # a standalone `/` is a break; "a / / b" = an empty line between
         # the fullwidth renderer only breaks on {n}; `/` there would print a slash
-        brk = "{n}" if f == "full" or "{n}" in entry["jp"] else "/"
+        brk = "{n}" if f in ("full", "credit") or "{n}" in entry["jp"] else "/"
         return re.sub(r" ?(?<!\S)/(?!\S) ?", brk, body.strip())
     names = speakers() if names is None else names
     head = ""
@@ -169,6 +171,8 @@ def width_problems(entry, en):
         slash = ["'/' is not a break in fullwidth text (use {n})"] if "/" in en else []
         return slash + [f"line over {lim}: {ln!r}" for ln in lines if len(ln) > lim]
     w, n = BOX[f]
+    if f == "credit" and "/" in en:
+        return ["'/' is not a break in the staff roll (use {n})"]
     lines = BREAK.split(en)
     while lines and lines[-1] == "":
         lines.pop()
