@@ -12,14 +12,18 @@ with `--min 8`).
 |---|---|---|
 | MENU_DAT_00 (TABLE/MENU.DAT) | +0x18800 `体験版` ("Trial version", 80x32 4bpp) - probably unused in retail; +0x29000 small font 128x132 4bpp has half-width katakana rows (name entry / save font) | logo, title menu, GAME SAVE / TUNE UP / STATUS / NEXT TALE, MOVIE COMMAND, PLAY EP/SP, MOVIE LOAD, EXIT, Now loading: all English already |
 
-## Sheets still to review (next session)
-OPENING_DAT_00, OVTABLE_DAT_00, TABLE_BIN_00, GAMEDATA_DAT_00-04, SCENFILE_DAT_00-12, FACE_DAT_00-25 (FACE = 320x240
-event stills and 84x82 portraits; check stills for drawn text).
+| FACE_DAT_00-25 (FACE.DAT) | **prologue history stills with burned-in SJIS captions** (8bpp 320x240, mostly greyscale fades of colour stills): 0x23e000 西暦2220年、火星地球化計画完了 · 0x251000 同年、火星暦(Mars Century)制定 · 0x28a000 火星暦46年、外惑星自治区へ食料輸出開始 · 0x29d000 同年、軌道エレベーター『アーツタノフ』着工 · 0x2d6000 81年、外惑星自治区、地球連邦より離脱 · 0x2e9000 同年、外惑星連合成立 · 0x2fc000 100年、火星諸州連合、火星政府樹立を宣言 · 0x335000 149年、ガラクタ(ジャンク)発見 · 0x348000 ジャンクス・ラッシュの発生 · 0x381000 150年、火星総人口150万人を突破 · 0x394000 156年、ホイヘンス地下湖発見 · 0x3cd000 163年、火星内戦(通称、水戦争)勃発。… · 0x3e0000 165年、地球連邦平和実施軍、内戦に干渉。… · 0x419000 同年、薬物中毒(ジャンキー)マシンレッグ目撃事件… · 0x42c000 消息不明マシンレッグの機数が… · 0x465000 166年、南部連合101騎兵旅団、… · 0x478000 同旅団壊滅。南部諸州、停戦に合意。 · 0x48b000 火星内戦終結。 · 0x4ea000 104年、『アーツタノフ』完成 · 0x4fd000 同年、火星連合、地球連邦より独立 · 0x510000 105年、『アーツタノフ』999地球年租借条約締結 · 0x549000 / 0x55c000 火星暦168年. ~23 stills; offsets read off 2x-downscaled composites (work/gfx/comp/c0-c1): confirm each with a zoomed render before redrawing. | Everything else English or textless: logo stills "GUNGHO BRIGADE", 0x22b000 "3on3 RUG BATTLE TOURNAMENT", "CLASSIFIED", "WIZARD" screens, map W-markers, all 26 tale cards (0xf8b800-0x1354800, "tale N <title>"), "Tune in to the Next Tale" maps with English place names (0x13b3800-0x151c800), "Game over" / "Map clear!" (0xd4000/0xd6000), Sign / TOMY logos. Portraits (84x82) textless. |
+| GAMEDATA entry 265 (0x36081c-0x36c17e, battle UI; rendered work/gfx/gd265) | **+0x131c 96x140 4bpp: battle command menu labels** 射撃 格闘 アイテム 変形 特殊 装備 終了 / ユニットリスト セーブ シナリオ目的 コンフィグ プロット終了 (12 labels, 2 blank buttons). +0x3274 128x132: small 8x12 name font (ASCII digits/A-Z/a-z + half-width kana, text.md) | +0x63ca 256x64 status-window labels (Pilot Unit1 Unit2 Eqip Level Exp Gunshot Fight Mobility Ability Skill HP Armor Move Property Weapon Power Range Ammo Damage Part Item) English already; icons, ON/OFF, Power/Range/Hit/SP boxes English. Same command-label TIM also matched in TABLE/MENU.DAT (+0x291e4 region): check in the menu survey |
+| GAMEDATA_DAT rest (`--min 8 --dedupe --zoom 2`, work/gfx/gd2, 22 sheets) | none seen in sheets 00 and 04 (mech/model textures, map tiles) | remaining gd2 sheets: model textures by file layout (entries 0-264 are unit models); spot-check in phase 8 marker tour |
+| OPENING/OVTABLE/TABLE_BIN | see below | |
+
+Battle-screen VRAM (work/qa/vram1, `tools/psxvram.py` renders a dump): UI texture page at VRAM x=320 y=0 4bpp holds
+entry 265's TIMs. Name/ability text is the small font, help line the 11x11 kanji font (text.md).
 
 ## Seen in game (tour, original disc)
 | Screen | Japanese | Source guess |
 |---|---|---|
-| Battle unit status window (tale 1, work/qa/explore3 f000960) | stat labels, weapon list, unit name | font-drawn (SJIS? glyph list) or GAMEDATA TIMs - VRAM dump in phase 5 |
-| Battle command menu (small box, tale 1) | command icons/labels | GAMEDATA small TIMs? |
-| Unit name plate under portrait (`ジャック`?) | katakana name | unknown |
+| Battle unit status window (tale 1, explore3 f001680) | pilot name, ability/skill names, help line | **verified** text, not graphics: names = half-width cp932 (small font), help line = SJIS (11x11 font); labels English TIM |
+| Battle command menu (tale 1, explore3 f001440) | 射撃 格闘 ... | **verified** TIM: GAMEDATA entry 265 +0x131c (matched VRAM bytes to file) |
+| Unit name plate under portrait (explore3 f002160) | katakana name | small font, half-width string (same renderer as status window) - **guess** |
 | Tutorial message box | SCENFILE text (font-drawn) | text, not graphics |

@@ -65,6 +65,8 @@ def main():
     ap.add_argument("files", nargs="+")
     ap.add_argument("--min", type=int, default=16, help="skip images smaller than this in both dimensions")
     ap.add_argument("--sheet-w", type=int, default=1024)
+    ap.add_argument("--zoom", type=int, default=1, help="scale each image (small UI text needs 2-3)")
+    ap.add_argument("--dedupe", action="store_true", help="render each distinct image once (index keeps all)")
     a = ap.parse_args()
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -90,9 +92,16 @@ def main():
             off = d.find(b"\x10\x00\x00\x00", off + n)
         stem = Path(fn).name.replace(".", "_")
         page, x, y, rowh, n = None, 0, 0, 0, 0
-        pages = []
+        pages, seen = [], set()
         for off, bpp, w, h, clut, px in tims:
             img = render(bpp, w, h, clut, px)
+            if a.dedupe:
+                key = (img.size, img.tobytes())
+                if key in seen:
+                    continue
+                seen.add(key)
+            if a.zoom > 1:
+                img = img.resize((img.width * a.zoom, img.height * a.zoom), Image.NEAREST)
             if img.width > a.sheet_w:
                 img = img.resize((a.sheet_w, img.height * a.sheet_w // img.width))
             if page is None or x + img.width > a.sheet_w:
@@ -103,7 +112,7 @@ def main():
                 x, y, rowh = 0, 0, 0
             page.paste(img, (x, y + 12))
             ImageDraw.Draw(page).text((x + 1, y), f"{off:x} {bpp}b {w}x{h}", fill=(255, 255, 0))
-            x += img.width + 4
+            x += max(img.width, 6 * len(f"{off:x} {bpp}b {w}x{h}")) + 4  # labels must not overlap
             rowh = max(rowh, img.height)
             n += 1
         for i, pg in enumerate(pages):
