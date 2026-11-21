@@ -2,8 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (menus + stress saves done, menu gate passes; final dialogue re-tour,
-  tour gate re-init and textcover left). Last build: build/gungho_en.bin 2026-11-22 sha1 8591fa79. States in
+- **Phase:** 9. Release: not started (phase 8 done 2026-11-22: tour gate 75/75 and menu gate 11/11 pass for
+  8591fa79, textcover 2227/2228 + 1 waived (docs/text_unshown.tsv) exits 0, smoke ok). Last build:
+  build/gungho_en.bin 2026-11-22 sha1 8591fa79, smoke ok. States in
   work/states/ for s01 s02 s30 s34 title* i08* go08* are from 8591fa79/7de18f57 (text-only diffs since b72aa484);
   the rest from de1e747c (regen `warp.py --all --cue build/gungho_en.cue` if a scene matters).
 - **Done:**
@@ -170,14 +171,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
 - **Next (phase 8, QA):**
-  1. Final dialogue re-tour on 8591fa79 (`tour.py --jobs 7`, started in the fourth session; log
-     work/qa/tour_run.log), then `qa_gate.py init work/qa/tour/manifest.tsv work/qa/tour --glob "*sheet*.png" --build
-     build/gungho_en.bin` (unchanged sheets keep verdicts; s00/s02/s05 rows changed: re-read those sheets), check 0.
-  2. Textcover: regenerate work/qa/tour/scen_strings.tsv = build/strings.tsv rows s00-s35, run `textcover.py
-     work/qa/tour work/qa/tour/scen_strings.tsv`, waive s35_* never drawn (s35_08bc) with a reason. Non-stage strings
-     (gunho/pilots/table/menu/ending): run the menu routes with textcover.lua (`--debugger --script
-     tools/lua/textcover.lua --var "TEXT_SKIP_PC='8002B984,8003458C'"`) or waive them citing work/qa/menus. Then
-     phase 8 is done -> phase 9.
+  Phase 9 (release), in order:
+  1. Story pass: verdicts stale for s00/s02/s05/s06/s11/s14/s20/s21/s26/s27 + nonstory (phase 7 rewording, phase 8
+     Fast/Left/part names): rerun `pairs.py`, `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters
+     --glob "*.txt"`, re-read changed pages (independent reader: codex exec, quota back 2026-11-26, else a fresh
+     read-only self pass), rewrite verdicts until check exits 0.
+  2. docs/polish.md: tick or fix every open line (incl. the Eqip Item column 8-char cut, D12 hover names).
+  3. Release script per the skill (`tools/release.py`): gates on all three manifests (tour, menus, story) +
+     textcover (`textcover.py work/qa/tour work/qa/tour/scen_strings.tsv --waive docs/text_unshown.tsv`), jp_left,
+     debug off, xdelta re-apply, README hashes, zip = patch + README. Any rebuild: re-run the tour
+     (`tour.py --jobs 7`), `qa_gate init --build` both tour and menus (menus: re-shoot or `waive` with reason).
+  Textcover scope = stage strings (scen_strings.tsv, 2228); non-stage text (gunho/pilots/table/menu/ending) is
+  covered by work/qa/menus, the e34 roll shots and the name-width lint, not by TEXT keys.
   Notes: battle Goals screen not reached from the system menu (flaky; same objective boxes as battle start, toured).
   Battle system menu: square, left*10, cross, circle (sometimes needs a retry of the step). s35 overlay strings never
   drawn in play (s35 warp shows the ENDING.BIN roll).
