@@ -119,3 +119,20 @@ or the listed non-text (glyph lists, ASCII->fullwidth tables, stale copies).
   4 KB (every later file moved 2 sectors) still warps to the stage 8 battle, the intermission and the staff roll. Inside each DAT, entries are addressed by
   the LEN offset table, so a grown entry needs the LEN rewritten.
 - RAM: unknown; overlay buffer bound above.
+- ENDING.BIN loads at 0x8015eed0, the buffer TABLE.BIN (94,532 B = 0x17144) loads into for battle and intermission,
+  so at least 0x17144 bytes from there are the module's. `extract.ENDING_ROOM` = 0x12000 keeps the relocated staff
+  roll (appended at the 4-aligned file end, its one `addiu` at file 0x1584 repointed) well inside that; the e34 warp
+  plays the whole roll from there (phase 7). The old roll at 0x2970 is zeroed.
+- GUNHO.EXE name pool 0x82024-0x82238 (unit/weapon/ability/part names + ASCII model names, 8-byte slots, 532 B):
+  every string is reached only by u32 words in the record tables 0x746xx-0x790xx (no lui/addiu; `extract.pool_refs`
+  asserts it, tests/test_diffcheck.py). When a name outgrows its slot the pool is repacked byte-aligned (readers use
+  lbu) and the words rewritten. The 11-byte name rows 0x1d80-0x1f30 are also word-only (not repacked yet).
+
+## Small font (names)
+Drawn by three loops, `lbu` per byte, 8x11 sprite from the font TIM (u = (c&15)*8, v = ((c>>4)-3)*11), dakuten
+bytes DE/DF merged into the previous glyph, x advanced by `addiu $s1,$s1,8`: TABLE.BIN 0x801621b8 (STATUS / TUNE UP /
+battle status names and skills; advance at file 0x33e0), GUNHO.EXE 0x80023040 (battle hover box; 0x3924) and
+GUNHO.EXE 0x800388xx (0x190bc). TABLE.BIN 0x801622d8 / 0x8016248c draw the bold digits (left at 8). Font TIM copies:
+GAMEDATA.DAT 0x363a90 (battle) and TABLE/MENU.DAT 0x29000, identical. tools/smallfont.py sets the pitch to 6 and
+redraws ASCII from fonts/font5.txt. The STATUS pilot name is centred as if 8 px per char (start = 148 - 4n), so at 6 px
+it sits n px right of centre and holds 14 chars between the portrait and "SP" (measured, ruler build 2026-11-22).

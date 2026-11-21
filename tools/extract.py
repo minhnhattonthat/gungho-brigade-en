@@ -50,9 +50,12 @@ EXES = {
     "MENUMV.EXE": ("menumv", None, [(0x800, 0xA40)], {}),
 }
 PILOTS = (0x776FC, 0x30, 16)  # GUNHO.EXE: first record, stride, name field size
+# GUNHO.EXE name pool (unit/weapon/ability/part names + internal ASCII model names, 8-byte slots): reached only through
+# u32 words in the unit/weapon/ability record tables (pool_refs asserts it), so it can be repacked (docs/re/text.md).
+POOL = (0x82024, 0x82238)
 ENDING = 0x2970  # ENDING.BIN staff roll blob start (NUL-terminated)
 ENDING_LOAD, ENDING_REF = 0x8015eed0, 0x1584  # ENDING.BIN load address; file offset of the blob's only `addiu`
-ENDING_ROOM = 0x12000  # load buffer shared with TABLE.BIN (72 KB, docs/status.md phase 7 notes)
+ENDING_ROOM = 0x12000  # bytes from ENDING_LOAD the relocated roll may reach (docs/re/text.md §Free space)
 
 JP = re.compile(r"[　-ヿ一-鿿！-ﾟ]")
 CLEAN = re.compile(r"[\x20-\x7e\n　-ヿ一-鿿！-￯‐-♯¥‾]+")
@@ -237,6 +240,7 @@ def write_back(name, data, rows, field="jp", encode=None, extra=None, tree=TREE)
         word = struct.unpack_from("<I", out, ENDING_REF)[0]
         assert word >> 26 == 0x09 and word & 0xFFFF == old & 0xFFFF, hex(word)
         struct.pack_into("<I", out, ENDING_REF, (word & 0xFFFF0000) | (new_addr & 0xFFFF))
+        out[ENDING:ENDING + room + 1] = bytes(room + 1)  # the old Japanese roll, now unreferenced (jp_left)
         out[len(out):] = bytes(at - len(out)) + new + bytes(4 - len(new) % 4)
         return bytes(out)
     if name == "SCENFILE.DAT":
@@ -283,6 +287,11 @@ def write_back(name, data, rows, field="jp", encode=None, extra=None, tree=TREE)
         elif inserts:
             raise ValueError("SCENFILE.DAT grew: pass extra={} to get the new SCENFILE.LEN")
         return bytes(out)
+    if name == "GUNHO.EXE":
+        pool = [r for r in rows if POOL[0] <= r["_off"] < POOL[1]]
+        if any(r[field] and len(enc_row(r)) >= r["_slot"] for r in pool):
+            out = repack_pool(out, data, pool, enc_row, field)
+            rows = [r for r in rows if r not in pool]
     for r in rows:
         if not r[field]:
             continue
@@ -292,6 +301,39 @@ def write_back(name, data, rows, field="jp", encode=None, extra=None, tree=TREE)
         o = r["_off"]
         out[o:o + r["_slot"]] = enc + bytes(r["_slot"] - len(enc))
     return bytes(out)
+
+
+def pool_refs(data):
+    """-> (RAM base, {pool string offset: [file offsets of the u32 words pointing at it]}). Raises if anything but
+    a data word points into the pool, or a word points inside a string."""
+    base = exe_base(data)
+    by = {}
+    for site, kind, addr in refs(data, base, base + POOL[0], base + POOL[1], (0x800, len(data))):
+        assert kind == "word", f"{kind} at {site:#x} points into the name pool ({addr:#x}): repack would break it"
+        by.setdefault(addr - base, []).append(site)
+    starts = sorted(by)
+    for a, b in zip(starts, starts[1:]):
+        assert a + len(cstr(data, a)) < b, f"pool ref into the middle of the string at {a:#x}"
+    return base, by
+
+
+def repack_pool(out, data, pool_rows, enc_row, field):
+    """The name pool rewritten back to back (byte-aligned; every reader uses lbu) and each pointer word updated.
+    Unreferenced bytes are dropped; strings without a row (ASCII model names) keep their bytes."""
+    base, by = pool_refs(data)
+    at = {r["_off"]: r for r in pool_rows}
+    pos = POOL[0]
+    out[POOL[0]:POOL[1]] = bytes(POOL[1] - POOL[0])
+    for o in sorted(by):
+        r = at.get(o)
+        b = enc_row(r) if r and r[field] else cstr(data, o)
+        if pos + len(b) + 1 > POOL[1]:
+            raise ValueError(f"name pool full: {r['id'] if r else hex(o)} needs {pos + len(b) + 1 - POOL[1]} more bytes")
+        out[pos:pos + len(b)] = b
+        for site in by[o]:
+            struct.pack_into("<I", out, site, base + pos)
+        pos += len(b) + 1
+    return out
 
 
 # --- TSV ----------------------------------------------------------------------------------------------------------

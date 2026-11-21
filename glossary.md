@@ -125,7 +125,7 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | ラグボール | Rug Ball | | | |
 | ラグライダー | Rug Rider | | | |
 | プレーヤーユニット | player unit | | objectives | |
-| クロームデビル | Chrome Devil | | | |
+| クロームデビル | Chrome Devil / Chrome Dvl | | Chrome Dvl only as the unit name in the battle hover box (10 chars, D12) | |
 | ジャンキー | Junkie | | | |
 | ドラグーン | Dragoon | | | |
 | マスタング | Mustang | | | |
@@ -134,7 +134,7 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | アパッチ | Apache | | | |
 | シャイアン | Cheyenne | | | |
 | コマンドー | Commando | | | |
-| コマンドシップ | Command Ship | | | |
+| コマンドシップ | Command Ship / Cmd Ship | | Cmd Ship only as the unit name (11-byte slot, hover box 10 chars, D12) | |
 | トマホーク | Tomahawk | | | |
 | アムトラック | Amtrac | | | |
 | ハーキュリーズ | Hercules | | | |
@@ -160,7 +160,7 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | １０１騎兵旅団 | 101st Cavalry Brigade | | Oldman's brigade, called the Gungho Brigade | |
 | ドラグーン２ | Dragoon 2 | | | |
 | マスタングＨ | Mustang H | | Maiko's one-off custom | |
-| スーパーコブラ | Super Cobra | | | |
+| スーパーコブラ | Super Cobra / SuperCobra | | SuperCobra only as the unit name (hover box 10 chars, D12) | |
 | エゼキエル | Ezekiel | | enemy unit | |
 | ロスコウ | Roscoe | | enemy unit | |
 | ハンバー | Humber | | enemy artillery | |

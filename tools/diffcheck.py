@@ -14,6 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract as x  # noqa: E402
+import smallfont  # noqa: E402
 from digraph import BITMAPS, LISTS  # noqa: E402
 
 OVERLAY = x.ROOT / "work/build/files"
@@ -36,17 +37,38 @@ def file_ranges(name, rows, data):
     if name == "ENDING.BIN":
         blob = x.cstr(data, x.ENDING)
         rs += [(x.ENDING, (x.ENDING + len(blob) + 4) & ~3), (x.ENDING_REF, x.ENDING_REF + 4)]
+    if name == "GUNHO.EXE":  # repacked name pool + its pointer words
+        rs += [x.POOL] + [(s, s + 4) for sites in x.pool_refs(data)[1].values() for s in sites]
     for font, copies in BITMAPS.items():
         for fname, off in copies:
             if fname == name:
                 rs.append((off, off + 22 * LISTS[font][2]))
-    return rs
+    return rs + smallfont.ranges(name)
 
 
-def check_scen(rows, tree, verbose):
-    old, new = (tree / "SCENFILE.DAT").read_bytes(), (OVERLAY / "SCENFILE.DAT").read_bytes()
+def ending_tail(old, new):
+    """Problems with ENDING.BIN growth: only the relocated roll may be appended (extract.write_back), at the 4-aligned
+    old end, NUL-terminated with < 4 bytes of zero padding, and the addiu at ENDING_REF must point at it."""
+    if len(new) <= len(old):
+        return []
+    at = (len(old) + 3) & ~3
+    blob = x.cstr(new, at) if b"\0" in new[at:] else new[at:]
+    pad = new[at + len(blob):]
+    word = struct.unpack_from("<I", new, x.ENDING_REF)[0]
+    bad = []
+    if any(new[len(old):at]) or not blob or len(pad) > 4 or any(pad):
+        bad.append("ENDING.BIN: appended bytes are not one NUL-terminated roll")
+    if word & 0xFFFF != (x.ENDING_LOAD + at) & 0xFFFF:
+        bad.append(f"ENDING.BIN: addiu at {x.ENDING_REF:#x} does not point at the appended roll")
+    if at + len(blob) >= x.ENDING_ROOM:
+        bad.append("ENDING.BIN: roll runs past the load buffer")
+    return bad
+
+
+def check_scen(rows, tree, overlay):
+    old, new = (tree / "SCENFILE.DAT").read_bytes(), (overlay / "SCENFILE.DAT").read_bytes()
     lo = struct.unpack(f"<{len((tree / 'SCENFILE.LEN').read_bytes()) // 4}I", (tree / "SCENFILE.LEN").read_bytes())
-    lpath = OVERLAY / "SCENFILE.LEN"
+    lpath = overlay / "SCENFILE.LEN"
     ln = struct.unpack(f"<{len(lo)}I", lpath.read_bytes()) if lpath.exists() else lo
     oe, ne = list(lo[1:]) + [len(old)], list(ln[1:]) + [len(new)]
     ovl_of = {}
@@ -76,23 +98,26 @@ def check_scen(rows, tree, verbose):
     return bad
 
 
-def main():
-    verbose = "-v" in sys.argv
+def main(overlay=OVERLAY, verbose=None):
+    verbose = "-v" in sys.argv if verbose is None else verbose
     tree = x.TREE
     rows = [r for rs in x.all_rows(tree).values() for r in rs]
     bad = 0
-    for path in sorted(p for p in OVERLAY.rglob("*") if p.is_file()):
-        name = path.relative_to(OVERLAY).as_posix()
+    for path in sorted(p for p in overlay.rglob("*") if p.is_file()):
+        name = path.relative_to(overlay).as_posix()
         if name == "SCENFILE.LEN":
             continue
         if name == "SCENFILE.DAT":
-            n = check_scen(rows, tree, verbose)
+            n = check_scen(rows, tree, overlay)
         else:
             old, new = (tree / name).read_bytes(), path.read_bytes()
             hits = outside(old, new, file_ranges(name, rows, old), grow_at=len(old) if name == "ENDING.BIN" else None)
-            n = len(hits)
+            tail = ending_tail(old, new) if name == "ENDING.BIN" else []
+            n = len(hits) + len(tail)
             if hits:
-                print(f"{name}: {n} bytes outside allowed ranges, first at {hits[0]:#x}")
+                print(f"{name}: {len(hits)} bytes outside allowed ranges, first at {hits[0]:#x}")
+            for t in tail:
+                print(t)
         bad += bool(n)
         if verbose or n:
             print(f"{name}: {'BAD' if n else 'ok'}")

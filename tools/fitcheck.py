@@ -40,8 +40,14 @@ def overflows(tree=x.TREE):
         _, grow = x.scen_layout(enc, group[0]["_off"], group[0]["_end"], ovl_len)
         if ovl_len + grow > x.OVL_MAX:
             over["SCENFILE.DAT"].append((group[0]["id"][:3], ovl_len + grow, x.OVL_MAX))
+    exe = [r for r in rows if r["_file"] == "GUNHO.EXE"]
+    try:  # the name pool is repacked as a whole (extract.repack_pool): only its total size can overflow
+        x.write_back("GUNHO.EXE", (tree / "GUNHO.EXE").read_bytes(), exe, field="new", encode=encode, tree=tree)
+    except ValueError as e:
+        if str(e).startswith("name pool"):
+            over["GUNHO.EXE"].append(("name pool", str(e), x.POOL[1] - x.POOL[0]))
     for r in rows:
-        if not r["new"] or "_ovl" in r:
+        if not r["new"] or "_ovl" in r or r["_file"] == "GUNHO.EXE" and x.POOL[0] <= r["_off"] < x.POOL[1]:
             continue
         n = len(encode(r))
         if r["_slot"] is None:

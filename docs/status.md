@@ -2,11 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: next (phase 7 done 2026-11-22). Last build: build/gungho_en.bin 2026-11-22 =
-  **full English** (`insert.py` + `build.py`), sha1 3e2e9bc16c7bf24174ed0750226a90636741e833, smoke ok. States in
-  work/states/ = English build (`warp.py --all` 46/46 ok; e34 and s14 regenerated on the final build, the rest on the
-  build just before it, which differed only in ENDING.BIN).
+- **Phase:** 8. QA in the emulator: next (phase 7 done 2026-11-22, review fixes done). Last build:
+  build/gungho_en.bin 2026-11-22 = **full English**, sha1 78135af0e3408cc0b6faa267e48aa78f17c578f5, smoke ok. States
+  in work/states/ regenerated on this build (`warp.py --all`).
 - **Done:**
+  - Phase 7 review fixes (2026-11-22, seventh session; ../.harness/reviews/gungho-brigade-en-phase7.md): small font
+    now 6 px per char (tools/smallfont.py: 3 advance immediates + ASCII glyphs from font5 in both font TIMs; RE in
+    docs/re/text.md §Small font), GUNHO.EXE name pool repacked (extract.repack_pool, word-only refs asserted) so 20
+    shortened names are full again; name width is a hard lint error per window (`NAME_BUDGET`, docs/windows.md
+    re-measured at 6 px: hover 10, STATUS pilot 14 / budget 12, skill 13, weapon 12 guess); glossary lint NFKC-normalises
+    half-width JP; `batches.py check -v` fixed; six hover-box names still short (D12, docs/polish.md).
+    tests/test_diffcheck.py (in the pre-commit check): clean insert passes, flipped EXE / overlay-code byte and junk
+    after ENDING.BIN fail, smallfont ranges, pool and overlay-text reference claims. diffcheck bounds ENDING growth to
+    the relocated roll; the old roll is zeroed; font writes read the overlay copy (no clobber); docstrings fixed.
+    Not done (review Minor 9, optional): write log.
   - Phase 7 (2026-11-22, sixth session): `fitcheck.py` exits 0, `build.py` gates on new `tools/diffcheck.py` (per-file
     romdiff: changed bytes only in text slots / pointer tables / font bitmaps / relocated tails; negative-tested),
     tests/test_fit.py gates commits on fit, tests for overlay growth and ENDING relocation. How it fits:
@@ -104,7 +113,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   exec`, quota back 2026-11-26), `qa_gate.py check` exit 0; graphics-text rows English in zoomed cold-boot shots (chapter
   cards, game over, credits) per D5; `inkbox.py` on choice/centred boxes; stress saves (`save.py`: longest names,
   full lists, max numbers); `textcover.py` exit 0. Specific checks owed:
-  - small-font names in battle hover box / weapon list / STATUS / TUNE UP (shortened, D9; docs/polish.md list); try
+  - small-font names at the new 6-px pitch in battle hover box / weapon list (measure: budget 12 is a guess) /
+    STATUS / TUNE UP / ability list, incl. the repacked pool names (Ambidextrous, Maintenance...) and kana-free text;
+    any screen that still draws small-font text at 8 px (a fourth loop) shows up as wide spacing. Try
     pairs for table_00440 ("Fast"); memory-card messages (title GAME LOAD, intermission GAME SAVE: 18 chars/line).
   - s35's grown overlay: its own roll/sound-list strings (s35_0004.., s35_0420..) were never seen on screen (s35 warp
     shows the ENDING.BIN roll); textcover will tell if anything reads them.

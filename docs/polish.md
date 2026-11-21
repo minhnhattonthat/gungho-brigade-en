@@ -26,12 +26,14 @@ Minor issues and open questions from translation and review. Tick (`[x]`) when r
 - [ ] Victory/Defeat rows: continuation-line indent is lost when auto-wrap breaks a line itself (e.g. s10 "or wipe out the/enemy", s30_00a4); cosmetic, check on the objective screen in phase 8.
 - [ ] gunho_821dc 両手利き "Ambidexter" is rare; "Ambidextrous" if the 10-char skill budget allows.
 - [ ] gunho_8204c ﾗｸﾞﾎﾞｰﾙ "Rug Ball" is a guess at the weapon name; check the weapon in battle.
-- [ ] Phase 7 shortened small-font names (D9; slot 7 unless noted), check each in battle / STATUS / TUNE UP and
-  restore any that a wider spot allows: Commndo, TomhwkC, Tomahwk, ApacheA/B, ApachA2/B2, Cheyenn, MustngH/D, 105@Gun,
-  75@Rfl, Rugball, Dual / Dual W / DblTap, Crit, Ambidex, Maint, Morph (変形), NoEquip, Fxd (固定, slot 3), L Arm, R Arm,
-  Away (欠, slot 5); slot 11: Condenser, Cond Round, 20@MG, 30@MG, 88D2/88PM/88@/90@/75@ Mag, Randall Mag,
-  Yank Apache, Cmd Ship, ChromeDevil, Shock Atk, Msl Guard; "<unit> Maint" (整備中) rows; pilot_002 "Chavez Ralph"
-  (JP ･ separator; no & glyph).
+- [ ] Small-font names still short (D12; the pool names Commando, Tomahawk (C), Apache A/B/A2/B2, Cheyenne, Mustang
+  H/D, Rug Ball, 75@Rifle, Critical, Double Tap, Ambidextrous, Fixed, No Equip, Left/Right Arm, Maintenance are back
+  in full). Hover box 10 chars: YankApache, CloneDevil, Chrome Dvl, C Dragoon2, SuperCobra, Cmd Ship (slot 11). Slot
+  11 (rows 0x1d80-0x1f30, word-only refs, could be pooled like 0x82024): Condenser, Cond Round, 20@MG, 30@MG,
+  88D2/88PM/88@/90@/75@ Mag, Shock Atk, Msl Guard; pool rows Dual / Dual W, Morph, Away (欠). Widening the hover box
+  (GUNHO.EXE 0x80023040 caller) would restore the first six.
+- [ ] Small font at 6 px: STATUS pilot name is centred for 8 px per char, so it sits n px right of centre (patch the
+  centring in TABLE.BIN to 3n); weapon-list budget (12) is a guess from the 8-px shot, measure it.
 - [ ] Small font: add `.`, `-`, `&`, `'` glyphs (GAMEDATA 265 +0x3274 and the TABLE/MENU.DAT +0x29000 copy) and
   restore "Cmd. Ship", "Anti-Missile", "Chavez & Ralph".
 - [ ] table_00440 短縮 = "Cut" (3 fullwidth chars). Try digraph pairs there (the battle config may draw with the GUNHO

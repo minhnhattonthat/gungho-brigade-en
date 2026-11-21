@@ -5,7 +5,11 @@
 Rewrites work/build/files/ (build.py swaps those files in). Text per row: `--qa` override, else the marker (with
 --marker), else the TSV `en` column; rows with none keep their Japanese bytes. Rows whose Japanese is half-width only
 (unit, weapon, pilot names, battle messages: the small 8x12 font) are written as plain ASCII; MENU.EXE / SLPS /
-MENUMV rows as fullwidth Latin (see FULLWIDTH_FILES); all other rows go through the digraph font (tools/digraph.py). In-place only: a string longer than its slot fails the build.
+MENUMV rows as fullwidth Latin (see FULLWIDTH_FILES); all other rows go through the digraph font (tools/digraph.py).
+Where strings go (extract.write_back): EXE/TABLE/pilot rows in place (longer than the slot fails the build), except
+the GUNHO.EXE name pool, which is repacked with its u32 pointers rewritten; a SCENFILE overlay whose strings don't fit
+is repacked and may grow by whole sectors; the ENDING.BIN roll moves to the file end when it outgrows its blob.
+Then the digraph font bitmaps and the small-font pitch/glyphs (tools/smallfont.py) go onto the written files.
 
 Marker (phase 5): each line becomes filler of the same half-cell width as the Japanese line, with `[id]` at the start
 of the widest line, so every box shows which row it is without growing; markers never take more bytes than the JP.
@@ -18,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract as x  # noqa: E402
+import smallfont  # noqa: E402
 from digraph import BITMAPS, RAW, Digraph, units  # noqa: E402
 from sjis import SJIS  # noqa: E402
 
@@ -118,13 +123,21 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE):
             dest.parent.mkdir(parents=True, exist_ok=True)
             dest.write_bytes(blob)
             written.append(fname)
+    def current(name):  # the overlay copy when text was already written to it, so a font write never undoes it
+        dest = overlay / name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        return dest, (dest if dest.exists() else tree / name).read_bytes()
+
     for font, copies in BITMAPS.items():
         for name, off in copies:
-            dest = overlay / name
-            dest.parent.mkdir(parents=True, exist_ok=True)
-            dest.write_bytes(dg.patch_font(font, (tree / name).read_bytes(), off))
+            dest, data = current(name)
+            dest.write_bytes(dg.patch_font(font, data, off))
             written.append(name)
-    return written, dg
+    for name in smallfont.files():
+        dest, data = current(name)
+        dest.write_bytes(smallfont.patch(name, data))
+        written.append(name)
+    return sorted(set(written)), dg
 
 
 def main():

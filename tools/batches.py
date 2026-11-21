@@ -14,6 +14,7 @@ final string tools/insert.py encodes.
 import re
 import sys
 import textwrap
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -39,7 +40,8 @@ FULLWIDTH_FILES = {"menu", "slps", "menumv", "table"}
 # roll = stage 35's own staff roll (scen_s35 from 0x420): shortcut: 48 wide like ENDING.BIN, line count unmeasured; check at the s35 warp (credits ~frame 7000).
 BOX = {"dlg": (42, 3), "help": (50, 1), "credit": (48, 1), "roll": (48, 6), "full": (18, 5)}
 FULL_LIMIT = {"table_00430": 6, "table_00440": 4, "table_11800": 32}  # 11800 = card save title (JP length)
-NAME_BUDGET = {"pilot": 7, "weapon": 9, "unit": 8, "skill": 10}  # small font, display chars (soft: phase 7 engine work)
+# small font at the 6-px pitch (tools/smallfont.py): chars per window, docs/windows.md
+NAME_BUDGET = {"pilot": 12, "weapon": 12, "unit": 10, "skill": 13}
 
 
 def form_of(fname, row):
@@ -136,10 +138,31 @@ def compose(entry, body, names=None):
     return entry["pre"] + head + "/".join(lines) + entry["post"]
 
 
+def name_budget(entry):
+    """Chars the small-font window drawing this name holds (NAME_BUDGET), by where the string lives; None = no
+    measured window (debug-only battle messages, TABLE.BIN labels): the slot is the only limit."""
+    i = entry["id"]
+    if i.startswith("pilot_"):
+        return NAME_BUDGET["pilot"]
+    if not i.startswith("gunho_"):
+        return None
+    o = int(i.split("_")[1], 16)
+    if o < 0x1D80:
+        return None  # gunho_00824/834/840: sprintf'd into buffers nothing shows (docs/windows.md)
+    if o < 0x1E40 or 0x81000 <= o < 0x820A4:
+        return NAME_BUDGET["weapon"]
+    if o < 0x1F30 or 0x820A4 <= o < 0x82184:
+        return NAME_BUDGET["unit"]
+    return NAME_BUDGET["skill"]  # skills 0x1fc8-0x2390, abilities/parts 0x82184+
+
+
 def width_problems(entry, en):
     f = entry["form"]
     if f == "name":
-        return []  # soft: see name_notes()
+        lim = name_budget(entry)
+        if lim:  # or no wider than the Japanese drew (8 px per cell, dakuten precomposed): no new overflow
+            lim = max(lim, 8 * len(entry["jp"].strip().replace("ﾞ", "").replace("ﾟ", "")) // 6)
+        return [f"name over {lim} chars ({len(en)}): {en!r}"] if lim and len(en) > lim else []
     if f == "full":
         lim = FULL_LIMIT.get(entry["id"], 18)
         lines = BREAK.split(en)
@@ -220,8 +243,9 @@ def problems(entry, en, terms):
     if re.search(VARIABLE + r"(st|nd|rd|th)\b", en):
         out.append('ordinal suffix after a variable (write "No. %d")')
     en_terms = " ".join(BREAK.sub(" ", en).split()).lower()
+    norm = unicodedata.normalize("NFKC", jp)  # half-width kana names (small font) -> the glossary's katakana
     for jps, ens, avoid in terms:
-        if any(has_term(jp, j) for j in jps) and not any(" ".join(e.split()).lower() in en_terms for e in ens):
+        if any(has_term(norm, j) for j in jps) and not any(" ".join(e.split()).lower() in en_terms for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
     for jp_form, en_form in HONORIFICS.items():
@@ -330,18 +354,6 @@ def merge(new, overwrite):
     print(f"merged: {changed} entries changed")
 
 
-def name_notes(entries):
-    """Small-font names longer than their measured display budget: phase 7 engine work (D4: no abbreviations)."""
-    out = []
-    for e in entries.values():
-        if e["form"] == "name" and e.get("en"):
-            cat = ("pilot" if e["id"].startswith("pilot_") else "weapon" if "ﾏｶﾞｼﾞﾝ" in e["jp"] or "@" in e["jp"]
-                   else "unit")
-            if len(e["en"]) > NAME_BUDGET[cat] or len(e["en"]) > int(e["max"]):
-                out.append(f"{e['id']}: {e['en']!r} {len(e['en'])} chars (budget ~{NAME_BUDGET[cat]}, slot {e['max']}B)")
-    return out
-
-
 def main(argv):
     if not argv:
         sys.exit(__doc__)
@@ -356,14 +368,12 @@ def main(argv):
         print(problems(entries[args[0]], compose(entries[args[0]], args[1], names), terms) or "OK")
         return 0
     overwrite = "--overwrite" in args
-    batch_names = [a for a in args if a != "--overwrite"]
+    batch_names = [a for a in args if not a.startswith("-")]
     if cmd == "check" and not batch_names:
         bad = [f"{i}: {p}: {e['en']!r}" for i, e in entries.items() if e.get("en") for p in problems(e, e["en"], terms)]
         done = sum(1 for e in entries.values() if e.get("en"))
         print(f"{len(entries)} entries, {done} translated, {len(bad)} problems")
         print("\n".join(bad[:200]))
-        if "-v" in args:
-            print("\n".join(name_notes(entries)))
         return 1 if bad else 0
     if cmd not in ("check", "merge") or not batch_names:
         sys.exit(__doc__)
