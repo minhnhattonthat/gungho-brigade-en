@@ -7,6 +7,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   build/gungho_en.bin 2026-11-22 = **marker build + glyph torture** (`insert.py --marker --qa ...`); states in
   work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
 - **Done:**
+  - Phase 6 review fixes (2026-11-22, phase 7 session; review ../.harness/reviews/gungho-brigade-en-phase6.md):
+    compose() now writes `{n}` for every fullwidth break (5 memory-card rows printed a literal `/`; lint rejects `/`
+    in full rows); s00_0078 "- Battle/Fast/Status display", glossary 戦闘シーン/短縮 split into two rows; briefs
+    docs/reviewer-brief.md + story-reviewer-brief.md copied; `pairs.py` also writes work/qa/nonstory/ (non-story
+    pairs), read in full: report work/qa/story/reports/nonstory.md (ending_106 "Modeling" fixed, 2 minors to polish).
+    Still owed: an **independent** reader (codex exec, quota back 2026-11-26) over the 36 chapters + non-story pairs
+    before release (phase 9); current verdicts are self-review.
   - Phase 6 finished (2026-11-22, fifth session): review pass s08-s35 (self pass, Codex out of quota), verdicts in
     work/qa/story/verdicts/ (all 36 current). ~45 fixes: meaning (s21_0100 luck ran out, s32_0490, s31_0880, s27_0d70
     "to the east", s14_0af4), wording, goal rows ("or enemy wiped out"), US spelling everywhere (armor, favor,

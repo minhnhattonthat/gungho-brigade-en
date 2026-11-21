@@ -204,6 +204,7 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | 行動ポイント | action points | | (not "AP": s05 "AP rounds" = armour-piercing) | |
 | ｼﾞｹｲﾀﾞﾝｲﾝ / ｸｳﾃｲ / ﾑｼﾞﾝ | Vigilante / Paratrooper / Unmanned | | pilot names | |
 | メモリーカード | Memory Card | | | |
-| ○戦闘シーン / 短縮 | Battle / Fast | 6 / 4 | config option and value | |
+| ○戦闘シーン | Battle | 6 | config option | |
+| 短縮 | Fast | 4 | config value | |
 
 ## Decisions from earlier batches

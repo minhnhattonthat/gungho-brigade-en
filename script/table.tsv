@@ -26,8 +26,8 @@ table_1166c	71	上書きしてもよろしいですか？{n}{n}上書きする�
 table_116b4	95	メモリーカードが{n}フォーマットされていません。{n}{n}フォーマットする時は{n}○ボタンを押してください。	The Memory Card{n}is not formatted.{n}{n}To format it,{n}press Circle.	
 table_11714	79	メモリーカードを{n}フォーマット中です・・・{n}{n}メモリーカードを抜かないでください。	Formatting the{n}Memory Card...{n}{n}Do not remove the{n}Memory Card.	
 table_11764	31	フォーマットに失敗しました。	Format failed.	
-table_11784	35	メモリーカードが差さっていません。	No Memory Card/inserted.	
-table_117a8	35	データの書き込みに失敗しました。	Failed to save/the data.	
+table_11784	35	メモリーカードが差さっていません。	No Memory Card{n}inserted.	
+table_117a8	35	データの書き込みに失敗しました。	Failed to save{n}the data.	
 table_117cc	51	空きブロック数が足りません。{n}セーブを中止します。	Not enough free{n}blocks.{n}Save canceled.	
 table_11800	67	Ｇｕｎｇｈｏ　Ｂｒｉｇａｄｅ　第００話までクリア　００時間００分	Gungho Brigade #00 clear 00h 00m	
 table_11844	39	Ｇｕｎｇｈｏ　　Ｍｏｖｉｅ　　＃００	Gungho  Movie  #00	

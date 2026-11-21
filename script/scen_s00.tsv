@@ -1,5 +1,5 @@
 id	max	jp	en	notes
-s00_0078	35	○戦闘シーン/短縮/ステータス表示	- Battle scenes/Shortened/Status display	
+s00_0078	35	○戦闘シーン/短縮/ステータス表示	- Battle/Fast/Status display	
 s00_009c	71	目的      ：赤く指定された領域への移動/特殊ルール：移動以外の行動の禁止	Goal: Move into the area marked in red/Special rule: No actions other than moving	
 s00_00e4	115	  ユニットを、赤く表示された領域へ移動する/ようにプロットをしてください。/  移動以外の行動はプロットできません。	  Plot your unit's move so that it ends in/the area shown in red./ You can plot no action other than moving.	
 s00_0158	39	敗北条件  ：プレーヤーユニットの撃破	Defeat: Player unit destroyed	

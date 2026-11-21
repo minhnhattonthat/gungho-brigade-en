@@ -119,7 +119,9 @@ def compose(entry, body, names=None):
     f = entry["form"]
     if f != "dlg":
         # a standalone `/` is a break; "a / / b" = an empty line between
-        return re.sub(r" ?(?<!\S)/(?!\S) ?", "{n}" if "{n}" in entry["jp"] else "/", body.strip())
+        # the fullwidth renderer only breaks on {n}; `/` there would print a slash
+        brk = "{n}" if f == "full" or "{n}" in entry["jp"] else "/"
+        return re.sub(r" ?(?<!\S)/(?!\S) ?", brk, body.strip())
     names = speakers() if names is None else names
     head = ""
     if entry["speaker"]:
@@ -141,7 +143,8 @@ def width_problems(entry, en):
     if f == "full":
         lim = FULL_LIMIT.get(entry["id"], 18)
         lines = BREAK.split(en)
-        return [f"line over {lim}: {ln!r}" for ln in lines if len(ln) > lim]
+        slash = ["'/' is not a break in fullwidth text (use {n})"] if "/" in en else []
+        return slash + [f"line over {lim}: {ln!r}" for ln in lines if len(ln) > lim]
     w, n = BOX[f]
     lines = BREAK.split(en)
     while lines and lines[-1] == "":
