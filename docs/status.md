@@ -2,11 +2,23 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (dialogue tour gate passes; roll + captions done; menus, command
-  buttons, stress saves, textcover left). Last build: build/gungho_en.bin 2026-11-22 sha1 de1e747c (roll split +
-  captions), smoke ok. States in work/states/ are from the phase 7 build (regen with `warp.py --all --cue
-  build/gungho_en.cue` before menu QA: GAMEDATA changed).
+- **Phase:** 8. QA in the emulator: in progress (menus + stress saves done, menu gate passes; final dialogue re-tour,
+  tour gate re-init and textcover left). Last build: build/gungho_en.bin 2026-11-22 sha1 8591fa79. States in
+  work/states/ for s01 s02 s30 s34 title* i08* go08* are from 8591fa79/7de18f57 (text-only diffs since b72aa484);
+  the rest from de1e747c (regen `warp.py --all --cue build/gungho_en.cue` if a scene matters).
 - **Done:**
+  - Phase 8, fourth session (2026-11-22): menu + stress QA on the battle/intermission/title screens (play.py sessions
+    work/play/mf, m34, h1; JP refs work/play/jp1, work/qa/jp_cfg). Manifest work/qa/menus/manifest.tsv (11 sheets,
+    `qa_gate init ... work/qa/menus --glob "*.png" --build`), verdicts work/qa/menus/verdicts/self_001.tsv, check exits 0
+    for 8591fa79. Fixes: battle config window row 2 (短縮) is drawn over the open "Config" button (JP too) and the
+    window uses the GUNHO font (no fullwidth J Q R V Y Z b f j q v x y): row 1 "Fast", row 2 blank (D14, batches
+    BLANK_OK + GUNHO_FULL lint, insert writes a fullwidth space). Help line widened lone 0x20 to 12 px: GUNHO.EXE pair
+    rows now `aligned` (insert.aligned, used by fitcheck), 2 help rows reworded to fit. Ability box 11 chars
+    (Ambidexter), Eqip Part column 6 (Right/Left/Pistol/Locked; s02_0150 tutorial says "Left"), Unit-tab header stops
+    at 0x20 -> small-font spaces written as 0xA0, cell blanked by smallfont.py (D15, tests/test_insert.py). Memory-card
+    messages use the menu font everywhere (all letters present). Stress save work/saves/stress_late.mcd (stage 34,
+    99h58m; made with tools/lua/poke.lua over the i08 save route): save grid, overwrite prompt, GAME LOAD list ok.
+    Graphics survey re-confirmed: title, Game over, intermission art, command buttons all English.
   - Phase 8, third session (2026-11-22):
     - Verdicts round 2: all 41 sheets read (self pass), work/qa/tour/verdicts/chunk_304b3673b140_00N.tsv +
       round2_followup.tsv (s07_0004 seen as s07_sheet_2's repeated last tile). s35 sheets: forced box is garbage
@@ -158,26 +170,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
 - **Next (phase 8, QA):**
-  1. Command buttons (gfx_labels) in a zoomed shot on the build: warp s01, circle on own unit, circle on a square
-     (command menu); the system menu (circle on empty ground) for the right column.
-  2. Menu/system screens on the English build: regen states (`warp.py --all --cue build/gungho_en.cue`), warp
-     scenes i08_*, title_load, go08*, e34 -> a second manifest (work/qa/menus/, `qa_gate init ... --build`) with
-     verdicts; `inkbox.py` on centred boxes; stress saves (save.py: longest names, full lists, max numbers).
-  3. Textcover: the digraph codes were reassigned (1102 pairs now), so every key in build/strings.tsv changed since
-     the tour; the tour logs still match the old copy work/qa/tour/scen_strings.tsv. Before release: re-run the full
-     tour on the final build (`tour.py --jobs 7`, ~1 h), `qa_gate init --build` (sheets unchanged keep verdicts),
-     regenerate scen_strings from build/strings.tsv, textcover exit 0. Waive s35_* (never drawn in play; s35_08bc is
-     the one row the forced tour logged no key for) and boot/debug strings (slps/menumv errors, gunho_00824/834/840).
-  4. Graphics-text survey (docs/re/graphics.md): captions and command buttons were the only Japanese graphics; the
-     tale cards, Game over and logos are English already. Re-confirm in the cold-boot shots of item 2.
-  Specific checks owed:
-  - small-font names at the new 6-px pitch in battle hover box / weapon list (measure: budget 12 is a guess) /
-    STATUS / TUNE UP / ability list, incl. the repacked pool names (Ambidextrous, Maintenance...) and kana-free text;
-    any screen that still draws small-font text at 8 px (a fourth loop) shows up as wide spacing. Try
-    pairs for table_00440 ("Fast"); memory-card messages (title GAME LOAD, intermission GAME SAVE: 18 chars/line).
-  - s35's grown overlay: its own roll/sound-list strings (s35_0004.., s35_0420..) were never seen on screen (s35 warp
-    shows the ENDING.BIN roll); textcover will tell if anything reads them.
-  - the "…" glyph in dialogue is checked (s14 --qa shot); help line (gunho_* descriptions) not yet seen in English.
+  1. Final dialogue re-tour on 8591fa79 (`tour.py --jobs 7`, started in the fourth session; log
+     work/qa/tour_run.log), then `qa_gate.py init work/qa/tour/manifest.tsv work/qa/tour --glob "*sheet*.png" --build
+     build/gungho_en.bin` (unchanged sheets keep verdicts; s00/s02/s05 rows changed: re-read those sheets), check 0.
+  2. Textcover: regenerate work/qa/tour/scen_strings.tsv = build/strings.tsv rows s00-s35, run `textcover.py
+     work/qa/tour work/qa/tour/scen_strings.tsv`, waive s35_* never drawn (s35_08bc) with a reason. Non-stage strings
+     (gunho/pilots/table/menu/ending): run the menu routes with textcover.lua (`--debugger --script
+     tools/lua/textcover.lua --var "TEXT_SKIP_PC='8002B984,8003458C'"`) or waive them citing work/qa/menus. Then
+     phase 8 is done -> phase 9.
+  Notes: battle Goals screen not reached from the system menu (flaky; same objective boxes as battle start, toured).
+  Battle system menu: square, left*10, cross, circle (sometimes needs a retry of the step). s35 overlay strings never
+  drawn in play (s35 warp shows the ENDING.BIN roll).
   Story verdicts are stale for s00/s05/s06/s11/s14/s20/s21/s26/s27 + nonstory (phase 7 rewording): rerun `pairs.py`,
   `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, re-read changed pages, rewrite
   verdicts (phase 9 gate, with the independent reader). s08_078c/07e8/0870/08f0 not seen in the s08 intro tour.
