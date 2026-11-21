@@ -2,11 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (dialogue tour done for s00-s34, verdicts + captions next). Last
-  build: build/gungho_en.bin 2026-11-22 sha1 49b6d4e902d51bbefa13eda309cccb48de8a244d (command buttons + s04_0160),
-  smoke ok. States in work/states/ are from the phase 7 build (regen with `warp.py --all --cue build/gungho_en.cue`
+- **Phase:** 8. QA in the emulator: in progress (tour verdicts round 1 done, 41 re-toured sheets to re-read). Last
+  build: build/gungho_en.bin 2026-11-22 sha1 7e91f4bb42663fff235d5dc00bc9ea4506918ec7 (tour round-1 fixes), smoke
+  ok. States in work/states/ are from the phase 7 build (regen with `warp.py --all --cue build/gungho_en.cue`
   before menu QA: GAMEDATA changed).
 - **Done:**
+  - Phase 8, second session (2026-11-22): read all 72 tour sheets of build 49b6d4e9 (self pass, no reviewer
+    available), verdicts in work/qa/tour/verdicts/chunk_45585d3d0368_00N.tsv: 63 ok, 9 issue, all fixed in script:
+    s02_0538 grammar; one-word/unindented last lines in goal rows s05_0078, s10 victory x15, s13_005c, s30_00a4,
+    s31_01f0, s34_0024 (now 9-space indent like the JP); s07_0004 had been shot on the intro still (tours before the
+    repeat-first-string change: only s02/s09/s31 had it; every other stage's tile 1 was checked by eye and is fine).
+    Rebuilt (digraph pairs now 1103), full re-tour `tour.py --jobs 7` incl. s35 (all 36 ok, s35 90/90 forced).
+    `qa_gate init --build build/gungho_en.bin` -> 75 sheets, 41 without a current verdict (mostly each stage's last
+    page, which gained the repeated first-string tile, plus the fixed rows and 3 new s35 sheets).
+    Coverage list now includes s35: work/qa/tour/scen_strings.tsv = build/strings.tsv rows s00-s35 (2228);
+    textcover 2227/2228, only s35_08bc (credits row, FORCE logged at f20401 but no TEXT key) failing.
   - Phase 8, first session (2026-11-22):
     - `tools/tour.py [sNN..] --jobs 6`: per stage, cold boot + warp, the intro's first dialogue call
       (0x800506b0, blocks in the menu runner, returns via 0x8005075c) is re-entered once per pointer-table string
@@ -129,14 +139,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
 - **Next (phase 8, QA):**
-  1. **Verdicts for the dialogue tour:** manifest work/qa/tour/manifest.tsv (72 sheets, build 49b6d4e9) is
-     initialised; chunks work/qa/tour/chunks/chunk_45585d3d0368_000..008.txt (8 sheets each, ~1 k tokens per
-     sheet). Read each sheet whole per docs/visual-qa-brief.md, write work/qa/tour/verdicts/<chunk stem>.tsv
-     (`id<TAB>ok|issue<TAB>note`), fix issues (tl_patch/batches merge, insert, build, `tour.py sNN` again, `qa_gate
-     init` again, recheck file), until `qa_gate.py check work/qa/tour/manifest.tsv work/qa/tour/verdicts` exits 0.
-     Tile -> id: the sheet.py line printed per sheet, or the t_<n>_<id> file names in sNN/ in order (40 per sheet).
-  2. s35 not toured: "timed" warp (staff roll); its rows s35_0004.. / s35_0420.. are roll form (48 wide), not
-     dialogue: see them via warp s35 (credits ~f7000) and add to coverage/waivers.
+  1. **Verdicts round 2:** 41 sheets of build 7e91f4bb, chunks work/qa/tour/chunks/chunk_304b3673b140_000..005.txt.
+     Read each whole per docs/visual-qa-brief.md, write work/qa/tour/verdicts/chunk_304b3673b140_00N.tsv; check the
+     fixed rows above and that each stage's extra last tile (first string again) shows a box. s35 sheets: roll-form
+     rows (48 wide) forced through the 42-wide dialogue box may overflow there by design (judge them in the real
+     roll via warp s35 instead). Then `qa_gate.py check work/qa/tour/manifest.tsv work/qa/tour/verdicts` must exit
+     0. Tile -> id: t_<n>_<id> file names in sNN/ in order (40 per sheet). Fix loop: scratch `id<TAB>body` TSV,
+     `tl_patch.py bNNN F`, `batches.py check`, `merge --overwrite`, insert, build, `tour.py sNN`, `qa_gate init`.
+  2. s35_08bc: find why textcover logs no TEXT key for it (roll row read by another PC?), or waive it after seeing
+     it in the warp s35 credits.
   3. Graphics (D5): FACE.DAT prologue captions (~23 8bpp 320x240 stills, offsets in docs/re/graphics.md, seen in the
      s02 intro ~f4500-f11000: white 12-px kanji with dark outline, bottom-left). Plan: dark band over the caption
      rect + English in DejaVu Sans (matplotlib's copy, Bitstream Vera licence: copy it to fonts/ + docs/fonts.md),

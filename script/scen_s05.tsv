@@ -1,7 +1,7 @@
 id	max	jp	en	notes
 s05_0004	39	勝利条件：「アムトラック」のマップ脱出	Victory: The Amtrac escapes the map	
 s05_002c	75	敗北条件：「アムトラック」の全滅、または/          プレーヤーユニットの撃破	Defeat: All Amtracs destroyed, or/         player unit destroyed	
-s05_0078	63	勝利条件：全プレーヤーユニットの表示エリア{n}          への到着	Victory: All player units reach the marked/         area	
+s05_0078	63	勝利条件：全プレーヤーユニットの表示エリア{n}          への到着	Victory: All player units reach the/         marked area	
 s05_00b8	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
 s05_00dc	79	ブレインズ/「アーツタノフの調律を狂わせてフォボスに…/まさか、そんなことが…」	Brains/"Throw Artsutanov's tuning off and drop/Phobos on it... That can't be..."	
 s05_012c	31	ダイブツ/「みんな、聞いて！」/	Daibutsu/"Everyone, listen!"/	

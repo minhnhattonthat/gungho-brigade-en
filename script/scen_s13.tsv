@@ -1,6 +1,6 @@
 id	max	jp	en	notes
 s13_0004	87	クリア条件：プレーヤーユニットに「ラグ/  ボール」を装備し、画面右のゴールへ到着/  する	Goal: Get a player unit holding the/ "Rug Ball" to the goal on the right	
-s13_005c	67	  もしくは、敵ユニットの全滅/  もしくは、プレーヤーユニットの全滅/	  or all enemy units destroyed/or all player units destroyed/	
+s13_005c	67	  もしくは、敵ユニットの全滅/  もしくは、プレーヤーユニットの全滅/	  or all enemy units destroyed/  or all player units destroyed/	
 s13_00a0	59	ダイブツ/「ボールが場外に出たから、まん中に置きなお/すよ」	Daibutsu/"The ball went out of bounds, so I'll put/it back in the middle."	
 s13_00dc	23	ビズリィ/「シャベス」	Bizley/"Chavez."	
 s13_00f4	19	シャベス/「ん？」	Chavez/"Hm?"	

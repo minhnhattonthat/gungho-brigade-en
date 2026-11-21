@@ -1,7 +1,7 @@
 id	max	jp	en	notes
 s30_0004	35	目的：ゲオルグ、ジェイコブの全滅/	Objective: Wipe out Georg and Jacob/	
 s30_0028	123	勝利条件：全プレーヤーユニット、もしくは/          全コマンドシップ、コマンドーの/          指定領域からのマップ外への脱出	Victory: All player units, or all Command/         Ships and Commandos, exit the/         map from the marked area	
-s30_00a4	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破	Defeat: Commando or Command Ship/         destroyed, or player unit/destroyed	
+s30_00a4	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破	Defeat: Commando, Command Ship or/         player unit destroyed	
 s30_00f4	83	ニーソン/「…艦隊を常に火星と太陽の間に置きながら/航宙してきた、というわけですか」	Neeson/"...So the fleet flew here keeping itself/between Mars and the Sun the whole way."	
 s30_0148	119	「どれだけの推進剤が必要だったか考えたくも/ありませんが、全天監視にかかりにくい上に、/赤外線による着弾観測も不可能…」	"I'd hate to think what propellant that/took. But it's hard to spot in an all-sky/watch, and no infrared ranging..."	
 s30_01c0	83	「『ウィンゲート』の虐殺のあと、急遽、立案/された策にしては、よくできています」/	"For a plan drawn up in a hurry after the/'Wingate' massacre, it's well made."/	

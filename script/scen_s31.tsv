@@ -7,7 +7,7 @@ s31_0114	71	目的：本ターン終了までに、ロスコウおよび/      �
 s31_015c	83	勝利条件：全コマンドシップ、コマンドーの/          指定領域からのマップ外への脱出	Victory: All Command Ships and Commandos/         exit the map from the marked area	
 s31_01b0	31	勝利条件：クロームデビルの撃破	Victory: Destroy the Chrome Devil	
 s31_01d0	31	勝利条件：クローンデビルの撃破	Victory: Destroy the Chrome Devil	
-s31_01f0	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破	Defeat: Commando or Command Ship/         destroyed, or player unit/destroyed	
+s31_01f0	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破	Defeat: Commando, Command Ship or/         player unit destroyed	
 s31_0240	95	ブレインズ/「あと１０分でキャラバンが到着します。/それまでに、マコーリフ内の敵を掃討します」	Brains/"The caravan's here in 10 minutes. By/then, we clear McAuliffe of enemies."	
 s31_02a0	47	ビズリィ/「ったく、人使いが荒いったらねぇな」	Bizley/"Jeez, they sure work us like dogs."	
 s31_02d0	35	マイコ/「ぼやかない、ぼやかない」/	Maiko/"No grumbling, no grumbling."/	

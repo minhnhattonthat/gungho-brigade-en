@@ -26,19 +26,19 @@ s10_0454	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"
 s10_0470	23	「私としたことが…」	"How unlike me..."	
 s10_0488	127	通信音「こちら、地球急行最終便。定刻どおり/発車。これで臨時便の運行はすべて終了した。/  残されし者に神の加護のあらん事を…」	Radio: "Last Earth Express, departing on/time. All special runs are over. May God/protect those left behind..."	
 s10_0508	43	ビズリィ/「くそぅ！  間に合わなかった!!」	Bizley/"Damn it! We didn't make it!!"	
-s10_0534	107	勝利条件：現ターン中に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area this turn, or wipe out the/enemy	
-s10_05a0	111	勝利条件：２ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 2 turns, or wipe out the/enemy	
-s10_0610	111	勝利条件：３ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 3 turns, or wipe out the/enemy	
-s10_0680	111	勝利条件：４ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 4 turns, or wipe out the/enemy	
-s10_06f0	111	勝利条件：５ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 5 turns, or wipe out the/enemy	
-s10_0760	111	勝利条件：６ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 6 turns, or wipe out the/enemy	
-s10_07d0	111	勝利条件：７ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 7 turns, or wipe out the/enemy	
-s10_0840	111	勝利条件：８ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 8 turns, or wipe out the/enemy	
-s10_08b0	111	勝利条件：９ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 9 turns, or wipe out the/enemy	
-s10_0920	111	勝利条件：１０ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 10 turns, or wipe out the/enemy	
-s10_0990	111	勝利条件：１１ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 11 turns, or wipe out the/enemy	
-s10_0a00	111	勝利条件：１２ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 12 turns, or wipe out the/enemy	
-s10_0a70	111	勝利条件：１３ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 13 turns, or wipe out the/enemy	
-s10_0ae0	111	勝利条件：１４ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 14 turns, or wipe out the/enemy	
-s10_0b50	111	勝利条件：１５ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/marked area in 15 turns, or wipe out the/enemy	
+s10_0534	107	勝利条件：現ターン中に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area this turn, or/         wipe out the enemy	
+s10_05a0	111	勝利条件：２ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 2 turns, or/         wipe out the enemy	
+s10_0610	111	勝利条件：３ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 3 turns, or/         wipe out the enemy	
+s10_0680	111	勝利条件：４ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 4 turns, or/         wipe out the enemy	
+s10_06f0	111	勝利条件：５ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 5 turns, or/         wipe out the enemy	
+s10_0760	111	勝利条件：６ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 6 turns, or/         wipe out the enemy	
+s10_07d0	111	勝利条件：７ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 7 turns, or/         wipe out the enemy	
+s10_0840	111	勝利条件：８ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 8 turns, or/         wipe out the enemy	
+s10_08b0	111	勝利条件：９ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 9 turns, or/         wipe out the enemy	
+s10_0920	111	勝利条件：１０ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 10 turns, or/         wipe out the enemy	
+s10_0990	111	勝利条件：１１ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 11 turns, or/         wipe out the enemy	
+s10_0a00	111	勝利条件：１２ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 12 turns, or/         wipe out the enemy	
+s10_0a70	111	勝利条件：１３ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 13 turns, or/         wipe out the enemy	
+s10_0ae0	111	勝利条件：１４ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 14 turns, or/         wipe out the enemy	
+s10_0b50	111	勝利条件：１５ターン以内に、全プレーヤー/          ユニットを指定領域から脱出させる/          もしくは敵の全滅	Victory: All player units escape the/         marked area in 15 turns, or/         wipe out the enemy	
 s10_0bc0	75	敗北条件：プレーヤーユニットの撃破、/          もしくは、制限ターン数の超過	Defeat: Player unit destroyed, or turn/         limit exceeded	

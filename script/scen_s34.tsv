@@ -1,6 +1,6 @@
 id	max	jp	en	notes
 s34_0004	31	勝利条件：クロームデビルの撃破	Victory: Destroy the Chrome Devil	
-s34_0024	79	勝利条件：敵全滅後に、全プレーヤーユニット{n}          を指定領域から脱出させる	Victory: After wiping out the enemy, get/         all player units out of the/marked area	
+s34_0024	79	勝利条件：敵全滅後に、全プレーヤーユニット{n}          を指定領域から脱出させる	Victory: Wipe out the enemy, then all/         player units exit the marked area	
 s34_0074	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
 s34_0098	31	マイコ/「よぉし、捕まえたっ！」	Maiko/"All right, got you!"	
 s34_00b8	43	ビズリィ/「ジョン…、早まるんじゃねぇぞ」	Bizley/"John... don't you do anything rash."	
