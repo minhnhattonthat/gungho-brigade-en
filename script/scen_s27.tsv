@@ -1,72 +1,72 @@
 id	max	jp	en	notes
-s27_0004	19	勝利条件：敵の全滅/		
-s27_0018	103	敗北条件：プレーヤーユニットの全滅/          マコーリフへの、敵の侵入/          『特殊条件』の未達成		
-s27_0080	119	特殊条件：８ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_00f8	119	特殊条件：７ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_0170	119	特殊条件：６ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_01e8	119	特殊条件：５ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_0260	119	特殊条件：４ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_02d8	119	特殊条件：３ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_0350	119	特殊条件：２ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_03c8	115	特殊条件：現ターン中に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる		
-s27_043c	71	敗北条件：プレーヤーユニットの全滅/          マコーリフへの、敵の侵入		
-s27_0484	35	パイロット/「…う、…ううっ…」/		
-s27_04a8	35	看護婦/「先生！  患者の意識が！」/		
-s27_04cc	39	パイロット/「…ここは、…どこだ？」/		
-s27_04f4	59	医師/「なにも心配はありません。ここはマコーリフ/砦です」		
-s27_0530	79	パイロット/「マコーリフ？  そうか、誰が連れてきてくれ/たんだ？  礼が言いたい」		
-s27_0580	87	看護婦/「あら、あなたは自分でたどり着いたのよ。/傷ついたマシンレッグで敵を振り切って」		
-s27_05d8	19	パイロット/「…」/		
-s27_05ec	67	看護婦/「砦のみんな、感動したのよ。マシンレッグ乗/りの鑑だって」		
-s27_0630	83	パイロット/「…そんなはずはない。俺の部隊は全滅したん/だ。奴等の包囲にあって！」		
-s27_0684	75	パイロット/「みんな死んだ！  俺だけ生きているはずが無/い！  俺だけが！」		
-s27_06d0	35	医師/「君ぃ！  鎮静剤を早く！」/		
-s27_06f4	19	看護婦/「はい」/		
-s27_0708	79	パイロット/「たどり着ける…はずが…ない。俺…は通信…/パイロットじゃな…い…」		
-s27_0758	99	ブレインズ/「…（変です。今朝のジャンキーの退きかたと/いい、昼間の静けさといい、気になります）」		
-s27_07bc	35	シャベス/「どうした、ブレインズ？」		
-s27_07e0	19	/「いえ、別に…」/		
-s27_07f4	87	「今朝のトマホーク、凄かったな。俺達が苦労/した奴等を相手にあの機体で抜けて来たんだ」		
-s27_084c	7	「！」		
-s27_0854	63	「どれだけ犠牲を出したか知らんが、全滅して/てもおかしくない」		
-s27_0894	15	「…まさか…」		
-s27_08a4	27	エスメラルダ/「何事かっ!?」		
-s27_08c0	59	兵「ジャンキーが駐機場に侵入！  駐機中の/機体は全滅です！」		
-s27_08fc	51	「なんてこと!?/  …そうか！  あのトマホークか！」		
-s27_0930	35	ビズリィ/「砦が…、燃えている…」		
-s27_0954	39	ブレインズ/「『トロイの木馬』…です」		
-s27_097c	23	シャベス/「くそっ…」		
-s27_0994	15	「砦に戻る！」/		
-s27_09a4	75	「待ってください！  外の敵は必ず来ます。/ここに半分は残る必要があります」		
-s27_09f0	23	ベティ/「私が残ります」		
-s27_0a08	15	マイコ/「私も」		
-s27_0a18	15	「マイコ…」/		
-s27_0a28	67	「エスメラルダ大尉が心配なんでしょ？/ここは任せて、さっさと行きな」		
-s27_0a6c	39	「サンキュー、マイコ！  愛してるぜ!!」/		
-s27_0a94	15	「…バァカ」/		
-s27_0aa4	43	「僕もこっちにしましょう。行ってください」/		
-s27_0ad0	19	「あとは頼む！」/		
-s27_0ae4	55	「ダイブツ、私の８８ｍｍの弾を置いていって{n}ちょうだい」		
-s27_0b1c	35	ダイブツ/「わかった。気をつけてね」		
-s27_0b40	107	エスメラルダ「東ゲートのトレーラーは、西へ/退避。付近の残存機は、住民が避難が完了する/まで敵を押さえろ！」		
-s27_0bac	31	通信音/「東ゲート警備隊、了解」		
-s27_0bcc	87	「サンダースロック部隊はサンダースロック前/面に展開、ガンホー・ブリゲイドを援護せよ」/		
-s27_0c24	39	通信音/「サンダースロック部隊、了解」		
-s27_0c4c	107	「西ゲート警備隊は、マコーリフ西方を索敵。/砦の放棄も有り得る。積極的に行動し、脱出路/の安全を確認せよ」		
-s27_0cb8	31	通信音/「西ゲート警備隊、了解」		
-s27_0cd8	19	/「……すまない」/		
-s27_0cec	51	ベティ/「…神、天にいまし給い/  地には平和を！」		
-s27_0d20	79	通信音/「…ザザッ…砦周辺の将兵に告げる。私は、/外惑星連合軍大尉エスメラルダ」		
-s27_0d70	75	通信音/「砦を放棄する。各員は、各個に脱出し東方の/ザイオン渓谷に集結せよ」		
-s27_0dbc	67	通信音/「以後、指揮を地球軍ニーソン少佐に委ねる。/幸運を祈る…」		
-s27_0e00	43	ビズリィ/「エスメラルダ大尉！  くそう!!」/		
-s27_0e2c	43	シャベス/「くそっ！  間に合わなかった!!」/		
-s27_0e58	19	ダイブツ/「…」/		
-s27_0e6c	27	ベティ/「…支え切れない！」		
-s27_0e88	43	ブレインズ/「ここまでです。後退しましょう」		
-s27_0eb4	67	マイコ/「ナニ言ってんのよ!?  サンダースロックを/捨てるっての!?」		
-s27_0ef8	47	「我々が全滅したら、どのみち守り切れませ/ん」		
-s27_0f28	23	/「…っくしょぅ!!」/		
-s27_0f40	43	「こんなところで!?  …大尉、すみません！」		
-s27_0f6c	27	「うおっ！  やられたっ！」		
-s27_0f88	43	「やられちゃった。ビズリィ、たすけてよぉ」		
+s27_0004	19	勝利条件：敵の全滅/	Victory: Wipe out the enemy/	
+s27_0018	103	敗北条件：プレーヤーユニットの全滅/          マコーリフへの、敵の侵入/          『特殊条件』の未達成	Defeat: All player units destroyed,/         enemy breaks into McAuliffe, or/         Special condition not met	
+s27_0080	119	特殊条件：８ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 8 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_00f8	119	特殊条件：７ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 7 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_0170	119	特殊条件：６ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 6 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_01e8	119	特殊条件：５ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 5 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_0260	119	特殊条件：４ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 4 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_02d8	119	特殊条件：３ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 3 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_0350	119	特殊条件：２ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 2 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_03c8	115	特殊条件：現ターン中に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: This turn, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_043c	71	敗北条件：プレーヤーユニットの全滅/          マコーリフへの、敵の侵入	Defeat: All player units destroyed, or/         enemy breaks into McAuliffe	
+s27_0484	35	パイロット/「…う、…ううっ…」/	Pilot/"...Ugh... Uuugh..."/	
+s27_04a8	35	看護婦/「先生！  患者の意識が！」/	Nurse/"Doctor! The patient's conscious!"/	
+s27_04cc	39	パイロット/「…ここは、…どこだ？」/	Pilot/"...Where... am I?"/	
+s27_04f4	59	医師/「なにも心配はありません。ここはマコーリフ/砦です」	Doctor/"There's nothing to worry about. This is/Fort McAuliffe."	
+s27_0530	79	パイロット/「マコーリフ？  そうか、誰が連れてきてくれ/たんだ？  礼が言いたい」	Pilot/"McAuliffe? I see. Who brought me here? I/want to thank them."	
+s27_0580	87	看護婦/「あら、あなたは自分でたどり着いたのよ。/傷ついたマシンレッグで敵を振り切って」	Nurse/"Oh, you got here on your own. You shook/off the enemy in a damaged machine leg."	
+s27_05d8	19	パイロット/「…」/	Pilot/"..."/	
+s27_05ec	67	看護婦/「砦のみんな、感動したのよ。マシンレッグ乗/りの鑑だって」	Nurse/"Everyone in the fort was moved. They/called you a model machine leg pilot."	
+s27_0630	83	パイロット/「…そんなはずはない。俺の部隊は全滅したん/だ。奴等の包囲にあって！」	Pilot/"...That can't be. My unit was wiped out./Caught in their encirclement!"	
+s27_0684	75	パイロット/「みんな死んだ！  俺だけ生きているはずが無/い！  俺だけが！」	Pilot/"They all died! There's no way I'm the/only one alive! Only me!"	
+s27_06d0	35	医師/「君ぃ！  鎮静剤を早く！」/	Doctor/"Nurse! A sedative, quickly!"/	
+s27_06f4	19	看護婦/「はい」/	Nurse/"Yes, Doctor."/	
+s27_0708	79	パイロット/「たどり着ける…はずが…ない。俺…は通信…/パイロットじゃな…い…」	Pilot/"I couldn't... have made it... I'm a/comms... not a pilot..."	
+s27_0758	99	ブレインズ/「…（変です。今朝のジャンキーの退きかたと/いい、昼間の静けさといい、気になります）」	Brains/"...(Odd. The Junkies' retreat this/morning, the quiet all day. It bugs me.)"	
+s27_07bc	35	シャベス/「どうした、ブレインズ？」	Chavez/"What is it, Brains?"	
+s27_07e0	19	/「いえ、別に…」/	/"No, nothing..."/	
+s27_07f4	87	「今朝のトマホーク、凄かったな。俺達が苦労/した奴等を相手にあの機体で抜けて来たんだ」	"That Tomahawk this morning was something./Got through the same bunch we struggled/with, in that machine."	
+s27_084c	7	「！」	"!"	
+s27_0854	63	「どれだけ犠牲を出したか知らんが、全滅して/てもおかしくない」	"Dunno how many they lost, but they/could've been wiped out."	
+s27_0894	15	「…まさか…」	"...Don't tell me..."	
+s27_08a4	27	エスメラルダ/「何事かっ!?」	Esmeralda/"What's going on?!"	
+s27_08c0	59	兵「ジャンキーが駐機場に侵入！  駐機中の/機体は全滅です！」	Soldier: "Junkies broke into the parking/area! Every parked machine is destroyed!"	
+s27_08fc	51	「なんてこと!?/  …そうか！  あのトマホークか！」	"How could this happen?! ...Of course!/That Tomahawk!"	
+s27_0930	35	ビズリィ/「砦が…、燃えている…」	Bizley/"The fort... it's burning..."	
+s27_0954	39	ブレインズ/「『トロイの木馬』…です」	Brains/"A 'Trojan horse'... that's what it was."	
+s27_097c	23	シャベス/「くそっ…」	Chavez/"Damn it..."	
+s27_0994	15	「砦に戻る！」/	"Back to the fort!"/	
+s27_09a4	75	「待ってください！  外の敵は必ず来ます。/ここに半分は残る必要があります」	"Wait! The enemy outside will come for/sure. Half of us need to stay here."	
+s27_09f0	23	ベティ/「私が残ります」	Betty/"I'll stay."	
+s27_0a08	15	マイコ/「私も」	Maiko/"Me too."	
+s27_0a18	15	「マイコ…」/	"Maiko..."/	
+s27_0a28	67	「エスメラルダ大尉が心配なんでしょ？/ここは任せて、さっさと行きな」	"You're worried about Captain Esmeralda,/right? Leave this to us and get going."	
+s27_0a6c	39	「サンキュー、マイコ！  愛してるぜ!!」/	"Thanks, Maiko! I love ya!!"/	
+s27_0a94	15	「…バァカ」/	"...Idiot."/	
+s27_0aa4	43	「僕もこっちにしましょう。行ってください」/	"I'll stay here too. Go."/	
+s27_0ad0	19	「あとは頼む！」/	"I'm countin' on you!"/	
+s27_0ae4	55	「ダイブツ、私の８８ｍｍの弾を置いていって{n}ちょうだい」	"Daibutsu, leave me some ammo for my/88mm."	
+s27_0b1c	35	ダイブツ/「わかった。気をつけてね」	Daibutsu/"OK. Be careful."	
+s27_0b40	107	エスメラルダ「東ゲートのトレーラーは、西へ/退避。付近の残存機は、住民が避難が完了する/まで敵を押さえろ！」	Esmeralda: "East gate trailers, withdraw/west. Remaining machines nearby, hold the/enemy until residents are out!"	
+s27_0bac	31	通信音/「東ゲート警備隊、了解」	Radio/"East gate guard, roger."	
+s27_0bcc	87	「サンダースロック部隊はサンダースロック前/面に展開、ガンホー・ブリゲイドを援護せよ」/	"Thunder's Rock unit, deploy in front of/Thunder's Rock and cover the Gungho/Brigade."/	
+s27_0c24	39	通信音/「サンダースロック部隊、了解」	Radio/"Thunder's Rock unit, roger."	
+s27_0c4c	107	「西ゲート警備隊は、マコーリフ西方を索敵。/砦の放棄も有り得る。積極的に行動し、脱出路/の安全を確認せよ」	"West gate guard, scout west of McAuliffe./We may abandon the fort. Act boldly and/secure the escape route."	
+s27_0cb8	31	通信音/「西ゲート警備隊、了解」	Radio/"West gate guard, roger."	
+s27_0cd8	19	/「……すまない」/	/"......I'm sorry."/	
+s27_0cec	51	ベティ/「…神、天にいまし給い/  地には平和を！」	Betty/"...God's in His heaven,/All's right with the world!"	
+s27_0d20	79	通信音/「…ザザッ…砦周辺の将兵に告げる。私は、/外惑星連合軍大尉エスメラルダ」	Radio/"...*Kssh*... To all troops at the fort./This is Union Army Captain Esmeralda."	
+s27_0d70	75	通信音/「砦を放棄する。各員は、各個に脱出し東方の/ザイオン渓谷に集結せよ」	Radio/"We're abandoning the fort. Escape on your/own and regroup at Zion Canyon."	
+s27_0dbc	67	通信音/「以後、指揮を地球軍ニーソン少佐に委ねる。/幸運を祈る…」	Radio/"From now on, Major Neeson of the Earth/Army has command. Good luck..."	
+s27_0e00	43	ビズリィ/「エスメラルダ大尉！  くそう!!」/	Bizley/"Captain Esmeralda! Damn it!!"/	
+s27_0e2c	43	シャベス/「くそっ！  間に合わなかった!!」/	Chavez/"Damn! We didn't make it in time!!"/	
+s27_0e58	19	ダイブツ/「…」/	Daibutsu/"..."/	
+s27_0e6c	27	ベティ/「…支え切れない！」	Betty/"...We can't hold them!"	
+s27_0e88	43	ブレインズ/「ここまでです。後退しましょう」	Brains/"That's it. Let's fall back."	
+s27_0eb4	67	マイコ/「ナニ言ってんのよ!?  サンダースロックを/捨てるっての!?」	Maiko/"What are you saying?! You want to abandon/Thunder's Rock?!"	
+s27_0ef8	47	「我々が全滅したら、どのみち守り切れませ/ん」	"If we're wiped out, we can't hold it/anyway."	
+s27_0f28	23	/「…っくしょぅ!!」/	/"...Dammit!!"/	
+s27_0f40	43	「こんなところで!?  …大尉、すみません！」	"Here, of all places?! ...Captain, I'm/sorry!"	
+s27_0f6c	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s27_0f88	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	

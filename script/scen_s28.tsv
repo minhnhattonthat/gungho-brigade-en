@@ -1,18 +1,18 @@
 id	max	jp	en	notes
-s28_0004	19	勝利条件：敵の全滅/		
-s28_0018	79	敗北条件：プレーヤーユニットの全滅/          エスメラルダ（アパッチＢ）の撃破		
-s28_0068	51	エスメラルダ/「持ちこたえろ！  すぐに彼らが来る!!」		
-s28_009c	63	ニーソン/「大尉、下がってください。あなたが死んだら/誰が…」		
-s28_00dc	23	「少佐、黙りなさい！」/		
-s28_00f4	11	/「…」/		
-s28_0100	35	ビズリィ/「大尉！  大丈夫ですか!?」		
-s28_0124	67	エスメラルダ/「良いとは言い難いわね。…ビズリィ、派手に/頼むわよ」		
-s28_0168	19	「りょーかい！」/		
-s28_017c	39	シャベス/「民間人を外に出してるのか!?」		
-s28_01a4	119	ニーソン「クレーターを盾にするためです。/砦西方のピケットは敵を確認していませんから/少なくとも、ここよりは安全です」		
-s28_021c	19	「…もっともだ」/		
-s28_0230	87	ブレインズ/「突破されました！  紫のヤツを９機確認して/いますが、それ以外は不明です」		
-s28_0288	31	マイコ/「ビズリィ、ごめん！」/		
-s28_02a8	19	「気にすんな！」/		
-s28_02bc	35	/「そちらに合流して、迎撃します」/		
-s28_02e0	39	「…まだ、…私にはやるべきことが…」		
+s28_0004	19	勝利条件：敵の全滅/	Victory: Wipe out the enemy/	
+s28_0018	79	敗北条件：プレーヤーユニットの全滅/          エスメラルダ（アパッチＢ）の撃破	Defeat: All player units destroyed, or/         Esmeralda (Apache B) destroyed	
+s28_0068	51	エスメラルダ/「持ちこたえろ！  すぐに彼らが来る!!」	Esmeralda/"Hold on! They'll be here soon!!"	
+s28_009c	63	ニーソン/「大尉、下がってください。あなたが死んだら/誰が…」	Neeson/"Captain, please fall back. If you die,/who will..."	
+s28_00dc	23	「少佐、黙りなさい！」/	"Major, be quiet!"/	
+s28_00f4	11	/「…」/	/"..."/	
+s28_0100	35	ビズリィ/「大尉！  大丈夫ですか!?」	Bizley/"Captain! Are you all right?!"	
+s28_0124	67	エスメラルダ/「良いとは言い難いわね。…ビズリィ、派手に/頼むわよ」	Esmeralda/"I can hardly say I'm good. ...Bizley,/make it a big show."	
+s28_0168	19	「りょーかい！」/	"Rooger!"/	
+s28_017c	39	シャベス/「民間人を外に出してるのか!?」	Chavez/"You're sending civilians outside?!"	
+s28_01a4	119	ニーソン「クレーターを盾にするためです。/砦西方のピケットは敵を確認していませんから/少なくとも、ここよりは安全です」	Neeson: "The crater shields them. The/pickets west of the fort see no enemy, so/it's safer than here, at least."	
+s28_021c	19	「…もっともだ」/	"...Makes sense."/	
+s28_0230	87	ブレインズ/「突破されました！  紫のヤツを９機確認して/いますが、それ以外は不明です」	Brains/"They've broken through! I count nine of/the purple ones; the rest are unknown."	
+s28_0288	31	マイコ/「ビズリィ、ごめん！」/	Maiko/"Bizley, I'm sorry!"/	
+s28_02a8	19	「気にすんな！」/	"Don't sweat it!"/	
+s28_02bc	35	/「そちらに合流して、迎撃します」/	/"We'll join you and intercept."/	
+s28_02e0	39	「…まだ、…私にはやるべきことが…」	"...I still have... something I must/do..."	

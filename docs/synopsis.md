@@ -53,4 +53,29 @@ Stages so far
   over by the Junkies (built because of the Water War). Junkies now hunt people. Betty leaves with the Apache.
 - s19 Betty = the Southern Army sniper "Miss Crimson"/"Executioner" (rumours: shot her rebel lover). Malik mining
   village: a girl among the Junkies; Daibutsu runs off to protect her.
+- s20 Malik villagers (Elder; chief Maurice) want no heroes; Brains loses his temper. Emily thanks Daibutsu. The black
+  Junkie commander "Blackjack" heads for the village; Brains: "Catch and kill." Betty rejoins. Maurice blows the mine.
+- s21 Rescue of Esmeralda's Union convoy (Neeson aboard); Dragoon 2 gets its custom 88mm rifle. Operation Wingate (two
+  Marine divisions in two weeks); Brains and Neeson fear a Midway-style trap. Bizley/Maiko quarrel over the 88mm.
+- s22 Olympus foothills; Maiko hurt shielding Bizley. Junkie laser batteries on Olympus destroy the Wingate fleet
+  10 light-seconds out (Tokyo, Malta, Inchon, Dieppe sunk). Bizley apologises.
+- s23-s24 Breakout past the laser ring; Maiko's Mustang engine (3,000 hp Griffon) in another machine. The Chrome Devil
+  ignores them.
+- s25 Fort McAuliffe: John is a girl (Bizley the last to know); her father is dead. Brains's Thunder's Rock plan fails
+  vs the new purple models; Esmeralda "stops" the enemy (transmitter) and brings the Dragoon 2 outrigger.
+- s26 Betty quotes Browning ("Pippa Passes"); a lone Tomahawk is rescued.
+- s27 The Tomahawk was a Trojan horse: Junkies wreck the fort's parked machines; Esmeralda orders the fort abandoned
+  (regroup at Zion Canyon, Neeson in command). Betty: "God's in His heaven".
+- s28 Defence of the civilians in the crater; Esmeralda (Apache B) fights.
+- s29 (dated 166 in the JP) Neeson explains the "transmitter": 28 clone sisters with FTL telepathy; an FTL test
+  shattered their shared self; Esmeralda (Swift) is the sole survivor; the mad sisters' brains run the Crusaders
+  ("sender" in the Wizard, "receivers" in 12 leaders). John = Jennifer Swift, a spare clone embryo raised on Mars by
+  Professor Swift. Jennifer and Esmeralda talk mind to mind; Jennifer resolves to fight. Verlaine radio signal.
+- s30 A second Earth fleet approaches hidden in the Sun's glare. Jennifer takes the transmitter key. Escape plan along
+  the McAuliffe highway; Bizley's cap is with Jennifer.
+- s31 Fake (red) Chrome Devils; Earth commander Irving hunts "Big W"; 82nd Airborne joins; Neeson's caravan caught.
+- s32 Jennifer stayed in Zion Canyon to recreate the accident (killing the Junkie command, and herself).
+- s33-s34 Race to Zion Canyon; Esmeralda covers them; Neeson (really Lt. Colonel, Earth Army Intelligence) brings
+  Grebe 180 Squadron; final fight with the Chrome Devil.
+- s35 Post-game stage: sound-test labels and its own staff roll (credit name readings unverified).
   (Dates as in the JP: s14 says 168, s17 says 166.)

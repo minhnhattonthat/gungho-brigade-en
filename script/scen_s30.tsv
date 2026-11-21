@@ -1,58 +1,58 @@
 id	max	jp	en	notes
-s30_0004	35	目的：ゲオルグ、ジェイコブの全滅/		
-s30_0028	123	勝利条件：全プレーヤーユニット、もしくは/          全コマンドシップ、コマンドーの/          指定領域からのマップ外への脱出		
-s30_00a4	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破		
-s30_00f4	83	ニーソン/「…艦隊を常に火星と太陽の間に置きながら/航宙してきた、というわけですか」		
-s30_0148	119	「どれだけの推進剤が必要だったか考えたくも/ありませんが、全天監視にかかりにくい上に、/赤外線による着弾観測も不可能…」		
-s30_01c0	83	「『ウィンゲート』の虐殺のあと、急遽、立案/された策にしては、よくできています」/		
-s30_0214	27	ジョン/「…ニーソンさん」		
-s30_0230	35	「これは、ミス・スイフト。何か？」		
-s30_0254	71	「エスメラルダ大尉の許可はあります。/『通信機』の起動キーをください」		
-s30_029c	15	「それは…」		
-s30_02ac	7	「…」/		
-s30_02b4	31	「止めても、無駄でしょうね」		
-s30_02d4	11	「はい」/		
-s30_02e0	35	シャベス/「いまなら脱出できるな」/		
-s30_0304	99	ブレインズ/「敵はかなりの兵力をオリュンポス方面に転用/しました。我々だけなら突破は簡単でしょう」		
-s30_0368	39	ビズリィ/「俺達だけ逃げてどうする!!」/		
-s30_0390	59	ニーソン/「たとえそうしても誰も文句はいわないでしょ/う」		
-s30_03cc	23	/「ニーソン少佐…」/		
-s30_03e4	103	「いや、生き残る可能性があるならばそうすべ/きです。これ以上は、アラモに付き合う事にな/るだけですから」		
-s30_044c	15	/「アラモ？」/		
-s30_045c	67	「失礼。ここで我々と一緒に死ぬことはない、/と言っているんです」/		
-s30_04a0	107	「誰にモノを言ってるんだ？  心配しなくても/全員が助かる作戦のひとつやふたつはあるさ。/な、ブレインズ？」		
-s30_050c	91	「そんな虫のいいもの、ありませんよ。/作戦とはいいがたいモノならひとつだけ…。/聞きます？」		
-s30_0568	47	マイコ/「聞きたくない！  …けど、仕方ない」/		
-s30_0598	95	ブレインズ/「やるべき事は簡単です。敵の混乱に乗じて/マコーリフ西の地球軍橋頭堡へと脱出します」		
-s30_05f8	107	「キャラバンのトレーラーは低速で不整地走行/が苦手のため、脱出にはマコーリフを通ってい/る街道を使用します」		
-s30_0664	67	「キャラバンはなにがあろうと全速を維持して/突っ走ってもらいます」		
-s30_06a8	55	「我々はその前面で、進路上のすべての敵を/撃破します」		
-s30_06e0	55	マイコ/「すべての敵を私たちだけで？  …他の部隊/は？」		
-s30_0718	87	「燃料、弾薬が足りません。我々が十分な量を/取ると自衛上最低限の機体しか動かせません」		
-s30_0770	19	ダイブツ/「…」/		
-s30_0784	43	ベティ/「…戦力は集中すべし。仕方ないわね」		
-s30_07b0	39	/「…確かに作戦でもなんでもないわ」/		
-s30_07d8	75	シャベス/「お聞きのとおりです、ニーソン少佐。脱出の/準備をお願いします」		
-s30_0824	59	ニーソン/「わかりました。/  しかし、何と言ったらいいか…」		
-s30_0860	11	/「…」/		
-s30_086c	43	ビズリィ/「だれか俺の帽子知らねぇか？」/		
-s30_0898	27	/「はん、長生きするわ」/		
-s30_08b4	83	「ジェニファーちゃんが持っていましたよ。/エスメラルダ大尉の所に忘れたでしょう？」/		
-s30_0908	63	「ふぅん、あいかわらずジョンはエスメラルダ/さんにべったりか」/		
-s30_0948	71	「じゃぁ、伝えといてくれよ。{n}『後で返してもらうから、無くすな』って」/		
-s30_0990	7	「…」		
-s30_0998	11	/「？」/		
-s30_09a4	27	「キツい仕事になるわね」		
-s30_09c0	75	「なぁに、今に始まったことじゃない。/騎兵隊も来たし、万事、うまくいくさ」/		
-s30_0a0c	43	「…どうしてそうまで楽天的でいられるの？」		
-s30_0a38	91	「前に言ったろ。俺はバカだから、他の生き方/は知らないし、いまさら知りたくもない……/って」		
-s30_0a94	31	「今だけは、うらやましいわ」		
-s30_0ab4	91	通信音/「オリュンポス方面からの追撃部隊は、引き受/ける。そちらは、作戦どおり先行されたし」		
-s30_0b10	39	シャベス/「…ガンホー・ブリゲイド了解」		
-s30_0b38	31	「くそう、ドラグーン２が!!」		
-s30_0b58	31	「あーぁ、失敗しちゃった…」		
-s30_0b78	27	「うおっ！  やられたっ！」		
-s30_0b94	11	「……」		
-s30_0ba0	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s30_0bcc	39	「…やはり、荒事には向きませんねぇ…」		
-s30_0bf4	39	「ジョン…！  エスメラルダ大尉…!!」		
+s30_0004	35	目的：ゲオルグ、ジェイコブの全滅/	Objective: Wipe out Georg and Jacob/	
+s30_0028	123	勝利条件：全プレーヤーユニット、もしくは/          全コマンドシップ、コマンドーの/          指定領域からのマップ外への脱出	Victory: All player units, or all Command/         Ships and Commandos, exit the/         map from the marked area	
+s30_00a4	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破	Defeat: Commando or Command Ship/         destroyed, or player unit/destroyed	
+s30_00f4	83	ニーソン/「…艦隊を常に火星と太陽の間に置きながら/航宙してきた、というわけですか」	Neeson/"...So the fleet flew here keeping itself/between Mars and the Sun the whole way."	
+s30_0148	119	「どれだけの推進剤が必要だったか考えたくも/ありませんが、全天監視にかかりにくい上に、/赤外線による着弾観測も不可能…」	"I'd hate to think what propellant that/took. But it's hard to spot in an all-sky/watch, and no infrared ranging..."	
+s30_01c0	83	「『ウィンゲート』の虐殺のあと、急遽、立案/された策にしては、よくできています」/	"For a plan drawn up in a hurry after the/'Wingate' massacre, it's well made."/	
+s30_0214	27	ジョン/「…ニーソンさん」	John/"...Neeson-san."	
+s30_0230	35	「これは、ミス・スイフト。何か？」	"Ah, Miss Swift. What is it?"	
+s30_0254	71	「エスメラルダ大尉の許可はあります。/『通信機』の起動キーをください」	"I have Captain Esmeralda's permission./Please give me the activation key for the/'transmitter.'"	
+s30_029c	15	「それは…」	"That's..."	
+s30_02ac	7	「…」/	"..."/	
+s30_02b4	31	「止めても、無駄でしょうね」	"There's no use stopping you, I suppose."	
+s30_02d4	11	「はい」/	"No."/	
+s30_02e0	35	シャベス/「いまなら脱出できるな」/	Chavez/"We could get out now."/	
+s30_0304	99	ブレインズ/「敵はかなりの兵力をオリュンポス方面に転用/しました。我々だけなら突破は簡単でしょう」	Brains/"They've sent many troops toward Olympus./Alone, we'd get through easily."	
+s30_0368	39	ビズリィ/「俺達だけ逃げてどうする!!」/	Bizley/"What good's runnin' off on our own?!"/	
+s30_0390	59	ニーソン/「たとえそうしても誰も文句はいわないでしょ/う」	Neeson/"Even if you did, I doubt anyone would/complain."	
+s30_03cc	23	/「ニーソン少佐…」/	/"Major Neeson..."/	
+s30_03e4	103	「いや、生き残る可能性があるならばそうすべ/きです。これ以上は、アラモに付き合う事にな/るだけですから」	"No, if you have a chance to survive, you/should take it. Anything more just means/joining us at the Alamo."	
+s30_044c	15	/「アラモ？」/	/"The Alamo?"/	
+s30_045c	67	「失礼。ここで我々と一緒に死ぬことはない、/と言っているんです」/	"Pardon me. I'm saying there's no need for/you to die here with us."/	
+s30_04a0	107	「誰にモノを言ってるんだ？  心配しなくても/全員が助かる作戦のひとつやふたつはあるさ。/な、ブレインズ？」	"Who d'you think you're talkin' to? Don't/worry, we've got a plan or two where/everybody makes it. Right, Brains?"	
+s30_050c	91	「そんな虫のいいもの、ありませんよ。/作戦とはいいがたいモノならひとつだけ…。/聞きます？」	"Nothing that convenient exists. There is/one thing, though it hardly counts as a/plan... Want to hear it?"	
+s30_0568	47	マイコ/「聞きたくない！  …けど、仕方ない」/	Maiko/"I don't want to hear it! ...But I guess/we have to."/	
+s30_0598	95	ブレインズ/「やるべき事は簡単です。敵の混乱に乗じて/マコーリフ西の地球軍橋頭堡へと脱出します」	Brains/"Simple. In the confusion, we flee to the/Earth beachhead west of McAuliffe."	
+s30_05f8	107	「キャラバンのトレーラーは低速で不整地走行/が苦手のため、脱出にはマコーリフを通ってい/る街道を使用します」	"The caravan trailers are slow and bad on/rough ground, so we escape along the/highway through McAuliffe."	
+s30_0664	67	「キャラバンはなにがあろうと全速を維持して/突っ走ってもらいます」	"No matter what happens, the caravan keeps/going at full speed."	
+s30_06a8	55	「我々はその前面で、進路上のすべての敵を/撃破します」	"We go out in front and destroy every/enemy in its path."	
+s30_06e0	55	マイコ/「すべての敵を私たちだけで？  …他の部隊/は？」	Maiko/"Every enemy, just us? ...What about the/other units?"	
+s30_0718	87	「燃料、弾薬が足りません。我々が十分な量を/取ると自衛上最低限の機体しか動かせません」	"We're short on fuel and ammo. If we take/enough, only the bare minimum of machines/can run for self-defence."	
+s30_0770	19	ダイブツ/「…」/	Daibutsu/"..."/	
+s30_0784	43	ベティ/「…戦力は集中すべし。仕方ないわね」	Betty/"...Concentrate your forces. Can't be/helped."	
+s30_07b0	39	/「…確かに作戦でもなんでもないわ」/	/"...You're right, that's no kind of plan/at all."/	
+s30_07d8	75	シャベス/「お聞きのとおりです、ニーソン少佐。脱出の/準備をお願いします」	Chavez/"You heard it, Major Neeson. Please/prepare for the escape."	
+s30_0824	59	ニーソン/「わかりました。/  しかし、何と言ったらいいか…」	Neeson/"Understood. But I don't know what to/say..."	
+s30_0860	11	/「…」/	/"..."/	
+s30_086c	43	ビズリィ/「だれか俺の帽子知らねぇか？」/	Bizley/"Anybody seen my cap?"/	
+s30_0898	27	/「はん、長生きするわ」/	/"Hah, you'll live a long life."/	
+s30_08b4	83	「ジェニファーちゃんが持っていましたよ。/エスメラルダ大尉の所に忘れたでしょう？」/	"Jennifer-chan had it. You left it at/Captain Esmeralda's, didn't you?"/	
+s30_0908	63	「ふぅん、あいかわらずジョンはエスメラルダ/さんにべったりか」/	"Huh. John's still glued to Esmeralda-san,/then."/	
+s30_0948	71	「じゃぁ、伝えといてくれよ。{n}『後で返してもらうから、無くすな』って」/	"Then tell her for me: 'I want it back/later, so don't lose it.'"/	
+s30_0990	7	「…」	"..."	
+s30_0998	11	/「？」/	/"?"/	
+s30_09a4	27	「キツい仕事になるわね」	"This'll be a tough job."	
+s30_09c0	75	「なぁに、今に始まったことじゃない。/騎兵隊も来たし、万事、うまくいくさ」/	"Ah, nothin' new there. The cavalry's/here, too. It'll all work out."/	
+s30_0a0c	43	「…どうしてそうまで楽天的でいられるの？」	"...How can you be so optimistic?"	
+s30_0a38	91	「前に言ったろ。俺はバカだから、他の生き方/は知らないし、いまさら知りたくもない……/って」	"Told you before. I'm an idiot, so I don't/know any other way to live, and I don't/wanna learn now..."	
+s30_0a94	31	「今だけは、うらやましいわ」	"Just this once, I envy you."	
+s30_0ab4	91	通信音/「オリュンポス方面からの追撃部隊は、引き受/ける。そちらは、作戦どおり先行されたし」	Radio/"We'll handle the pursuers from Olympus./You go on ahead, as planned."	
+s30_0b10	39	シャベス/「…ガンホー・ブリゲイド了解」	Chavez/"...Gungho Brigade, roger."	
+s30_0b38	31	「くそう、ドラグーン２が!!」	"Damn, the Dragoon 2!!"	
+s30_0b58	31	「あーぁ、失敗しちゃった…」	"Awww, I blew it..."	
+s30_0b78	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s30_0b94	11	「……」	"......"	
+s30_0ba0	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s30_0bcc	39	「…やはり、荒事には向きませんねぇ…」	"...As I thought, I'm not cut out for/rough stuff..."	
+s30_0bf4	39	「ジョン…！  エスメラルダ大尉…!!」	"John...! Captain Esmeralda...!!"	

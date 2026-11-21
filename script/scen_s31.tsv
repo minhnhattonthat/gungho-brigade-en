@@ -1,64 +1,64 @@
 id	max	jp	en	notes
-s31_0004	67	目的：１０ターン以内に、ロスコウおよび/      フランシスを全滅させる		
-s31_0048	67	目的：９ターン以内に、ロスコウおよび/      フランシスを全滅させる		
-s31_008c	67	目的：３ターン以内に、ロスコウおよび/      フランシスを全滅させる		
-s31_00d0	67	目的：２ターン以内に、ロスコウおよび/      フランシスを全滅させる		
-s31_0114	71	目的：本ターン終了までに、ロスコウおよび/      フランシスを全滅させる		
-s31_015c	83	勝利条件：全コマンドシップ、コマンドーの/          指定領域からのマップ外への脱出		
-s31_01b0	31	勝利条件：クロームデビルの撃破		
-s31_01d0	31	勝利条件：クローンデビルの撃破		
-s31_01f0	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破		
-s31_0240	95	ブレインズ/「あと１０分でキャラバンが到着します。/それまでに、マコーリフ内の敵を掃討します」		
-s31_02a0	47	ビズリィ/「ったく、人使いが荒いったらねぇな」		
-s31_02d0	35	マイコ/「ぼやかない、ぼやかない」/		
-s31_02f4	87	通信音/「こちらニーソン。敵の追撃を受けています。/マコーリフ到着が５分程早まります」		
-s31_034c	35	ニーソン/「よろしくお願いします」/		
-s31_0370	39	ビズリィ/「ガンホー・ブリゲイド了解！」		
-s31_0398	55	マイコ/「『よろしく』って、気安く言ってくれるわ/ね」		
-s31_03d0	43	ブレインズ/「急ぎましょう。あと３分です」		
-s31_03fc	87	ニーソン/「敵の追撃隊は紫のヤツが２機。あと２・３分/で到着します。迎撃をお願いします」		
-s31_0454	35	シャベス/「直援の連中はどうした!?」		
-s31_0478	31	/「彼らは義務を果たしました」/		
-s31_0498	23	「そうか…、わかった」/		
-s31_04b0	35	ダイブツ/「これでオワリかなぁ？」		
-s31_04d4	43	ビズリィ/「もしもそうなら、おめでとうだ…」		
-s31_0500	35	シャベス/「…とてもそうは思えん」		
-s31_0524	11	「同感」/		
-s31_0530	35	エスメラルダ/「…う、ううんっ…」		
-s31_0554	51	ニーソン/「気が付きましたか？  ミス・エスメラルダ」		
-s31_0588	15	「何か、来る」/		
-s31_0598	31	ビズリィ/「クロームデビルッ！」		
-s31_05b8	23	シャベス/「野郎っ！」		
-s31_05d0	27	ブレインズ/「シャベス！」		
-s31_05ec	23	「まだ、止めるか!?」/		
-s31_0604	75	「いいえ！  急ぎましょう、ヤツがキャラバン/に取り付く前に潰さなければ！」		
-s31_0650	23	「ようし！  吶喊っ！」/		
-s31_0668	63	通信音/「至急、ファイターとメージを送ってくれ！/オーバー！」		
-s31_06a8	87	通信員「サルーンよりビショップ１７。/間違いなくビッグＷか!?  確認せよ！/オーバー！」		
-s31_0700	79	通信音/「間違いない！  識別表のとおりだ！  早く増/援を、ザッ、ザザー…ッ……」		
-s31_0750	91	参謀１/「長官、これで１５件目です。もし、奴が自分/自身を量産していたなら、この作戦は…」		
-s31_07ac	91	アーヴィング/「そんなはずはない。機体の量産ができたとし/ても、『送信機』の複製は不可能だ」		
-s31_0808	35	/「ヤツは、ただ一機だ！  探せ!!」/		
-s31_082c	51	通信音/「ガンホー・ブリゲイド、聞こえますか！」/		
-s31_0860	31	ビズリィ/「エスメラルダ大尉！」		
-s31_0880	107	エスメラルダ「あのクロームデビルは偽者よ。/全ジャンキーの指令塔、クロームデビルに似て/いるだけ。だから…」		
-s31_08ec	39	シャベス/「無茶をする価値はない、か？」		
-s31_0914	15	/「そうです」/		
-s31_0924	59	「わかった。ヤツがシッポを巻くなら見逃して/やるとしよう」		
-s31_0960	19	/「…気をつけて」/		
-s31_0974	31	「ガンホー・ブリゲイド了解！」/		
-s31_0994	23	マイコ/「ふふっ…」/		
-s31_09ac	31	「くそぅ！  こんなところで!!」		
-s31_09cc	19	「しくじった…」		
-s31_09e0	27	「うおっ！  やられたっ！」		
-s31_09fc	11	「……」		
-s31_0a08	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s31_0a34	39	「…やはり、荒事には向きませんねぇ…」		
-s31_0a5c	95	通信音/「…ちらニーソン。追撃部隊に捕捉されました。/脱出…困難。作戦を…棄し、各…に離…を…」		
-s31_0abc	47	ビズリィ/「ニーソン…。ビリー!!  応答しろ！」		
-s31_0aec	31	通信音/「…ザッ、…ザザーッ」/		
-s31_0b0c	35	「…ジョン、…エスメラルダ大尉…」/		
-s31_0b30	63	通信音/「こちら地球軍第８２空挺師団。これより戦闘/に参加する」		
-s31_0b70	95	エスメラルダ/「アレは『Ｗ（ビッグ・ダブリュー）』ではあ/りません！  あなたがたへの命令は…」		
-s31_0bd0	63	通信音/「そうかな？  私には『Ｗ』にしか見えない。/通信オワリ」		
-s31_0c10	43	/「…ったく、どこもかしこもバカばかり…」/		
+s31_0004	67	目的：１０ターン以内に、ロスコウおよび/      フランシスを全滅させる	Objective: Wipe out Roscoe and Francis/     within 10 turns	
+s31_0048	67	目的：９ターン以内に、ロスコウおよび/      フランシスを全滅させる	Objective: Wipe out Roscoe and Francis/     within 9 turns	
+s31_008c	67	目的：３ターン以内に、ロスコウおよび/      フランシスを全滅させる	Objective: Wipe out Roscoe and Francis/     within 3 turns	
+s31_00d0	67	目的：２ターン以内に、ロスコウおよび/      フランシスを全滅させる	Objective: Wipe out Roscoe and Francis/     within 2 turns	
+s31_0114	71	目的：本ターン終了までに、ロスコウおよび/      フランシスを全滅させる	Objective: Wipe out Roscoe and Francis/     by the end of this turn	
+s31_015c	83	勝利条件：全コマンドシップ、コマンドーの/          指定領域からのマップ外への脱出	Victory: All Command Ships and Commandos/         exit the map from the marked area	
+s31_01b0	31	勝利条件：クロームデビルの撃破	Victory: Destroy the Chrome Devil	
+s31_01d0	31	勝利条件：クローンデビルの撃破	Victory: Destroy the Chrome Devil	
+s31_01f0	79	敗北条件：コマンドー、コマンドシップの撃破/          プレーヤーユニットの撃破	Defeat: Commando or Command Ship/         destroyed, or player unit/destroyed	
+s31_0240	95	ブレインズ/「あと１０分でキャラバンが到着します。/それまでに、マコーリフ内の敵を掃討します」	Brains/"The caravan's here in 10 minutes. By/then, we clear McAuliffe of enemies."	
+s31_02a0	47	ビズリィ/「ったく、人使いが荒いったらねぇな」	Bizley/"Jeez, they sure work us like dogs."	
+s31_02d0	35	マイコ/「ぼやかない、ぼやかない」/	Maiko/"No grumbling, no grumbling."/	
+s31_02f4	87	通信音/「こちらニーソン。敵の追撃を受けています。/マコーリフ到着が５分程早まります」	Radio/"Neeson here. We're under pursuit. We'll/reach McAuliffe about 5 minutes early."	
+s31_034c	35	ニーソン/「よろしくお願いします」/	Neeson/"We're counting on you."/	
+s31_0370	39	ビズリィ/「ガンホー・ブリゲイド了解！」	Bizley/"Gungho Brigade, roger!"	
+s31_0398	55	マイコ/「『よろしく』って、気安く言ってくれるわ/ね」	Maiko/"'Counting on you,' he says. Easy for/him."	
+s31_03d0	43	ブレインズ/「急ぎましょう。あと３分です」	Brains/"Let's hurry. Three minutes left."	
+s31_03fc	87	ニーソン/「敵の追撃隊は紫のヤツが２機。あと２・３分/で到着します。迎撃をお願いします」	Neeson/"Two purple ones are chasing us, here in/2-3 minutes. Please intercept."	
+s31_0454	35	シャベス/「直援の連中はどうした!?」	Chavez/"What happened to your escorts?!"	
+s31_0478	31	/「彼らは義務を果たしました」/	/"They did their duty."/	
+s31_0498	23	「そうか…、わかった」/	"I see... Got it."/	
+s31_04b0	35	ダイブツ/「これでオワリかなぁ？」	Daibutsu/"Is this the end of it?"	
+s31_04d4	43	ビズリィ/「もしもそうなら、おめでとうだ…」	Bizley/"If it is, congratulations..."	
+s31_0500	35	シャベス/「…とてもそうは思えん」	Chavez/"...I really doubt it."	
+s31_0524	11	「同感」/	"Same here."/	
+s31_0530	35	エスメラルダ/「…う、ううんっ…」	Esmeralda/"...Ugh, mmmh..."	
+s31_0554	51	ニーソン/「気が付きましたか？  ミス・エスメラルダ」	Neeson/"You're awake? Miss Esmeralda."	
+s31_0588	15	「何か、来る」/	"Something's coming."/	
+s31_0598	31	ビズリィ/「クロームデビルッ！」	Bizley/"The Chrome Devil!"	
+s31_05b8	23	シャベス/「野郎っ！」	Chavez/"You bastard!"	
+s31_05d0	27	ブレインズ/「シャベス！」	Brains/"Chavez!"	
+s31_05ec	23	「まだ、止めるか!?」/	"You gonna stop me again?!"/	
+s31_0604	75	「いいえ！  急ぎましょう、ヤツがキャラバン/に取り付く前に潰さなければ！」	"No! Let's hurry. We have to crush it/before it reaches the caravan!"	
+s31_0650	23	「ようし！  吶喊っ！」/	"All right! Chaaarge!"/	
+s31_0668	63	通信音/「至急、ファイターとメージを送ってくれ！/オーバー！」	Radio/"Send a Fighter and a Mage, now! Over!"	
+s31_06a8	87	通信員「サルーンよりビショップ１７。/間違いなくビッグＷか!?  確認せよ！/オーバー！」	Comms Officer: "Saloon to Bishop 17. Are/you sure it's Big W?! Confirm! Over!"	
+s31_0700	79	通信音/「間違いない！  識別表のとおりだ！  早く増/援を、ザッ、ザザー…ッ……」	Radio/"I'm sure! Just like the ID chart! Send/backup, quick, *kssh, kssh-kssh*..."	
+s31_0750	91	参謀１/「長官、これで１５件目です。もし、奴が自分/自身を量産していたなら、この作戦は…」	Staff Officer 1/"Sir, that's the 15th report. If it's/mass-producing itself, this operation..."	
+s31_07ac	91	アーヴィング/「そんなはずはない。機体の量産ができたとし/ても、『送信機』の複製は不可能だ」	Irving/"Impossible. Even if it can mass-produce/bodies, the 'sender' can't be copied."	
+s31_0808	35	/「ヤツは、ただ一機だ！  探せ!!」/	/"There's only one of it! Find it!!"/	
+s31_082c	51	通信音/「ガンホー・ブリゲイド、聞こえますか！」/	Radio/"Gungho Brigade, do you read me?!"/	
+s31_0860	31	ビズリィ/「エスメラルダ大尉！」	Bizley/"Captain Esmeralda!"	
+s31_0880	107	エスメラルダ「あのクロームデビルは偽者よ。/全ジャンキーの指令塔、クロームデビルに似て/いるだけ。だから…」	Esmeralda: "That Chrome Devil is a fake./It only looks like the real one, the/command tower of all the Junkies. So..."	
+s31_08ec	39	シャベス/「無茶をする価値はない、か？」	Chavez/"So it's not worth the risk?"	
+s31_0914	15	/「そうです」/	/"Exactly."/	
+s31_0924	59	「わかった。ヤツがシッポを巻くなら見逃して/やるとしよう」	"Got it. If it turns tail, we'll let it/go."	
+s31_0960	19	/「…気をつけて」/	/"...Be careful."/	
+s31_0974	31	「ガンホー・ブリゲイド了解！」/	"Gungho Brigade, roger!"/	
+s31_0994	23	マイコ/「ふふっ…」/	Maiko/"Heh heh..."/	
+s31_09ac	31	「くそぅ！  こんなところで!!」	"Damn it! Not here!!"	
+s31_09cc	19	「しくじった…」	"I screwed up..."	
+s31_09e0	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s31_09fc	11	「……」	"......"	
+s31_0a08	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s31_0a34	39	「…やはり、荒事には向きませんねぇ…」	"...As I thought, I'm not cut out for/rough stuff..."	
+s31_0a5c	95	通信音/「…ちらニーソン。追撃部隊に捕捉されました。/脱出…困難。作戦を…棄し、各…に離…を…」	Radio/"...Neeson. Pursuers caught us. Escape.../hard. Abort... scatter..."	
+s31_0abc	47	ビズリィ/「ニーソン…。ビリー!!  応答しろ！」	Bizley/"Neeson... Billy!! Answer me!"	
+s31_0aec	31	通信音/「…ザッ、…ザザーッ」/	Radio/"...*Kssh*, ...*Kssh-kssh*"/	
+s31_0b0c	35	「…ジョン、…エスメラルダ大尉…」/	"...John... Captain Esmeralda..."/	
+s31_0b30	63	通信音/「こちら地球軍第８２空挺師団。これより戦闘/に参加する」	Radio/"This is the Earth Army 82nd Airborne/Division. We are joining the battle."	
+s31_0b70	95	エスメラルダ/「アレは『Ｗ（ビッグ・ダブリュー）』ではあ/りません！  あなたがたへの命令は…」	Esmeralda/"That is not 'W' (Big W)! Your orders/are..."	
+s31_0bd0	63	通信音/「そうかな？  私には『Ｗ』にしか見えない。/通信オワリ」	Radio/"Is that so? It looks like nothing but 'W'/to me. Over and out."	
+s31_0c10	43	/「…ったく、どこもかしこもバカばかり…」/	/"...Honestly, idiots everywhere you/look..."/	

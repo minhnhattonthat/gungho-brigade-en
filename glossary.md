@@ -171,5 +171,20 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | 「射撃」 | Shoot | | unit command | |
 | 「格闘」 | Melee | | unit command | |
 | クリア条件 | Goal | | objective label (sim stages) | |
+| 特殊条件 | Special condition | | objective label (s27) | |
+| 作戦目的 | Objective | | objective label (s29; bare 目的： in s30-s31 too) | |
+| ブラックジャック | Blackjack | | Junkie commander unit (s20) | |
+| フューリー | Fury | | unit (s25 defeat line) | |
+| ゲオルグ | Georg | | enemy unit (s30) | |
+| ジェイコブ | Jacob | | enemy unit (s30) | |
+| フランシス | Francis | | enemy unit (s31) | |
+| 『Ｗ（ビッグ・ダブリュー）』 / 『Ｗ』 | 'W' (Big W) / 'W' | | Earth codename for the Wizard (s21, s31) | |
+| 送信機 / 受信機 | sender / receiver | | transmitter halves: Wizard / 12 Crusader leaders (s29) | |
+| 外宇宙連合 | Union | | JP variant of 外惑星連合 (s29) | |
+| エスメラルダ・スイフト | Esmeralda Swift | | (s29) | |
+| ザイオン渓谷 | Zion Canyon | | (s27-s34) | |
+| ホイヘンス | Huygens | | (s29) | |
+| カイツブリ | Grebe | | callsign "Grebe 180 Squadron" (s34) | |
+| 第８２空挺師団 | 82nd Airborne Division | | (s31) | |
 
 ## Decisions from earlier batches

@@ -2,10 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (s00-s19 done = b006-b025, 1209/2713 rows; next b026 = s20). Last build: build/gungho_en.bin 2026-11-22 =
+- **Phase:** 6. Translate in progress (all story stages s00-s35 done = b006-b042, 2228 rows; next the non-story
+  batches b001-b005, b043, b044, then the review pass). Last build: build/gungho_en.bin 2026-11-22 =
   **marker build + glyph torture** (`insert.py --marker --qa s08_0140=.. --qa s08_049c=.. --qa s08_0748=..`);
   states in work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
 - **Done:**
+  - Phase 6, third session (2026-11-22): s20-s35 translated + merged (b026-b042); glossary (new units, Zion Canyon,
+    sender/receiver, Special condition, Objective) and docs/synopsis.md to s35; docs/polish.md started (minor
+    questions). batches.py: new form `roll` = scen_s35 from 0x420 (stage 35's own staff roll, 48 wide, 6 lines
+    assumed, explicit ` / ` breaks, no auto-wrap). Tip: write drafts to the scratchpad and `cp` into work/tl (Write on
+    work/tl then tl_patch triggers big change notices); dry-run long rows with `batches.py fit`.
   - Phase 6, second session (2026-11-22): s06-s19 translated + merged (b012-b025); glossary (places, units, Union
     terms, 「射撃」 Shoot / 「格闘」 Melee commands) and docs/synopsis.md extended to s19. New `tools/tl_patch.py bNNN
     FIX.tsv` (replace rows of a .out.tsv; write fixes with the file tool). Fit tip: a 42x2 row with its speaker line
@@ -63,10 +69,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 6):** continue in story order: `python -X utf8 tools/batches.py split --size 3500` (only if
-  work/tl is missing), then for each stage batch from s20 (b026): read `cut -f1,2,5 work/tl/bNNN.tsv` in <4 KB
-  chunks, write work/tl/bNNN.out.tsv, `check`, `fit ID "text"` for 4-line overflows, `merge`; extend
-  docs/synopsis.md per stage and glossary.md for new names. Then the non-story batches (b001 ending 48 chars; b002
+- **Next (phase 6):** (`python -X utf8 tools/batches.py split --size 3500` only if work/tl is missing; read
+  `cut -f1,2,5 work/tl/bNNN.tsv` in <4 KB chunks, write bNNN.out.tsv, `check`, `merge`.) The non-story batches (b001 ending 48 chars; b002
   gunho: help lines 50 chars, names = small font, keep `@` = mm glyph and %d/%s; b005 pilots; b003/b004/b043/b044
   fullwidth 18/line, table_00430 6, table_00440 4; save titles table_11800/11844/11ac4 keep digit offsets). Then a
   fresh read-only review pass per stage (Critical/Important fixed, Minors to docs/polish.md). Over-budget small-font

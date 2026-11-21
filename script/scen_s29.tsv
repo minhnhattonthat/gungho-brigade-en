@@ -1,158 +1,158 @@
 id	max	jp	en	notes
-s29_0004	59	作戦目的：トレーラー脱出まで、敵の足止めを/          する		
-s29_0040	91	敗北条件：プレーヤーユニットの撃破/          敵のマコーリフ通過/          脱出車両の撃破		
-s29_009c	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅		
-s29_00ec	35	敗北条件：プレーヤーユニットの撃破		
-s29_0110	99	  火星暦１６６年６月第１木曜日。３日前に/サンダースロックを放棄して以来、敵の攻撃は/ありません。		
-s29_0174	63	しかし、この状態が長く続かないことは誰もが/知っていました。/		
-s29_01b4	31	火星の虹/「…ザザッ…ザッ…」		
-s29_01d4	31	シャベス/「次は飽和攻撃だな」		
-s29_01f4	51	ベティ/「ええ、ここ数日で確実に増強されているわ」		
-s29_0228	27	ダイブツ/「ほーわ攻撃？」		
-s29_0244	43	「数に任せて力押しで攻めて来るってことだ」/		
-s29_0270	31	マイコ/「あーあ、ジリ貧よね」		
-s29_0290	39	火星の虹/「…ザザッ…ザッ…の虹放送…」		
-s29_02b8	39	「で、ダイブツ、なんか聞こえるか？」/		
-s29_02e0	51	火星の虹/「…ザッ…に対し有効な…ザザザッ…持久…」		
-s29_0314	43	「駄目。ここんとこずっとこの調子なんだ」/		
-s29_0340	27	「だったら、切っちまえ」/		
-s29_035c	15	「そんなぁ…」/		
-s29_036c	79	「別にいいじゃない。もしかしたら素晴らしい/ニュースが流れるかもしれないんだし」		
-s29_03bc	39	「願望と現実はハッキリ区別すべきだ」/		
-s29_03e4	15	「シャベスゥ」/		
-s29_03f4	51	「…とはいえ、害があるわけじゃなし、まぁ、/いいか」		
-s29_0428	35	ジョン/「（あなたは、あたし？）」		
-s29_044c	55	エスメラルダ/「（私は、外惑星連合軍大尉エスメラルダ）」		
-s29_0484	39	「（じゃぁ、あたしもエスメラルダ？）」/		
-s29_04ac	59	「（違う。あなたはジェニファー・スイフト。/私じゃない）」		
-s29_04e8	67	「（…じゃぁ、あなたの心が自分の心のように/わかるあたしは何？…）」		
-s29_052c	59	「（確かに、かつて私たちにはひとつとなる可/能性があった）」		
-s29_0568	83	「（でも今のあなたはジェニファー・スイフト{n}そして私はエスメラルダ・スイフト…）」		
-s29_05bc	63	ブレインズ/「事情を説明してくれてもいいんじゃないです/か？」		
-s29_05fc	55	「いきなり、『このコンテナをよこせ』はない/でしょう」/		
-s29_0634	63	ニーソン/「いいでしょう。あなたがたには、聞く権利が/あります」		
-s29_0674	51	シャベス/「なんだ、ブレインズ。死にそうな顔をして」		
-s29_06a8	43	ブレインズ/「なんでもありません。敵は？」		
-s29_06d4	19	「まだ、来ない」/		
-s29_06e8	63	「ここ数日で敵は相当の増強をしました。次は/飽和攻撃が来ます」		
-s29_0728	35	「その気が滅入る話は、さっきした」/		
-s29_074c	19	「…すいません」/		
-s29_0760	39	通信音/「ニーソンです。敵が動きました」		
-s29_0788	31	ビズリィ/「すまん！  遅れた！」		
-s29_07a8	39	ベティ/「ジョン、いえジェニファーは？」		
-s29_07d0	35	「エスメラルダ大尉のとこで寝てる」/		
-s29_07f4	23	「それなら、安心ね」/		
-s29_080c	51	通信音/「ガンホー・ブリゲイドへ。こちらニーソン」		
-s29_0840	39	シャベス/「こちらガンホー・ブリゲイド」		
-s29_0868	75	「これより人員をザイオン渓谷の洞窟に待避さ/せます。しばらく粘って下さい」		
-s29_08b4	31	「ガンホー・ブリゲイド、了解」/		
-s29_08d4	39	「稼動全機を支援に出します。幸運を」/		
-s29_08fc	15	「ありがとう」/		
-s29_090c	19	「稼動全機って？」/		
-s29_0920	51	ベティ/「一機でも突破されたら終わり、ってことよ」		
-s29_0954	19	マイコ/「シビアァ」		
-s29_0968	35	「さて参謀長、どうしたもんかね？」/		
-s29_098c	19	ブレインズ/「…」/		
-s29_09a0	19	「ブレインズ？」/		
-s29_09b4	115	「…ぁ？  えぇと…、砦入り口のバリケードに/達した敵から十字砲火で叩いて、突破されたら/機動後退ってとこですかね」		
-s29_0a28	27	「なんだか、頼りねぇな」/		
-s29_0a44	11	/「…」/		
-s29_0a50	19	ブレインズ/「…」		
-s29_0a64	67	ニーソン/「むかし、あるところに２８人のクローン姉妹/がいました」		
-s29_0aa8	71	「そして彼女たちの間には特殊なコミュニケー/ション手段が存在しました」/		
-s29_0af0	75	ブレインズ/「『双子の共感』とか『虫の知らせ』とか言わ/れるヤツですか？」		
-s29_0b3c	87	「彼女たちは、まさしくそれを期待されて生ま/れたのです。しかし、現実はより複雑でした」/		
-s29_0b94	103	「彼女たちひとりひとりには、『個』という概/念が生まれず、彼女たち全員でひとつの人格を/構成したのです」		
-s29_0bfc	51	「…不思議な話ですが。それが、どう軍事機密/に？」		
-s29_0c30	119	「彼女たち内部の情報伝達が、他の誰にも、傍/受・妨害されないとしたら？  そして、情報伝/達速度が光速を超えるとしたら？」		
-s29_0ca8	7	「…」/		
-s29_0cb0	103	「外宇宙連合と地球連邦軍が主体となって、彼/女たちを介して通信を行う『通信機』計画が実/行されました」		
-s29_0d18	83	「人道的といいかねる一連の実験の結果、得ら/れたデータは予想を上回るものでした」/		
-s29_0d6c	63	「情報伝達速度は極大、測定不能。通信レート/は距離に概ね比例」/		
-s29_0dac	63	「通信レートが距離に比例？  遠く離れるほど/多く情報が送れる？」		
-s29_0dec	115	「そうです。彼女たちの状態は言ってみれば、/体がいきなり数千キロに拡大して手足がはるか/彼方にあるようなものです」		
-s29_0e60	87	「アイデンティティを保つには、情報交換を密/にする必要があったのだ、と言われています」/		
-s29_0eb8	107	「そして、外惑星連合の目的である超光速通信/実験が、通信距離を太陽系全域に広げて行わ/れ、事故が起きました」		
-s29_0f24	99	「あまりに広大な範囲に散らされた彼女たちは/ついに単一のアイデンティティを保てなくなっ/たのです」		
-s29_0f88	75	「２８人の『通信機』オペレーターのうち、た/だひとりだけが助かりました」/		
-s29_0fd4	43	ブレインズ/「それが、エスメラルダ大尉…」		
-s29_1000	51	エスメラルダ/「（…かつて私は、２８人いました。」		
-s29_1034	79	「（いえ、２８の身体を持ったひとりの『私』/だったと言うほうが正確でしょう）」		
-s29_1084	79	「（でも、私が、私自身の自我を認識した瞬間/に、それまでの『私』は死にました）」		
-s29_10d4	71	「（私が、仲間の半分を殺し、半分を発狂させ/廃人に追い込んだのです）」		
-s29_111c	19	ジョン/「（…）」		
-s29_1130	63	「（そして、発狂した私の分身たちは、今も/生かされています）」		
-s29_1170	43	「（…それは、あたしにもときどきわかる）」/		
-s29_119c	51	「（私は、彼女たちを殺すため、ここにいるの/です）」		
-s29_11d0	83	ニーソン/「２８人の『通信機』オペレーターのうち、/ただひとりだけが助かりました」		
-s29_1224	127	「『通信機』の長距離通信としての欠陥から外/宇宙連合は計画から手を引き、無事、生還した/ひとりだけが、外宇宙連合へと戻りました」		
-s29_12a4	55	「地球連邦軍が、その後どう計画を扱ったかは/不明です」/		
-s29_12dc	31	ブレインズ/「機密の壁ですか？」		
-s29_12fc	43	/「いいえ、情報が失われてしまったのです」/		
-s29_1328	115	「水戦争末期、ホイヘンス付近である地球軍実/験部隊が行方不明となりました。計画の詳細は/彼らだけが握ってたのです」		
-s29_139c	47	/「…『クルセーダーズ』、『ウィザード』！」/		
-s29_13cc	51	「よく知っていますね。それこそ、軍事機密で/すよ」		
-s29_1400	75	「外宇宙連合が計画を放棄したとき、発狂した/彼女たちはどうなりました？」/		
-s29_144c	23	「記録はありません」/		
-s29_1464	119	「『クルセーダーズ』の通信システムには、発/狂した少女たちの脳が使われた？  傍受も妨害/もされない通信システムとして？」		
-s29_14dc	67	「そうです。小隊指揮官以上の１３機には、/『通信機』が積まれました」		
-s29_1520	67	「正確には『送信機』が『ウィザード』に、/『受信機』が１２機にです」		
-s29_1564	79	「『送信機』は電気パルスのショックなどはク/リアーに伝えた、と記録にあります」		
-s29_15b4	67	「…正気がなくとも、痛みには反射的に反応す/る、というわけですか」		
-s29_15f8	83	「情報密度の低い、そう、人間が読み取れる/モールス信号程度の情報が送れたそうです」		
-s29_164c	31	「…まったく吐きそうな話です」/		
-s29_166c	39	ニーソン/「もうおわかりでしょう？」/		
-s29_1694	83	「あなたが、あの地球軍基地から持ち出した/このコンテナこそ『通信機』そのものです」/		
-s29_16e8	67	「エスメラルダ大尉さえ目を覚ませば、これで/敵を撹乱させられます」/		
-s29_172c	63	ブレインズ/「…実験のただひとりの生還者がエスメラルダ/大尉？」		
-s29_176c	119	「そうです。そして、あなたのお仲間のジョン/・スミス、本名ジェニファー・スイフトは、/『通信機』計画の予備クローンです」		
-s29_17e4	11	/「！」/		
-s29_17f0	31	シャベス/「…ブレインズ？」/		
-s29_1810	83	ニーソン/「彼女は『通信機』バックアップとして、受精/卵の状態で凍結されていました」		
-s29_1864	51	「しかし、あの事故の後、計画は破棄されまし/た」/		
-s29_1898	115	「その直後、主任研究員のスイフト教授が、/妻といまだ受精卵だった彼女を連れ、かなり強/引な方法で火星に移住しました」		
-s29_190c	83	「スイフト夫妻が、何を考えてジェニファーを/育てたかは、今となってはわかりません」/		
-s29_1960	31	ブレインズ/「…しょく罪？」/		
-s29_1980	23	/「かもしれません」/		
-s29_1998	27	シャベス/「ブレインズ！」		
-s29_19b4	63	「念のため、聞いておきます。/ジョンに『通信機』が使えますか？」		
-s29_19f4	47	「無理でしょう。かなりの訓練が必要なはずで/す」		
-s29_1a24	43	「わかりました。『通信機』をお渡しします」/		
-s29_1a50	19	「ブレインズ!!」		
-s29_1a64	15	「はっ、はい」/		
-s29_1a74	43	「戦闘中だぞ！  なにぼぉっとしてやがる!?」		
-s29_1aa0	19	「す、すいません」/		
-s29_1ab4	7	「？」		
-s29_1abc	47	ジョン/「（あなたのやろうとしたことがわかる）」		
-s29_1aec	43	「（あたしにはどうすればいいかわかる）」/		
-s29_1b18	23	エスメラルダ/「（…）」		
-s29_1b30	31	「（今ならあたしにもできる）」/		
-s29_1b50	51	「（だめ、これは私の戦いよ。あなたには関係/ない）」		
-s29_1b84	35	「（あたしにも戦う理由がある）」/		
-s29_1ba8	63	「（あたしは今まで何もしなかった。ただ怯え/て泣いていただけ）」		
-s29_1be8	71	「（ただみんなに守られていただけ。でも今度/はあたしがみんなを守る）」		
-s29_1c30	19	「（だめよ…）」/		
-s29_1c44	59	「（エスメラルダさん。ビズリィをよろしくお/願いします）」		
-s29_1c80	23	「（ジェニファー）」/		
-s29_1c98	11	「（…）」/		
-s29_1ca4	91	通信音/「こちらニーソン。マコーリフからの脱出完了/逃げ切るのに、もう５分、粘ってください」		
-s29_1d00	91	通信音/「ニーソンです。おかげで距離を稼げました。/感謝します。速やかに撤退してください」		
-s29_1d5c	63	火星の虹/「…ザッ…秋の日のヴィオロンのため息の…ザ/ザッ…」		
-s29_1d9c	47	シャベス/「ちっ、あいかわらず役立たずだな」/		
-s29_1dcc	43	ベティ/「…身にしみてひたぶるに物悲し…」/		
-s29_1df8	19	マイコ/「え？」/		
-s29_1e0c	111	ブレインズ「さっきのラジオは、ヴェルレーヌ/という詩人の詩の前半で、続きが『身にしみて/ひたぶるに物悲し』です」		
-s29_1e7c	71	「そのとおりよ。/…でも意外ね、ブレインズが詩にも詳しかった/なんて」		
-s29_1ec4	43	/「さて？  どこで聞いたか忘れましたが…」/		
-s29_1ef0	59	「『…ひたぶるに物悲し』か、現状、まさしく/そのものだな」/		
-s29_1f2c	91	火星の虹/「…ザザッ…秋の日のヴィオロンのため息の…/ザッ…身にしみてひたぶるに物悲し…」		
-s29_1f88	39	ビズリィ/「ダイブツ、何やってんだ？」		
-s29_1fb0	95	ダイブツ/「８８ミリの弾が足りなそうだから、７５ミリ/と９０ミリの弾をバラしてリロードしてるの」		
-s29_2010	27	「そりゃ、ごくろうさん」/		
-s29_202c	31	「くそう、ドラグーン２が!!」		
-s29_204c	31	「あーぁ、失敗しちゃった…」		
-s29_206c	27	「うおっ！  やられたっ！」		
-s29_2088	11	「……」		
-s29_2094	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s29_20c0	39	「…やはり、荒事には向きませんねぇ…」		
-s29_20e8	35	「…ジョン、…エスメラルダ大尉…」		
+s29_0004	59	作戦目的：トレーラー脱出まで、敵の足止めを/          する	Objective: Hold the enemy back until the/         trailers escape	
+s29_0040	91	敗北条件：プレーヤーユニットの撃破/          敵のマコーリフ通過/          脱出車両の撃破	Defeat: Player unit destroyed, enemy gets/         past McAuliffe, or escape/         vehicle destroyed	
+s29_009c	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or wipe out the/enemy	
+s29_00ec	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
+s29_0110	99	  火星暦１６６年６月第１木曜日。３日前に/サンダースロックを放棄して以来、敵の攻撃は/ありません。	  First Thursday of June, Mars Year 166./Since we abandoned Thunder's Rock three/days ago, there had been no enemy attacks.	
+s29_0174	63	しかし、この状態が長く続かないことは誰もが/知っていました。/	But everyone knew this would not last/long./	
+s29_01b4	31	火星の虹/「…ザザッ…ザッ…」	Rainbow of Mars/"...*Kssh-kssh*... *Kssh*..."	
+s29_01d4	31	シャベス/「次は飽和攻撃だな」	Chavez/"Next comes a saturation attack."	
+s29_01f4	51	ベティ/「ええ、ここ数日で確実に増強されているわ」	Betty/"Yes. They've clearly built up these past/few days."	
+s29_0228	27	ダイブツ/「ほーわ攻撃？」	Daibutsu/"Sat-u-ration attack?"	
+s29_0244	43	「数に任せて力押しで攻めて来るってことだ」/	"Means they'll throw their numbers at us/and push through by force."/	
+s29_0270	31	マイコ/「あーあ、ジリ貧よね」	Maiko/"Ugh. We're just getting worn down."	
+s29_0290	39	火星の虹/「…ザザッ…ザッ…の虹放送…」	Rainbow of Mars/"...*Kssh-kssh*... *Kssh*... -bow/broadcast..."	
+s29_02b8	39	「で、ダイブツ、なんか聞こえるか？」/	"So, Daibutsu, hear anything?"/	
+s29_02e0	51	火星の虹/「…ザッ…に対し有効な…ザザザッ…持久…」	Rainbow of Mars/"...*Kssh*... effective against.../*Kssh-kssh-kssh*... endurance..."	
+s29_0314	43	「駄目。ここんとこずっとこの調子なんだ」/	"Nope. It's been like this the whole time/lately."/	
+s29_0340	27	「だったら、切っちまえ」/	"Then switch it off."/	
+s29_035c	15	「そんなぁ…」/	"Aww..."/	
+s29_036c	79	「別にいいじゃない。もしかしたら素晴らしい/ニュースが流れるかもしれないんだし」	"Oh, what's the harm? Maybe some wonderful/news will come on."	
+s29_03bc	39	「願望と現実はハッキリ区別すべきだ」/	"You should keep wishes and reality/clearly apart."/	
+s29_03e4	15	「シャベスゥ」/	"Chaveeez."/	
+s29_03f4	51	「…とはいえ、害があるわけじゃなし、まぁ、/いいか」	"...Then again, it's not hurting anyone./Fine, whatever."	
+s29_0428	35	ジョン/「（あなたは、あたし？）」	John/"(Are you... me?)"	
+s29_044c	55	エスメラルダ/「（私は、外惑星連合軍大尉エスメラルダ）」	Esmeralda/"(I am Captain Esmeralda of the Outer/Planets Union Army.)"	
+s29_0484	39	「（じゃぁ、あたしもエスメラルダ？）」/	"(Then am I Esmeralda too?)"/	
+s29_04ac	59	「（違う。あなたはジェニファー・スイフト。/私じゃない）」	"(No. You are Jennifer Swift. You are not/me.)"	
+s29_04e8	67	「（…じゃぁ、あなたの心が自分の心のように/わかるあたしは何？…）」	"(...Then what am I, if I can feel your/heart as if it were my own?...)"	
+s29_052c	59	「（確かに、かつて私たちにはひとつとなる可/能性があった）」	"(It's true that once, we had the chance/to become one.)"	
+s29_0568	83	「（でも今のあなたはジェニファー・スイフト{n}そして私はエスメラルダ・スイフト…）」	"(But now you are Jennifer Swift, and I am/Esmeralda Swift...)"	
+s29_05bc	63	ブレインズ/「事情を説明してくれてもいいんじゃないです/か？」	Brains/"Don't you think you owe us an/explanation?"	
+s29_05fc	55	「いきなり、『このコンテナをよこせ』はない/でしょう」/	"You can't just say 'Hand over this/container' out of nowhere."/	
+s29_0634	63	ニーソン/「いいでしょう。あなたがたには、聞く権利が/あります」	Neeson/"Very well. You have the right to know."	
+s29_0674	51	シャベス/「なんだ、ブレインズ。死にそうな顔をして」	Chavez/"What's up, Brains? You look like death."	
+s29_06a8	43	ブレインズ/「なんでもありません。敵は？」	Brains/"It's nothing. The enemy?"	
+s29_06d4	19	「まだ、来ない」/	"Not here yet."/	
+s29_06e8	63	「ここ数日で敵は相当の増強をしました。次は/飽和攻撃が来ます」	"The enemy's built up a lot these past few/days. Next comes a saturation attack."	
+s29_0728	35	「その気が滅入る話は、さっきした」/	"We already had that depressin' talk."/	
+s29_074c	19	「…すいません」/	"...Sorry."/	
+s29_0760	39	通信音/「ニーソンです。敵が動きました」	Radio/"This is Neeson. The enemy is moving."	
+s29_0788	31	ビズリィ/「すまん！  遅れた！」	Bizley/"Sorry! I'm late!"	
+s29_07a8	39	ベティ/「ジョン、いえジェニファーは？」	Betty/"Where's John... I mean, Jennifer?"	
+s29_07d0	35	「エスメラルダ大尉のとこで寝てる」/	"Sleepin' at Captain Esmeralda's place."/	
+s29_07f4	23	「それなら、安心ね」/	"Then she's in good hands."/	
+s29_080c	51	通信音/「ガンホー・ブリゲイドへ。こちらニーソン」	Radio/"To the Gungho Brigade. This is Neeson."	
+s29_0840	39	シャベス/「こちらガンホー・ブリゲイド」	Chavez/"Gungho Brigade here."	
+s29_0868	75	「これより人員をザイオン渓谷の洞窟に待避さ/せます。しばらく粘って下さい」	"We're moving all personnel to the caves/in Zion Canyon. Please hold out for a/while."	
+s29_08b4	31	「ガンホー・ブリゲイド、了解」/	"Gungho Brigade, roger."/	
+s29_08d4	39	「稼動全機を支援に出します。幸運を」/	"I'm sending every working machine to/support you. Good luck."/	
+s29_08fc	15	「ありがとう」/	"Thanks."/	
+s29_090c	19	「稼動全機って？」/	"Every working machine?"/	
+s29_0920	51	ベティ/「一機でも突破されたら終わり、ってことよ」	Betty/"Means if even one gets through, it's/over."	
+s29_0954	19	マイコ/「シビアァ」	Maiko/"Harsh."	
+s29_0968	35	「さて参謀長、どうしたもんかね？」/	"Well, chief of staff, what do we do?"/	
+s29_098c	19	ブレインズ/「…」/	Brains/"..."/	
+s29_09a0	19	「ブレインズ？」/	"Brains?"/	
+s29_09b4	115	「…ぁ？  えぇと…、砦入り口のバリケードに/達した敵から十字砲火で叩いて、突破されたら/機動後退ってとこですかね」	"...Huh? Um... Crossfire on anything that/hits the fort barricade, mobile retreat if/they get through. About that."	
+s29_0a28	27	「なんだか、頼りねぇな」/	"That don't sound too solid."/	
+s29_0a44	11	/「…」/	/"..."/	
+s29_0a50	19	ブレインズ/「…」	Brains/"..."	
+s29_0a64	67	ニーソン/「むかし、あるところに２８人のクローン姉妹/がいました」	Neeson/"Once upon a time, there were 28 clone/sisters."	
+s29_0aa8	71	「そして彼女たちの間には特殊なコミュニケー/ション手段が存在しました」/	"And among them, there existed a special/means of communication."/	
+s29_0af0	75	ブレインズ/「『双子の共感』とか『虫の知らせ』とか言わ/れるヤツですか？」	Brains/"You mean what people call 'twin empathy'/or a 'gut feeling'?"	
+s29_0b3c	87	「彼女たちは、まさしくそれを期待されて生ま/れたのです。しかし、現実はより複雑でした」/	"That's exactly what they were born for./But the reality was more complicated."/	
+s29_0b94	103	「彼女たちひとりひとりには、『個』という概/念が生まれず、彼女たち全員でひとつの人格を/構成したのです」	"No sense of 'self' arose in any one of/them. Together, all of them made up a/single personality."	
+s29_0bfc	51	「…不思議な話ですが。それが、どう軍事機密/に？」	"...A strange story. But how is it a/military secret?"	
+s29_0c30	119	「彼女たち内部の情報伝達が、他の誰にも、傍/受・妨害されないとしたら？  そして、情報伝/達速度が光速を超えるとしたら？」	"What if nobody could intercept or jam the/signals between them? And what if they/travelled faster than light?"	
+s29_0ca8	7	「…」/	"..."/	
+s29_0cb0	103	「外宇宙連合と地球連邦軍が主体となって、彼/女たちを介して通信を行う『通信機』計画が実/行されました」	"Led by the Union and the Earth Federation/Army, the 'transmitter' project was/launched, to communicate through them."	
+s29_0d18	83	「人道的といいかねる一連の実験の結果、得ら/れたデータは予想を上回るものでした」/	"After a series of hardly humane/experiments, the data obtained surpassed/all expectations."/	
+s29_0d6c	63	「情報伝達速度は極大、測定不能。通信レート/は距離に概ね比例」/	"Signal speed: at maximum, beyond/measurement. Data rate: roughly/proportional to distance."/	
+s29_0dac	63	「通信レートが距離に比例？  遠く離れるほど/多く情報が送れる？」	"The rate is proportional to distance? The/farther apart, the more they can send?"	
+s29_0dec	115	「そうです。彼女たちの状態は言ってみれば、/体がいきなり数千キロに拡大して手足がはるか/彼方にあるようなものです」	"Yes. Their state was, so to speak, as if/the body suddenly grew thousands of km/wide, its limbs far away."	
+s29_0e60	87	「アイデンティティを保つには、情報交換を密/にする必要があったのだ、と言われています」/	"It's said they needed to exchange/information intensely to keep their/identity."/	
+s29_0eb8	107	「そして、外惑星連合の目的である超光速通信/実験が、通信距離を太陽系全域に広げて行わ/れ、事故が起きました」	"Then the Union's real aim, an FTL comms/test, was run across the whole solar/system, and an accident occurred."	
+s29_0f24	99	「あまりに広大な範囲に散らされた彼女たちは/ついに単一のアイデンティティを保てなくなっ/たのです」	"Scattered over such a vast area, they/finally could no longer keep a single/identity."	
+s29_0f88	75	「２８人の『通信機』オペレーターのうち、た/だひとりだけが助かりました」/	"Of the 28 'transmitter' operators, only/one survived."/	
+s29_0fd4	43	ブレインズ/「それが、エスメラルダ大尉…」	Brains/"And that was Captain Esmeralda..."	
+s29_1000	51	エスメラルダ/「（…かつて私は、２８人いました。」	Esmeralda/"(...Once, there were 28 of me.)"	
+s29_1034	79	「（いえ、２８の身体を持ったひとりの『私』/だったと言うほうが正確でしょう）」	"(No, it's more accurate to say I was one/'me' with 28 bodies.)"	
+s29_1084	79	「（でも、私が、私自身の自我を認識した瞬間/に、それまでの『私』は死にました）」	"(But the moment I became aware of my own/self, the 'me' that had been until then/died.)"	
+s29_10d4	71	「（私が、仲間の半分を殺し、半分を発狂させ/廃人に追い込んだのです）」	"(I killed half of my sisters, and drove/the other half mad, to ruin.)"	
+s29_111c	19	ジョン/「（…）」	John/"(...)"	
+s29_1130	63	「（そして、発狂した私の分身たちは、今も/生かされています）」	"(And my mad other selves are still being/kept alive, even now.)"	
+s29_1170	43	「（…それは、あたしにもときどきわかる）」/	"(...I can feel that too, sometimes.)"/	
+s29_119c	51	「（私は、彼女たちを殺すため、ここにいるの/です）」	"(I am here to kill them.)"	
+s29_11d0	83	ニーソン/「２８人の『通信機』オペレーターのうち、/ただひとりだけが助かりました」	Neeson/"Of the 28 'transmitter' operators, only/one survived."	
+s29_1224	127	「『通信機』の長距離通信としての欠陥から外/宇宙連合は計画から手を引き、無事、生還した/ひとりだけが、外宇宙連合へと戻りました」	"The 'transmitter' was flawed for long/range, so the Union quit the project, and/the lone survivor went back to the Union."	
+s29_12a4	55	「地球連邦軍が、その後どう計画を扱ったかは/不明です」/	"What the Earth Federation Army did with/the project after that is unknown."/	
+s29_12dc	31	ブレインズ/「機密の壁ですか？」	Brains/"A wall of secrecy?"	
+s29_12fc	43	/「いいえ、情報が失われてしまったのです」/	/"No. The information was lost."/	
+s29_1328	115	「水戦争末期、ホイヘンス付近である地球軍実/験部隊が行方不明となりました。計画の詳細は/彼らだけが握ってたのです」	"At the end of the Water War, an Earth/Army test unit went missing near Huygens./Only they had the project details."	
+s29_139c	47	/「…『クルセーダーズ』、『ウィザード』！」/	/"...The 'Crusaders'! The 'Wizard'!"/	
+s29_13cc	51	「よく知っていますね。それこそ、軍事機密で/すよ」	"You know a lot. That's exactly the/military secret."	
+s29_1400	75	「外宇宙連合が計画を放棄したとき、発狂した/彼女たちはどうなりました？」/	"When the Union abandoned the project,/what happened to the mad sisters?"/	
+s29_144c	23	「記録はありません」/	"There are no records."/	
+s29_1464	119	「『クルセーダーズ』の通信システムには、発/狂した少女たちの脳が使われた？  傍受も妨害/もされない通信システムとして？」	"The 'Crusaders' comms system used the/brains of those mad girls? As a system no/one can intercept or jam?"	
+s29_14dc	67	「そうです。小隊指揮官以上の１３機には、/『通信機』が積まれました」	"Yes. The 13 machines from platoon leader/up were fitted with 'transmitters.'"	
+s29_1520	67	「正確には『送信機』が『ウィザード』に、/『受信機』が１２機にです」	"To be exact, the 'sender' went in the/'Wizard,' and 'receivers' in the other/12."	
+s29_1564	79	「『送信機』は電気パルスのショックなどはク/リアーに伝えた、と記録にあります」	"Records say the 'sender' clearly passed/on things like electric shocks."	
+s29_15b4	67	「…正気がなくとも、痛みには反射的に反応す/る、というわけですか」	"...So even without sanity, they still/react to pain by reflex."	
+s29_15f8	83	「情報密度の低い、そう、人間が読み取れる/モールス信号程度の情報が送れたそうです」	"Low-density data could be sent. About as/much as Morse code a human could read."	
+s29_164c	31	「…まったく吐きそうな話です」/	"...What a sickening story."/	
+s29_166c	39	ニーソン/「もうおわかりでしょう？」/	Neeson/"You understand now, don't you?"/	
+s29_1694	83	「あなたが、あの地球軍基地から持ち出した/このコンテナこそ『通信機』そのものです」/	"This container you brought out of that/Earth Army base is the 'transmitter'/itself."/	
+s29_16e8	67	「エスメラルダ大尉さえ目を覚ませば、これで/敵を撹乱させられます」/	"If only Captain Esmeralda wakes up, we/can throw the enemy into confusion with/it."/	
+s29_172c	63	ブレインズ/「…実験のただひとりの生還者がエスメラルダ/大尉？」	Brains/"...Captain Esmeralda is the experiment's/sole survivor?"	
+s29_176c	119	「そうです。そして、あなたのお仲間のジョン/・スミス、本名ジェニファー・スイフトは、/『通信機』計画の予備クローンです」	"Yes. And your comrade John Smith, real/name Jennifer Swift, is a spare clone from/the 'transmitter' project."	
+s29_17e4	11	/「！」/	/"!"/	
+s29_17f0	31	シャベス/「…ブレインズ？」/	Chavez/"...Brains?"/	
+s29_1810	83	ニーソン/「彼女は『通信機』バックアップとして、受精/卵の状態で凍結されていました」	Neeson/"She was frozen as a fertilised egg, as a/'transmitter' backup."	
+s29_1864	51	「しかし、あの事故の後、計画は破棄されまし/た」/	"But after the accident, the project was/scrapped."/	
+s29_1898	115	「その直後、主任研究員のスイフト教授が、/妻といまだ受精卵だった彼女を連れ、かなり強/引な方法で火星に移住しました」	"Soon after, lead researcher Professor/Swift forced his way to Mars with his wife/and her, still an embryo."	
+s29_190c	83	「スイフト夫妻が、何を考えてジェニファーを/育てたかは、今となってはわかりません」/	"What the Swifts had in mind when they/raised Jennifer, we can no longer know."/	
+s29_1960	31	ブレインズ/「…しょく罪？」/	Brains/"...Atonement?"/	
+s29_1980	23	/「かもしれません」/	/"Perhaps."/	
+s29_1998	27	シャベス/「ブレインズ！」	Chavez/"Brains!"	
+s29_19b4	63	「念のため、聞いておきます。/ジョンに『通信機』が使えますか？」	"Just to be sure, let me ask. Can John use/the 'transmitter'?"	
+s29_19f4	47	「無理でしょう。かなりの訓練が必要なはずで/す」	"I doubt it. It should take a lot of/training."	
+s29_1a24	43	「わかりました。『通信機』をお渡しします」/	"I see. I'll hand over the 'transmitter.'"/	
+s29_1a50	19	「ブレインズ!!」	"Brains!!"	
+s29_1a64	15	「はっ、はい」/	"Ah, y-yes!"/	
+s29_1a74	43	「戦闘中だぞ！  なにぼぉっとしてやがる!?」	"We're in a fight! What're you spacin' out/for?!"	
+s29_1aa0	19	「す、すいません」/	"S-sorry."/	
+s29_1ab4	7	「？」	"?"	
+s29_1abc	47	ジョン/「（あなたのやろうとしたことがわかる）」	John/"(I know what you were trying to do.)"	
+s29_1aec	43	「（あたしにはどうすればいいかわかる）」/	"(I know what I have to do.)"/	
+s29_1b18	23	エスメラルダ/「（…）」	Esmeralda/"(...)"	
+s29_1b30	31	「（今ならあたしにもできる）」/	"(Now I can do it too.)"/	
+s29_1b50	51	「（だめ、これは私の戦いよ。あなたには関係/ない）」	"(No. This is my fight. It has nothing to/do with you.)"	
+s29_1b84	35	「（あたしにも戦う理由がある）」/	"(I have a reason to fight too.)"/	
+s29_1ba8	63	「（あたしは今まで何もしなかった。ただ怯え/て泣いていただけ）」	"(Until now I've done nothing. I just/cowered and cried.)"	
+s29_1be8	71	「（ただみんなに守られていただけ。でも今度/はあたしがみんなを守る）」	"(Everyone just protected me. But this/time, I'll protect everyone.)"	
+s29_1c30	19	「（だめよ…）」/	"(No...)"/	
+s29_1c44	59	「（エスメラルダさん。ビズリィをよろしくお/願いします）」	"(Esmeralda-san. Please take care of/Bizley.)"	
+s29_1c80	23	「（ジェニファー）」/	"(Jennifer.)"/	
+s29_1c98	11	「（…）」/	"(...)"/	
+s29_1ca4	91	通信音/「こちらニーソン。マコーリフからの脱出完了/逃げ切るのに、もう５分、粘ってください」	Radio/"Neeson here. We're out of McAuliffe. Hold/on five more minutes so we can get clear."	
+s29_1d00	91	通信音/「ニーソンです。おかげで距離を稼げました。/感謝します。速やかに撤退してください」	Radio/"Neeson here. Thanks to you we gained/distance. Thank you. Withdraw at once."	
+s29_1d5c	63	火星の虹/「…ザッ…秋の日のヴィオロンのため息の…ザ/ザッ…」	Rainbow of Mars/"...*Kssh*... The long sobs of the violins/of autumn... *Kssh-kssh*..."	
+s29_1d9c	47	シャベス/「ちっ、あいかわらず役立たずだな」/	Chavez/"Tch. Useless as ever."/	
+s29_1dcc	43	ベティ/「…身にしみてひたぶるに物悲し…」/	Betty/"...Wound my heart with a monotonous/languor..."/	
+s29_1df8	19	マイコ/「え？」/	Maiko/"Huh?"/	
+s29_1e0c	111	ブレインズ「さっきのラジオは、ヴェルレーヌ/という詩人の詩の前半で、続きが『身にしみて/ひたぶるに物悲し』です」	Brains: "That radio was the first half of/a Verlaine poem. Next comes 'Wound my/heart with a monotonous languor.'"	
+s29_1e7c	71	「そのとおりよ。/…でも意外ね、ブレインズが詩にも詳しかった/なんて」	"That's right. ...But I'm surprised. I/didn't know you knew poetry too, Brains."	
+s29_1ec4	43	/「さて？  どこで聞いたか忘れましたが…」/	/"Who knows? I forget where I heard it..."/	
+s29_1ef0	59	「『…ひたぶるに物悲し』か、現状、まさしく/そのものだな」/	"'...A monotonous languor,' huh. Fits our/situation to a T."/	
+s29_1f2c	91	火星の虹/「…ザザッ…秋の日のヴィオロンのため息の…/ザッ…身にしみてひたぶるに物悲し…」	Rainbow of Mars/"...The long sobs of the violins of/autumn... *Kssh*... wound my heart..."	
+s29_1f88	39	ビズリィ/「ダイブツ、何やってんだ？」	Bizley/"Daibutsu, what're you doin'?"	
+s29_1fb0	95	ダイブツ/「８８ミリの弾が足りなそうだから、７５ミリ/と９０ミリの弾をバラしてリロードしてるの」	Daibutsu/"Short on 88mm rounds, so I'm breaking/down 75mm and 90mm ones to reload."	
+s29_2010	27	「そりゃ、ごくろうさん」/	"Well, thanks for the hard work."/	
+s29_202c	31	「くそう、ドラグーン２が!!」	"Damn, the Dragoon 2!!"	
+s29_204c	31	「あーぁ、失敗しちゃった…」	"Awww, I blew it..."	
+s29_206c	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s29_2088	11	「……」	"......"	
+s29_2094	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s29_20c0	39	「…やはり、荒事には向きませんねぇ…」	"...As I thought, I'm not cut out for/rough stuff..."	
+s29_20e8	35	「…ジョン、…エスメラルダ大尉…」	"...John... Captain Esmeralda..."	

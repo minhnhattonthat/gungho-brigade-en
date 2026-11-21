@@ -36,7 +36,8 @@ SPEAKER = re.compile(r"^([^「『（/{}：\s　][^「『（/{}：]{0,11}?)(/|\{n
 SMALL = re.compile(r"[\x20-\x7e｡-ﾟ]*")
 FULLWIDTH_FILES = {"menu", "slps", "menumv", "table"}
 # Measured budgets (docs/windows.md): chars per line, lines per box.
-BOX = {"dlg": (42, 3), "help": (50, 1), "credit": (48, 1), "full": (18, 5)}
+# roll = stage 35's own staff roll (scen_s35 from 0x420): shortcut: 48 wide like ENDING.BIN, line count unmeasured; check at the s35 warp (credits ~frame 7000).
+BOX = {"dlg": (42, 3), "help": (50, 1), "credit": (48, 1), "roll": (48, 6), "full": (18, 5)}
 FULL_LIMIT = {"table_00430": 6, "table_00440": 4}
 NAME_BUDGET = {"pilot": 7, "weapon": 9, "unit": 8, "skill": 10}  # small font, display chars (soft: phase 7 engine work)
 
@@ -46,6 +47,8 @@ def form_of(fname, row):
         return "name"
     if fname in FULLWIDTH_FILES:
         return "full"
+    if fname == "scen_s35" and int(row["id"].split("_")[1], 16) >= 0x420:
+        return "roll"
     return {"gunho": "help", "ending": "credit"}.get(fname, "dlg")
 
 

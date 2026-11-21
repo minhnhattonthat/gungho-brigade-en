@@ -1,31 +1,31 @@
 id	max	jp	en	notes
-s34_0004	31	勝利条件：クロームデビルの撃破		
-s34_0024	79	勝利条件：敵全滅後に、全プレーヤーユニット{n}          を指定領域から脱出させる		
-s34_0074	35	敗北条件：プレーヤーユニットの撃破		
-s34_0098	31	マイコ/「よぉし、捕まえたっ！」		
-s34_00b8	43	ビズリィ/「ジョン…、早まるんじゃねぇぞ」		
-s34_00e4	67	ビズリィ/「ザコにはかまうな！  クロームデビルさえ潰/せば勝ちだ！」		
-s34_0128	27	ブレインズ/「…ザコ、ねぇ」		
-s34_0144	27	/「わかってんだろうな!?」/		
-s34_0160	19	マイコ/「ヤー！」		
-s34_0174	23	シャベス/「ヤー！」/		
-s34_018c	39	ビズリィ/「ちきしょう、取り付けねぇ！」		
-s34_01b4	67	エスメラルダ/「戦力が足りない。すぐ近くにヤツがいると/いうのに…」		
-s34_01f8	51	ニーソン/「ご心配なく、そろそろ騎兵隊の到着です」/		
-s34_022c	15	/「騎兵隊？」/		
-s34_023c	11	/「そう」/		
-s34_0248	67	通信音/「カイツブリ１８０中隊到着。ニーソン中佐、/指示を願います」		
-s34_028c	75	ニーソン/「赤いニセモノどもを排除せよ。ガンホー・/ブリゲイドを援護する」		
-s34_02d8	35	通信音/「ガンホー・ブリゲイド？」{n}		
-s34_02fc	39	/「そこで戦っている連中の事だ。復唱」/		
-s34_0324	103	通信音「カイツブリ１８０リーダー了解。/ガンホー・ブリゲイドを援護し、赤いクローム/デビルを排除します」		
-s34_038c	35	エスメラルダ/「ニーソン中佐？」/		
-s34_03b0	71	「そう、地球連邦軍情報部中佐、ウィリアム・/ニーソンです。よろしく」/		
-s34_03f8	19	/「…あきれた」/		
-s34_040c	31	ジョン/「…あいつが、来る!!」		
-s34_042c	19	「…ジョン…！」		
-s34_0440	27	「くそぅ、ここまで来て…」		
-s34_045c	31	「クローム！  デビルッ…!!」		
-s34_047c	15	「…残念…」		
-s34_048c	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s34_04b8	43	「…惜しかった。が、結果のみがすべて…」		
+s34_0004	31	勝利条件：クロームデビルの撃破	Victory: Destroy the Chrome Devil	
+s34_0024	79	勝利条件：敵全滅後に、全プレーヤーユニット{n}          を指定領域から脱出させる	Victory: After wiping out the enemy, get/         all player units out of the/marked area	
+s34_0074	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
+s34_0098	31	マイコ/「よぉし、捕まえたっ！」	Maiko/"All right, got you!"	
+s34_00b8	43	ビズリィ/「ジョン…、早まるんじゃねぇぞ」	Bizley/"John... don't you do anything rash."	
+s34_00e4	67	ビズリィ/「ザコにはかまうな！  クロームデビルさえ潰/せば勝ちだ！」	Bizley/"Forget the small fry! Crush the Chrome/Devil and we win!"	
+s34_0128	27	ブレインズ/「…ザコ、ねぇ」	Brains/"...Small fry, he says."	
+s34_0144	27	/「わかってんだろうな!?」/	/"You all got that?!"/	
+s34_0160	19	マイコ/「ヤー！」	Maiko/"Yah!"	
+s34_0174	23	シャベス/「ヤー！」/	Chavez/"Yah!"/	
+s34_018c	39	ビズリィ/「ちきしょう、取り付けねぇ！」	Bizley/"Dammit, I can't get to it!"	
+s34_01b4	67	エスメラルダ/「戦力が足りない。すぐ近くにヤツがいると/いうのに…」	Esmeralda/"Not enough strength. And it's right/there, so close..."	
+s34_01f8	51	ニーソン/「ご心配なく、そろそろ騎兵隊の到着です」/	Neeson/"Not to worry. The cavalry should be/arriving about now."/	
+s34_022c	15	/「騎兵隊？」/	/"The cavalry?"/	
+s34_023c	11	/「そう」/	/"That's right."/	
+s34_0248	67	通信音/「カイツブリ１８０中隊到着。ニーソン中佐、/指示を願います」	Radio/"Grebe 180 Squadron has arrived./Lieutenant Colonel Neeson, your orders?"	
+s34_028c	75	ニーソン/「赤いニセモノどもを排除せよ。ガンホー・/ブリゲイドを援護する」	Neeson/"Eliminate the red fakes. Cover the Gungho/Brigade."	
+s34_02d8	35	通信音/「ガンホー・ブリゲイド？」{n}	Radio/"The Gungho Brigade?"{n}	
+s34_02fc	39	/「そこで戦っている連中の事だ。復唱」/	/"The ones fighting over there. Repeat/back."/	
+s34_0324	103	通信音「カイツブリ１８０リーダー了解。/ガンホー・ブリゲイドを援護し、赤いクローム/デビルを排除します」	Radio: "Grebe 180 Leader, roger. Covering/the Gungho Brigade and eliminating the red/Chrome Devils."	
+s34_038c	35	エスメラルダ/「ニーソン中佐？」/	Esmeralda/"Lieutenant Colonel Neeson?"/	
+s34_03b0	71	「そう、地球連邦軍情報部中佐、ウィリアム・/ニーソンです。よろしく」/	"Yes. Lieutenant Colonel William Neeson,/Earth Federation Army Intelligence./Pleased to meet you."/	
+s34_03f8	19	/「…あきれた」/	/"...Unbelievable."/	
+s34_040c	31	ジョン/「…あいつが、来る!!」	John/"...It's coming!!"	
+s34_042c	19	「…ジョン…！」	"...John...!"	
+s34_0440	27	「くそぅ、ここまで来て…」	"Dammit, after comin' this far..."	
+s34_045c	31	「クローム！  デビルッ…!!」	"Chrome! Devil...!!"	
+s34_047c	15	「…残念…」	"...Too bad..."	
+s34_048c	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s34_04b8	43	「…惜しかった。が、結果のみがすべて…」	"...So close. But only results count..."	
