@@ -64,7 +64,7 @@ TABLE.BIN (other files: image-data noise). Exact list by pointer in phase 4.
 ## Free space
 - Disc: files are opened by ISO name, not hard-coded LBA: SLPS_019.02 and MENU.EXE carry `cdrom:%s;1` (CdSearchFile
   format) with the bare names (OPENING.DAT, MENU.EXE, GUNHO.EXE ...); GUNHO.EXE lists TABLE.BIN, SCENFILE.DAT,
-  GAMEDATA.DAT, BTMOTION/WPMOTION.DAT, FACE.DAT/LEN, MOVIE.BIN, ENDING.BIN and `\XA\XA0nn.XA;1`. **likely**; prove in
-  phase 3 with a rebuild that moves LBAs (pad a file) and boots to a battle. Inside each DAT, entries are addressed by
+  GAMEDATA.DAT, BTMOTION/WPMOTION.DAT, FACE.DAT/LEN, MOVIE.BIN, ENDING.BIN and `\XA\XA0nn.XA;1`. **Verified** 2026-11-21: GUNHO.EXE padded by
+  4 KB (every later file moved 2 sectors) still warps to the stage 8 battle, the intermission and the staff roll. Inside each DAT, entries are addressed by
   the LEN offset table, so a grown entry needs the LEN rewritten.
 - RAM: unknown; overlay buffer bound above.

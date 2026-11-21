@@ -15,6 +15,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 ## Paths
 - Original disc: `rom/Gungho Brigade (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own PCSX-Redux in `tools/pcsx/` (nightly 32338.20261121.15, `fetch_emu.py pcsx`; gitignored), BIOS `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`). Savestates: `work/states/`.
 - Disc tools (gitignored): `tools/mkpsxiso/mkpsxiso-2.30-win64/{dumpsxiso,mkpsxiso}.exe` (github.com/Lameguy64/mkpsxiso v2.30), `tools/armips/armips.exe` (Kingcom/armips v0.11.0). xdelta3 on PATH.
+- Disc: pristine unpack `work/disc/tree` + `layout.xml` (never edit); patched files go in `work/build/files/<disc path>`, which `build.py` swaps in.
 - Text: `script/` (TSV). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
