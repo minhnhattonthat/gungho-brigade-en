@@ -1,0 +1,45 @@
+name	stage	mode	base	route	notes
+title				1500 -;6 start;1600 -	title menu NEW GAME / CONTINUE / GAME LOAD (blank card)
+title_load			title	6 down;60 -;6 circle;900 -	title GAME LOAD with a blank card (memory-card messages)
+s00	0	battle			stage 0 (NEW GAME start): opening event, then battle
+s01	1	battle			stage 1
+s02	2	battle			stage 2: prologue history stills (FACE captions) in its intro
+s03	3	battle			stage 3: event stage, chains into stage 4; tale 3 Beginning of the End card
+s04	4	battle			stage 4 (card is shown by stage 3)
+s05	5	battle			stage 5
+s06	6	battle			stage 6
+s07	7	battle			stage 7
+s08	8	battle			stage 8: tale 7 The Guns of Marineris card
+s09	9	battle			stage 9
+s10	10	battle			stage 10
+s11	11	battle			stage 11: event stage, chains into stage 12 (GUNGHO BRIGADE eyecatch)
+s12	12	battle			stage 12
+s13	13	battle			stage 13
+s14	14	battle			stage 14
+s15	15	battle			stage 15
+s16	16	battle			stage 16
+s17	17	battle			stage 17
+s18	18	battle			stage 18
+s19	19	battle			stage 19
+s20	20	battle			stage 20
+s21	21	battle			stage 21
+s22	22	battle			stage 22
+s23	23	battle			stage 23
+s24	24	battle			stage 24
+s25	25	battle			stage 25
+s26	26	battle			stage 26
+s27	27	battle			stage 27
+s28	28	battle			stage 28
+s29	29	battle			stage 29
+s30	30	battle			stage 30
+s31	31	battle			stage 31
+s32	32	battle			stage 32: event stage, Tune in to the Next Tale map, chains into stage 33
+s33	33	battle			stage 33
+s34	34	battle			stage 34 (last story stage; its overlay calls the ending)
+s35	35	timed			stage 35 SYSTEM TEMP: post-game stage, its overlay (175) plays the staff roll (credits at 7000); later a test battle with the command menu
+e34	34	ending			staff roll (ENDING.BIN, Japanese credits) after stage 34's intro
+i08	8	clear			intermission after clearing stage 8: GAME SAVE / TUNE UP / STATUS / NEXT TALE
+i08_save			i08	6 circle;400 -	intermission GAME SAVE slot screen (blank card)
+i08_tune			i08	6 down;60 -;6 circle;400 -	intermission TUNE UP
+i08_status			i08	6 down;60 -;6 down;60 -;6 circle;400 -	intermission STATUS
+i08_next			i08	6 up;60 -;6 circle;3000 -	intermission NEXT TALE: stage 9 starts

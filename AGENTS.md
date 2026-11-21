@@ -7,7 +7,8 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; slow tests: `python -X utf8 -m pytest -m slow`)
 - Hooks:    `git config core.hooksPath tools/hooks` (once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/gungho_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
-- Warp:     `python -X utf8 $SKILL/scripts/emu.py build/gungho_en.cue --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.tsv`; never ask the user to play to a scene)
+- Warp:     `python -X utf8 tools/debug/warp.py <scene..> [--cue build/gungho_en.cue]` / `--all` (regen every state in work/states/) / `--list`. Scenes: `tools/debug/scenes.tsv`; options in `tools/debug/warp.lua`; notes `docs/re/debug.md`. Never ask the user to play to a scene.
+- Saves:    `python -X utf8 tools/debug/save.py CARD.mcd --show | --out NEW.mcd --stage N --poke OFF:SIZE=VAL` (layout `tools/debug/save_layout.md`); boot with `emu.py --sav NEW.mcd`.
 - Release:  `python -X utf8 tools/release.py` (xdelta vs the .bin + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
