@@ -3,6 +3,7 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `C:/Users/Nathan/.claude/plugins/marketplaces/retro-translation/skills/translate-retro-game/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
+- Insert:   `python -X utf8 tools/insert.py [--marker] [--qa ID=TEXT]` -> work/build/files/ (text + digraph font; budgets `docs/windows.md`)
 - Build:    `python -X utf8 build.py`        -> build/gungho_en.bin + .cue (checks the dump against `rom.sha1` first)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; slow tests: `python -X utf8 -m pytest -m slow`)
 - Hooks:    `git config core.hooksPath tools/hooks` (once per clone)

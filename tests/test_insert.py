@@ -41,7 +41,7 @@ def test_markers_fit_and_keep_tokens():
     for rows in x.all_rows().values():
         for r in rows:
             m = ins.marker(r)
-            assert ins.size(m, ins.small_font(r)) <= len(SJIS.encode(r["jp"])), r["id"]
+            assert ins.size(m, ins.kind(r)) <= len(SJIS.encode(r["jp"])), r["id"]
             assert d.RAW.findall(m) == d.RAW.findall(r["jp"]), r["id"]
 
 

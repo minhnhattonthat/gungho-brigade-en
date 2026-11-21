@@ -2,9 +2,16 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build (not started). Phase 4 extract done 2026-11-21. Last build:
-  build/gungho_en.bin 2026-11-21, empty overlay, sha1 695ccbda... = the dump (smoke ok).
+- **Phase:** 5. Engine spike and marker build (in progress: font done, marker build boots, width gate partly
+  measured). Last build: build/gungho_en.bin 2026-11-22 = marker build (`tools/insert.py --marker` + build.py).
 - **Done:**
+  - Phase 5 so far (2026-11-22): **font = digraphs, no code change** (tools/digraph.py, fonts/font5.txt; details
+    docs/re/text.md §Font). Dialogue/battle text = pairs of 5-px letters in kana/kanji slots, 0x20 = 6-px space.
+    MENU.EXE/SLPS/MENUMV/TABLE.BIN text = fullwidth Latin (their font is keyed by the real SJIS code; pairs showed as
+    kana there). Small-font rows = ASCII. `tools/insert.py [--marker] [--qa ID=TEXT]` writes work/build/files/
+    (rerun before build.py). tests/test_insert.py. `warp.py --all --cue build/gungho_en.cue` on the marker build:
+    46/46 arrive, every dialogue/objective/tutorial box, help line, credits and memory-card message seen shows its
+    marker (work/qa/warp/sheet*.png). Budgets: docs/windows.md (dialogue/tutorial/objective 42 chars x 3 lines).
   - Phase 4 (2026-11-21): `tools/extract.py` -> 43 `script/*.tsv` (2713 rows: 36 stage overlays 2228, gunho 135,
     pilots 123, ending 149, table 33, menu/slps/menumv 15 each), codec `tools/sjis.py` (cp932 tbl), refs scanner
     `tools/mipsrefs.py`, `extract.write_back()` (in-place, NUL-padded; insert base for phase 5/7).
@@ -28,12 +35,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 5):** font/VWF decision (big 11x11 font has only a fixed 1376-glyph SJIS list, partial full-width
-  Latin; small 8x12 font has ASCII; battle help line turns single bytes into spaces: `docs/re/text.md` §Encoding),
-  then a marker build: every row's text replaced by `[id]` marker (overlay text must fit `max` or relocate: overlay
-  buffer bound 0x5d60 still a guess; EXE strings repoint via mipsrefs sites), patched files into
-  `work/build/files/` for build.py. Confirm the stale SCENFILE copies (text.md) never show; measure every box width
-  (width gate) before any translation.
+- **Next (phase 5, to finish):** measure the `not measured` rows of docs/windows.md: battle windows (pilot/unit/
+  weapon names, small-font battle messages; battle controls: square on a unit opens its portrait+stats, circle did
+  nothing on the map, work/qa/bt2), staff roll width (e34), table_00430/00440, help line right end (`--qa` a 60-char
+  gunho row). Glyph torture line: s08 test rows 07e8/0870/08f0 are never shown in the s08 intro (event skips them),
+  put `--qa` torture text on s08_078c instead (max 91). Then phase 5 done -> translator brief limits from
+  docs/windows.md. Phase 7 concern: English often outgrows in-place slots (overlay buffer bound 0x5d60 still a guess;
+  EXE strings repoint via mipsrefs sites); digraph capacity 1376-75 codes (marker uses ~300 pairs).
+  Stale SCENFILE copies: no Japanese seen in the 46-scene marker tour.
 - **Notes:** stage index != tale number (stage 8 shows "tale 7"); event stages 3/11/32 chain into the next stage.
   The portable card tools/pcsx/memcard1.mcd must stay blank (warp.py always passes a blank `--sav`). Game over warp
   shows over the loading screen (battle view never drawn) and only the first leader's line; stage 0 has no defeat

@@ -4,8 +4,8 @@
 
 Rewrites work/build/files/ (build.py swaps those files in). Text per row: `--qa` override, else the marker (with
 --marker), else the TSV `en` column; rows with none keep their Japanese bytes. Rows whose Japanese is half-width only
-(unit, weapon, pilot names, battle messages: the small 8x12 font) are written as plain ASCII; all other rows go
-through the digraph font (tools/digraph.py). In-place only: a string longer than its slot fails the build.
+(unit, weapon, pilot names, battle messages: the small 8x12 font) are written as plain ASCII; MENU.EXE / SLPS /
+MENUMV rows as fullwidth Latin (see FULLWIDTH_FILES); all other rows go through the digraph font (tools/digraph.py). In-place only: a string longer than its slot fails the build.
 
 Marker (phase 5): each line becomes filler of the same half-cell width as the Japanese line, with `[id]` at the start
 of the widest line, so every box shows which row it is without growing; markers never take more bytes than the JP.
@@ -22,41 +22,61 @@ from digraph import BITMAPS, RAW, Digraph, units  # noqa: E402
 from sjis import SJIS  # noqa: E402
 
 OVERLAY = x.ROOT / "work/build/files"
-MENU_FONT_FILES = {"MENU.EXE", "SLPS_019.02", "MENUMV.EXE", "TABLE.BIN"}  # pairs from codes valid in both fonts
+# Title-side exes and TABLE.BIN's memory-card screens draw with a font keyed by the real SJIS code (the patched
+# bitmaps never show there: verified, title GAME LOAD and intermission GAME SAVE showed the kana of the pair codes),
+# so their text goes out as fullwidth Latin, 12 px per letter.
+FULLWIDTH_FILES = {"MENU.EXE", "SLPS_019.02", "MENUMV.EXE", "TABLE.BIN"}
+# Memory-card save titles: the BIOS card manager shows them (real SJIS), the game writes digits into fixed offsets.
+# Fullwidth Latin already; no marker (a translation must keep the digit positions).
+SAVE_TITLES = {"table_11800", "table_11844", "table_11ac4"}
 FILLER = "The quick brown fox jumps over the lazy dog. 0123456789 "
 SMALL = re.compile(r"[\x20-\x7e｡-ﾟ]*")
 
 
+def kind(row):
+    """'small' (half-width 8x12 font, ASCII), 'full' (fullwidth Latin) or 'pair' (digraph font)."""
+    if SMALL.fullmatch(row["jp"]):
+        return "small"
+    return "full" if row["_file"] in FULLWIDTH_FILES or row["id"] in SAVE_TITLES else "pair"
+
+
 def small_font(row):
-    return SMALL.fullmatch(row["jp"]) is not None
+    return kind(row) == "small"
+
+
+def to_full(text):
+    """ASCII -> fullwidth (space -> U+3000); RAW tokens (line breaks, %s, [XX]) kept."""
+    return "".join(p if k % 2 else "".join("　" if c == " " else chr(ord(c) + 0xFEE0) for c in p)
+                   for k, p in enumerate(RAW.split(text)))
 
 
 def half_cells(s):
     return sum(1 if SMALL.fullmatch(ch) else 2 for ch in s)
 
 
-def size(text, small):
+def size(text, kd):
     """Encoded byte count, before the pair map exists (a pair = 2 bytes, a half-space = 1)."""
-    if small:
-        return len(SJIS.encode(text))
+    if kd != "pair":
+        return len(SJIS.encode(to_full(text) if kd == "full" else text))
     return sum(len(u) if isinstance(u, bytes) else 1 if u == " " else 2 for u in units(text))
 
 
 def marker(row):
     """Marker text for `row`: same line structure and width as the JP, encoded size <= the JP's."""
-    small = small_font(row)
+    kd = kind(row)
     parts = RAW.split(row["jp"])
-    widths = [half_cells(p) if k % 2 == 0 else 0 for k, p in enumerate(parts)]
-    label = re.sub(r"[^A-Za-z0-9]", "", row["id"]).upper() if small else f"[{row['id']}]"
+    per = 2 if kd == "full" else 1  # half-cells per letter
+    widths = [half_cells(p) // per if k % 2 == 0 else 0 for k, p in enumerate(parts)]
+    label = re.sub(r"[^A-Za-z0-9]", "", row["id"]).upper() if kd == "small" else f"[{row['id']}]"
     widest = max(range(0, len(parts), 2), key=lambda k: widths[k])
     texts = {}
     for k in range(0, len(parts), 2):
-        fill = FILLER if not small else "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        fill = FILLER if kd != "small" else "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         texts[k] = ((label + " " if k == widest else "") + fill * 9)[:widths[k]]
     limit = len(SJIS.encode(row["jp"]))
     while True:
         text = "".join(texts[k] if k % 2 == 0 else p for k, p in enumerate(parts))
-        if size(text, small) <= limit:
+        if size(text, kd) <= limit:
             return text
         k = max(texts, key=lambda k: len(texts[k]))  # shrink the longest line
         texts[k] = texts[k][:-1]
@@ -74,13 +94,14 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE):
     if unknown:
         sys.exit(f"--qa ids not in the script: {sorted(unknown)}")
     for r in rows:
-        r["new"] = qa.get(r["id"]) or (marker(r) if mode_marker else en.get(r["id"], ""))
-    big = [r for r in rows if r["new"] and not small_font(r)]
-    dg = Digraph(tree, [r["new"] for r in big if r["_file"] not in MENU_FONT_FILES],
-                 [r["new"] for r in big if r["_file"] in MENU_FONT_FILES])
+        mark = mode_marker and r["id"] not in SAVE_TITLES
+        r["new"] = qa.get(r["id"]) or (marker(r) if mark else en.get(r["id"], ""))
+    big = [r for r in rows if r["new"] and kind(r) == "pair"]
+    dg = Digraph(tree, [r["new"] for r in big], [])
 
     def encode(r):
-        return SJIS.encode(r["new"]) if small_font(r) else dg.encode(r["new"])
+        kd = kind(r)
+        return dg.encode(r["new"]) if kd == "pair" else SJIS.encode(to_full(r["new"]) if kd == "full" else r["new"])
 
     if overlay.exists():
         shutil.rmtree(overlay)
