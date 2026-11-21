@@ -171,6 +171,7 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | 地球急行 | Earth Express | | evacuation shuttle | |
 | 「射撃」 | Shoot | | unit command | |
 | 「格闘」 | Melee | | unit command | |
+| 戦闘コマンドボタン | command buttons | | graphics (tools/gfx_labels.py, D13): 射撃 Shoot, 格闘 Melee, アイテム Item, 変形 Morph, 特殊 Special, 装備 Equip, 終了 End; ユニットリスト Unit List, セーブ Save, シナリオ目的 Goals, コンフィグ Config, プロット終了 End Plot. Dialogue naming a button uses these; 「ＳＰ」 stays "SP" | |
 | クリア条件 | Goal | | objective label (sim stages) | |
 | 特殊条件 | Special condition | | objective label (s27) | |
 | 作戦目的 | Objective | | objective label (s29; bare 目的： in s30-s31 too) | |

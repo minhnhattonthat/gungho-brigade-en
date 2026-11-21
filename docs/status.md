@@ -2,11 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: next (phase 7 done 2026-11-22, review fixes done). Last build:
-  build/gungho_en.bin 2026-11-22 = **full English**, sha1 78135af0e3408cc0b6faa267e48aa78f17c578f5, smoke ok. States
-  in work/states/ regenerated on this build (`warp.py --all --cue build/gungho_en.cue`, 46/46 ok; without --cue warp
-  uses the Japanese disc).
+- **Phase:** 8. QA in the emulator: in progress (tour tooling + command labels done, verdicts/captions next). Last
+  build: see the phase 8 entry below. States in work/states/ are from the phase 7 build (text-only changes since:
+  regen with `warp.py --all --cue build/gungho_en.cue` only if a warp misbehaves).
 - **Done:**
+  - Phase 8, first session (2026-11-22):
+    - `tools/tour.py [sNN..] --jobs 6`: per stage, cold boot + warp, the intro's first dialogue call
+      (0x800506b0, blocks in the menu runner, returns via 0x8005075c) is re-entered once per pointer-table string
+      of the built overlay (`tools/lua/forcetext.lua`), so every stage string shows in the real 42x3 box: one shot
+      per page `work/qa/tour/sNN/t_<n>_<id>_p<k>.png`, sheets `work/qa/tour/sNN_sheet*.png` (box cropped, 40 per
+      page, readable at 1x). ~5 min per stage with --debugger. s08: 135/135, 1 page each.
+    - Text coverage: `tools/insert.py` writes `build/strings.tsv` (id -> djb2 key of the string's bytes, follows
+      relocation and the shared overlay buffer); `tools/lua/textcover.lua` logs `TEXT <key>` on string-start reads
+      (tour.py loads it). Report: `python -X utf8 $SKILL/scripts/textcover.py work/qa/tour work/qa/tour/strings.tsv`.
+      Seen: menumv/menu keys hit by bulk readers at PC 8002B984/8003458C (boot copies): don't trust those as shown;
+      pass `--var "TEXT_SKIP_PC='8002B984,8003458C'"` in runs for menu text, or waive slps/menumv (boot error text).
+    - Battle command buttons redrawn (GAMEDATA 0x361b38 TIM, `tools/gfx_labels.py`, applied by insert.py, ranges in
+      diffcheck; D13): Shoot Melee Item Morph Special Equip End / Unit List Save Goals Config End Plot. s04_0160 now
+      says "Goals". Not yet seen in game (warp s01, circle on own unit then circle on a square: command menu).
+    - docs/visual-qa-brief.md copied with this game's non-bugs (forced-tour context).
   - Phase 7 review fixes (2026-11-22, seventh session; ../.harness/reviews/gungho-brigade-en-phase7.md): small font
     now 6 px per char (tools/smallfont.py: 3 advance immediates + ASCII glyphs from font5 in both font TIMs; RE in
     docs/re/text.md §Small font), GUNHO.EXE name pool repacked (extract.repack_pool, word-only refs asserted) so 20
@@ -109,11 +123,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 8, QA):** QA tour of changed scenes on the English build (warp states ready) -> contact sheets,
-  `qa_gate.py init/todo`, visual-QA verdicts in a fresh read-only pass (no reviewer agents: do it yourself or `codex
-  exec`, quota back 2026-11-26), `qa_gate.py check` exit 0; graphics-text rows English in zoomed cold-boot shots (chapter
-  cards, game over, credits) per D5; `inkbox.py` on choice/centred boxes; stress saves (`save.py`: longest names,
-  full lists, max numbers); `textcover.py` exit 0. Specific checks owed:
+- **Next (phase 8, QA):**
+  1. If work/qa/tour lacks sheets for a stage, `tools/tour.py sNN` (s35 not handled yet: "timed" warp, staff roll,
+     its roll rows s35_0420.. are a 48-wide roll form, not dialogue; s03/s11/s32 chain into the next stage).
+  2. `qa_gate.py init work/qa/tour/manifest.tsv work/qa/tour --build build/gungho_en.bin`, `todo ... --size 8
+     --out-dir work/qa/tour/chunks` (sheets are ~1 k tokens each: ~56 sheets), read each chunk in a fresh context,
+     verdicts in work/qa/tour/verdicts/<chunk>.tsv (`id<TAB>ok|issue<TAB>note`), fix issues, recheck file.
+  3. Graphics (D5): FACE.DAT prologue captions (~23 8bpp 320x240 stills, offsets in docs/re/graphics.md, seen in the
+     s02 intro ~f4500-f11000: white 12-px kanji with dark outline, bottom-left). Plan: dark band over the caption
+     rect + English in DejaVu Sans (matplotlib's copy, Bitstream Vera licence: copy it to fonts/ + docs/fonts.md),
+     anti-aliased onto the grey palette; generator tools/gfx_captions.py in insert.GFX like gfx_labels. Then the
+     command buttons + captions in zoomed cold-boot shots.
+  4. Menu/system screens on the English build: warp scenes i08_*, title_load, go08*, e34 -> a second manifest
+     (work/qa/menus/) with verdicts; `inkbox.py` on centred boxes; stress saves; textcover exit 0 (waive boot errors,
+     debug sprintf strings gunho_00824/00834/00840).
+  Specific checks owed:
   - small-font names at the new 6-px pitch in battle hover box / weapon list (measure: budget 12 is a guess) /
     STATUS / TUNE UP / ability list, incl. the repacked pool names (Ambidextrous, Maintenance...) and kana-free text;
     any screen that still draws small-font text at 8 px (a fourth loop) shows up as wide spacing. Try

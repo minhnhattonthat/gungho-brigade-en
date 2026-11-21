@@ -3,7 +3,7 @@ s04_0004	115	勝利条件：プレーヤーユニットの左手に「ラグ/  �
 s04_0078	39	/敗北条件：全プレーヤーユニットの退場/	/Defeat: All player units out/	
 s04_00a0	99	特殊ルール：「ラグボール」を装備したユニッ/  トが発砲するまで、他のユニットは発砲して/  はならない	Special rule: Until the unit holding the/Rug Ball opens fire, no other unit may/fire.	
 s04_0104	91	  ＨＰが５０％以下になったユニットは退場さ/  せられる/  格闘の攻撃力が、３００に制限される	  A unit at 50% HP or less is sent off./ Melee attack power is limited to 300.	
-s04_0160	79	「全体コマンド」の「シナリオ目的」で、勝利/条件と特殊ルールを確認してください。	Check the victory conditions and special/rules under "Scenario Goals" in "Team/Commands".	
+s04_0160	79	「全体コマンド」の「シナリオ目的」で、勝利/条件と特殊ルールを確認してください。	Check the victory conditions and special/rules under "Goals" in "Team Commands".	
 s04_01b0	83	審判/「ボールがフィールド外に出たため、規定によ/り、中央に新たにボールを投入する」	Referee/"Ball out of bounds. By the rules, a new/ball goes into play at center."	
 s04_0204	67	審判/「ひとつ、ボールを相手側ゴールに持ち込んだ/陣営を勝利とする」	Referee/"One: the side that carries the ball into/the opposing goal wins."	
 s04_0248	63	審判/「ひとつ、ボールを確保した選手は射撃を行っ/てもよろしい」	Referee/"One: a player holding the ball may/shoot."	

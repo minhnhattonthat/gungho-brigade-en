@@ -22,11 +22,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract as x  # noqa: E402
+import gfx_labels  # noqa: E402
 import smallfont  # noqa: E402
 from digraph import BITMAPS, RAW, Digraph, units  # noqa: E402
 from sjis import SJIS  # noqa: E402
 
 OVERLAY = x.ROOT / "work/build/files"
+STRINGS = x.ROOT / "build/strings.tsv"
+GFX = [gfx_labels]  # graphics redraws: module with FILE, patch(data), ranges(name) (diffcheck)
 # Title-side exes and TABLE.BIN's memory-card screens draw with a font keyed by the real SJIS code (the patched
 # bitmaps never show there: verified, title GAME LOAD and intermission GAME SAVE showed the kana of the pair codes),
 # so their text goes out as fullwidth Latin, 12 px per letter.
@@ -87,7 +90,24 @@ def marker(row):
         texts[k] = texts[k][:-1]
 
 
-def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE):
+def text_key(b):
+    """djb2-xor of a string's bytes: the key tools/lua/textcover.lua logs, so coverage survives relocation."""
+    h = 5381
+    for c in b:
+        h = (((h << 5) + h) & 0xFFFFFFFF) ^ c
+    return h
+
+
+def write_strings(rows, encode, path):
+    """build/strings.tsv for textcover.py: id, key of the bytes the game reads (a staff-roll row = its own line)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        for r in rows:
+            b = encode(r) if r["new"] else SJIS.encode(r["jp"])
+            f.write(f"{r['id']}\t{text_key(b):08X}\n")
+
+
+def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE, strings=None):
     qa = qa or {}
     files = x.all_rows(tree)
     en = {}
@@ -110,6 +130,8 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE):
         return (dg.encode(r["new"], roll(r)) if kd == "pair" else
                 SJIS.encode(to_full(r["new"]) if kd == "full" else r["new"]))
 
+    if strings:
+        write_strings(rows, encode, strings)
     if overlay.exists():
         shutil.rmtree(overlay)
     written = []
@@ -137,6 +159,10 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE):
         dest, data = current(name)
         dest.write_bytes(smallfont.patch(name, data))
         written.append(name)
+    for g in GFX:
+        dest, data = current(g.FILE)
+        dest.write_bytes(g.patch(data))
+        written.append(g.FILE)
     return sorted(set(written)), dg
 
 
@@ -146,7 +172,7 @@ def main():
     ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT")
     a = ap.parse_args()
     qa = dict(s.split("=", 1) for s in a.qa)
-    written, dg = run(a.marker, qa)
+    written, dg = run(a.marker, qa, strings=STRINGS)
     print(f"{len(dg.map)} digraph pairs; wrote {', '.join(written)}")
 
 

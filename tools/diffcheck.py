@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract as x  # noqa: E402
 import smallfont  # noqa: E402
 from digraph import BITMAPS, LISTS  # noqa: E402
+from insert import GFX  # noqa: E402
 
 OVERLAY = x.ROOT / "work/build/files"
 
@@ -43,7 +44,7 @@ def file_ranges(name, rows, data):
         for fname, off in copies:
             if fname == name:
                 rs.append((off, off + 22 * LISTS[font][2]))
-    return rs + smallfont.ranges(name)
+    return rs + smallfont.ranges(name) + [r for g in GFX for r in g.ranges(name)]
 
 
 def ending_tail(old, new):
