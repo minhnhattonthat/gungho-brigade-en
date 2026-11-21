@@ -4,7 +4,7 @@ s21_0018	75	敗北条件：プレーヤーユニットの撃破、{n}          �
 s21_0064	35	通信員/「依然、応答ありません」/	Comms Officer/"Still no response."/	
 s21_0088	39	エスメラルダ/「かまわない。呼び続けろ」	Esmeralda/"Doesn't matter. Keep calling."	
 s21_00b0	79	通信員/「了解。こちら連合軍５２師団第２大隊、/ポイント５１９５にて襲撃を…」	Comms Officer/"Roger. Union Army 52nd Division, 2nd/Battalion, under attack at Point 5195..."	
-s21_0100	39	ニーソン/「私の悪運もここまでですね」/	Neeson/"Looks like my bad luck has finally caught/up with me."/	
+s21_0100	39	ニーソン/「私の悪運もここまでですね」/	Neeson/"Looks like my luck has finally run out."/	
 s21_0128	55	「ニーソン少佐、ジャミングを試みます。/あとを頼みます」	"Major Neeson, I'll attempt jamming. I'm/counting on you."	
 s21_0160	95	「『Ｗ（ビッグ・ダブリュー）』の所在は未確/認ですし、『通信機』なしでは、いくらあなた/でも…」	"The whereabouts of 'W' (Big W) are still/unconfirmed, and without the/'transmitter,' even you..."	
 s21_01c0	71	「このままやられるわけにはいきません。もし/私が『Ｗ』を確認したら…」	"We can't just let them finish us here. If/I confirm 'W'..."	
@@ -17,7 +17,7 @@ s21_02e0	55	「軍曹！  １７番コンテナの射出準備！/マイクを�
 s21_0318	39	ビズリィ/「大尉！  エスメラルダ大尉!!」	Bizley/"Captain! Captain Esmeralda!!"	
 s21_0340	87	「ビズリィね!?  これからドラグーン２の専用/ライフルを射出します。受け取ってください」	"Bizley?! I'm launching the Dragoon 2's/custom rifle now. Catch it."	
 s21_0398	35	「了解！  大尉、大丈夫ですか!?」/	"Roger! Captain, are you all right?!"/	
-s21_03bc	31	「こっちは大丈夫！  オワリ！」{n}	"We're fine over here! Over!"{n}	
+s21_03bc	31	「こっちは大丈夫！  オワリ！」{n}	"We're fine over here! Out!"{n}	
 s21_03dc	15	「…大尉…」	"...Captain..."	
 s21_03ec	51	マイコ/「なに呆けてんの！  シャキッとしなさい！」	Maiko/"What are you spacing out for?! Snap out/of it!"	
 s21_0420	11	「…あぁ」	"...Yeah."	
@@ -28,7 +28,7 @@ s21_0474	87	エスメラルダ/「ビズリィ！  ８８ｍｍを持ったら�
 s21_04cc	35	/「駆動系に負担が掛かりすぎます」/	/"It puts too much strain on the drive/system."/	
 s21_04f0	19	ビズリィ/「了解！」	Bizley/"Roger!"	
 s21_0504	43	エスメラルダ/「…では、よろしく願います」/	Esmeralda/"...Then I leave it in your hands."/	
-s21_0530	75	シャベス/「ただでさえ狭い車内が、夜逃げトラックみた/いになっちまったなぁ」	Chavez/"Our cramped cab already looked bad. Now/it's like a truck doin' a midnight flit."	
+s21_0530	75	シャベス/「ただでさえ狭い車内が、夜逃げトラックみた/いになっちまったなぁ」	Chavez/"Our cab was cramped enough already. Now/it looks like we're skippin' town."	
 s21_057c	23	/「申し訳ありません」/	/"My apologies."/	
 s21_0594	75	ビズリィ/「ご心配なく！  マコーリフへの補給物資は、/必ず届けて見せます！」	Bizley/"Don't you worry! We'll get the supplies/to McAuliffe, I swear!"	
 s21_05e0	75	「ビズリィ、あなたには助けられてばかりね。/いつかお礼をさせてもらうわ」/	"Bizley, you keep coming to my rescue./Someday I'll repay you."/	

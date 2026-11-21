@@ -1,5 +1,5 @@
 id	max	jp	en	notes
-s22_0004	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or wipe out the/enemy	
+s22_0004	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or enemy wiped out	
 s22_0054	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
 s22_0078	87	  火星暦１６８年５月第５火曜日。/  私たちは、オリュンポス山西部のすそ野にい/ました。	  Fifth Tuesday of May, Mars Year 168. We/were in the foothills west of Mount/Olympus.	
 s22_00d0	59	  ここから目的地マコーリフまでは、わずか/３日の距離です。/	  From here it was only three days to our/destination, McAuliffe./	
@@ -72,7 +72,7 @@ s22_0c70	15	ビズリィ/「…」	Bizley/"..."
 s22_0c80	35	「ん？  ビズリィ？  あ、痛たっ！」/	"Hm? Bizley? Ah, ow!"/	
 s22_0ca4	31	「まったく、無茶しやがって」/	"Jeez, you went and did somethin'/reckless."/	
 s22_0cc4	11	「…うん」/	"...Yeah."/	
-s22_0cd0	87	「だいたい俺は自分の身ぐらい守れるし、ドラ/グーン２の装甲だって半端じゃないんだし…」	"I mean, I can protect myself just fine,/and the Dragoon 2's armour ain't no joke/either..."	
+s22_0cd0	87	「だいたい俺は自分の身ぐらい守れるし、ドラ/グーン２の装甲だって半端じゃないんだし…」	"I mean, I can protect myself just fine,/and the Dragoon 2's armor ain't no joke/either..."	
 s22_0d28	7	「…」/	"..."/	
 s22_0d30	27	「…ごめん。俺が悪かった」/	"...Sorry. It was my fault."/	
 s22_0d4c	15	「あ…のぅ…」/	"Um... well..."/	
