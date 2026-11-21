@@ -1,5 +1,5 @@
 id	max	jp	en	notes
-s06_0004	75	勝利条件：アパッチＢ（エスメラルダ）の表示/          エリアからのマップ脱出	Victory: Apache B (Esmeralda) escapes the/map/         from the marked area	
+s06_0004	75	勝利条件：アパッチＢ（エスメラルダ）の表示/          エリアからのマップ脱出	Victory: Apache B (Esmeralda) exits the/         map from the marked area	
 s06_0050	83	敗北条件：アパッチＢ（エスメラルダ）の撃破/          またはプレーヤーユニットの撃破	Defeat: Apache B (Esmeralda) destroyed,/         or player unit destroyed	
 s06_00a4	107	「残存火星軍が、ジャンキーと交戦中との情報/もありますが、通信、監視システムの崩壊によ/り詳細は不明です」	"Reports say Martian Army remnants are/fighting the Junkies, but with comms and/surveillance down, details are unclear."	
 s06_0110	119	「ニーソン少佐。その報告は受けている。/  地球連邦大使である私がここにいるのは火星/の戦況報告会のためではあるまい？」	"Major Neeson, I have that report. Surely/I, the Federation Ambassador, am not here/for a Mars war briefing?"	
@@ -104,7 +104,7 @@ s06_1418	39	「正直言って、地球側の対応次第です」/	"Frankly, th
 s06_1440	23	「…なぜ、直接来た？」/	"...Why come in person?"/	
 s06_1458	63	「そう、なぜこんな危険な方法で？  暗号通信/で用は足りるはず…」	"Right, why such a dangerous method? An/encrypted message should have done..."	
 s06_1498	23	「…足りなかった？」/	"...It wouldn't have?"/	
-s06_14b0	107	「そうです。彼らに、我々の使っている暗号は/通用しません。アーツタノフ会戦以降の情報か/らそう判断しました」	"Yes. Our codes are useless against them./So we judged from intel since the Battle/of Artsutanov."	
+s06_14b0	107	「そうです。彼らに、我々の使っている暗号は/通用しません。アーツタノフ会戦以降の情報か/らそう判断しました」	"Yes. Our codes are useless against them./We concluded that from intel since the/Battle of Artsutanov."	
 s06_151c	51	「無茶だな。連絡に失敗したら、すべてが水の/泡だ」	"That's reckless. If the contact failed,/it'd all be for nothing."	
 s06_1550	95	「ＬＳＴ一機あたりの成功率は２割弱と見込ま/れました。降下したＬＳＴは私のを含め２０機/です」	"The success rate was estimated at under/20% per LST. 20 LSTs came down, mine/included."	
 s06_15b0	11	「２割…」/	"20%..."/	

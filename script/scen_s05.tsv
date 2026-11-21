@@ -45,7 +45,7 @@ s05_0aec	35	ビズリィ/「いやぁ、それほどでも…」	Bizley/"Aw, it 
 s05_0b10	43	/「別にあんたを誉めたわけじゃないわよ」/	/"I wasn't praising you."/	
 s05_0b3c	7	「…」/	"..."/	
 s05_0b44	35	「引き上げだ！  聞いてんのか!?」/	"We're pulling out! You listening!?"/	
-s05_0b68	11	「ヤー!!」/	"Yaaah!!"/	
+s05_0b68	11	「ヤー!!」/	"Yeah!!"/	
 s05_0b74	35	シャベス/「…クローム・デビル!?」	Chavez/"...The Chrome Devil!?"	
 s05_0b98	27	「クローム！  デビルゥ!!」/	"Chrome! Deviiil!!"/	
 s05_0bb4	39	ブレインズ/「だめです！  シャベス！」	Brains/"No! Chavez!"	
@@ -95,6 +95,6 @@ s05_12fc	67	ビズリィ/「ハハハッ！  ガラクタども！  こっこま
 s05_1340	47	マイコ/「ちえっ、このアタシがドンジリかいっ!?」	Maiko/"Tch, me, dead last!?"	
 s05_1370	43	ブレインズ/「なんとか逃げおおせましたね」	Brains/"We somehow made it out."	
 s05_139c	35	ダイブツ/「あーっ、待ってよぉー！」	Daibutsu/"Aaah, wait for meee!"	
-s05_13c0	103	  敵やＮＰＣが多く、戦闘が長いときは「コン/フィグ」で「戦闘シーンの短縮」を「ＯＮ」に/してください。	  When there are many enemies and NPCs and/battles run long, set "Shorten Battle/Scenes" to "ON" in "Config".	
+s05_13c0	103	  敵やＮＰＣが多く、戦闘が長いときは「コン/フィグ」で「戦闘シーンの短縮」を「ＯＮ」に/してください。	  When there are many enemies and NPCs and/battles run long, set Battle "Fast" to/"ON" in "Config".	
 s05_1428	75	  同タイプのユニットの移動シーンをランダム/にスキップし、戦闘を短くします。	  Randomly skips the movement scenes of/units of the same type, shortening/battles.	
 s05_1474	71	  同じタイプのユニットの移動シーンが間引か/れて、戦闘が短くなります。	  Thins out the movement scenes of units/of the same type, shortening battles.	
