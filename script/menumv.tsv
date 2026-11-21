@@ -1,16 +1,16 @@
 id	max	jp	en	notes
-menumv_00854	35	［%s］{n}鎖ファイルが見つかりません		
-menumv_00878	35	［%s］{n}＊ファイルが見つかりません		
-menumv_0089c	31	［%s］{n}！読み込みに失敗しました		
-menumv_008bc	35	［%s］{n}＃ファイルが見つかりません		
-menumv_008e0	31	［%s］{n}＃読み込みに失敗しました		
-menumv_00900	35	［%s］{n}ＭＶファイルが見つかりません		
-menumv_00924	15	ないません。		
-menumv_00934	35	が発生してもソフトの交換などは行		
-menumv_00958	35	　本ソフトは開発中のため、不具合		
-menumv_0097c	15	ただけます。		
-menumv_0098c	35	ラマとアニメーションをお楽しみい		
-menumv_009b0	35	　製品版では、豪華声優陣によるド		
-menumv_009d4	11	ません。		
-menumv_009e0	35	アニメーションなどは収録されてい		
-menumv_00a04	35	　このゲームは開発中のため、音声、		
+menumv_00854	35	［%s］{n}鎖ファイルが見つかりません	[%s]{n}Chain file missing	
+menumv_00878	35	［%s］{n}＊ファイルが見つかりません	[%s]{n}* file not found	
+menumv_0089c	31	［%s］{n}！読み込みに失敗しました	[%s]{n}! Read failed	
+menumv_008bc	35	［%s］{n}＃ファイルが見つかりません	[%s]{n}# file not found	
+menumv_008e0	31	［%s］{n}＃読み込みに失敗しました	[%s]{n}# Read failed	
+menumv_00900	35	［%s］{n}ＭＶファイルが見つかりません	[%s]{n}MV file not found	
+menumv_00924	15	ないません。	for an exchange.	
+menumv_00934	35	が発生してもソフトの交換などは行	bugs don't qualify	
+menumv_00958	35	　本ソフトは開発中のため、不具合	As a pre-release,	
+menumv_0097c	15	ただけます。	star-cast drama.	
+menumv_0098c	35	ラマとアニメーションをお楽しみい	has animation and	
+menumv_009b0	35	　製品版では、豪華声優陣によるド	The retail game	
+menumv_009d4	11	ません。	etc. not included.	
+menumv_009e0	35	アニメーションなどは収録されてい	voices, animation	
+menumv_00a04	35	　このゲームは開発中のため、音声、	Work in progress:	

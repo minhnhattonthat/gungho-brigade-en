@@ -1,34 +1,34 @@
 id	max	jp	en	notes
-table_00014	35	［%s］{n}鎖ファイルが見つかりません		
-table_00088	35	［%s］{n}＃ファイルが見つかりません		
-table_000ac	31	［%s］{n}読み込みに失敗しました		
-table_000cc	35	［%s］{n}＊ファイルが見つかりません		
-table_000f0	31	［%s］{n}＃読み込みに失敗しました		
-table_00168	7	ｶｸﾄｳ		
-table_00180	7	ｼﾞﾒﾝ		
-table_00188	7	ﾄﾚｰﾗｰ		
-table_00194	7	ﾊｽﾞｽ		
-table_0019c	67	セーブデータの書き込み中です。{n}メモリーカードを抜かないでください。		
-table_001fc	43	フォーマット および セーブを{n}中止します。		
-table_00228	67	ムービーデータのセーブ中です。{n}メモリーカードを抜かないでください。		
-table_00288	55	メモリーカードが差さっていません。{n}セーブを中止します。		
-table_002c0	47	メモリーカードが異常です。{n}セーブを中止します。		
-table_002f0	91	このメモリーカードは{n}フォーマットされています。{n}フォーマット および セーブを{n}中止します。		
-table_0034c	79	メモリーカードが差さっていません。{n}フォーマット および セーブを{n}中止します。		
-table_0039c	71	メモリーカードが異常です。{n}フォーマット および セーブを{n}中止します。		
-table_003e4	75	コンティニューデータ書き込み中です。{n}メモリーカードを抜かないでください。		
-table_00430	15	○戦闘シーン		
-table_00440	7	短縮		
-table_115f4	71	メモリーカードのチェック中です。{n}メモリーカードを抜かないでください。		
-table_1163c	23	セーブを中止しました。		
-table_11654	23	セーブを終了しました。		
-table_1166c	71	上書きしてもよろしいですか？{n}{n}上書きする時は{n}○ボタンを押してください。		
-table_116b4	95	メモリーカードが{n}フォーマットされていません。{n}{n}フォーマットする時は{n}○ボタンを押してください。		
-table_11714	79	メモリーカードを{n}フォーマット中です・・・{n}{n}メモリーカードを抜かないでください。		
-table_11764	31	フォーマットに失敗しました。		
-table_11784	35	メモリーカードが差さっていません。		
-table_117a8	35	データの書き込みに失敗しました。		
-table_117cc	51	空きブロック数が足りません。{n}セーブを中止します。		
-table_11800	67	Ｇｕｎｇｈｏ　Ｂｒｉｇａｄｅ　第００話までクリア　００時間００分		
-table_11844	39	Ｇｕｎｇｈｏ　　Ｍｏｖｉｅ　　＃００		
-table_11ac4	39	Ｇｕｎｇｈｏ　Ｃｏｎｔｉｎｕｅ　００		
+table_00014	35	［%s］{n}鎖ファイルが見つかりません	[%s]{n}Chain file missing	
+table_00088	35	［%s］{n}＃ファイルが見つかりません	[%s]{n}# file not found	
+table_000ac	31	［%s］{n}読み込みに失敗しました	[%s]{n}Read failed	
+table_000cc	35	［%s］{n}＊ファイルが見つかりません	[%s]{n}* file not found	
+table_000f0	31	［%s］{n}＃読み込みに失敗しました	[%s]{n}# Read failed	
+table_00168	7	ｶｸﾄｳ	Melee	
+table_00180	7	ｼﾞﾒﾝ	Ground	
+table_00188	7	ﾄﾚｰﾗｰ	Trailer	
+table_00194	7	ﾊｽﾞｽ	Remove	
+table_0019c	67	セーブデータの書き込み中です。{n}メモリーカードを抜かないでください。	Saving data.{n}Do not remove the{n}Memory Card.	
+table_001fc	43	フォーマット および セーブを{n}中止します。	Format and save{n}canceled.	
+table_00228	67	ムービーデータのセーブ中です。{n}メモリーカードを抜かないでください。	Saving movie data.{n}Do not remove the{n}Memory Card.	
+table_00288	55	メモリーカードが差さっていません。{n}セーブを中止します。	No Memory Card{n}inserted.{n}Save canceled.	
+table_002c0	47	メモリーカードが異常です。{n}セーブを中止します。	Memory Card error.{n}Save canceled.	
+table_002f0	91	このメモリーカードは{n}フォーマットされています。{n}フォーマット および セーブを{n}中止します。	This Memory Card{n}is formatted.{n}Format and save{n}canceled.	
+table_0034c	79	メモリーカードが差さっていません。{n}フォーマット および セーブを{n}中止します。	No Memory Card{n}inserted.{n}Format and save{n}canceled.	
+table_0039c	71	メモリーカードが異常です。{n}フォーマット および セーブを{n}中止します。	Memory Card error.{n}Format and save{n}canceled.	
+table_003e4	75	コンティニューデータ書き込み中です。{n}メモリーカードを抜かないでください。	Saving continue{n}data. Do not{n}remove the{n}Memory Card.	
+table_00430	15	○戦闘シーン	Battle	
+table_00440	7	短縮	Fast	
+table_115f4	71	メモリーカードのチェック中です。{n}メモリーカードを抜かないでください。	Checking the{n}Memory Card.{n}Do not remove the{n}Memory Card.	
+table_1163c	23	セーブを中止しました。	Save canceled.	
+table_11654	23	セーブを終了しました。	Save complete.	
+table_1166c	71	上書きしてもよろしいですか？{n}{n}上書きする時は{n}○ボタンを押してください。	OK to overwrite?{n}{n}To overwrite,{n}press Circle.	
+table_116b4	95	メモリーカードが{n}フォーマットされていません。{n}{n}フォーマットする時は{n}○ボタンを押してください。	The Memory Card{n}is not formatted.{n}{n}To format it,{n}press Circle.	
+table_11714	79	メモリーカードを{n}フォーマット中です・・・{n}{n}メモリーカードを抜かないでください。	Formatting the{n}Memory Card...{n}{n}Do not remove the{n}Memory Card.	
+table_11764	31	フォーマットに失敗しました。	Format failed.	
+table_11784	35	メモリーカードが差さっていません。	No Memory Card/inserted.	
+table_117a8	35	データの書き込みに失敗しました。	Failed to save/the data.	
+table_117cc	51	空きブロック数が足りません。{n}セーブを中止します。	Not enough free{n}blocks.{n}Save canceled.	
+table_11800	67	Ｇｕｎｇｈｏ　Ｂｒｉｇａｄｅ　第００話までクリア　００時間００分	Gungho Brigade #00 clear 00h 00m	
+table_11844	39	Ｇｕｎｇｈｏ　　Ｍｏｖｉｅ　　＃００	Gungho  Movie  #00	
+table_11ac4	39	Ｇｕｎｇｈｏ　Ｃｏｎｔｉｎｕｅ　００	Gungho Continue 00	

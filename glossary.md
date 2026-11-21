@@ -40,6 +40,7 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | ジョン | John | | speaker | |
 | ジョン・スミス | John Smith | | full name | |
 | オールドマン | Oldman | | speaker; officer's name | |
+| デズモンド・オールドマン | Desmond Oldman | | full name (staff roll cast) | |
 | エスメラルダ | Esmeralda | | speaker | |
 | ニーソン | Neeson | | speaker | |
 | ニーソン少佐 | Major Neeson | | speaker | |
@@ -186,5 +187,23 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | ホイヘンス | Huygens | | (s29) | |
 | カイツブリ | Grebe | | callsign "Grebe 180 Squadron" (s34) | |
 | 第８２空挺師団 | 82nd Airborne Division | | (s31) | |
+| ｍｍ (`@` glyph in names) | @ | | weapon calibre: "57@Railgun" | |
+| ｺﾝﾃﾞﾝｻｰｶﾞﾝ / ｺﾝﾃﾞﾝｻｰﾀﾞﾝ | Condenser Gun / Condenser Round | | weapon / ammo | |
+| ﾏｶﾞｼﾞﾝ | Magazine | | | |
+| 整備中 / ｾｲﾋﾞﾁｭｳ | Servicing / serviced | | unit state | Under repair |
+| ﾁｮｳｾｲ / ｼｭｳﾘ | Adjust / Repair | | skills: repair 1/3, 2/3 of damage | |
+| ｸｲｯｸﾄﾞﾛｰ / ｸｲｯｸﾛｰﾄﾞ / ｸｲｯｸｼｮｯﾄ / ｸｲｯｸ | Quick Draw / Quick Load / Quick Shot / Quick | | skills | |
+| ｽﾅｲﾌﾟｼｮｯﾄ | Snipe Shot | | skill | |
+| ｼﾞｭｳﾘﾝ / ﾄﾂｹﾞｷ / ﾘｶﾊﾞｰ / ｸﾘﾃｨｶﾙ | Trample / Charge / Recover / Critical | | skills | |
+| ﾘｮｳﾃｳﾁ / ﾘｮｳﾃｳﾁW / Wﾀｯﾌﾟ | Dual Shot / Dual Shot W / Double Tap | | skills (two Randalls / two-handed gun) | Akimbo |
+| ﾘｮｳﾃｷｷ | Ambidexter | | skill | |
+| 0ｷｮﾘｼｬｹﾞｷ | Point Blank | | skill | |
+| 変形 / ｲﾄﾞｳｹｲﾀｲ / ｼｬｹﾞｷｹｲﾀｲ | Transform / Move Mode / Shoot Mode | | | |
+| 電撃 / ﾃﾞﾝｹﾞｷｺｳｹﾞｷ / ﾃﾞﾝｹﾞｷﾎﾞｳｷﾞｮ | shock / Shock Attack / Shock Guard | | | |
+| ﾕｳﾄﾞｳﾎﾞｳｷﾞｮ / ﾚｰｻﾞｰﾑｺｳ | Anti-Missile / Laser Proof | | skills | |
+| 行動ポイント | action points | | (not "AP": s05 "AP rounds" = armour-piercing) | |
+| ｼﾞｹｲﾀﾞﾝｲﾝ / ｸｳﾃｲ / ﾑｼﾞﾝ | Vigilante / Paratrooper / Unmanned | | pilot names | |
+| メモリーカード | Memory Card | | | |
+| ○戦闘シーン / 短縮 | Battle / Fast | 6 / 4 | config option and value | |
 
 ## Decisions from earlier batches

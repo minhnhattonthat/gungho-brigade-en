@@ -38,7 +38,7 @@ FULLWIDTH_FILES = {"menu", "slps", "menumv", "table"}
 # Measured budgets (docs/windows.md): chars per line, lines per box.
 # roll = stage 35's own staff roll (scen_s35 from 0x420): shortcut: 48 wide like ENDING.BIN, line count unmeasured; check at the s35 warp (credits ~frame 7000).
 BOX = {"dlg": (42, 3), "help": (50, 1), "credit": (48, 1), "roll": (48, 6), "full": (18, 5)}
-FULL_LIMIT = {"table_00430": 6, "table_00440": 4}
+FULL_LIMIT = {"table_00430": 6, "table_00440": 4, "table_11800": 32}  # 11800 = card save title (JP length)
 NAME_BUDGET = {"pilot": 7, "weapon": 9, "unit": 8, "skill": 10}  # small font, display chars (soft: phase 7 engine work)
 
 
@@ -118,7 +118,8 @@ def compose(entry, body, names=None):
     """Final string for script `en`: speaker + separator, wrapped body, the JP's leading/trailing breaks."""
     f = entry["form"]
     if f != "dlg":
-        return re.sub(r"\s+/\s+", "{n}" if "{n}" in entry["jp"] else "/", body.strip())
+        # a standalone `/` is a break; "a / / b" = an empty line between
+        return re.sub(r" ?(?<!\S)/(?!\S) ?", "{n}" if "{n}" in entry["jp"] else "/", body.strip())
     names = speakers() if names is None else names
     head = ""
     if entry["speaker"]:

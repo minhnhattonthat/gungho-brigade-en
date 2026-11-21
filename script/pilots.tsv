@@ -1,124 +1,124 @@
 id	max	jp	en	notes
-pilot_000	15	ﾋﾞｽﾞﾘｨ		fixed 16-byte field
-pilot_001	15	ﾏｲｺ		fixed 16-byte field
-pilot_002	15	ｼｬﾍﾞｽ･ﾗﾙﾌ		fixed 16-byte field
-pilot_003	15	ｼｬﾍﾞｽ		fixed 16-byte field
-pilot_004	15	ﾗﾙﾌ		fixed 16-byte field
-pilot_005	15	ﾍﾞﾃｨ		fixed 16-byte field
-pilot_006	15	ﾚｼﾞｨ		fixed 16-byte field
-pilot_007	15	ﾚｼﾞｨ		fixed 16-byte field
-pilot_008	15	ﾚｼﾞｨ		fixed 16-byte field
-pilot_009	15	ｼﾞｮﾝ		fixed 16-byte field
-pilot_010	15	ｵｰﾙﾄﾞﾏﾝ		fixed 16-byte field
-pilot_011	15	ｵｰﾙﾄﾞﾏﾝ		fixed 16-byte field
-pilot_012	15	ﾍﾞﾃｨ		fixed 16-byte field
-pilot_013	15	ﾋﾞｽﾞﾘｨ		fixed 16-byte field
-pilot_014	15	ﾋﾞｽﾞﾘｨ		fixed 16-byte field
-pilot_015	15	ﾏｲｺ		fixed 16-byte field
-pilot_016	15	ﾏｲｺ		fixed 16-byte field
-pilot_017	15	ｼｬﾍﾞｽ		fixed 16-byte field
-pilot_018	15	ﾗﾙﾌ		fixed 16-byte field
-pilot_019	15	ﾗﾙﾌ		fixed 16-byte field
-pilot_020	15	ﾍﾞﾃｨ		fixed 16-byte field
-pilot_021	15	ﾚｼﾞｨ		fixed 16-byte field
-pilot_022	15	ｴｽﾒﾗﾙﾀﾞ		fixed 16-byte field
-pilot_023	15	ｴｽﾒﾗﾙﾀﾞ		fixed 16-byte field
-pilot_024	15	ｴｽﾒﾗﾙﾀﾞ		fixed 16-byte field
-pilot_025	15	ﾍﾞｰｱ		fixed 16-byte field
-pilot_026	15	ｺﾞﾛﾂｷ		fixed 16-byte field
-pilot_027	15	ｺﾞﾛﾂｷ		fixed 16-byte field
-pilot_028	15	ｺﾞﾛﾂｷ		fixed 16-byte field
-pilot_029	15	ｼﾞｹｲﾀﾞﾝｲﾝ		fixed 16-byte field
-pilot_030	15	ｼﾞｹｲﾀﾞﾝｲﾝ		fixed 16-byte field
-pilot_031	15	ﾀﾞﾝｶﾝ		fixed 16-byte field
-pilot_032	15	ﾍｲｼ		fixed 16-byte field
-pilot_033	15	ﾍｲｼ		fixed 16-byte field
-pilot_034	15	ﾍｲｼ		fixed 16-byte field
-pilot_035	15	ﾍｲｼ		fixed 16-byte field
-pilot_036	15	ﾍｲｼ		fixed 16-byte field
-pilot_037	15	ﾍｲｼ		fixed 16-byte field
-pilot_038	15	ﾍｲｼ		fixed 16-byte field
-pilot_039	15	ﾍｲｼ		fixed 16-byte field
-pilot_040	15	ﾍｲｼ		fixed 16-byte field
-pilot_041	15	ﾍｲｼ		fixed 16-byte field
-pilot_042	15	ﾍｲｼ		fixed 16-byte field
-pilot_043	15	ﾍｲｼ		fixed 16-byte field
-pilot_044	15	ﾍｲｼ		fixed 16-byte field
-pilot_045	15	ﾍｲｼ		fixed 16-byte field
-pilot_046	15	ﾍｲｼ		fixed 16-byte field
-pilot_047	15	ｸｳﾃｲ		fixed 16-byte field
-pilot_048	15	ｸｳﾃｲ		fixed 16-byte field
-pilot_049	15	ﾐﾝｶﾝｼﾞﾝ		fixed 16-byte field
-pilot_050	15	ﾐﾝｶﾝｼﾞﾝ		fixed 16-byte field
-pilot_051	15	ﾐﾝｶﾝｼﾞﾝ		fixed 16-byte field
-pilot_052	15	ﾐﾝｶﾝｼﾞﾝ		fixed 16-byte field
-pilot_053	15	ﾄﾞﾗｲﾊﾞｰ		fixed 16-byte field
-pilot_054	15	ﾄﾞﾗｲﾊﾞｰ		fixed 16-byte field
-pilot_055	15	ﾄﾞﾗｲﾊﾞｰ		fixed 16-byte field
-pilot_056	15	ﾑｼﾞﾝ		fixed 16-byte field
-pilot_057	15	ﾑｼﾞﾝ		fixed 16-byte field
-pilot_058	15	ﾑｼﾞﾝ		fixed 16-byte field
-pilot_059	15	ﾑｼﾞﾝ		fixed 16-byte field
-pilot_060	15	ｼﾞｹｲﾀﾞﾝｲﾝ		fixed 16-byte field
-pilot_061	15	ｼﾞｹｲﾀﾞﾝｲﾝ		fixed 16-byte field
-pilot_062	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_063	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_064	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_065	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_066	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_067	15	ｸﾛｰﾝﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_068	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_069	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_070	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_071	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_072	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ		fixed 16-byte field
-pilot_073	15	ﾌﾞﾗｯｸｼﾞｬｯｸ		fixed 16-byte field
-pilot_074	15	ｼﾞｬﾝｸ		fixed 16-byte field
-pilot_075	15	ｼﾞｬﾝｸ		fixed 16-byte field
-pilot_076	15	ｴｾﾞｷｴﾙ		fixed 16-byte field
-pilot_077	15	ｴｾﾞｷｴﾙ		fixed 16-byte field
-pilot_078	15	ｴｾﾞｷｴﾙ		fixed 16-byte field
-pilot_079	15	ｴｾﾞｷｴﾙ		fixed 16-byte field
-pilot_080	15	ｴｾﾞｷｴﾙ		fixed 16-byte field
-pilot_081	15	ｴｾﾞｷｴﾙ		fixed 16-byte field
-pilot_082	15	ｴｾﾞｷｴﾙ		fixed 16-byte field
-pilot_083	15	ｸﾗｳﾄﾞ		fixed 16-byte field
-pilot_084	15	ｸﾗｳﾄﾞ		fixed 16-byte field
-pilot_085	15	ｸﾗｳﾄﾞ		fixed 16-byte field
-pilot_086	15	ｸﾗｳﾄﾞ		fixed 16-byte field
-pilot_087	15	ｸﾗｳﾄﾞ		fixed 16-byte field
-pilot_088	15	ｸﾗｳﾄﾞ		fixed 16-byte field
-pilot_089	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_090	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_091	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_092	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_093	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_094	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_095	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_096	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_097	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_098	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_099	15	ﾛｽｺｳ		fixed 16-byte field
-pilot_100	15	ｹﾞｵﾙｸﾞ		fixed 16-byte field
-pilot_101	15	ｹﾞｵﾙｸﾞ		fixed 16-byte field
-pilot_102	15	ｹﾞｵﾙｸﾞ		fixed 16-byte field
-pilot_103	15	ｹﾞｵﾙｸﾞ		fixed 16-byte field
-pilot_104	15	ｹﾞｵﾙｸﾞ		fixed 16-byte field
-pilot_105	15	ｹﾞｵﾙｸﾞ		fixed 16-byte field
-pilot_106	15	ｼﾞｪｲｺﾌﾞ		fixed 16-byte field
-pilot_107	15	ｼﾞｪｲｺﾌﾞ		fixed 16-byte field
-pilot_108	15	ﾊﾝﾊﾞｰ		fixed 16-byte field
-pilot_109	15	ﾊﾝﾊﾞｰ		fixed 16-byte field
-pilot_110	15	ﾊﾝﾊﾞｰ		fixed 16-byte field
-pilot_111	15	ﾊﾝﾊﾞｰ		fixed 16-byte field
-pilot_112	15	ﾊﾝﾊﾞｰ		fixed 16-byte field
-pilot_113	15	ﾊﾝﾊﾞｰ		fixed 16-byte field
-pilot_114	15	ﾌﾗﾝｼｽ		fixed 16-byte field
-pilot_115	15	ﾌﾗﾝｼｽ		fixed 16-byte field
-pilot_116	15	ﾌﾗﾝｼｽ		fixed 16-byte field
-pilot_117	15	ﾌﾗﾝｼｽ		fixed 16-byte field
-pilot_118	15	ｼﾞｭﾃﾞｨｽ		fixed 16-byte field
-pilot_119	15	ｼﾞｭﾃﾞｨｽ		fixed 16-byte field
-pilot_120	15	ｼﾞｬﾝｸ		fixed 16-byte field
-pilot_121	15	ｼﾞｬﾝｸ		fixed 16-byte field
-pilot_122	15	ｼﾐｭﾚｰﾀｰ		fixed 16-byte field
+pilot_000	15	ﾋﾞｽﾞﾘｨ	Bizley	fixed 16-byte field
+pilot_001	15	ﾏｲｺ	Maiko	fixed 16-byte field
+pilot_002	15	ｼｬﾍﾞｽ･ﾗﾙﾌ	Chavez & Ralph	fixed 16-byte field
+pilot_003	15	ｼｬﾍﾞｽ	Chavez	fixed 16-byte field
+pilot_004	15	ﾗﾙﾌ	Ralph	fixed 16-byte field
+pilot_005	15	ﾍﾞﾃｨ	Betty	fixed 16-byte field
+pilot_006	15	ﾚｼﾞｨ	Reggie	fixed 16-byte field
+pilot_007	15	ﾚｼﾞｨ	Reggie	fixed 16-byte field
+pilot_008	15	ﾚｼﾞｨ	Reggie	fixed 16-byte field
+pilot_009	15	ｼﾞｮﾝ	John	fixed 16-byte field
+pilot_010	15	ｵｰﾙﾄﾞﾏﾝ	Oldman	fixed 16-byte field
+pilot_011	15	ｵｰﾙﾄﾞﾏﾝ	Oldman	fixed 16-byte field
+pilot_012	15	ﾍﾞﾃｨ	Betty	fixed 16-byte field
+pilot_013	15	ﾋﾞｽﾞﾘｨ	Bizley	fixed 16-byte field
+pilot_014	15	ﾋﾞｽﾞﾘｨ	Bizley	fixed 16-byte field
+pilot_015	15	ﾏｲｺ	Maiko	fixed 16-byte field
+pilot_016	15	ﾏｲｺ	Maiko	fixed 16-byte field
+pilot_017	15	ｼｬﾍﾞｽ	Chavez	fixed 16-byte field
+pilot_018	15	ﾗﾙﾌ	Ralph	fixed 16-byte field
+pilot_019	15	ﾗﾙﾌ	Ralph	fixed 16-byte field
+pilot_020	15	ﾍﾞﾃｨ	Betty	fixed 16-byte field
+pilot_021	15	ﾚｼﾞｨ	Reggie	fixed 16-byte field
+pilot_022	15	ｴｽﾒﾗﾙﾀﾞ	Esmeralda	fixed 16-byte field
+pilot_023	15	ｴｽﾒﾗﾙﾀﾞ	Esmeralda	fixed 16-byte field
+pilot_024	15	ｴｽﾒﾗﾙﾀﾞ	Esmeralda	fixed 16-byte field
+pilot_025	15	ﾍﾞｰｱ	Baer	fixed 16-byte field
+pilot_026	15	ｺﾞﾛﾂｷ	Thug	fixed 16-byte field
+pilot_027	15	ｺﾞﾛﾂｷ	Thug	fixed 16-byte field
+pilot_028	15	ｺﾞﾛﾂｷ	Thug	fixed 16-byte field
+pilot_029	15	ｼﾞｹｲﾀﾞﾝｲﾝ	Vigilante	fixed 16-byte field
+pilot_030	15	ｼﾞｹｲﾀﾞﾝｲﾝ	Vigilante	fixed 16-byte field
+pilot_031	15	ﾀﾞﾝｶﾝ	Duncan	fixed 16-byte field
+pilot_032	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_033	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_034	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_035	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_036	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_037	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_038	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_039	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_040	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_041	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_042	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_043	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_044	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_045	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_046	15	ﾍｲｼ	Soldier	fixed 16-byte field
+pilot_047	15	ｸｳﾃｲ	Paratrooper	fixed 16-byte field
+pilot_048	15	ｸｳﾃｲ	Paratrooper	fixed 16-byte field
+pilot_049	15	ﾐﾝｶﾝｼﾞﾝ	Civilian	fixed 16-byte field
+pilot_050	15	ﾐﾝｶﾝｼﾞﾝ	Civilian	fixed 16-byte field
+pilot_051	15	ﾐﾝｶﾝｼﾞﾝ	Civilian	fixed 16-byte field
+pilot_052	15	ﾐﾝｶﾝｼﾞﾝ	Civilian	fixed 16-byte field
+pilot_053	15	ﾄﾞﾗｲﾊﾞｰ	Driver	fixed 16-byte field
+pilot_054	15	ﾄﾞﾗｲﾊﾞｰ	Driver	fixed 16-byte field
+pilot_055	15	ﾄﾞﾗｲﾊﾞｰ	Driver	fixed 16-byte field
+pilot_056	15	ﾑｼﾞﾝ	Unmanned	fixed 16-byte field
+pilot_057	15	ﾑｼﾞﾝ	Unmanned	fixed 16-byte field
+pilot_058	15	ﾑｼﾞﾝ	Unmanned	fixed 16-byte field
+pilot_059	15	ﾑｼﾞﾝ	Unmanned	fixed 16-byte field
+pilot_060	15	ｼﾞｹｲﾀﾞﾝｲﾝ	Vigilante	fixed 16-byte field
+pilot_061	15	ｼﾞｹｲﾀﾞﾝｲﾝ	Vigilante	fixed 16-byte field
+pilot_062	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ	Chrome Devil	fixed 16-byte field
+pilot_063	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ	Chrome Devil	fixed 16-byte field
+pilot_064	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ	Chrome Devil	fixed 16-byte field
+pilot_065	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ	Chrome Devil	fixed 16-byte field
+pilot_066	15	ｸﾛｰﾑﾃﾞﾋﾞﾙ	Chrome Devil	fixed 16-byte field
+pilot_067	15	ｸﾛｰﾝﾃﾞﾋﾞﾙ	Clone Devil	fixed 16-byte field
+pilot_068	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ	Red Devil	fixed 16-byte field
+pilot_069	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ	Red Devil	fixed 16-byte field
+pilot_070	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ	Red Devil	fixed 16-byte field
+pilot_071	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ	Red Devil	fixed 16-byte field
+pilot_072	15	ﾚｯﾄﾞﾃﾞﾋﾞﾙ	Red Devil	fixed 16-byte field
+pilot_073	15	ﾌﾞﾗｯｸｼﾞｬｯｸ	Blackjack	fixed 16-byte field
+pilot_074	15	ｼﾞｬﾝｸ	Junk	fixed 16-byte field
+pilot_075	15	ｼﾞｬﾝｸ	Junk	fixed 16-byte field
+pilot_076	15	ｴｾﾞｷｴﾙ	Ezekiel	fixed 16-byte field
+pilot_077	15	ｴｾﾞｷｴﾙ	Ezekiel	fixed 16-byte field
+pilot_078	15	ｴｾﾞｷｴﾙ	Ezekiel	fixed 16-byte field
+pilot_079	15	ｴｾﾞｷｴﾙ	Ezekiel	fixed 16-byte field
+pilot_080	15	ｴｾﾞｷｴﾙ	Ezekiel	fixed 16-byte field
+pilot_081	15	ｴｾﾞｷｴﾙ	Ezekiel	fixed 16-byte field
+pilot_082	15	ｴｾﾞｷｴﾙ	Ezekiel	fixed 16-byte field
+pilot_083	15	ｸﾗｳﾄﾞ	Cloud	fixed 16-byte field
+pilot_084	15	ｸﾗｳﾄﾞ	Cloud	fixed 16-byte field
+pilot_085	15	ｸﾗｳﾄﾞ	Cloud	fixed 16-byte field
+pilot_086	15	ｸﾗｳﾄﾞ	Cloud	fixed 16-byte field
+pilot_087	15	ｸﾗｳﾄﾞ	Cloud	fixed 16-byte field
+pilot_088	15	ｸﾗｳﾄﾞ	Cloud	fixed 16-byte field
+pilot_089	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_090	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_091	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_092	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_093	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_094	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_095	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_096	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_097	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_098	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_099	15	ﾛｽｺｳ	Roscoe	fixed 16-byte field
+pilot_100	15	ｹﾞｵﾙｸﾞ	Georg	fixed 16-byte field
+pilot_101	15	ｹﾞｵﾙｸﾞ	Georg	fixed 16-byte field
+pilot_102	15	ｹﾞｵﾙｸﾞ	Georg	fixed 16-byte field
+pilot_103	15	ｹﾞｵﾙｸﾞ	Georg	fixed 16-byte field
+pilot_104	15	ｹﾞｵﾙｸﾞ	Georg	fixed 16-byte field
+pilot_105	15	ｹﾞｵﾙｸﾞ	Georg	fixed 16-byte field
+pilot_106	15	ｼﾞｪｲｺﾌﾞ	Jacob	fixed 16-byte field
+pilot_107	15	ｼﾞｪｲｺﾌﾞ	Jacob	fixed 16-byte field
+pilot_108	15	ﾊﾝﾊﾞｰ	Humber	fixed 16-byte field
+pilot_109	15	ﾊﾝﾊﾞｰ	Humber	fixed 16-byte field
+pilot_110	15	ﾊﾝﾊﾞｰ	Humber	fixed 16-byte field
+pilot_111	15	ﾊﾝﾊﾞｰ	Humber	fixed 16-byte field
+pilot_112	15	ﾊﾝﾊﾞｰ	Humber	fixed 16-byte field
+pilot_113	15	ﾊﾝﾊﾞｰ	Humber	fixed 16-byte field
+pilot_114	15	ﾌﾗﾝｼｽ	Francis	fixed 16-byte field
+pilot_115	15	ﾌﾗﾝｼｽ	Francis	fixed 16-byte field
+pilot_116	15	ﾌﾗﾝｼｽ	Francis	fixed 16-byte field
+pilot_117	15	ﾌﾗﾝｼｽ	Francis	fixed 16-byte field
+pilot_118	15	ｼﾞｭﾃﾞｨｽ	Judith	fixed 16-byte field
+pilot_119	15	ｼﾞｭﾃﾞｨｽ	Judith	fixed 16-byte field
+pilot_120	15	ｼﾞｬﾝｸ	Junk	fixed 16-byte field
+pilot_121	15	ｼﾞｬﾝｸ	Junk	fixed 16-byte field
+pilot_122	15	ｼﾐｭﾚｰﾀｰ	Simulator	fixed 16-byte field

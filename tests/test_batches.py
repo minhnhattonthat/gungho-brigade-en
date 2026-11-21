@@ -33,3 +33,18 @@ def test_inline_speaker_and_tokens():
     g = _mk("%d ﾉ ﾀﾞﾒｰｼﾞ ", "name")
     assert any("control codes" in p for p in b.problems(g, "damage", []))
     assert not b.problems(g, "%d damage", [])
+
+
+def test_save_title_digits_stay_put():
+    """The game writes stage/time digits at fixed offsets into the card save titles."""
+    import insert
+    rows = {r["id"]: r for r in b.x.read_tsv(b.SCRIPT / "table.tsv")}
+    for sid in insert.SAVE_TITLES:
+        jp, en = rows[sid]["jp"], insert.to_full(rows[sid]["en"] or rows[sid]["jp"])
+        assert len(en) == len(jp), sid
+        assert [i for i, c in enumerate(jp) if c == "０"] == [i for i, c in enumerate(en) if c == "０"], sid
+
+
+def test_full_breaks_keep_empty_lines():
+    e = _mk("上書き？{n}{n}上書きする時は", "full")
+    assert b.compose(e, "Overwrite? / / To overwrite, 1/3") == "Overwrite?{n}{n}To overwrite, 1/3"
