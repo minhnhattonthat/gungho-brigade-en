@@ -2,9 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build (in progress: font done, marker build boots, width gate partly
-  measured). Last build: build/gungho_en.bin 2026-11-22 = marker build (`tools/insert.py --marker` + build.py).
+- **Phase:** 5. Engine spike and marker build (in progress: font done, marker build boots, width gate all but
+  battle messages + battle config measured). Last build: build/gungho_en.bin 2026-11-22 = **ruler build**
+  (`tools/ruler.py gunho_ pilot_ ending_002 table_0043 table_0044` + build.py); states s00 s01 i08 i08_status
+  i08_tune e34 in work/states/ are from it (`warp.py --all` after the next build).
 - **Done:**
+  - Phase 5 width gate (2026-11-22, second session): `tools/ruler.py` (slot-max ruler text, marker elsewhere).
+    Measured: battle hover box unit name 8, weapon list 9, TUNE UP unit name 7 (slot), battle status pilot 7 /
+    skill 10, help line 50 (46 seen clean), staff roll 48. All in docs/windows.md. Battle play session
+    work/play/bt (play.py, from work/states/s01.sstate of the ruler build): circle on own unit = move range, circle
+    again on a square, circle = command menu (射撃 ... END); circle on a weapon showed no target (none in range?);
+    END plots the unit; triangle jumps the cursor to the next unit; select/hover = portrait box; L2/R2 rotate;
+    start, cross and circle on empty ground opened nothing.
   - Phase 5 so far (2026-11-22): **font = digraphs, no code change** (tools/digraph.py, fonts/font5.txt; details
     docs/re/text.md §Font). Dialogue/battle text = pairs of 5-px letters in kana/kanji slots, 0x20 = 6-px space.
     MENU.EXE/SLPS/MENUMV/TABLE.BIN text = fullwidth Latin (their font is keyed by the real SJIS code; pairs showed as
@@ -35,17 +44,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 5, to finish):** measure the `not measured` rows of docs/windows.md: battle windows (pilot/unit/
-  weapon names, small-font battle messages; battle controls: square on a unit opens its portrait+stats, circle did
-  nothing on the map, work/qa/bt2), staff roll width (e34), table_00430/00440, help line right end (`--qa` a 60-char
-  gunho row). Glyph torture line: s08 test rows 07e8/0870/08f0 are never shown in the s08 intro (event skips them),
-  put `--qa` torture text on s08_078c instead (max 91). Then phase 5 done -> translator brief limits from
-  docs/windows.md. Phase 7 concern: English often outgrows in-place slots (overlay buffer bound 0x5d60 still a guess;
-  EXE strings repoint via mipsrefs sites); digraph capacity 1376-75 codes (marker uses ~300 pairs).
+- **Next (phase 5, to finish):** two rows of docs/windows.md left, both behind the battle system menu
+  (ユニットリスト セーブ シナリオ目的 コンフィグ プロット終了), whose button is not found yet: battle messages
+  (`%d ﾉ ﾀﾞﾒｰｼﾞ` gunho_00824, `ｿｼﾃ ﾊｽﾞﾚﾀ` 00834, `%s ﾃﾞｺｳｹﾞｷｼﾃ` 00840: need an execution phase after plot end)
+  and table_00430/00440 (コンフィグ). Ideas: plot every own unit with END (maybe execution starts by itself), hold
+  a button, or RE the pad handler (the damage string is sprintf'd at 0x8002a3c4 / 0x8002adec, `jal 0x80054a50`;
+  follow sp+0x10 to the draw call). Glyph torture line: put `--qa` torture text on s08_078c (max 91; s08 rows
+  07e8/0870/08f0 are never shown). Then phase 5 done -> translator brief limits from docs/windows.md.
+  Phase 7 concerns: English often outgrows in-place slots (unit names 7 bytes, weapons 11, pilots 15; overlay
+  buffer bound 0x5d60 still a guess; EXE strings repoint via mipsrefs sites); ENDING.BIN credits blob has 2439
+  bytes of room and the markers alone use ~2400; digraph capacity 1376-75 codes (marker uses ~300 pairs).
   Stale SCENFILE copies: no Japanese seen in the 46-scene marker tour.
 - **Notes:** stage index != tale number (stage 8 shows "tale 7"); event stages 3/11/32 chain into the next stage.
   The portable card tools/pcsx/memcard1.mcd must stay blank (warp.py always passes a blank `--sav`). Game over warp
   shows over the loading screen (battle view never drawn) and only the first leader's line; stage 0 has no defeat
   handler.
-- **Open bugs:** none.
+- **Open bugs:** staff roll draws digraph code 0x88e6 ("Th", = 域) as coloured noise while 0x88e7 and the rest are
+  fine (marker build, e34 f006900 `[ending_066] The`): the staff roll's glyph source differs for some codes (own
+  texture/cache?); check which codes it can draw before phase 7, or keep such codes out of ending text.
 - **Waiting on the user:** nothing.
