@@ -2,10 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate (not started; phase 5 done 2026-11-22). Last build: build/gungho_en.bin 2026-11-22 =
+- **Phase:** 6. Translate in progress (s00-s05 done = b006-b011, 249/2713 rows). Last build: build/gungho_en.bin 2026-11-22 =
   **marker build + glyph torture** (`insert.py --marker --qa s08_0140=.. --qa s08_049c=.. --qa s08_0748=..`);
   states in work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
 - **Done:**
+  - Phase 6 so far (2026-11-22): `tools/batches.py` (split/check/merge/fit; translators write the body only, it adds
+    the glossary speaker line, wraps at 42, keeps the JP's leading/trailing breaks; lint = glyphs, %s/%d, glossary,
+    honorifics after katakana names, 42x3 box; tests/test_batches.py gates merged English). 44 batches in work/tl
+    (b001 ending, b002 gunho, b003 menu, b004 menumv, b005 pilots, b006-b042 stages s00-s35 in order, b043 slps,
+    b044 table; work/ is gitignored: `split` regenerates only untranslated ids, so after a fresh clone run
+    `split --size 3500` and the numbers differ). glossary.md seeded (characters, all 43 speakers, places, terms),
+    docs/translator-brief.md, docs/synopsis.md (to s05), docs/style-reference.md. Translated + merged: s00-s05.
+    Codex is out of quota until 2026-11-26 (no `codex exec` translators/reviewers); translation is done by the worker
+    itself, in story order. Fixed: extract.write_tsv wrote CRLF on Windows (now LF).
   - Phase 5 finished (2026-11-22, third session): width gate complete (docs/windows.md). Battle system menu = circle
     with the cursor on empty ground (unit list / save / goal / config / GO); config rows measured (table_00430 6
     chars, table_00440 4); battle messages gunho_00824/00834/00840 are never shown (debug sprintf into dead stack
@@ -48,11 +57,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 6):** translator brief (`docs/translator-brief.md` from the skill asset) with the limits from
-  docs/windows.md per row kind (dialogue/tutorial/objective 42 chars x 3 lines incl. speaker; help line 50; small-font
-  names 7-10 chars, weapons 9; staff roll 48; memory-card 18/line fullwidth; config 6/4 fullwidth); glossary first
-  (unit, pilot, weapon names: official English where it exists, D2), then batches with translator agents, batch
-  check, reviewer pass. s08_078c/07e8/0870/08f0 not seen in the s08 intro tour (other events or dead).
+- **Next (phase 6):** continue in story order: `python -X utf8 tools/batches.py split --size 3500` (only if
+  work/tl is missing), then for each stage batch from s06 (b012): read `cut -f1,2,5 work/tl/bNNN.tsv` in <4 KB
+  chunks, write work/tl/bNNN.out.tsv, `check`, `fit ID "text"` for 4-line overflows, `merge`; extend
+  docs/synopsis.md per stage and glossary.md for new names. Then the non-story batches (b001 ending 48 chars; b002
+  gunho: help lines 50 chars, names = small font, keep `@` = mm glyph and %d/%s; b005 pilots; b003/b004/b043/b044
+  fullwidth 18/line, table_00430 6, table_00440 4; save titles table_11800/11844/11ac4 keep digit offsets). Then a
+  fresh read-only review pass per stage (Critical/Important fixed, Minors to docs/polish.md). Over-budget small-font
+  names: `batches.py check -v` lists them for phase 7 engine work. s08_078c/07e8/0870/08f0 not seen in the s08 intro
+  tour (other events or dead).
   Phase 7 concerns: English often outgrows in-place slots (unit names 7 bytes, weapons 11, pilots 15; overlay
   buffer bound 0x5d60 still a guess; EXE strings repoint via mipsrefs sites); ENDING.BIN credits blob has 2439
   bytes of room and the markers alone use ~2400; digraph capacity 1376-75 codes (marker uses ~300 pairs).

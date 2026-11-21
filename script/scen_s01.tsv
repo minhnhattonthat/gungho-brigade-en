@@ -1,3 +1,3 @@
 id	max	jp	en	notes
-s01_0004	23	勝利条件  ：敵の全滅		
-s01_001c	39	敗北条件  ：プレーヤーユニットの撃破		
+s01_0004	23	勝利条件  ：敵の全滅	Victory: Destroy all enemies	
+s01_001c	39	敗北条件  ：プレーヤーユニットの撃破	Defeat: Player unit destroyed	

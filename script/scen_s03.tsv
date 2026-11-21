@@ -1,27 +1,27 @@
 id	max	jp	en	notes
-s03_0004	59	ジョン/「ここは狙われているんだよ！/偉い人に会わせてよ!!」		
-s03_0040	71	衛兵/「はいはい、お兄さんが伝えてあげるから、/なんでも言ってごらん」		
-s03_0088	59	「あーっ、本気にしてないなぁ！  ホントに/危ないんだから」/		
-s03_00c4	83	衛兵/「坊や、誰が狙っているにしても、ここは地球/軍が守っているから安全なんだよ」		
-s03_0118	55	「誰が、じゃないんだ！  敵は人間じゃないん/だよ！」/		
-s03_0150	83	衛兵/「はいはい、８本足のタコかな？  灰色の小人/かな？  銀色の３ｍの巨人かな？」		
-s03_01a4	15	/「もうっ！」/		
-s03_01b4	55	衛兵/「さぁ、行った、行った。/お兄さん、もう疲れたよ」		
-s03_01ec	51	「ヤツらが来るんだ！/間に合わなくなっちゃうよ！」/		
-s03_0220	39	ビズリィ/「あれっ、ジョンじゃねぇか？」		
-s03_0248	47	ダイブツ/「総督府なんかでなにしてるんだろう？」		
-s03_0278	71	「おぉい、ジョーン！  ベティが心配してる/ぞぉ！  夕飯には戻れよ－っ！」		
-s03_02c0	119	審判「これより第２回パヴォニス杯ラグバトル/トーナメント１回戦第４試合『ジー・カープ』/対『クラッシャーズ』を行います」		
-s03_0338	27	ビズリィ/「出番だぜ！」/		
-s03_0354	63	マイコ/「なに？  私たち『クラッシャーズ』っての？/悪趣味ぃ！」		
-s03_0394	59	「そっちじゃない。ジー・カープ/（Ｇ・ＫＡＨＰ）のほうだ」/		
-s03_03d0	39	/「なによ、そのジー・カープって？」/		
-s03_03f8	87	「『ガンホーキッドと仲間たち（Ｇｕｎｇｈｏ/Ｋｉｄ  Ａｎｄ  Ｈｉｓ  Ｐａｌｓ）』!!」/		
-s03_0450	55	「サイッテー！/誰よ、こいつに参加登録させたのは？」/		
-s03_0488	23	シャベス/「…すまん」/		
-s03_04a0	71	ブレインズ/「まぁまぁ、名前でラグバトルをするわけじゃ/ないですし…」		
-s03_04e8	23	「あったりまえよ！」		
-s03_0500	51	「…だったら自分で登録しに行けばよかったの/に…」/		
-s03_0534	23	「なぁんですって！」		
-s03_054c	35	「…ビズリィ、今回はおまえが悪い」		
-s03_0570	15	「…ちぇっ」		
+s03_0004	59	ジョン/「ここは狙われているんだよ！/偉い人に会わせてよ!!」	John/"They're going to attack this place! Let/me see someone in charge!!"	
+s03_0040	71	衛兵/「はいはい、お兄さんが伝えてあげるから、/なんでも言ってごらん」	Guard/"Sure, sure. Tell big brother here all/about it, and I'll pass it on."	
+s03_0088	59	「あーっ、本気にしてないなぁ！  ホントに/危ないんだから」/	"Argh, you don't believe me! It's really/dangerous!"/	
+s03_00c4	83	衛兵/「坊や、誰が狙っているにしても、ここは地球/軍が守っているから安全なんだよ」	Guard/"Kiddo, whoever's after us, the Earth Army/guards this place. It's safe."	
+s03_0118	55	「誰が、じゃないんだ！  敵は人間じゃないん/だよ！」/	"It's not a 'who'! The enemy isn't human!"/	
+s03_0150	83	衛兵/「はいはい、８本足のタコかな？  灰色の小人/かな？  銀色の３ｍの巨人かな？」	Guard/"Sure, sure. An eight-legged octopus?/Little gray men? A 3-meter silver giant?"	
+s03_01a4	15	/「もうっ！」/	/"Ugh!"/	
+s03_01b4	55	衛兵/「さぁ、行った、行った。/お兄さん、もう疲れたよ」	Guard/"Now off you go, off you go. Big brother's/tired."	
+s03_01ec	51	「ヤツらが来るんだ！/間に合わなくなっちゃうよ！」/	"They're coming! It'll be too late!"/	
+s03_0220	39	ビズリィ/「あれっ、ジョンじゃねぇか？」	Bizley/"Huh? Ain't that John?"	
+s03_0248	47	ダイブツ/「総督府なんかでなにしてるんだろう？」	Daibutsu/"What's he doing at the Governor's/Office?"	
+s03_0278	71	「おぉい、ジョーン！  ベティが心配してる/ぞぉ！  夕飯には戻れよ－っ！」	"Heeey, Johnnn! Betty's worried about you!/Be back for dinner!"	
+s03_02c0	119	審判「これより第２回パヴォニス杯ラグバトル/トーナメント１回戦第４試合『ジー・カープ』/対『クラッシャーズ』を行います」	Referee: "2nd Pavonis Cup Rug Battle/Tournament, Round 1, Match 4: G-KAHP vs./Crushers!"	
+s03_0338	27	ビズリィ/「出番だぜ！」/	Bizley/"We're up!"/	
+s03_0354	63	マイコ/「なに？  私たち『クラッシャーズ』っての？/悪趣味ぃ！」	Maiko/"What? We're the 'Crushers'? How tacky!"	
+s03_0394	59	「そっちじゃない。ジー・カープ/（Ｇ・ＫＡＨＰ）のほうだ」/	"Not that one. We're G-KAHP."/	
+s03_03d0	39	/「なによ、そのジー・カープって？」/	/"And what's a G-KAHP supposed to be?"/	
+s03_03f8	87	「『ガンホーキッドと仲間たち（Ｇｕｎｇｈｏ/Ｋｉｄ  Ａｎｄ  Ｈｉｓ  Ｐａｌｓ）』!!」/	"'Gungho Kid And His Pals'!!"/	
+s03_0450	55	「サイッテー！/誰よ、こいつに参加登録させたのは？」/	"The worst! Who let this guy sign us up?"/	
+s03_0488	23	シャベス/「…すまん」/	Chavez/"...Sorry."/	
+s03_04a0	71	ブレインズ/「まぁまぁ、名前でラグバトルをするわけじゃ/ないですし…」	Brains/"Now, now. It's not like we play Rug/Battle with our name..."	
+s03_04e8	23	「あったりまえよ！」	"Well, obviously!"	
+s03_0500	51	「…だったら自分で登録しに行けばよかったの/に…」/	"...Then you should've gone and signed us/up yourself..."/	
+s03_0534	23	「なぁんですって！」	"Say WHAT?!"	
+s03_054c	35	「…ビズリィ、今回はおまえが悪い」	"...Bizley, this one's on you."	
+s03_0570	15	「…ちぇっ」	"...Tch."	

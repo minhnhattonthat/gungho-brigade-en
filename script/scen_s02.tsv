@@ -1,59 +1,59 @@
 id	max	jp	en	notes
-s02_0004	35	/      シナリオ目的及び特殊ルール/		
-s02_0028	111	勝利条件：「マスタングＤ」の左手に「ラグ/  ボール」を装備し画面右のゴールへ到着する{n}  もしくは、敵を全滅させる		
-s02_0098	35	敗北条件：プレーヤーユニットの撃破/		
-s02_00bc	79	特殊ルール：敵が銃を手に装備しない限り、/  銃を手に装備し射撃を行ってはならない		
-s02_010c	67	  まず、マスタングＤをラグボールのあるスク/エアに移動させてください		
-s02_0150	123	  マスタングＤの左手にラグボールを装備させ/てください。「装備」、「ヒダリウデ」、/「ラグボール」の順に選択してください。		
-s02_01cc	95	  マスタングＤの左手に「ラグボール」装備さ/れました。あとは、うまくゴールへ向かってく/ださい。		
-s02_022c	99	  格闘戦が発生した地点で移動が終了してしま/います。一度引いてから迂回するのも戦術のひ/とつです。		
-s02_0290	83	審判/「ボールがフィールド外に出たため、規定によ/り、中央に新たにボールを投入する」		
-s02_02e4	67	審判/「ひとつ、ボールを相手側ゴールに持ち込んだ/陣営を勝利とする」		
-s02_0328	75	審判/「ひとつ、ボールを確保した機体は銃器を装備/し射撃を行ってもよろしい」		
-s02_0374	87	審判/「なお、撃破された機体がボールを保持してい/た場合、ボールは中央に再配置される」		
-s02_03cc	87	審判/「ひとつ、ボールを確保していない機体は銃器/の装備および射撃を行ってはならない」		
-s02_0424	111	審判「ただし、ボールを確保した機体が銃器を/装備した後は、すべての機体は、銃器の装備・/射撃を行ってよろしい」		
-s02_0494	67	審判/「これらの規定に反した機体は、立ち会い人が/即刻、無力化する」		
-s02_04d8	79	審判/「以上、カウント３でゲームを開始する。/ワン！  トゥ！  スリー！  ゴー!!」		
-s02_0528	15	「兄貴ぃ…」		
-s02_0538	43	「やっぱ、よした方がよくなかったっすか？」		
-s02_0564	107	「ラグライダーは殺し合いはトーシロだ。/撃ち合いなら、火力も装甲もこっちが上だぜ。/ビクついてんじゃねぇ！」		
-s02_05d0	23	「そうは言ってもよぅ」		
-s02_05e8	35	/「やかましい、もう黙ってろ！」/		
-s02_060c	63	「連中、怪しい改造をしていますね。自動火器/も持っていますし…」		
-s02_064c	19	「…どうします？」/		
-s02_0660	55	「問題ない。奴等には撃たせない。こちらから/も撃たない」		
-s02_0698	35	「スパッと決めて終わりってわけね」/		
-s02_06bc	55	「そのとおり。奴等に、正しいラグバトルを教/えてやる」		
-s02_06f4	31	「気に入ったよ。ゴールは？」/		
-s02_0714	15	「俺が取る」/		
-s02_0724	31	「おまえの喧嘩だ。好きにしろ」/		
-s02_0744	35	「駄目ですよ、無理に飲ませちゃぁ」/		
-s02_0768	31	「ミルクにしとけばよかった？」/		
-s02_0788	51	「ラグライダーがミルクだぁ？/ぶぁか言うんじゃねぇ」		
-s02_07bc	15	「…あのぉ」		
-s02_07cc	23	「あの、すいません！」		
-s02_07e4	11	「ん？」/		
-s02_07f0	43	「なんだ？  昼間の坊主、礼ならいらねぇぜ」/		
-s02_081c	67	「…ニュー・ブラウンまで連れていってくださ/い！  お願いします!!」		
-s02_0860	59	「…ニュー・ブラウン？  ちょうどいい。俺達/もそこへ行く」		
-s02_089c	23	「こいつに出るんだ」/		
-s02_08b4	31	「お前、名前、なんてぇんだ？」/		
-s02_08d4	27	「…ジョン、…スミスです」		
-s02_08f0	79	「任せとけ、ジョン・スミス。俺はビズリィ・/レナード！  ガンホー・キッドだぁ！」		
-s02_0940	35	「うるさい！  大声出さないで！」/		
-s02_0964	23	ジョン/「あ、あの…」		
-s02_097c	39	「ＯＫ、ＯＫ。シャベス・シェルビーだ」/		
-s02_09a4	59	「ブレインズ。本名はラルフ・ライアル、/だけどブレインズ」		
-s02_09e0	47	「私はベティ・デービス、あそこのデカイの/が…」		
-s02_0a10	55	「レジィ・シモンズ、みんなはダイブツって呼/んでるわ」		
-s02_0a48	19	ダイブツ/「…やぁ」		
-s02_0a5c	47	ベティ/「あそこで潰れてるのがマイコ・ヒノワ」		
-s02_0a8c	15	マイコ/「…」		
-s02_0a9c	31	「じゃ、よろしくね、ジョン」/		
-s02_0abc	31	「…間に合う、まだ間に合う」		
-s02_0adc	11	「…ふぅ」/		
-s02_0ae8	7	/「…」		
-s02_0af0	35	「しまった…、やっちまったか！」		
-s02_0b14	27	「マスタング…。ごめん！」		
-s02_0b30	27	「うおっ！  やられたっ！」		
+s02_0004	35	/      シナリオ目的及び特殊ルール/	/     Scenario Goals and Special Rules/	
+s02_0028	111	勝利条件：「マスタングＤ」の左手に「ラグ/  ボール」を装備し画面右のゴールへ到着する{n}  もしくは、敵を全滅させる	Victory: Equip the Rug Ball in Mustang D's/left hand and reach the goal on the right,/or destroy all enemies	
+s02_0098	35	敗北条件：プレーヤーユニットの撃破/	Defeat: Player unit destroyed/	
+s02_00bc	79	特殊ルール：敵が銃を手に装備しない限り、/  銃を手に装備し射撃を行ってはならない	Special rule: Unless the enemy equips a/gun in hand, you may not equip a gun or/fire.	
+s02_010c	67	  まず、マスタングＤをラグボールのあるスク/エアに移動させてください	  First, move Mustang D onto the square/with the Rug Ball.	
+s02_0150	123	  マスタングＤの左手にラグボールを装備させ/てください。「装備」、「ヒダリウデ」、/「ラグボール」の順に選択してください。	  Equip the Rug Ball in Mustang D's left/hand. Select "Equip", "Left Arm", then/"Rug Ball".	
+s02_01cc	95	  マスタングＤの左手に「ラグボール」装備さ/れました。あとは、うまくゴールへ向かってく/ださい。	  Mustang D now holds the Rug Ball in its/left hand. Now head for the goal, and do/it well.	
+s02_022c	99	  格闘戦が発生した地点で移動が終了してしま/います。一度引いてから迂回するのも戦術のひ/とつです。	  A unit's move ends where melee breaks/out. Falling back and going around is one/tactic, too.	
+s02_0290	83	審判/「ボールがフィールド外に出たため、規定によ/り、中央に新たにボールを投入する」	Referee/"Ball out of bounds. By the rules, a new/ball goes into play at center."	
+s02_02e4	67	審判/「ひとつ、ボールを相手側ゴールに持ち込んだ/陣営を勝利とする」	Referee/"One: the side that carries the ball into/the opposing goal wins."	
+s02_0328	75	審判/「ひとつ、ボールを確保した機体は銃器を装備/し射撃を行ってもよろしい」	Referee/"One: a machine holding the ball may equip/firearms and shoot."	
+s02_0374	87	審判/「なお、撃破された機体がボールを保持してい/た場合、ボールは中央に再配置される」	Referee/"Further, if a destroyed machine held the/ball, the ball is returned to center."	
+s02_03cc	87	審判/「ひとつ、ボールを確保していない機体は銃器/の装備および射撃を行ってはならない」	Referee/"One: a machine not holding the ball may/not equip or fire any firearm."	
+s02_0424	111	審判「ただし、ボールを確保した機体が銃器を/装備した後は、すべての機体は、銃器の装備・/射撃を行ってよろしい」	Referee: "However, once the ball carrier/has equipped a firearm, all machines may/equip firearms and shoot."	
+s02_0494	67	審判/「これらの規定に反した機体は、立ち会い人が/即刻、無力化する」	Referee/"Any machine breaking these rules will be/disabled by the officials at once."	
+s02_04d8	79	審判/「以上、カウント３でゲームを開始する。/ワン！  トゥ！  スリー！  ゴー!!」	Referee/"That's all. The game starts on three./One! Two! Three! Go!!"	
+s02_0528	15	「兄貴ぃ…」	"Boss..."	
+s02_0538	43	「やっぱ、よした方がよくなかったっすか？」	"Shouldn't we've called it off after all?"	
+s02_0564	107	「ラグライダーは殺し合いはトーシロだ。/撃ち合いなら、火力も装甲もこっちが上だぜ。/ビクついてんじゃねぇ！」	"Rug Riders are amateurs at killing. In a/shootout, we've got 'em beat on firepower/and armor. Quit shaking!"	
+s02_05d0	23	「そうは言ってもよぅ」	"Yeah, but still..."	
+s02_05e8	35	/「やかましい、もう黙ってろ！」/	/"Pipe down! Not another word!"/	
+s02_060c	63	「連中、怪しい改造をしていますね。自動火器/も持っていますし…」	"They've got some shady mods on those./Automatic weapons, too..."	
+s02_064c	19	「…どうします？」/	"...What do we do?"/	
+s02_0660	55	「問題ない。奴等には撃たせない。こちらから/も撃たない」	"No problem. We won't let them shoot. And/we won't shoot either."	
+s02_0698	35	「スパッと決めて終わりってわけね」/	"So we score it clean and call it a day."/	
+s02_06bc	55	「そのとおり。奴等に、正しいラグバトルを教/えてやる」	"Exactly. We'll teach them how Rug Battle/is really played."	
+s02_06f4	31	「気に入ったよ。ゴールは？」/	"I like it. Who takes the goal?"/	
+s02_0714	15	「俺が取る」/	"I'll take it."/	
+s02_0724	31	「おまえの喧嘩だ。好きにしろ」/	"It's your fight. Do as you like."/	
+s02_0744	35	「駄目ですよ、無理に飲ませちゃぁ」/	"Come on, don't force drinks on him."/	
+s02_0768	31	「ミルクにしとけばよかった？」/	"Should I have ordered him milk?"/	
+s02_0788	51	「ラグライダーがミルクだぁ？/ぶぁか言うんじゃねぇ」	"A Rug Rider drinkin' milk?! Don't be/stupid!"	
+s02_07bc	15	「…あのぉ」	"...Um."	
+s02_07cc	23	「あの、すいません！」	"Um, excuse me!"	
+s02_07e4	11	「ん？」/	"Hm?"/	
+s02_07f0	43	「なんだ？  昼間の坊主、礼ならいらねぇぜ」/	"What? The kid from this afternoon? No/need to thank me."/	
+s02_081c	67	「…ニュー・ブラウンまで連れていってくださ/い！  お願いします!!」	"...Please take me to New Brown! Please!!"	
+s02_0860	59	「…ニュー・ブラウン？  ちょうどいい。俺達/もそこへ行く」	"...New Brown? Perfect. We're headed there/ourselves."	
+s02_089c	23	「こいつに出るんだ」/	"We're entering this."/	
+s02_08b4	31	「お前、名前、なんてぇんだ？」/	"What's your name, kid?"/	
+s02_08d4	27	「…ジョン、…スミスです」	"...John... Smith."	
+s02_08f0	79	「任せとけ、ジョン・スミス。俺はビズリィ・/レナード！  ガンホー・キッドだぁ！」	"Leave it to me, John Smith. I'm Bizley/Leonard! The Gungho Kid!"	
+s02_0940	35	「うるさい！  大声出さないで！」/	"Shut up! Don't yell!"/	
+s02_0964	23	ジョン/「あ、あの…」	John/"Uh, um..."	
+s02_097c	39	「ＯＫ、ＯＫ。シャベス・シェルビーだ」/	"OK, OK. Chavez Shelby."/	
+s02_09a4	59	「ブレインズ。本名はラルフ・ライアル、/だけどブレインズ」	"Brains. Real name's Ralph Lyall, but it's/Brains."	
+s02_09e0	47	「私はベティ・デービス、あそこのデカイの/が…」	"I'm Betty Davis, and the big guy over/there is..."	
+s02_0a10	55	「レジィ・シモンズ、みんなはダイブツって呼/んでるわ」	"Reggie Simmons. Everybody calls him/Daibutsu."	
+s02_0a48	19	ダイブツ/「…やぁ」	Daibutsu/"...Hey."	
+s02_0a5c	47	ベティ/「あそこで潰れてるのがマイコ・ヒノワ」	Betty/"And the one passed out over there is/Maiko Hinowa."	
+s02_0a8c	15	マイコ/「…」	Maiko/"..."	
+s02_0a9c	31	「じゃ、よろしくね、ジョン」/	"Well, nice to meet you, John."/	
+s02_0abc	31	「…間に合う、まだ間に合う」	"...I can make it. I can still make it."	
+s02_0adc	11	「…ふぅ」/	"...Phew."/	
+s02_0ae8	7	/「…」	/"..."	
+s02_0af0	35	「しまった…、やっちまったか！」	"Damn... Did I blow it?!"	
+s02_0b14	27	「マスタング…。ごめん！」	"Mustang... I'm sorry!"	
+s02_0b30	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	

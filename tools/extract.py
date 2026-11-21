@@ -228,7 +228,7 @@ def write_tsv(path, rows):
         vals = [r[c] for c in COLS]
         assert not any("\t" in v or "\n" in v for v in vals), r["id"]
         lines.append("\t".join(vals))
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
 def read_tsv(path):
