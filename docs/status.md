@@ -4,7 +4,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator: next (phase 7 done 2026-11-22, review fixes done). Last build:
   build/gungho_en.bin 2026-11-22 = **full English**, sha1 78135af0e3408cc0b6faa267e48aa78f17c578f5, smoke ok. States
-  in work/states/ regenerated on this build (`warp.py --all`).
+  in work/states/ regenerated on this build (`warp.py --all --cue build/gungho_en.cue`, 46/46 ok; without --cue warp
+  uses the Japanese disc).
 - **Done:**
   - Phase 7 review fixes (2026-11-22, seventh session; ../.harness/reviews/gungho-brigade-en-phase7.md): small font
     now 6 px per char (tools/smallfont.py: 3 advance immediates + ASCII glyphs from font5 in both font TIMs; RE in
