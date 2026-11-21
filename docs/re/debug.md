@@ -28,6 +28,17 @@ All **verified** by the warp runs in `tools/debug/` unless marked.
 - **Event args:** 0x80022eac stores id/a1/a2 at gp+0x9c8/0x9a8/0x9ac (0x800A1B18/1AF8/1AFC). Overlay-only checks
   read them: 0x8005146c(a0, a1) = "event 6 and a1 == a0 and a2 == a1" (unit destroyed: index, unit id), 0x800514b0 =
   event 7 with a1 == a0, 0x800514e0 = event 8. **verified** for 6 (go08 below).
+- **Pad:** held buttons u32 at gp+0x9fc (0x800A1B4C, also gp+0xac), newly pressed at gp+0x9f4 (0x800A1B44), written
+  by the menu runner 0x80035e14 (generic list menu; callback in $s6). Bits: L2 0x1, R2 0x2, L1 0x4, R1 0x8,
+  triangle 0x10, circle 0x20, cross 0x40, square 0x80, select 0x100, start 0x800, up 0x1000, right 0x2000,
+  down 0x4000, left 0x8000. **verified** (ramsearch on held circle/cross).
+- **Battle controls (plot phase):** circle on an own unit = move range / command menu; circle with the cursor on
+  empty ground = **system menu** (icons: unit list, save, scenario goal flag, config pad, GO = plot end); triangle =
+  next unit; select = portrait box; L1/R1 zoom, L2/R2 rotate; square shows the bullet cursor. GO starts the execution
+  phase (3D battle scenes). **verified** work/play/bt 0041-0044.
+- **Debug leftovers:** 0x8002a1a0 and 0x8002ab10 (attack resolution) sprintf the battle messages gunho_00824/00834/
+  00840 into stack buffers (sp+0x10 / sp+0x18) that nothing reads; 0x8003bb1c sprintfs a frame timer the same way.
+  0x80054a50 = sprintf(buf, fmt, ...). Never drawn. `tools/lua/callers.lua` logs calls of any function list.
 - **Game over:** each stage overlay's defeat handler (stage 8: 0x8015b1f0..0x8015b428, first check `0x8005146c(0,
   0x55)`) checks each leader in turn; on a hit: leader face (0x8004f924(face, 0)), FACE 106 "Game over"
   (0x8004f924(0x6a, 1)), the defeat line (0x800506b0, string from the overlay table), then 0x80031cfc (title).

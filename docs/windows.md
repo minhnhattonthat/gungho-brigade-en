@@ -19,9 +19,11 @@ one 0x20 byte = 6 px), fullwidth rows 12 px per char, small-font rows ~8 px per 
 | Unit name in TUNE UP header | small | **7 chars** = slot max shown; free room to x~125 (~14 chars) if relocated | work/qa/warp/i08_tune/final.png |
 | Pilot name in the battle status window | small | **7 chars** (same window as STATUS; 13-char ruler ran over the HP value) | work/play/bt/0028.png |
 | Skill name, battle status window | small | **10 chars** confirmed (11th runs into the level number) | work/play/bt/0028.png |
-| Battle messages (`%d ﾉ ﾀﾞﾒｰｼﾞ` etc., small font) | small | **not measured**: need an execution phase (plot end via the system menu, not found yet) | phase 5 todo |
+| Battle messages (gunho_00824 `%d ﾉ ﾀﾞﾒｰｼﾞ`, 00834 `ｿｼﾃ ﾊｽﾞﾚﾀ`, 00840 `%s ﾃﾞｺｳｹﾞｷｼﾃ`) | small | **never shown**: debug leftovers, sprintf'd into stack buffers nothing reads (0x8002a1a0 / 0x8002ab10, docs/re/debug.md). Budget = slot only (15/11/15 bytes); keep `%d`/`%s` | execution phase played twice (full and shortened scenes, work/play/bt 0044, callers.lua log): sprintf fires, no text on screen |
 | Staff roll (ending_*) | pair | **48 chars** (lines start x=30; 49th ends at 318, 50th clipped at the screen edge) | ruler build e34 f004800 |
-| table_00430 / table_00440 (○戦闘シーン / 短縮) | full | **not seen yet**: battle config (コンフィグ, system menu; s00_0078 names the same option) | phase 5 todo |
+| table_00430 (○戦闘シーン, config option label) | full | **6 chars** clean (x=60, 12 px/char); the system-menu icon column stays drawn on top of the window from x~134, so a 7th char runs under it (in-place slot max 7); window frame x 41..274 | ruler build, work/play/bt/0042.png (battle: circle on empty ground -> system menu -> pad icon) |
+| table_00440 (短縮, option value button next to ON/OFF) | full | **4 chars** inside the button (x 79..134); slot max 3 in place | same shot |
+| Glyph check, dialogue | pair | all 5-px glyphs (A-Z a-z 0-9 punctuation) and odd/even pair alignment draw clean | work/qa/torture/glyphs.png (`--qa` on s08_0140/049c/0748) |
 
 Notes
 - JP lines peak at 42 half-cells (707 strings); 7 strings reach 44 (they overflow in Japanese too).

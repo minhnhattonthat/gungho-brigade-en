@@ -2,11 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build (in progress: font done, marker build boots, width gate all but
-  battle messages + battle config measured). Last build: build/gungho_en.bin 2026-11-22 = **ruler build**
-  (`tools/ruler.py gunho_ pilot_ ending_002 table_0043 table_0044` + build.py); states s00 s01 i08 i08_status
-  i08_tune e34 in work/states/ are from it (`warp.py --all` after the next build).
+- **Phase:** 6. Translate (not started; phase 5 done 2026-11-22). Last build: build/gungho_en.bin 2026-11-22 =
+  **marker build + glyph torture** (`insert.py --marker --qa s08_0140=.. --qa s08_049c=.. --qa s08_0748=..`);
+  states in work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
 - **Done:**
+  - Phase 5 finished (2026-11-22, third session): width gate complete (docs/windows.md). Battle system menu = circle
+    with the cursor on empty ground (unit list / save / goal / config / GO); config rows measured (table_00430 6
+    chars, table_00440 4); battle messages gunho_00824/00834/00840 are never shown (debug sprintf into dead stack
+    buffers, docs/re/debug.md); glyph torture in s08 dialogue draws every 5-px glyph clean (work/qa/torture/glyphs.png).
+    New RE aid `tools/lua/callers.lua` (log calls of listed functions with $ra/args).
   - Phase 5 width gate (2026-11-22, second session): `tools/ruler.py` (slot-max ruler text, marker elsewhere).
     Measured: battle hover box unit name 8, weapon list 9, TUNE UP unit name 7 (slot), battle status pilot 7 /
     skill 10, help line 50 (46 seen clean), staff roll 48. All in docs/windows.md. Battle play session
@@ -44,13 +48,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 5, to finish):** two rows of docs/windows.md left, both behind the battle system menu
-  (ユニットリスト セーブ シナリオ目的 コンフィグ プロット終了), whose button is not found yet: battle messages
-  (`%d ﾉ ﾀﾞﾒｰｼﾞ` gunho_00824, `ｿｼﾃ ﾊｽﾞﾚﾀ` 00834, `%s ﾃﾞｺｳｹﾞｷｼﾃ` 00840: need an execution phase after plot end)
-  and table_00430/00440 (コンフィグ). Ideas: plot every own unit with END (maybe execution starts by itself), hold
-  a button, or RE the pad handler (the damage string is sprintf'd at 0x8002a3c4 / 0x8002adec, `jal 0x80054a50`;
-  follow sp+0x10 to the draw call). Glyph torture line: put `--qa` torture text on s08_078c (max 91; s08 rows
-  07e8/0870/08f0 are never shown). Then phase 5 done -> translator brief limits from docs/windows.md.
+- **Next (phase 6):** translator brief (`docs/translator-brief.md` from the skill asset) with the limits from
+  docs/windows.md per row kind (dialogue/tutorial/objective 42 chars x 3 lines incl. speaker; help line 50; small-font
+  names 7-10 chars, weapons 9; staff roll 48; memory-card 18/line fullwidth; config 6/4 fullwidth); glossary first
+  (unit, pilot, weapon names: official English where it exists, D2), then batches with translator agents, batch
+  check, reviewer pass. s08_078c/07e8/0870/08f0 not seen in the s08 intro tour (other events or dead).
   Phase 7 concerns: English often outgrows in-place slots (unit names 7 bytes, weapons 11, pilots 15; overlay
   buffer bound 0x5d60 still a guess; EXE strings repoint via mipsrefs sites); ENDING.BIN credits blob has 2439
   bytes of room and the markers alone use ~2400; digraph capacity 1376-75 codes (marker uses ~300 pairs).
