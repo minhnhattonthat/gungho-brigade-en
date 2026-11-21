@@ -2,11 +2,30 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (tour verdicts round 1 done, 41 re-toured sheets to re-read). Last
-  build: build/gungho_en.bin 2026-11-22 sha1 7e91f4bb42663fff235d5dc00bc9ea4506918ec7 (tour round-1 fixes), smoke
-  ok. States in work/states/ are from the phase 7 build (regen with `warp.py --all --cue build/gungho_en.cue`
-  before menu QA: GAMEDATA changed).
+- **Phase:** 8. QA in the emulator: in progress (dialogue tour gate passes; roll + captions done; menus, command
+  buttons, stress saves, textcover left). Last build: build/gungho_en.bin 2026-11-22 sha1 de1e747c (roll split +
+  captions), smoke ok. States in work/states/ are from the phase 7 build (regen with `warp.py --all --cue
+  build/gungho_en.cue` before menu QA: GAMEDATA changed).
 - **Done:**
+  - Phase 8, third session (2026-11-22):
+    - Verdicts round 2: all 41 sheets read (self pass), work/qa/tour/verdicts/chunk_304b3673b140_00N.tsv +
+      round2_followup.tsv (s07_0004 seen as s07_sheet_2's repeated last tile). s35 sheets: forced box is garbage
+      (stage 35 loads no window texture) and the s35 overlay strings are never drawn in play (the s35 warp plays the
+      ENDING.BIN roll), so ok with that note. `qa_gate.py check work/qa/tour/manifest.tsv work/qa/tour/verdicts` exits
+      0 via `waive` for build de1e747c (only ENDING.BIN/FACE.DAT differ from the toured 7e91f4bb).
+    - **Staff roll bug fixed** (e34 vs original, VRAM dumps work/qa/roll/vram_en|jp): each roll line is drawn into a
+      VRAM strip x 320..511; English lines over 16 cells (32 chars, aligned pairs) spilled past x 512 into the picture
+      texture: a glyph strip over the "System Programming" still and old roll text instead of the last still. 13
+      ending rows now split with `{n}` (batches: credit = 32 chars x 3 lines, `/` rejected); `extract.roll_lines`
+      keeps the 301 lines by taking one blank from the next run of 2+ blanks after each added line, so every section
+      and the time-based Sign/TOMY logos stay in sync with the JP (work/qa/roll/e34_end.png pairs EN|JP). Test in
+      tests/test_extract.py. docs/windows.md roll row updated.
+    - **Prologue captions (D5) done:** tools/gfx_captions.py (in insert.GFX + diffcheck ranges): 23 FACE.DAT stills,
+      caption pixels restored from each still's caption-free grey twin (colour 0x55c000: mask from 0x549000, refilled
+      from nearby clean pixels), English in fonts/DejaVuSans-Bold.ttf 11 px, white + dark outline/halo. All 23 seen
+      in the s02 intro on the build (work/qa/captions/captions_sheet*.png, late_zoom.png, late.png ~f4400-16980).
+      Glossary rows added (Mars Year / Mars Century, Union of Martian States, Mars Union, Southern Confederation,
+      Junk Rush, Lost Battalion...); docs/fonts.md row.
   - Phase 8, second session (2026-11-22): read all 72 tour sheets of build 49b6d4e9 (self pass, no reviewer
     available), verdicts in work/qa/tour/verdicts/chunk_45585d3d0368_00N.tsv: 63 ok, 9 issue, all fixed in script:
     s02_0538 grammar; one-word/unindented last lines in goal rows s05_0078, s10 victory x15, s13_005c, s30_00a4,
@@ -139,23 +158,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
 - **Next (phase 8, QA):**
-  1. **Verdicts round 2:** 41 sheets of build 7e91f4bb, chunks work/qa/tour/chunks/chunk_304b3673b140_000..005.txt.
-     Read each whole per docs/visual-qa-brief.md, write work/qa/tour/verdicts/chunk_304b3673b140_00N.tsv; check the
-     fixed rows above and that each stage's extra last tile (first string again) shows a box. s35 sheets: roll-form
-     rows (48 wide) forced through the 42-wide dialogue box may overflow there by design (judge them in the real
-     roll via warp s35 instead). Then `qa_gate.py check work/qa/tour/manifest.tsv work/qa/tour/verdicts` must exit
-     0. Tile -> id: t_<n>_<id> file names in sNN/ in order (40 per sheet). Fix loop: scratch `id<TAB>body` TSV,
-     `tl_patch.py bNNN F`, `batches.py check`, `merge --overwrite`, insert, build, `tour.py sNN`, `qa_gate init`.
-  2. s35_08bc: find why textcover logs no TEXT key for it (roll row read by another PC?), or waive it after seeing
-     it in the warp s35 credits.
-  3. Graphics (D5): FACE.DAT prologue captions (~23 8bpp 320x240 stills, offsets in docs/re/graphics.md, seen in the
-     s02 intro ~f4500-f11000: white 12-px kanji with dark outline, bottom-left). Plan: dark band over the caption
-     rect + English in DejaVu Sans (matplotlib's copy, Bitstream Vera licence: copy it to fonts/ + docs/fonts.md),
-     anti-aliased onto the grey palette; generator tools/gfx_captions.py in insert.GFX like gfx_labels. Then the
-     command buttons + captions in zoomed cold-boot shots.
-  4. Menu/system screens on the English build: warp scenes i08_*, title_load, go08*, e34 -> a second manifest
-     (work/qa/menus/) with verdicts; `inkbox.py` on centred boxes; stress saves; textcover exit 0 (waive boot errors,
-     debug sprintf strings gunho_00824/00834/00840).
+  1. Command buttons (gfx_labels) in a zoomed shot on the build: warp s01, circle on own unit, circle on a square
+     (command menu); the system menu (circle on empty ground) for the right column.
+  2. Menu/system screens on the English build: regen states (`warp.py --all --cue build/gungho_en.cue`), warp
+     scenes i08_*, title_load, go08*, e34 -> a second manifest (work/qa/menus/, `qa_gate init ... --build`) with
+     verdicts; `inkbox.py` on centred boxes; stress saves (save.py: longest names, full lists, max numbers).
+  3. Textcover: the digraph codes were reassigned (1102 pairs now), so every key in build/strings.tsv changed since
+     the tour; the tour logs still match the old copy work/qa/tour/scen_strings.tsv. Before release: re-run the full
+     tour on the final build (`tour.py --jobs 7`, ~1 h), `qa_gate init --build` (sheets unchanged keep verdicts),
+     regenerate scen_strings from build/strings.tsv, textcover exit 0. Waive s35_* (never drawn in play; s35_08bc is
+     the one row the forced tour logged no key for) and boot/debug strings (slps/menumv errors, gunho_00824/834/840).
+  4. Graphics-text survey (docs/re/graphics.md): captions and command buttons were the only Japanese graphics; the
+     tale cards, Game over and logos are English already. Re-confirm in the cold-boot shots of item 2.
   Specific checks owed:
   - small-font names at the new 6-px pitch in battle hover box / weapon list (measure: budget 12 is a guess) /
     STATUS / TUNE UP / ability list, incl. the repacked pool names (Ambidextrous, Maintenance...) and kana-free text;
