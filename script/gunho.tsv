@@ -37,7 +37,7 @@ gunho_01f0c	11	Cﾄﾞﾗｸﾞｰﾝ2	C Dragoon2
 gunho_01f18	11	ﾄﾞﾗｸﾞｰﾝ2	Dragoon 2	
 gunho_01f24	11	ｽｰﾊﾟｰｺﾌﾞﾗ	SuperCobra	
 gunho_01f30	47	指定ユニットに隣接し、損傷の１／３を回復する	Repairs a third of an adjacent unit's damage	
-gunho_01f60	47	指定ユニットに隣接し、損傷の２／３を回復する	Repairs two thirds of an adjacent unit's damage	
+gunho_01f60	47	指定ユニットに隣接し、損傷の２／３を回復する	Repairs two thirds of adjacent unit's damage	
 gunho_01f90	23	移動範囲が＋２される	Movement range +2	
 gunho_01fa8	31	行動ポイント消費０で装備を行う	Equips for 0 action points	
 gunho_01fc8	11	ｸｲｯｸﾄﾞﾛｰ	Quick Draw	
@@ -52,7 +52,7 @@ gunho_0209c	43	両手に持ったランダルで２発づつ射撃をする	Fire
 gunho_020c8	35	両手に持ったランダルで射撃をする	Fires a Randall from each hand	
 gunho_020ec	39	両手保持の銃で一体の敵を２回射撃する	Two-handed gun: shoots one enemy twice	
 gunho_02114	35	ダメージに関わらず格闘を仕掛ける	Melee attack regardless of damage	
-gunho_02138	35	射撃で１５０％ダメージを出しやすい	Shots more likely to do 1.5x damage	
+gunho_02138	35	射撃で１５０％ダメージを出しやすい	Shots likelier to do 1.5x damage	
 gunho_0215c	43	射撃を受けても、行動をキャンセルされにくい	Getting shot rarely cancels its action	
 gunho_02188	47	装備・アイテム使用にかかる行動ポイントが減る	Fewer action points to equip and use items	
 gunho_021b8	35	格闘時にランダルで射撃が可能になる	Can fire a Randall during melee	
@@ -122,15 +122,15 @@ gunho_821bc	7	ﾄﾂｹﾞｷ	Charge
 gunho_821c4	7	ｸﾘﾃｨｶﾙ	Critical	
 gunho_821cc	7	ﾘｶﾊﾞｰ	Recover	
 gunho_821d4	7	ｸｲｯｸ	Quick	
-gunho_821dc	7	ﾘｮｳﾃｷｷ	Ambidextrous	
+gunho_821dc	7	ﾘｮｳﾃｷｷ	Ambidexter	
 gunho_821e4	7	ｾｲﾋﾞﾁｭｳ	Maintenance	
 gunho_821ec	7	ﾍﾝｹｲ	Morph	
 gunho_821f4	7	ｼｬｼｭﾂ	Launch	
 gunho_821fc	7	ﾄｳﾃｷ	Throw	
 gunho_82204	7	ｱｲﾃﾑ	Item	
 gunho_8220c	7	ﾊﾝﾄﾞｶﾞﾝ	Handgun	
-gunho_82214	7	ｿｳﾋﾞﾌｶ	No Equip	
+gunho_82214	7	ｿｳﾋﾞﾌｶ	Locked	
 gunho_8221c	3	ｺﾃｲ	Fixed	
-gunho_82220	7	ﾋﾀﾞﾘｳﾃﾞ	Left Arm	
+gunho_82220	7	ﾋﾀﾞﾘｳﾃﾞ	Left	
 gunho_82228	7	ﾗｲﾌﾙ	Rifle	
-gunho_82230	7	ﾐｷﾞｳﾃﾞ	Right Arm	
+gunho_82230	7	ﾐｷﾞｳﾃﾞ	Right	

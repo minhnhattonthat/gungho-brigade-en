@@ -27,6 +27,7 @@ import gfx_labels  # noqa: E402
 import smallfont  # noqa: E402
 from digraph import BITMAPS, RAW, Digraph, units  # noqa: E402
 from sjis import SJIS  # noqa: E402
+from batches import BLANK_OK  # noqa: E402
 
 OVERLAY = x.ROOT / "work/build/files"
 STRINGS = x.ROOT / "build/strings.tsv"
@@ -47,6 +48,12 @@ def kind(row):
     if SMALL.fullmatch(row["jp"]):
         return "small"
     return "full" if row["_file"] in FULLWIDTH_FILES or row["id"] in SAVE_TITLES else "pair"
+
+
+def aligned(row):
+    """Pair rows encoded with whole-cell glyphs only: the staff roll draws noise after a lone 0x20, the help line
+    (GUNHO.EXE) widens it to a 12-px cell."""
+    return row["_file"] in ("ENDING.BIN", "GUNHO.EXE")
 
 
 def small_font(row):
@@ -123,8 +130,10 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE, strings=None):
     for r in rows:
         mark = mode_marker and r["id"] not in SAVE_TITLES
         r["new"] = qa.get(r["id"]) or (marker(r) if mark else en.get(r["id"], ""))
+        if r["id"] in BLANK_OK and not r["new"]:
+            r["new"] = "　"  # drawn blank on purpose (D14); "" would keep the JP
     big = [r for r in rows if r["new"] and kind(r) == "pair"]
-    roll = lambda r: r["_file"] == "ENDING.BIN"  # noqa: E731  staff roll: glyphs on whole cells only
+    roll = aligned
     dg = Digraph(tree, [r["new"] for r in big if not roll(r)], [], [r["new"] for r in big if roll(r)])
 
     def encode(r):

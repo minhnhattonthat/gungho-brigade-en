@@ -4,7 +4,7 @@ s02_0028	111	勝利条件：「マスタングＤ」の左手に「ラグ/  ボ�
 s02_0098	35	敗北条件：プレーヤーユニットの撃破/	Defeat: Player unit destroyed/	
 s02_00bc	79	特殊ルール：敵が銃を手に装備しない限り、/  銃を手に装備し射撃を行ってはならない	Special rule: Unless the enemy equips a/gun in hand, you may not equip a gun or/fire.	
 s02_010c	67	  まず、マスタングＤをラグボールのあるスク/エアに移動させてください	  First, move Mustang D onto the square/with the Rug Ball.	
-s02_0150	123	  マスタングＤの左手にラグボールを装備させ/てください。「装備」、「ヒダリウデ」、/「ラグボール」の順に選択してください。	  Equip the Rug Ball in Mustang D's left/hand. Select "Equip", "Left Arm", then/"Rug Ball".	
+s02_0150	123	  マスタングＤの左手にラグボールを装備させ/てください。「装備」、「ヒダリウデ」、/「ラグボール」の順に選択してください。	  Equip the Rug Ball in Mustang D's left/hand. Select "Equip", "Left", then "Rug/Ball".	
 s02_01cc	95	  マスタングＤの左手に「ラグボール」装備さ/れました。あとは、うまくゴールへ向かってく/ださい。	  Mustang D now holds the Rug Ball in its/left hand. Now head for the goal, and do/it well.	
 s02_022c	99	  格闘戦が発生した地点で移動が終了してしま/います。一度引いてから迂回するのも戦術のひ/とつです。	  A unit's move ends where melee breaks/out. Falling back and going around is one/tactic, too.	
 s02_0290	83	審判/「ボールがフィールド外に出たため、規定によ/り、中央に新たにボールを投入する」	Referee/"Ball out of bounds. By the rules, a new/ball goes into play at center."	

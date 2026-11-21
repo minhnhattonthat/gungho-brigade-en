@@ -21,7 +21,7 @@ def overflows(tree=x.TREE):
     for r in rows:
         r["new"] = en.get(r["id"], "")
     big = [r for r in rows if r["new"] and ins.kind(r) == "pair"]
-    roll = lambda r: r["_file"] == "ENDING.BIN"  # noqa: E731  (insert.run: aligned pairs in the staff roll)
+    roll = ins.aligned
     dg = Digraph(tree, [r["new"] for r in big if not roll(r)], [], [r["new"] for r in big if roll(r)])
 
     def encode(r):

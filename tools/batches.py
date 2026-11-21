@@ -42,8 +42,15 @@ FULLWIDTH_FILES = {"menu", "slps", "menumv", "table"}
 # picture texture, phase 8), aligned pairs = 32 chars; {n} starts another roll line (extract.write_back).
 BOX = {"dlg": (42, 3), "help": (50, 1), "credit": (32, 3), "roll": (48, 6), "full": (18, 5)}
 FULL_LIMIT = {"table_00430": 6, "table_00440": 4, "table_11800": 32}  # 11800 = card save title (JP length)
+# Rows left empty on purpose: table_00440 (短縮) draws over the open "Config" button (D14); row 1 says it all.
+BLANK_OK = {"table_00440"}
+# Fullwidth rows drawn with the GUNHO font (battle config window), which lacks these fullwidth Latin glyphs
+# (GUNHO.EXE code list 0x5db78; memory-card messages use the menu font, which has them all).
+GUNHO_FULL = {"table_00430", "table_00440"}
+GUNHO_MISSING = set("JQRVYZbfjqvxy#&*[]")
 # small font at the 6-px pitch (tools/smallfont.py): chars per window, docs/windows.md
-NAME_BUDGET = {"pilot": 12, "weapon": 12, "unit": 10, "skill": 13}
+# skill: battle status Ability box (11 chars); part: Eqip tab Part column (7, the Item column clips the 8th)
+NAME_BUDGET = {"pilot": 12, "weapon": 12, "unit": 10, "skill": 11, "part": 7}
 
 
 def form_of(fname, row):
@@ -155,7 +162,9 @@ def name_budget(entry):
         return NAME_BUDGET["weapon"]
     if o < 0x1F30 or 0x820A4 <= o < 0x82184:
         return NAME_BUDGET["unit"]
-    return NAME_BUDGET["skill"]  # skills 0x1fc8-0x2390, abilities/parts 0x82184+
+    if o >= 0x82204:
+        return NAME_BUDGET["part"]  # Item Handgun No-equip Fixed Left/Right arm Rifle
+    return NAME_BUDGET["skill"]  # skills 0x1fc8-0x2390, abilities 0x82184+
 
 
 def width_problems(entry, en):
@@ -193,6 +202,8 @@ def encodable(entry, char):
         return char.isascii() and (char.isalnum() or char in " :@%") or char == "･"
     if entry["form"] == "full" and char == "○":  # real SJIS font (circle button), as in the JP
         return True
+    if entry["id"] in GUNHO_FULL and char in GUNHO_MISSING:
+        return False
     return char in ALLOWED or char in "/{}n"
 # ---- end of ADAPTER ----
 
@@ -235,7 +246,7 @@ def problems(entry, en, terms):
     """Every rule, on one final (composed) string."""
     jp = entry["jp"]
     if not en.strip():
-        return ["empty English"]
+        return [] if entry["id"] in BLANK_OK else ["empty English"]
     out = []
     plain = TOKEN.sub("", en).replace("{n}", "")
     if bad := sorted({c for c in plain if not encodable(entry, c)}):

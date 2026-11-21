@@ -17,8 +17,8 @@ table_002f0	91	このメモリーカードは{n}フォーマットされてい�
 table_0034c	79	メモリーカードが差さっていません。{n}フォーマット および セーブを{n}中止します。	No Memory Card.{n}Format & save{n}canceled.	
 table_0039c	71	メモリーカードが異常です。{n}フォーマット および セーブを{n}中止します。	Card error.{n}Format & save{n}canceled.	
 table_003e4	75	コンティニューデータ書き込み中です。{n}メモリーカードを抜かないでください。	Saving{n}continue data.{n}Keep card in.	
-table_00430	15	○戦闘シーン	Battle	
-table_00440	7	短縮	Cut	
+table_00430	15	○戦闘シーン	Fast	
+table_00440	7	短縮		
 table_115f4	71	メモリーカードのチェック中です。{n}メモリーカードを抜かないでください。	Checking card...{n}Keep the card in.	
 table_1163c	23	セーブを中止しました。	Canceled.	
 table_11654	23	セーブを終了しました。	Save done.	

@@ -24,7 +24,7 @@ Minor issues and open questions from translation and review. Tick (`[x]`) when r
 - [ ] s08_03bc drops the "GF Line" alias (only "Martian Maginot Line" kept, 42x3 fit); restore if a wider box comes.
 - [ ] ヤー rendered "Yah!" throughout (s08, s20, s26, s33, s34); consider "Yeah!" / "Ja!" in a style pass.
 - [ ] Victory/Defeat rows: continuation-line indent is lost when auto-wrap breaks a line itself (e.g. s10 "or wipe out the/enemy", s30_00a4); cosmetic, check on the objective screen in phase 8.
-- [ ] gunho_821dc 両手利き "Ambidexter" is rare; "Ambidextrous" if the 10-char skill budget allows.
+- [x] gunho_821dc 両手利き: "Ambidextrous" ran over the battle Ability box (11 chars, phase 8 shot); "Ambidexter" stays.
 - [ ] gunho_8204c ﾗｸﾞﾎﾞｰﾙ "Rug Ball" is a guess at the weapon name; check the weapon in battle.
 - [ ] Small-font names still short (D12; the pool names Commando, Tomahawk (C), Apache A/B/A2/B2, Cheyenne, Mustang
   H/D, Rug Ball, 75@Rifle, Critical, Double Tap, Ambidextrous, Fixed, No Equip, Left/Right Arm, Maintenance are back

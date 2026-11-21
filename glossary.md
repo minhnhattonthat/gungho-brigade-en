@@ -207,6 +207,9 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | ｼﾞｭｳﾘﾝ / ﾄﾂｹﾞｷ / ﾘｶﾊﾞｰ / ｸﾘﾃｨｶﾙ | Trample / Charge / Recover / Critical / Crit | 7 | skills (7-byte slots: "Crit") | |
 | ﾘｮｳﾃｳﾁ / ﾘｮｳﾃｳﾁW / Wﾀｯﾌﾟ | Dual Shot / Dual Shot W / Double Tap / Dual / Dual W / DblTap | 7 | skills (two Randalls / two-handed gun); skill-name slots: Dual, Dual W, DblTap | Akimbo |
 | ﾘｮｳﾃｷｷ | Ambidexter / Ambidex | 7 | skill ("Ambidex" in the 7-byte slot) | |
+| ヒダリウデ / ﾋﾀﾞﾘｳﾃﾞ | Left | 7 | equipment part slot (Eqip tab Part column: 7 chars) | Left Arm |
+| ミギウデ / ﾐｷﾞｳﾃﾞ | Right | 7 | equipment part slot | Right Arm |
+| ｿｳﾋﾞﾌｶ | Locked | 7 | part slot that can't be equipped | No Equip |
 | 0ｷｮﾘｼｬｹﾞｷ | Point Blank | | skill | |
 | 変形 / ｲﾄﾞｳｹｲﾀｲ / ｼｬｹﾞｷｹｲﾀｲ | Transform / Move Mode / Shoot Mode | | | |
 | 電撃 / ﾃﾞﾝｹﾞｷｺｳｹﾞｷ / ﾃﾞﾝｹﾞｷﾎﾞｳｷﾞｮ | shock / Shock Attack / Shock Guard | | | |
@@ -214,7 +217,7 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | 行動ポイント | action points | | (not "AP": s05 "AP rounds" = armour-piercing) | |
 | ｼﾞｹｲﾀﾞﾝｲﾝ / ｸｳﾃｲ / ﾑｼﾞﾝ | Vigilante / Paratrooper / Unmanned | | pilot names | |
 | メモリーカード | Memory Card / card | | "card" when a fullwidth message must be short (2 bytes per letter) | |
-| ○戦闘シーン | Battle | 6 | config option | |
-| 短縮 | Cut | 3 | config value (slot 3 fullwidth chars; "Fast" did not fit) | |
+| ○戦闘シーン | Fast / Battle | 6 | config option row 1 = "Fast" (whole option: shortened battle scenes ON/OFF; D14). GUNHO font: no fullwidth J Q R V Y Z b f j q v x y | |
+| 短縮 | Fast | 3 | config row 2 left blank: it draws over the open "Config" button (D14); dialogue names the option "Fast" | Cut |
 
 ## Decisions from earlier batches
