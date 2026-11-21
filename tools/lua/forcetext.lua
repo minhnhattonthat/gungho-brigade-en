@@ -47,7 +47,13 @@ L.on_exec(0x8005075C, function()
   regs.pc = 0x800506B0
 end)
 
+-- warp.lua stops mashing at battle start, and some stages make their first dialogue call only then: mash here
+-- while forcing (after warp.lua's callback, so its clearOverride doesn't undo it); end the run once done.
+local done_at
 L.on_frame(function(n)
+  if not cur and idx > 0 and idx >= #list and not done_at then done_at = n end
+  if done_at and n >= done_at + 60 then L.shot("final.png"); L.finish(0); return end
+  if cur and n % MASH < 6 then PCSX.SIO0.slots[1].pads[1].setOverride(PCSX.CONSTS.PAD.BUTTON.CIRCLE) end
   if cur and n % MASH == MASH - 2 then
     L.shot(string.format("t_%03d_%s_p%d.png", idx, cur.id, page))
     page = page + 1

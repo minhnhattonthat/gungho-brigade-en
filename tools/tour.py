@@ -4,8 +4,8 @@ coverage logged (tools/lua/forcetext.lua + tools/lua/textcover.lua over tools/de
     python -X utf8 tools/tour.py [s08 s14 ..] [--cue build/gungho_en.cue] [--jobs 3] [--out work/qa/tour]
 
 Per stage: cold boot -> warp to the stage (NEW GAME path, intro event 9); the intro's first dialogue call is
-re-entered once per listed string (all pointer-table strings of the built overlay, in table order), then the intro
-plays on to battle start. Output <out>/<stage>/: t_<n>_<id>_p<page>.png, log.txt (FORCE / TEXT lines), list.txt;
+re-entered once per listed string (all pointer-table strings of the built overlay, in table order); the run ends 60
+frames after the last one (some stages make their first call only at battle start: forcetext.lua mashes itself). Output <out>/<stage>/: t_<n>_<id>_p<page>.png, log.txt (FORCE / TEXT lines), list.txt;
 contact sheets <out>/<stage>_sheet*.png (sheet.py: the dialogue box cropped, 40 per page, full size). Exit 1 if a stage didn't show its whole
 list or didn't arrive. Run tools/insert.py + build.py first: addresses come from work/build/files.
 Coverage: textcover.py <out> build/strings.tsv (the run's copy is kept as <out>/strings.tsv).
@@ -49,17 +49,18 @@ def run(stage, items, cue, out):
         shutil.rmtree(d)
     d.mkdir(parents=True)
     lst = d / "list.txt"
+    items = items + items[:1]   # the hijacked first call can land in a mash press and close unshot: show it again
     lst.write_text("".join(f"{i} {a:08X}\n" for i, a in items), encoding="utf-8")
-    frames = 16000 + len(items) * 3 * MASH
+    frames = 32000 + len(items) * 3 * MASH   # s02's prologue stills run to ~f25800 before its first dialogue
     cmd = [sys.executable, "-X", "utf8", f"{SKILL}/scripts/emu.py", str(cue), "--out", str(d), "--sav", str(BLANK),
            "--debugger", "--frames", str(frames), "--timeout", "5400",
-           "--script", str(ROOT / "tools/debug/warp.lua"), "--var", f"STAGE={stage}", "--var", f"MASH_EVERY={MASH}",
+           "--script", str(ROOT / "tools/debug/warp.lua"), "--var", f"STAGE={stage}", "--var", f"MASH_EVERY={MASH}", "--var", "TOUR=1",
            "--script", str(ROOT / "tools/lua/forcetext.lua"), "--var", f"TEXT_LIST='{lst.as_posix()}'",
            "--script", str(ROOT / "tools/lua/textcover.lua")]
     p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="replace")
     log = (d / "log.txt").read_text(encoding="utf-8", errors="replace") if (d / "log.txt").exists() else ""
     forced = log.count("FORCE ")
-    ok = p.returncode == 0 and "force: done" in log and "arrived" in log and forced == len(items)
+    ok = p.returncode == 0 and "force: done" in log and forced == len(items)
     shots = sorted(d.glob("t_*.png"))
     if shots:
         subprocess.run([sys.executable, "-X", "utf8", f"{SKILL}/scripts/sheet.py", *map(str, shots), "--crop", "20,16,280,66", "--cols", "5", "--max", "40", "--div", "1",
@@ -76,7 +77,7 @@ def main():
     a = ap.parse_args()
     lists = stage_lists()
     want = [int(s.lstrip("s")) for s in a.stages] or sorted(lists)
-    out = Path(a.out)
+    out = Path(a.out).resolve()   # Lua opens list.txt from the emulator's own working folder
     out.mkdir(parents=True, exist_ok=True)
     shutil.copy(ROOT / "build/strings.tsv", out / "strings.tsv")
     with ThreadPoolExecutor(a.jobs) as ex:

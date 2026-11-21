@@ -2,16 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (tour tooling + command labels done, verdicts/captions next). Last
-  build: see the phase 8 entry below. States in work/states/ are from the phase 7 build (text-only changes since:
-  regen with `warp.py --all --cue build/gungho_en.cue` only if a warp misbehaves).
+- **Phase:** 8. QA in the emulator: in progress (dialogue tour done for s00-s34, verdicts + captions next). Last
+  build: build/gungho_en.bin 2026-11-22 sha1 49b6d4e902d51bbefa13eda309cccb48de8a244d (command buttons + s04_0160),
+  smoke ok. States in work/states/ are from the phase 7 build (regen with `warp.py --all --cue build/gungho_en.cue`
+  before menu QA: GAMEDATA changed).
 - **Done:**
   - Phase 8, first session (2026-11-22):
     - `tools/tour.py [sNN..] --jobs 6`: per stage, cold boot + warp, the intro's first dialogue call
       (0x800506b0, blocks in the menu runner, returns via 0x8005075c) is re-entered once per pointer-table string
       of the built overlay (`tools/lua/forcetext.lua`), so every stage string shows in the real 42x3 box: one shot
       per page `work/qa/tour/sNN/t_<n>_<id>_p<k>.png`, sheets `work/qa/tour/sNN_sheet*.png` (box cropped, 40 per
-      page, readable at 1x). ~5 min per stage with --debugger. s08: 135/135, 1 page each.
+      page, readable at 1x). ~5-10 min per stage with --debugger, `--jobs 7` ok on this machine. **Done on build
+      49b6d4e9 for s00-s34**: every string forced, every string one page (no box needs a second page); the first
+      string is shown again at the end of the list (a hijack inside a mash press closes it unshot).
+      Coverage of the 2139 stage strings s00-s34: 2139/2139 (`textcover.py work/qa/tour
+      work/qa/tour/scen_strings.tsv`; scen_strings = strings.tsv minus s35/EXE/ending rows).
     - Text coverage: `tools/insert.py` writes `build/strings.tsv` (id -> djb2 key of the string's bytes, follows
       relocation and the shared overlay buffer); `tools/lua/textcover.lua` logs `TEXT <key>` on string-start reads
       (tour.py loads it). Report: `python -X utf8 $SKILL/scripts/textcover.py work/qa/tour work/qa/tour/strings.tsv`.
@@ -124,11 +129,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
 - **Next (phase 8, QA):**
-  1. If work/qa/tour lacks sheets for a stage, `tools/tour.py sNN` (s35 not handled yet: "timed" warp, staff roll,
-     its roll rows s35_0420.. are a 48-wide roll form, not dialogue; s03/s11/s32 chain into the next stage).
-  2. `qa_gate.py init work/qa/tour/manifest.tsv work/qa/tour --build build/gungho_en.bin`, `todo ... --size 8
-     --out-dir work/qa/tour/chunks` (sheets are ~1 k tokens each: ~56 sheets), read each chunk in a fresh context,
-     verdicts in work/qa/tour/verdicts/<chunk>.tsv (`id<TAB>ok|issue<TAB>note`), fix issues, recheck file.
+  1. **Verdicts for the dialogue tour:** manifest work/qa/tour/manifest.tsv (72 sheets, build 49b6d4e9) is
+     initialised; chunks work/qa/tour/chunks/chunk_45585d3d0368_000..008.txt (8 sheets each, ~1 k tokens per
+     sheet). Read each sheet whole per docs/visual-qa-brief.md, write work/qa/tour/verdicts/<chunk stem>.tsv
+     (`id<TAB>ok|issue<TAB>note`), fix issues (tl_patch/batches merge, insert, build, `tour.py sNN` again, `qa_gate
+     init` again, recheck file), until `qa_gate.py check work/qa/tour/manifest.tsv work/qa/tour/verdicts` exits 0.
+     Tile -> id: the sheet.py line printed per sheet, or the t_<n>_<id> file names in sNN/ in order (40 per sheet).
+  2. s35 not toured: "timed" warp (staff roll); its rows s35_0004.. / s35_0420.. are roll form (48 wide), not
+     dialogue: see them via warp s35 (credits ~f7000) and add to coverage/waivers.
   3. Graphics (D5): FACE.DAT prologue captions (~23 8bpp 320x240 stills, offsets in docs/re/graphics.md, seen in the
      s02 intro ~f4500-f11000: white 12-px kanji with dark outline, bottom-left). Plan: dark band over the caption
      rect + English in DejaVu Sans (matplotlib's copy, Bitstream Vera licence: copy it to fonts/ + docs/fonts.md),
