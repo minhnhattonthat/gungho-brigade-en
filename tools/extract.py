@@ -27,6 +27,7 @@ SCRIPT = ROOT / "script"
 COLS = ["id", "max", "jp", "en", "notes"]
 
 OVL_BASE = 0x80159170
+OVL_MAX = 0x5D60  # overlay buffer: TABLE.BIN loads at 0x8015eed0 (stage 29's overlay is exactly this size)
 # SCENFILE entry -> offset of the stage overlay inside it (u32 stage id there; entries before it hold map data).
 # Entry 106 carries a copy of entry 104's pointer table and no strings of its own: not an overlay.
 OVERLAYS = {0: 0x0, 8: 0x780, 15: 0x780, 22: 0x700, 29: 0x700, 36: 0x780, 43: 0x780, 49: 0x780, 56: 0x780,
@@ -50,6 +51,8 @@ EXES = {
 }
 PILOTS = (0x776FC, 0x30, 16)  # GUNHO.EXE: first record, stride, name field size
 ENDING = 0x2970  # ENDING.BIN staff roll blob start (NUL-terminated)
+ENDING_LOAD, ENDING_REF = 0x8015eed0, 0x1584  # ENDING.BIN load address; file offset of the blob's only `addiu`
+ENDING_ROOM = 0x12000  # load buffer shared with TABLE.BIN (72 KB, docs/status.md phase 7 notes)
 
 JP = re.compile(r"[　-ヿ一-鿿！-ﾟ]")
 CLEAN = re.compile(r"[\x20-\x7e\n　-ヿ一-鿿！-￯‐-♯¥‾]+")
@@ -130,7 +133,8 @@ def scen_rows(tree=TREE):
             rows.append({"id": f"s{stage:02d}_{o:04x}", "max": str(sz[o] - 1), "jp": dec(cstr(ovl, o)), "en": "",
                          "notes": "", "_file": "SCENFILE.DAT", "_off": base + o, "_slot": sz[o],
                          # repack info: overlay file offset, text region end, file offsets of its pointer words
-                         "_ovl": base, "_end": base + text_end, "_ptrs": [base + t0 + 4 * k for k in tgt[o]]})
+                         "_ovl": base, "_end": base + text_end, "_ptrs": [base + t0 + 4 * k for k in tgt[o]],
+                         "_tail": ends[e]})
         out[f"scen_s{stage:02d}"] = rows
     return out
 
@@ -194,10 +198,22 @@ def all_rows(tree=TREE):
 
 
 # --- write back ---------------------------------------------------------------------------------------------------
-def write_back(name, data, rows, field="jp", encode=None):
+def scen_layout(enc, pos, end, ovl_len):
+    """Repacked overlay text: -> (how many strings stay in [pos, end), bytes appended after the overlay, rounded
+    up to whole 0x800 sectors; 0 if all fit)."""
+    n = 0
+    while n < len(enc) and pos + len(enc[n]) + 1 <= end:
+        pos += len(enc[n]) + 1
+        n += 1
+    rest = sum(len(b) + 1 for b in enc[n:])
+    return n, -(-rest // 0x800) * 0x800
+
+
+def write_back(name, data, rows, field="jp", encode=None, extra=None, tree=TREE):
     """Return a copy of file `name` with each row's `field` text written into its slot (NUL-padded).
     Rows whose `field` is empty keep the original bytes. Raises if a string does not fit its slot.
-    `encode(row) -> bytes` overrides the default SJIS encoding of row[field]."""
+    `encode(row) -> bytes` overrides the default SJIS encoding of row[field]. `extra` (dict) receives other files
+    the write changes (SCENFILE.LEN when an overlay grows)."""
     out = bytearray(data)
     enc_row = encode or (lambda r: SJIS.encode(r[field]))
     rows = [r for r in rows if r["_file"] == name]
@@ -210,31 +226,63 @@ def write_back(name, data, rows, field="jp", encode=None):
                 lines[k] = enc_row(r)
         new = b"\n".join(lines)
         room = ((ENDING + len(blob) + 4) & ~3) - ENDING - 1  # NUL + 4-alignment padding
-        if len(new) > room:
-            raise ValueError(f"ENDING.BIN staff roll: {len(new)} bytes > {room}")
-        out[ENDING:ENDING + room + 1] = new + bytes(room + 1 - len(new))
+        if len(new) <= room:
+            out[ENDING:ENDING + room + 1] = new + bytes(room + 1 - len(new))
+            return bytes(out)
+        # Too long: append the blob at the 4-aligned file end (still inside the TABLE.BIN-sized load buffer; no
+        # ENDING.BIN code refers past its end) and repoint its only reference, `addiu` at ENDING_REF (same lui half).
+        at = (len(out) + 3) & ~3
+        old, new_addr = ENDING_LOAD + ENDING, ENDING_LOAD + at
+        assert (old + 0x8000) >> 16 == (new_addr + 0x8000) >> 16 and new_addr - ENDING_LOAD < ENDING_ROOM
+        word = struct.unpack_from("<I", out, ENDING_REF)[0]
+        assert word >> 26 == 0x09 and word & 0xFFFF == old & 0xFFFF, hex(word)
+        struct.pack_into("<I", out, ENDING_REF, (word & 0xFFFF0000) | (new_addr & 0xFFFF))
+        out[len(out):] = bytes(at - len(out)) + new + bytes(4 - len(new) % 4)
         return bytes(out)
     if name == "SCENFILE.DAT":
         # An overlay whose strings don't all fit in place is repacked: strings back to back (no 4-alignment) from
         # its first string to the text end, every pointer-table word rewritten. The table is the strings' only
         # reference (checked statically for all 36 overlays: no lui/addiu or other word points into the text).
-        for ovl in sorted({r["_ovl"] for r in rows}):
+        # Strings that still don't fit go after the overlay's end (= its LEN entry's end, after the pointer table):
+        # the entry grows by whole 0x800 sectors (verified in game: any other growth hangs the next stage load)
+        # and SCENFILE.LEN is rewritten into extra["SCENFILE.LEN"]. Overlays are done last-first so offsets hold.
+        inserts = []
+        for ovl in sorted({r["_ovl"] for r in rows}, reverse=True):
             group = sorted((r for r in rows if r["_ovl"] == ovl), key=lambda r: r["_off"])
             enc = [enc_row(r) if r[field] else cstr(data, r["_off"]) for r in group]
             if all(len(b) < r["_slot"] for b, r in zip(enc, group)):
-                continue  # in place, below
-            pos, end = group[0]["_off"], group[0]["_end"]
-            need = sum(len(b) + 1 for b in enc)
-            if pos + need > end:
-                raise ValueError(f"{group[0]['id'][:3]}: text {need} bytes > region {end - pos}")
+                for b, r in zip(enc, group):
+                    if r[field]:
+                        out[r["_off"]:r["_off"] + r["_slot"]] = b + bytes(r["_slot"] - len(b))
+                continue
+            pos, end, tail = group[0]["_off"], group[0]["_end"], group[0]["_tail"]
+            n_in, grow = scen_layout(enc, pos, end, tail - ovl)
+            if tail - ovl + grow > OVL_MAX:
+                raise ValueError(f"{group[0]['id'][:3]}: overlay {tail - ovl:#x} + {grow:#x} > {OVL_MAX:#x}")
             out[pos:end] = bytes(end - pos)
-            for b, r in zip(enc, group):
-                out[pos:pos + len(b)] = b
+            extra_bytes = bytearray()
+            for k, (b, r) in enumerate(zip(enc, group)):
+                if k < n_in:
+                    at, here = pos, out
+                    pos += len(b) + 1
+                else:
+                    at, here = tail + len(extra_bytes), None
+                    extra_bytes += b + b"\0"
+                if here is not None:
+                    out[at:at + len(b)] = b
                 for p in r["_ptrs"]:
-                    struct.pack_into("<I", out, p, OVL_BASE + pos - ovl)
-                pos += len(b) + 1
-            done = {id(r) for r in group}
-            rows = [r for r in rows if id(r) not in done]
+                    struct.pack_into("<I", out, p, OVL_BASE + at - ovl)
+            if grow:
+                out[tail:tail] = bytes(extra_bytes) + bytes(grow - len(extra_bytes))
+                inserts.append((tail, grow))
+        if extra is not None and inserts:
+            ln = (tree / "SCENFILE.LEN").read_bytes()
+            offs = struct.unpack(f"<{len(ln) // 4}I", ln)
+            extra["SCENFILE.LEN"] = struct.pack(f"<{len(offs)}I", *(o + sum(g for p, g in inserts if p <= o)
+                                                                       for o in offs))
+        elif inserts:
+            raise ValueError("SCENFILE.DAT grew: pass extra={} to get the new SCENFILE.LEN")
+        return bytes(out)
     for r in rows:
         if not r[field]:
             continue

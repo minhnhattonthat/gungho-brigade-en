@@ -162,8 +162,10 @@ ALLOWED = set("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"
 
 def encodable(entry, char):
     """Digraph font: fonts/font5.txt glyphs (no / \\ ` { } | ~); small font: ASCII; `/` and {n} are breaks."""
-    if entry["form"] == "name":
-        return " " <= char <= "~"
+    if entry["form"] == "name":  # small 8x12 font: A-Z a-z 0-9 : @ (= mm) and half-width kana only (text.md)
+        return char.isascii() and (char.isalnum() or char in " :@%") or char == "･"
+    if entry["form"] == "full" and char == "○":  # real SJIS font (circle button), as in the JP
+        return True
     return char in ALLOWED or char in "/{}n"
 # ---- end of ADAPTER ----
 

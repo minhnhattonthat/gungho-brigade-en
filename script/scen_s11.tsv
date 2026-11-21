@@ -12,7 +12,7 @@ s11_0160	111	「…アルカディア区の脱出は、マコーリフ砦の/前
 s11_01d0	15	「そんな…」{n}	"No..."{n}	
 s11_01e0	19	/「お気の毒です」/	/"I'm so sorry."/	
 s11_01f4	7	「…」{n}	"..."{n}	
-s11_01fc	83	参謀/「長官、第３師団第１大隊の装備が４５％不足/します。そのまま降下させますか？」	Staff Officer/"Commander, 3rd Division, 1st Battalion is/45% short on equipment. Drop them as is?"	
+s11_01fc	83	参謀/「長官、第３師団第１大隊の装備が４５％不足/します。そのまま降下させますか？」	Staff Officer/"Commander, 3rd Division, 1st Battalion is/45% under-equipped. Drop them anyway?"	
 s11_0250	35	トーヴィー/「残りあと何部隊か？」	Tovey/"How many units are left?"	
 s11_0274	39	参謀/「第３師団第１大隊で最後です」{n}	Staff Officer/"3rd Division, 1st Battalion is the last."{n}	
 s11_029c	79	「火星軍と民間人のマシンレッグが、いくらか/上がっているはずだ。それを徴発する」	"Some Martian Army and civilian machine/legs should have come up. Requisition/them."	
@@ -44,6 +44,6 @@ s11_0644	15	ダイブツ/「…」	Daibutsu/"..."
 s11_0654	27	ジョン/「…ぐす、ぐすっ…」	John/"...*sniff, sniff*..."	
 s11_0670	27	「ああっ、僕も行くよぉ」/	"Aah, I'm coming toooo."/	
 s11_068c	27	ダイブツ/「準備できたよー」	Daibutsu/"Ready to gooo!"	
-s11_06a8	59	マイコ/「ダイブツ、初めての機械なのによく扱えるわ/ね？」	Maiko/"Daibutsu, you handle that machine pretty/well for your first time, huh?"	
+s11_06a8	59	マイコ/「ダイブツ、初めての機械なのによく扱えるわ/ね？」	Maiko/"Daibutsu, you handle that machine well/for a first-timer, huh?"	
 s11_06e4	39	「マニュアルがあるんだもん。簡単だよ」/	"There's a manual. It's easy."/	
 s11_070c	23	/「そういうもん？」/	/"Is that how it works?"/	

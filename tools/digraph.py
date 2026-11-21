@@ -51,11 +51,15 @@ def code_list(tree, font):
     return [struct.unpack_from(">H", raw, 2 * i)[0] for i in range(n)]
 
 
-def pairs(text):
-    """Split one text segment (no RAW tokens) into ('ab' pair | ' ' half-space) units."""
+def pairs(text, aligned=False):
+    """Split one text segment (no RAW tokens) into ('ab' pair | ' ' half-space) units.
+    "..." becomes the one-letter glyph "…" (saves 2 bytes each).
+    aligned: no lone half-space; a space is paired like a letter (" K"), so every glyph lands on a 12-px cell. The
+    staff roll (ENDING.BIN) draws a glyph after a lone 0x20 as coloured noise (e34, verified 2026-11-22)."""
+    text = text.replace("...", "…")
     out, i = [], 0
     while i < len(text):
-        if text[i] == " ":
+        if text[i] == " " and not aligned:
             out.append(" ")
             i += 1
         else:
@@ -65,7 +69,7 @@ def pairs(text):
     return out
 
 
-def units(text):
+def units(text, aligned=False):
     """-> list of bytes (raw tokens) and str units (pairs / ' ')."""
     out = []
     for k, part in enumerate(RAW.split(text)):
@@ -73,20 +77,22 @@ def units(text):
             out.append(b"\n" if part == "{n}" else b"/" if part == "/" else
                        bytes([int(part[1:3], 16)]) if part[0] == "[" else part.encode("ascii"))
         else:
-            out.extend(pairs(part))
+            out.extend(pairs(part, aligned))
     return out
 
 
 class Digraph:
     """Pair -> SJIS code map for one build, from every text the build draws with the 11x11 fonts."""
 
-    def __init__(self, tree, gunho_texts, menu_texts):
+    def __init__(self, tree, gunho_texts, menu_texts, aligned_texts=()):
+        """aligned_texts: GUNHO-font texts encoded with encode(..., aligned=True) (the staff roll)."""
         self.lists = {f: code_list(tree, f) for f in LISTS}
         both = set(self.lists["gunho"]) & set(self.lists["menu"])
         shared = sorted(c for c in both if c >= FIRST_PAIR_CODE)
         extra = sorted(c for c in self.lists["gunho"] if c >= FIRST_PAIR_CODE and c not in both)
-        need = lambda texts: sorted({u for t in texts for u in units(t) if isinstance(u, str) and u != " "})  # noqa
-        menu, gunho = need(menu_texts), need(gunho_texts)
+        need = lambda texts, al=False: {u for t in texts for u in units(t, al) if isinstance(u, str) and u != " "}  # noqa
+        menu = sorted(need(menu_texts))
+        gunho = sorted(need(gunho_texts) | need(aligned_texts, True))
         for p in set(menu) | set(gunho):
             bad = [c for c in p if c not in GLYPHS]
             if bad:
@@ -98,9 +104,9 @@ class Digraph:
         codes = shared + extra
         self.map = dict(zip(menu + rest, codes))
 
-    def encode(self, text):
+    def encode(self, text, aligned=False):
         out = bytearray()
-        for u in units(text):
+        for u in units(text, aligned):
             out += u if isinstance(u, bytes) else b" " if u == " " else struct.pack(">H", self.map[u])
         return bytes(out)
 
@@ -127,5 +133,7 @@ if __name__ == "__main__":
     assert units("ab/c{n}%d[0A]") == ["ab", b"/", "c ", b"\n", b"%d", b"\n"]
     g = glyph("AB")
     assert struct.unpack_from(">H", g, 2 * TOP)[0] == 0b0111001111000000, bin(struct.unpack_from(">H", g, 4)[0])
-    assert all(len(r) <= 9 for r in GLYPHS.values()) and len(GLYPHS) == 88, len(GLYPHS)
+    assert all(len(r) <= 9 for r in GLYPHS.values()) and len(GLYPHS) == 89, len(GLYPHS)
+    assert pairs("No... x") == ["No", "… ", "x "], pairs("No... x")
+    assert pairs("Shunji Kamio", aligned=True) == ["Sh", "un", "ji", " K", "am", "io"]
     print("selftest ok")

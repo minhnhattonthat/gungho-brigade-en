@@ -1,16 +1,16 @@
 id	max	jp	en	notes
-menu_0080c	35	［%s］{n}鎖ファイルが見つかりません	[%s]{n}Chain file missing	
-menu_00874	35	［%s］{n}＃ファイルが見つかりません	[%s]{n}# file not found	
-menu_00898	31	［%s］{n}！読み込みに失敗しました	[%s]{n}! Read failed	
-menu_008b8	35	［%s］{n}＊ファイルが見つかりません	[%s]{n}* file not found	
-menu_008dc	31	［%s］{n}＊読み込みに失敗しました	[%s]{n}* Read failed	
-menu_2cf5c	71	メモリーカードのチェック中です。{n}メモリーカードを抜かないでください。	Checking the{n}Memory Card.{n}Do not remove the{n}Memory Card.	
-menu_2cfa4	35	メモリーカードが差さっていません。	No Memory Card{n}inserted.	
-menu_2cfc8	47	メモリーカードが{n}フォーマットされていません。	The Memory Card{n}is not formatted.	
-menu_2cff8	27	メモリーカードが異常です。	Memory Card error.	
+menu_0080c	35	［%s］{n}鎖ファイルが見つかりません	[%s]{n}No chain file	
+menu_00874	35	［%s］{n}＃ファイルが見つかりません	[%s]{n}# file missing	
+menu_00898	31	［%s］{n}！読み込みに失敗しました	[%s]{n}! Read error	
+menu_008b8	35	［%s］{n}＊ファイルが見つかりません	[%s]{n}* file missing	
+menu_008dc	31	［%s］{n}＊読み込みに失敗しました	[%s]{n}* Read error	
+menu_2cf5c	71	メモリーカードのチェック中です。{n}メモリーカードを抜かないでください。	Checking card...{n}Keep the card in.	
+menu_2cfa4	35	メモリーカードが差さっていません。	No Memory Card.	
+menu_2cfc8	47	メモリーカードが{n}フォーマットされていません。	Card is not{n}formatted.	
+menu_2cff8	27	メモリーカードが異常です。	Card error.	
 menu_2d014	23	データがありません。	No data.	
 menu_2d02c	27	セーブデータがありません。	No save data.	
 menu_2d048	35	コンティニューデータがありません。	No continue data.	
-menu_2d06c	31	セーブデータが壊れています。	The save data is{n}corrupted.	
-menu_2d08c	35	データの読み込みに失敗しました。	Failed to load{n}the data.	
-menu_2d0b0	63	データを読み込んでいます。{n}メモリーカードを抜かないでください。	Loading data.{n}Do not remove the{n}Memory Card.	
+menu_2d06c	31	セーブデータが壊れています。	Save corrupted.	
+menu_2d08c	35	データの読み込みに失敗しました。	Failed to load.	
+menu_2d0b0	63	データを読み込んでいます。{n}メモリーカードを抜かないでください。	Loading...{n}Keep the card in.	

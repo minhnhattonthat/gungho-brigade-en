@@ -2,32 +2,32 @@ id	max	jp	en	notes
 gunho_00824	15	%d ﾉ ﾀﾞﾒｰｼﾞ 	%d damage	
 gunho_00834	11	ｿｼﾃ ﾊｽﾞﾚﾀ 	and missed	
 gunho_00840	15	%s ﾃﾞｺｳｹﾞｷｼﾃ 	%s attack	
-gunho_01d80	11	ｺﾝﾃﾞﾝｻｰｶﾞﾝ	Condenser Gun	
+gunho_01d80	11	ｺﾝﾃﾞﾝｻｰｶﾞﾝ	Condenser	
 gunho_01d8c	11	57@ﾚｰﾙｶﾞﾝ	57@Railgun	
 gunho_01d98	11	88@ｶﾞﾝL71	88@Gun L71	
 gunho_01da4	11	88@ｶﾞﾝL56	88@Gun L56	
-gunho_01db0	11	20@ﾏｼﾝｶﾞﾝ	20@Machine Gun	
-gunho_01dbc	11	88D2ﾏｶﾞｼﾞﾝ	88D2 Magazine	
-gunho_01dc8	11	88PMﾏｶﾞｼﾞﾝ	88PM Magazine	
-gunho_01dd4	11	88@ﾏｶﾞｼﾞﾝ	88@Magazine	
-gunho_01de0	11	90@ﾏｶﾞｼﾞﾝ	90@Magazine	
-gunho_01dec	11	75@ﾏｶﾞｼﾞﾝ	75@Magazine	
-gunho_01df8	11	ﾗﾝﾀﾞﾙﾏｶﾞｼﾞﾝ	Randall Magazine	
-gunho_01e04	11	ｺﾝﾃﾞﾝｻｰﾀﾞﾝ	Condenser Round	
+gunho_01db0	11	20@ﾏｼﾝｶﾞﾝ	20@MG	
+gunho_01dbc	11	88D2ﾏｶﾞｼﾞﾝ	88D2 Mag	
+gunho_01dc8	11	88PMﾏｶﾞｼﾞﾝ	88PM Mag	
+gunho_01dd4	11	88@ﾏｶﾞｼﾞﾝ	88@Mag	
+gunho_01de0	11	90@ﾏｶﾞｼﾞﾝ	90@Mag	
+gunho_01dec	11	75@ﾏｶﾞｼﾞﾝ	75@Mag	
+gunho_01df8	11	ﾗﾝﾀﾞﾙﾏｶﾞｼﾞﾝ	Randall Mag	
+gunho_01e04	11	ｺﾝﾃﾞﾝｻｰﾀﾞﾝ	Cond Round	
 gunho_01e10	11	20@ｶﾞﾄﾘﾝｸﾞ	20@Gatling	
-gunho_01e1c	11	30@ﾏｼﾝｶﾞﾝ	30@Machine Gun	
+gunho_01e1c	11	30@ﾏｼﾝｶﾞﾝ	30@MG	
 gunho_01e28	11	90@HEｶﾞﾝ	90@HE Gun	
 gunho_01e34	11	ﾗﾝﾀﾞﾙ75@	Randall 75@	
-gunho_01e40	11	ﾔﾝｷｰｱﾊﾟｯﾁ	Yankee Apache	
-gunho_01e4c	19	ﾄﾞﾗｸﾞｰﾝ2 ｾｲﾋﾞﾁｭｳ	Dragoon 2 Servicing	
-gunho_01e60	19	ｽｰﾊﾟｰｺﾌﾞﾗ ｾｲﾋﾞﾁｭｳ	Super Cobra Servicing	
-gunho_01e74	15	ﾏｽﾀﾝｸﾞH ｾｲﾋﾞﾁｭｳ	Mustang H Servicing	
-gunho_01e84	15	ﾏｽﾀﾝｸﾞD ｾｲﾋﾞﾁｭｳ	Mustang D Servicing	
-gunho_01e94	11	ｺﾏﾝﾄﾞｼｯﾌﾟ	Command Ship	
+gunho_01e40	11	ﾔﾝｷｰｱﾊﾟｯﾁ	Yank Apache	
+gunho_01e4c	19	ﾄﾞﾗｸﾞｰﾝ2 ｾｲﾋﾞﾁｭｳ	Dragoon 2 Maint	
+gunho_01e60	19	ｽｰﾊﾟｰｺﾌﾞﾗ ｾｲﾋﾞﾁｭｳ	Super Cobra Maint	
+gunho_01e74	15	ﾏｽﾀﾝｸﾞH ｾｲﾋﾞﾁｭｳ	Mustang H Maint	
+gunho_01e84	15	ﾏｽﾀﾝｸﾞD ｾｲﾋﾞﾁｭｳ	Mustang D Maint	
+gunho_01e94	11	ｺﾏﾝﾄﾞｼｯﾌﾟ	Cmd Ship	
 gunho_01ea0	11	ﾍﾙﾀﾞｲﾊﾞｰ	Helldiver	
 gunho_01eac	11	ﾚｯﾄﾞﾃﾞﾋﾞﾙ	Red Devil	
 gunho_01eb8	11	ｸﾛｰﾝﾃﾞﾋﾞﾙ	Clone Devil	
-gunho_01ec4	11	ｸﾛｰﾑﾃﾞﾋﾞﾙ	Chrome Devil	
+gunho_01ec4	11	ｸﾛｰﾑﾃﾞﾋﾞﾙ	ChromeDevil	
 gunho_01ed0	11	ﾌﾞﾗｯｸｼﾞｬｯｸ	Blackjack	
 gunho_01edc	11	ﾃﾞｽﾄﾛｲﾔｰ	Destroyer	
 gunho_01ee8	11	ﾋﾟｰｼｭｰﾀｰ	Peashooter	
@@ -41,23 +41,23 @@ gunho_01f60	47	指定ユニットに隣接し、損傷の２／３を回復す�
 gunho_01f90	23	移動範囲が＋２される	Movement range +2	
 gunho_01fa8	31	行動ポイント消費０で装備を行う	Equips for 0 action points	
 gunho_01fc8	11	ｸｲｯｸﾄﾞﾛｰ	Quick Draw	
-gunho_01fd4	43	行動ポイント消費０でマガジンを銃に装填する	Loads a magazine into a gun for 0 action points	
+gunho_01fd4	43	行動ポイント消費０でマガジンを銃に装填する	Reloads a gun for zero action points	
 gunho_02000	11	ｸｲｯｸﾛｰﾄﾞ	Quick Load	
 gunho_0200c	35	半分の行動ポイント消費で射撃をする	Shoots for half the action points	
 gunho_02030	11	ｸｲｯｸｼｮｯﾄ	Quick Shot	
-gunho_0203c	35	格闘。制圧した敵を再度攻撃できる	Melee. Can attack a subdued enemy again	
-gunho_02060	47	射程内の敵に、クリティカルで１００％命中する	Always lands a critical hit on an enemy in range	
+gunho_0203c	35	格闘。制圧した敵を再度攻撃できる	Melee. Hits subdued enemies again	
+gunho_02060	47	射程内の敵に、クリティカルで１００％命中する	Always lands a critical hit on foes in range	
 gunho_02090	11	ｽﾅｲﾌﾟｼｮｯﾄ	Snipe Shot	
-gunho_0209c	43	両手に持ったランダルで２発づつ射撃をする	Fires two shots each from Randalls in both hands	
-gunho_020c8	35	両手に持ったランダルで射撃をする	Fires the Randalls held in both hands	
-gunho_020ec	39	両手保持の銃で一体の敵を２回射撃する	Shoots one enemy twice with a two-handed gun	
-gunho_02114	35	ダメージに関わらず格闘を仕掛ける	Starts melee regardless of damage taken	
-gunho_02138	35	射撃で１５０％ダメージを出しやすい	More likely to deal 1.5x damage when shooting	
-gunho_0215c	43	射撃を受けても、行動をキャンセルされにくい	Being shot is less likely to cancel its action	
+gunho_0209c	43	両手に持ったランダルで２発づつ射撃をする	Fires 2 shots from a Randall in each hand	
+gunho_020c8	35	両手に持ったランダルで射撃をする	Fires a Randall from each hand	
+gunho_020ec	39	両手保持の銃で一体の敵を２回射撃する	Two-handed gun: shoots one enemy twice	
+gunho_02114	35	ダメージに関わらず格闘を仕掛ける	Melee attack regardless of damage	
+gunho_02138	35	射撃で１５０％ダメージを出しやすい	Shots more likely to do 1.5x damage	
+gunho_0215c	43	射撃を受けても、行動をキャンセルされにくい	Getting shot rarely cancels its action	
 gunho_02188	47	装備・アイテム使用にかかる行動ポイントが減る	Fewer action points to equip and use items	
 gunho_021b8	35	格闘時にランダルで射撃が可能になる	Can fire a Randall during melee	
 gunho_021dc	11	0ｷｮﾘｼｬｹﾞｷ	Point Blank	
-gunho_021e8	47	左手に、ランダルやマシンガンを持つことができる	Can hold a Randall or machine gun in the left hand	
+gunho_021e8	47	左手に、ランダルやマシンガンを持つことができる	Can hold a Randall or machine gun in left hand	
 gunho_02218	39	レーザーによるダメージが１／１０になる	Laser damage reduced to a tenth	
 gunho_02240	11	ﾚｰｻﾞｰﾑｺｳ	Laser Proof	
 gunho_0224c	39	整備中のため、装備・改造作業ができない	Being serviced: can't equip or modify	
@@ -68,22 +68,22 @@ gunho_022d0	11	ｼｬｹﾞｷｹｲﾀｲ	Shoot Mode
 gunho_022dc	23	変形をすることができる	Can transform	
 gunho_022f4	31	アイテムを射出する事が出来る	Can launch items	
 gunho_02314	27	アイテムを投げる事が出来る	Can throw items	
-gunho_02330	23	電撃による格闘を行う	Melee attack with an electric shock	
-gunho_02348	11	ﾃﾞﾝｹﾞｷｺｳｹﾞｷ	Shock Attack	
-gunho_02354	15	対誘導兵器防御	Defense against guided weapons	
-gunho_02364	11	ﾕｳﾄﾞｳﾎﾞｳｷﾞｮ	Anti-Missile	
+gunho_02330	23	電撃による格闘を行う	Electric shock melee	
+gunho_02348	11	ﾃﾞﾝｹﾞｷｺｳｹﾞｷ	Shock Atk	
+gunho_02354	15	対誘導兵器防御	Anti-missile	
+gunho_02364	11	ﾕｳﾄﾞｳﾎﾞｳｷﾞｮ	Msl Guard	
 gunho_02370	31	電撃攻撃のダメージが半分になる	Halves shock attack damage	
 gunho_02390	15	ﾃﾞﾝｹﾞｷﾎﾞｳｷﾞｮ	Shock Guard	
-gunho_8165e	5	欠	Absent	
+gunho_8165e	5	欠	Away	
 gunho_819a4	7	ﾅｸﾞｯﾃ 	Punch	
-gunho_819c4	7	  ･･･	...	
+gunho_819c4	7	  ･･･	･･･	
 gunho_81a44	7	ｶｸﾄｳ	Melee	
 gunho_82024	7	ﾐｻｲﾙ	Missile	
-gunho_8204c	7	ﾗｸﾞﾎﾞｰﾙ	Rug Ball	
+gunho_8204c	7	ﾗｸﾞﾎﾞｰﾙ	Rugball	
 gunho_82064	7	ﾚｰｻﾞｰ	Laser	
-gunho_8206c	7	105@ﾎｳ	105@Cannon	
-gunho_82090	7	75@ﾗｲﾌﾙ	75@Rifle	
-gunho_820a4	7	ｺﾏﾝﾄﾞｰ	Commando	
+gunho_8206c	7	105@ﾎｳ	105@Gun	
+gunho_82090	7	75@ﾗｲﾌﾙ	75@Rfl	
+gunho_820a4	7	ｺﾏﾝﾄﾞｰ	Commndo	
 gunho_820ac	7	ｱﾑﾄﾗｯｸ	Amtrac	
 gunho_820b4	7	ｱﾊﾟｯﾁ	Apache	
 gunho_820bc	7	ｼﾞｭﾃﾞｨｽ	Judith	
@@ -97,40 +97,40 @@ gunho_820f4	7	ｴｾﾞｷｴﾙ	Ezekiel
 gunho_820fc	7	ｼﾞｬﾝｸ	Junk	
 gunho_82104	7	ﾊﾞｯﾌｧﾛｰ	Buffalo	
 gunho_8210c	7	ﾓﾎｰｸ	Mohawk	
-gunho_82114	7	ﾄﾏﾎｰｸC	Tomahawk C	
-gunho_8211c	7	ﾄﾏﾎｰｸ	Tomahawk	
+gunho_82114	7	ﾄﾏﾎｰｸC	TomhwkC	
+gunho_8211c	7	ﾄﾏﾎｰｸ	Tomahwk	
 gunho_82124	7	ﾍﾟｶﾞｻｽ	Pegasus	
-gunho_8212c	7	ｱﾊﾟｯﾁB	Apache B	
-gunho_82134	7	ｱﾊﾟｯﾁA2	Apache A2	
-gunho_8213c	7	ｱﾊﾟｯﾁA	Apache A	
-gunho_82144	7	ｱﾊﾟｯﾁB2	Apache B2	
+gunho_8212c	7	ｱﾊﾟｯﾁB	ApacheB	
+gunho_82134	7	ｱﾊﾟｯﾁA2	ApachA2	
+gunho_8213c	7	ｱﾊﾟｯﾁA	ApacheA	
+gunho_82144	7	ｱﾊﾟｯﾁB2	ApachB2	
 gunho_8214c	7	ﾄﾞﾗｸﾞｰﾝ	Dragoon	
 gunho_82154	7	ｶﾞﾝｼｯﾌﾟ	Gunship	
 gunho_8215c	7	ﾎｰｸｱｲ	Hawkeye	
-gunho_82164	7	ｼｬｲｱﾝ	Cheyenne	
+gunho_82164	7	ｼｬｲｱﾝ	Cheyenn	
 gunho_8216c	7	Cﾌｭｰﾘｰ	C Fury	
-gunho_82174	7	ﾏｽﾀﾝｸﾞH	Mustang H	
-gunho_8217c	7	ﾏｽﾀﾝｸﾞD	Mustang D	
+gunho_82174	7	ﾏｽﾀﾝｸﾞH	MustngH	
+gunho_8217c	7	ﾏｽﾀﾝｸﾞD	MustngD	
 gunho_82184	7	ﾁｮｳｾｲ	Adjust	
 gunho_8218c	7	ｼｭｳﾘ	Repair	
 gunho_82194	7	ﾀﾞｯｼｭ	Dash	
 gunho_8219c	7	ｼﾞｭｳﾘﾝ	Trample	
-gunho_821a4	7	ﾘｮｳﾃｳﾁW	Dual Shot W	
-gunho_821ac	7	ﾘｮｳﾃｳﾁ	Dual Shot	
-gunho_821b4	7	Wﾀｯﾌﾟ	Double Tap	
+gunho_821a4	7	ﾘｮｳﾃｳﾁW	Dual W	
+gunho_821ac	7	ﾘｮｳﾃｳﾁ	Dual	
+gunho_821b4	7	Wﾀｯﾌﾟ	DblTap	
 gunho_821bc	7	ﾄﾂｹﾞｷ	Charge	
-gunho_821c4	7	ｸﾘﾃｨｶﾙ	Critical	
+gunho_821c4	7	ｸﾘﾃｨｶﾙ	Crit	
 gunho_821cc	7	ﾘｶﾊﾞｰ	Recover	
 gunho_821d4	7	ｸｲｯｸ	Quick	
-gunho_821dc	7	ﾘｮｳﾃｷｷ	Ambidexter	
-gunho_821e4	7	ｾｲﾋﾞﾁｭｳ	Servicing	
-gunho_821ec	7	ﾍﾝｹｲ	Transform	
+gunho_821dc	7	ﾘｮｳﾃｷｷ	Ambidex	
+gunho_821e4	7	ｾｲﾋﾞﾁｭｳ	Maint	
+gunho_821ec	7	ﾍﾝｹｲ	Morph	
 gunho_821f4	7	ｼｬｼｭﾂ	Launch	
 gunho_821fc	7	ﾄｳﾃｷ	Throw	
 gunho_82204	7	ｱｲﾃﾑ	Item	
 gunho_8220c	7	ﾊﾝﾄﾞｶﾞﾝ	Handgun	
-gunho_82214	7	ｿｳﾋﾞﾌｶ	No Equip	
-gunho_8221c	3	ｺﾃｲ	Fixed	
-gunho_82220	7	ﾋﾀﾞﾘｳﾃﾞ	Left Arm	
+gunho_82214	7	ｿｳﾋﾞﾌｶ	NoEquip	
+gunho_8221c	3	ｺﾃｲ	Fxd	
+gunho_82220	7	ﾋﾀﾞﾘｳﾃﾞ	L Arm	
 gunho_82228	7	ﾗｲﾌﾙ	Rifle	
-gunho_82230	7	ﾐｷﾞｳﾃﾞ	Right Arm	
+gunho_82230	7	ﾐｷﾞｳﾃﾞ	R Arm	

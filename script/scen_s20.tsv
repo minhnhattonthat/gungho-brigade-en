@@ -11,7 +11,7 @@ s20_0240	79	老人/「…君たちはすぐに去り、奴らはまた来る。/
 s20_0290	11	「…ぅ」/	"...Ngh."/	
 s20_029c	111	老人「それとも、君たちがこの村を守ってくれ/るのかね？  地球軍が来るまで、ここで奴らと/戦ってくれるのかね？」	Elder: "Or will you protect this village?/Will you stay here and fight them until/the Earth Army comes?"	
 s20_030c	19	シャベス/「…」/	Chavez/"..."/	
-s20_0320	55	老人/「それに、奴らは機械さえなければ、何もしな/い」	Elder/"Besides, as long as we have no machines,/they do nothing to us."	
+s20_0320	55	老人/「それに、奴らは機械さえなければ、何もしな/い」	Elder/"Besides, without machines, they leave us/alone."	
 s20_0358	75	老人/「その点は同盟だか連合だかいったゴロツキど/もよりよほどましといえる」	Elder/"In that, they beat those thugs of the/Alliance or Union or whatever by far."	
 s20_03a4	11	/「…」/	/"..."/	
 s20_03b0	31	老人/「じきに地球軍も来る」/	Elder/"The Earth Army will be here soon."/	
@@ -20,7 +20,7 @@ s20_03dc	95	ブレインズ/「そうしておとなしく隠れていれば、�
 s20_043c	19	村人/「なんだと!?」	Villager/"What did you say?!"	
 s20_0450	83	「それまで、物陰でこそこそと、息を潜めて！/ネズミのように！  ゴキブリのように！」/	"Skulking in the shadows until then,/holding your breath! Like rats! Like/cockroaches!"/	
 s20_04a4	27	/「ブレインズ、やめろ」/	/"Brains, stop it."/	
-s20_04c0	55	「それが地球軍相手に２年も戦い続けた火星人/ですか!?」/	"Are you really the Martians who fought/the Earth Army for two whole years?!"/	
+s20_04c0	55	「それが地球軍相手に２年も戦い続けた火星人/ですか!?」/	"Are these the Martians who fought the/Earth Army for two years?!"/	
 s20_04f8	35	/「ブレインズ！  やめるんだ！」/	/"Brains! I said stop!"/	
 s20_051c	43	老人/「火星人だからなんだ、というのだ？」/	Elder/"And what if we are Martians?"/	
 s20_0548	15	/「なっ…」/	/"Wha..."/	
@@ -43,7 +43,7 @@ s20_077c	59	「いいさ、おまえが言わなきゃ、おれが暴れて/た�
 s20_07b8	39	ビズリィ/「くそっ、何だ！  あいつら！」	Bizley/"Damn it, what's their problem?!"	
 s20_07e0	31	「そこまでにしとけ、ビズリィ」/	"That's enough, Bizley."/	
 s20_0800	11	「ぇ？」/	"Huh?"/	
-s20_080c	59	「この辺りは『水戦争』中期に、戦線が二往復/した激戦地だ」	"In the middle of the Water War, the front/line swept back and forth across this area/twice. Fierce fighting."	
+s20_080c	59	「この辺りは『水戦争』中期に、戦線が二往復/した激戦地だ」	"Mid-Water War, the front swept back and/forth across this area twice. Fierce/fighting."	
 s20_0848	75	「そのころには、南北両軍とも物資が乏しく、/兵隊の質もひどくなっていた…」	"By then both the Northern and Southern/armies were short of supplies, and their/soldiers had gone bad..."	
 s20_0894	7	「…」/	"..."/	
 s20_089c	55	「地球軍の駐留まで、彼らは耐えるしかなかっ/ただろうよ」	"Until the Earth Army garrison came, they/had no choice but to endure it."	
@@ -84,7 +84,7 @@ s20_0dd0	11	「ヤー」/	"Yah."/
 s20_0ddc	15	/「…フフッ」/	/"...Heh heh."/	
 s20_0dec	15	「フンッ…」/	"Hmph..."/	
 s20_0dfc	35	シャベス/「まずい！  後衛がいた！」	Chavez/"Uh-oh! They had a rear guard!"	
-s20_0e20	71	ブレインズ/「このままでは、挟撃されます。早く黒いヤツ/を潰さないと…」	Brains/"At this rate we'll be caught in a pincer./We have to crush the black one quickly..."	
+s20_0e20	71	ブレインズ/「このままでは、挟撃されます。早く黒いヤツ/を潰さないと…」	Brains/"At this rate we'll be caught in a pincer./We must crush the black one fast..."	
 s20_0e68	23	ビズリィ/「くそぅ！」	Bizley/"Damn it!"	
 s20_0e80	35	ビズリィ/「野郎、どこ行く気だ!?」	Bizley/"Where d'you think you're goin',/bastard?!"	
 s20_0ea4	71	ブレインズ/「山を背にして、後衛の到着まで時間を稼ぐ/つもりでしょう」	Brains/"He's putting his back to the mountain to/buy time until his rear guard arrives."	

@@ -41,6 +41,12 @@ No earlier fan patch found (web search 2026-11-21: only ROM/database pages). The
 - A single **0x20 byte advances half a cell (6 px)** in dialogue: **verified** (marker build, s08: "The quick brown
   fox" spaces land on the 6-px grid). So words start on any half cell; a pair holds a space only after an odd-length
   word. Effective pitch: 6 px per character, 1 byte per character.
+- `...` is drawn as one 5-px glyph `…` (fonts/font5.txt, tools/digraph.py `pairs`): 2 bytes saved per ellipsis.
+- **Staff roll (ENDING.BIN) can't draw on a half cell:** a glyph after a lone 0x20 (i.e. after an even-length word)
+  shows as coloured noise (e34, verified 2026-11-22; the marker build's "0x88e6" case was the same). Ending text is
+  encoded `aligned` (tools/digraph.py: spaces paired like letters, " K"), so every glyph sits on a 12-px cell.
+- ENDING.BIN staff roll longer than its slot: appended at the 4-aligned file end and its one reference (`addiu` at
+  file 0x1584, lui half unchanged) repointed (`extract.write_back`); ENDING.BIN code refers to nothing past its end.
 - `%` in dialogue is a literal (the overlay text is not printf'd; **guess**, only `%s`/`%d` in EXE strings are args).
 - Half-width rows (unit/weapon/pilot names, battle messages; small 8x12 font) are written as plain ASCII.
 - tools/insert.py writes every row (`en`, or `--marker`, or `--qa ID=TEXT`) plus the three font copies into
@@ -84,6 +90,12 @@ TABLE.BIN (other files: image-data noise). Exact list by pointer in phase 4.
 - Stale text copies: entries 17, 24, 31, 38, 45, 51, 58, 65, 79, 87, 107, 167 start with byte copies of lines from the
   previous stage overlay, breaking off into binary mid-string (buffer residue). Not extracted. **guess** that nothing
   reads them; the marker build (phase 5) will show any box still in Japanese.
+- **Growing an overlay (verified 2026-11-22, marker builds + warps):** an overlay may grow at its end (= its LEN
+  entry's end, after the pointer table) by **whole 0x800 sectors**, with every later LEN offset shifted: s14 with its
+  whole text moved past the table showed s14_0004, s35 padded, and the shifted s29 all load. Growth by any other
+  amount (0x9f8, 0xeb4) hangs at "Now loading" for the grown stage AND for later, merely shifted stages (s29).
+  `extract.write_back` does this (strings that don't fit the region go to the tail); tools/fitcheck.py checks the
+  0x5d60 bound.
 - Load buffer size: TABLE.BIN sits at 0x8015eed0, so a text overlay has at most 0x5d60 bytes (23,904) unless it
   ends before TABLE.BIN loads. **guess**; measure the largest overlay (entry 164, 25,132 bytes incl. prefix) in phase 4.
 

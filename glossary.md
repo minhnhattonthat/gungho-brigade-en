@@ -188,23 +188,23 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | カイツブリ | Grebe | | callsign "Grebe 180 Squadron" (s34) | |
 | 第８２空挺師団 | 82nd Airborne Division | | (s31) | |
 | ｍｍ (`@` glyph in names) | @ | | weapon calibre: "57@Railgun" | |
-| ｺﾝﾃﾞﾝｻｰｶﾞﾝ / ｺﾝﾃﾞﾝｻｰﾀﾞﾝ | Condenser Gun / Condenser Round | | weapon / ammo | |
-| ﾏｶﾞｼﾞﾝ | Magazine | | | |
-| 整備中 / ｾｲﾋﾞﾁｭｳ | Servicing / serviced | | unit state | Under repair |
+| ｺﾝﾃﾞﾝｻｰｶﾞﾝ / ｺﾝﾃﾞﾝｻｰﾀﾞﾝ | Condenser Gun / Condenser Round / Condenser / Cond Round | 11 | weapon / ammo; small-font names (no `.` glyph): Condenser, Cond Round | |
+| ﾏｶﾞｼﾞﾝ | Magazine / Mag | | small-font item names: "88D2 Mag" (slot 11) | |
+| 整備中 / ｾｲﾋﾞﾁｭｳ | Servicing / serviced / Maint | | unit state; small-font names "Mustang H Maint", "Maint" (slots 7-19) | Under repair |
 | ﾁｮｳｾｲ / ｼｭｳﾘ | Adjust / Repair | | skills: repair 1/3, 2/3 of damage | |
 | ｸｲｯｸﾄﾞﾛｰ / ｸｲｯｸﾛｰﾄﾞ / ｸｲｯｸｼｮｯﾄ / ｸｲｯｸ | Quick Draw / Quick Load / Quick Shot / Quick | | skills | |
 | ｽﾅｲﾌﾟｼｮｯﾄ | Snipe Shot | | skill | |
-| ｼﾞｭｳﾘﾝ / ﾄﾂｹﾞｷ / ﾘｶﾊﾞｰ / ｸﾘﾃｨｶﾙ | Trample / Charge / Recover / Critical | | skills | |
-| ﾘｮｳﾃｳﾁ / ﾘｮｳﾃｳﾁW / Wﾀｯﾌﾟ | Dual Shot / Dual Shot W / Double Tap | | skills (two Randalls / two-handed gun) | Akimbo |
-| ﾘｮｳﾃｷｷ | Ambidexter | | skill | |
+| ｼﾞｭｳﾘﾝ / ﾄﾂｹﾞｷ / ﾘｶﾊﾞｰ / ｸﾘﾃｨｶﾙ | Trample / Charge / Recover / Critical / Crit | 7 | skills (7-byte slots: "Crit") | |
+| ﾘｮｳﾃｳﾁ / ﾘｮｳﾃｳﾁW / Wﾀｯﾌﾟ | Dual Shot / Dual Shot W / Double Tap / Dual / Dual W / DblTap | 7 | skills (two Randalls / two-handed gun); skill-name slots: Dual, Dual W, DblTap | Akimbo |
+| ﾘｮｳﾃｷｷ | Ambidexter / Ambidex | 7 | skill ("Ambidex" in the 7-byte slot) | |
 | 0ｷｮﾘｼｬｹﾞｷ | Point Blank | | skill | |
 | 変形 / ｲﾄﾞｳｹｲﾀｲ / ｼｬｹﾞｷｹｲﾀｲ | Transform / Move Mode / Shoot Mode | | | |
 | 電撃 / ﾃﾞﾝｹﾞｷｺｳｹﾞｷ / ﾃﾞﾝｹﾞｷﾎﾞｳｷﾞｮ | shock / Shock Attack / Shock Guard | | | |
-| ﾕｳﾄﾞｳﾎﾞｳｷﾞｮ / ﾚｰｻﾞｰﾑｺｳ | Anti-Missile / Laser Proof | | skills | |
+| ﾕｳﾄﾞｳﾎﾞｳｷﾞｮ / ﾚｰｻﾞｰﾑｺｳ | Anti-Missile / Laser Proof / Msl Guard | | skills; small-font name "Msl Guard" (no `-` glyph) | |
 | 行動ポイント | action points | | (not "AP": s05 "AP rounds" = armour-piercing) | |
 | ｼﾞｹｲﾀﾞﾝｲﾝ / ｸｳﾃｲ / ﾑｼﾞﾝ | Vigilante / Paratrooper / Unmanned | | pilot names | |
-| メモリーカード | Memory Card | | | |
+| メモリーカード | Memory Card / card | | "card" when a fullwidth message must be short (2 bytes per letter) | |
 | ○戦闘シーン | Battle | 6 | config option | |
-| 短縮 | Fast | 4 | config value | |
+| 短縮 | Cut | 3 | config value (slot 3 fullwidth chars; "Fast" did not fit) | |
 
 ## Decisions from earlier batches

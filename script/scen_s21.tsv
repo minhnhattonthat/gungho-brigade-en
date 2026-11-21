@@ -28,7 +28,7 @@ s21_0474	87	エスメラルダ/「ビズリィ！  ８８ｍｍを持ったら�
 s21_04cc	35	/「駆動系に負担が掛かりすぎます」/	/"It puts too much strain on the drive/system."/	
 s21_04f0	19	ビズリィ/「了解！」	Bizley/"Roger!"	
 s21_0504	43	エスメラルダ/「…では、よろしく願います」/	Esmeralda/"...Then I leave it in your hands."/	
-s21_0530	75	シャベス/「ただでさえ狭い車内が、夜逃げトラックみた/いになっちまったなぁ」	Chavez/"Our cab was cramped enough already. Now/it looks like we're skippin' town."	
+s21_0530	75	シャベス/「ただでさえ狭い車内が、夜逃げトラックみた/いになっちまったなぁ」	Chavez/"Our cab was cramped already. Now it's/like we're skippin' town."	
 s21_057c	23	/「申し訳ありません」/	/"My apologies."/	
 s21_0594	75	ビズリィ/「ご心配なく！  マコーリフへの補給物資は、/必ず届けて見せます！」	Bizley/"Don't you worry! We'll get the supplies/to McAuliffe, I swear!"	
 s21_05e0	75	「ビズリィ、あなたには助けられてばかりね。/いつかお礼をさせてもらうわ」/	"Bizley, you keep coming to my rescue./Someday I'll repay you."/	
@@ -47,13 +47,13 @@ s21_0838	87	「そうです。お聞きしたいことがあります。/地球�
 s21_0890	47	/「君ぃそんな機密を大声で話すもんじゃない」/	/"Now, now, you shouldn't shout secrets/like that."/	
 s21_08c0	67	「ラジオで流しておいて、機密もなにも…。/  じゃ、本当なんですね」/	"You put it out on the radio, so what/secret... So it's true, then."/	
 s21_0904	95	「そうです。作戦名『ウィンゲート』。/  ２週間後に海兵２個師団が橋頭堡確保のため/降下します」	"Yes. Operation Wingate. In two weeks, two/Marine divisions will drop to secure a/beachhead."	
-s21_0964	91	「降下まで艦隊は無線封止を徹底し、降下時に/は地上部隊で大規模な陽動と電波妨害を行いま/す」	"The fleet keeps strict radio silence/until the drop. During it, ground forces/stage a big diversion and jamming."	
+s21_0964	91	「降下まで艦隊は無線封止を徹底し、降下時に/は地上部隊で大規模な陽動と電波妨害を行いま/す」	"The fleet keeps radio silence until the/drop. Then ground forces stage a big/diversion and jamming."	
 s21_09c0	95	「いつ来るか分かっても、どこに来るかわから/なければ敵は対処しきれない、との判断だそう/です」	"The thinking is, even if the enemy knows/when, it can't respond fully if it doesn't/know where."	
 s21_0a20	55	「本隊は、橋頭堡が確保されたのち…、どうし/ました？」/	"After the beachhead is secured, the main/force... What's wrong?"/	
 s21_0a58	27	/「気に入らないんです」/	/"I don't like it."/	
-s21_0a74	75	「ジャンキー相手に奇襲は成立しないし、その/必要もない、ということです」/	"What I mean is, surprise doesn't work/against the Junkies, and it isn't needed."/	
+s21_0a74	75	「ジャンキー相手に奇襲は成立しないし、その/必要もない、ということです」/	"Meaning: surprise doesn't work on/Junkies, and isn't needed."/	
 s21_0ac0	95	「ダンケルク作戦の時、あれだけ情報を秘匿し/たのに、作戦開始直後からジャンキーに対応さ/れた」	"In Operation Dunkirk we kept everything/secret, yet the Junkies countered the/moment it began."	
-s21_0b20	71	「…作戦中、軌道上の艦艇に対する攻撃が皆無/だった。だからですか？」/	"...And during that operation, not one/attack was made on the ships in orbit. Is/that why?"/	
+s21_0b20	71	「…作戦中、軌道上の艦艇に対する攻撃が皆無/だった。だからですか？」/	"...During the operation, not one attack/hit the ships in orbit. Is that why?"/	
 s21_0b68	43	/「さすがは『ブレインズ』。そのとおり」/	/"Just what I'd expect of 'Brains.' Exactly/right."/	
 s21_0b94	27	/「茶化さないでください」/	/"Please don't tease me."/	
 s21_0bb0	127	「彼らに、軌道上への攻撃能力がない以上、/火星と連携して上陸時の混乱と被害を押さえる/ほうが賢明だ。と、『上』は考えたようで…」	"They can't attack orbit, so it's wiser to/work with Mars and limit chaos and losses/at the landing. Or so the brass thinks..."	
@@ -66,7 +66,7 @@ s21_0dec	35	「使い方の問題さ、うまくやるって」/	"It's all in ho
 s21_0e10	15	/「そう…」/	/"I see..."/	
 s21_0e20	71	「なんたって、あの威力だ！  ハンガーの肥や/しにするにはもったいない…」	"I mean, look at that power! Be a waste to/leave it rottin' in the hangar..."	
 s21_0e68	43	「あっ！  まさかおまえ、妬いてんのかぁ!?」/	"Ah! Don't tell me you're jealous?!"/	
-s21_0e94	67	「バカッ！  人が心配してんのに、なにさ！/勝手にするがいいわ!!」/	"Idiot! Here I am worrying about you, and/what do I get! Do whatever you want!!"/	
+s21_0e94	67	「バカッ！  人が心配してんのに、なにさ！/勝手にするがいいわ!!」/	"Idiot! Here I am worried about you, and/then this! Do whatever you want!!"/	
 s21_0ed8	51	「なんだよ！  言われなくったって、勝手にす/らぁ!!」	"What?! I'll do what I want without you/tellin' me!!"	
 s21_0f0c	15	/「フン！」/	/"Hmph!"/	
 s21_0f1c	27	「ド、ドラグーン２がっ！	"Th-the Dragoon 2!"	

@@ -63,6 +63,43 @@ def test_scen_repack(rows, files):
             assert x.dec(x.cstr(out, r["_ovl"] + addr - x.OVL_BASE)) == r["jp"], r["id"]
 
 
+def test_scen_grow(rows, files):
+    """Text over the region goes after the overlay: entry grows by whole sectors, LEN shifts later entries only,
+    every pointer reaches its string, the overlay before it is untouched."""
+    import struct
+    group = [dict(r) for r in rows["scen_s10"]]
+    for r in group:
+        r["jp"] = "Ａ" * 40
+    extra = {}
+    out = x.write_back("SCENFILE.DAT", files["SCENFILE.DAT"], group, extra=extra)
+    grow = len(out) - len(files["SCENFILE.DAT"])
+    assert grow > 0 and grow % 0x800 == 0
+    tail = group[0]["_tail"]
+    assert out[:group[0]["_ovl"]] == files["SCENFILE.DAT"][:group[0]["_ovl"]]
+    assert out[tail + grow:] == files["SCENFILE.DAT"][tail:]
+    old = struct.unpack(f"<{len(extra['SCENFILE.LEN']) // 4}I", (x.TREE / "SCENFILE.LEN").read_bytes())
+    new = struct.unpack(f"<{len(old)}I", extra["SCENFILE.LEN"])
+    assert [n - o for o, n in zip(old, new)] == [grow if o >= tail else 0 for o in old]
+    for r in group:
+        for p in r["_ptrs"]:
+            addr = struct.unpack_from("<I", out, p)[0]
+            assert addr - x.OVL_BASE < x.OVL_MAX
+            assert x.dec(x.cstr(out, r["_ovl"] + addr - x.OVL_BASE)) == r["jp"], r["id"]
+
+
+def test_ending_relocate(rows, files):
+    """A staff roll longer than its slot moves to the file end; the one addiu points there."""
+    import struct
+    group = [dict(r) for r in rows["ending"]]
+    for r in group:
+        r["jp"] = "Ａ" * 20
+    out = x.write_back("ENDING.BIN", files["ENDING.BIN"], group)
+    at = (len(files["ENDING.BIN"]) + 3) & ~3
+    lo = struct.unpack_from("<I", out, x.ENDING_REF)[0] & 0xFFFF
+    assert lo == (x.ENDING_LOAD + at) & 0xFFFF
+    assert x.cstr(out, at).split(b"\n")[int(group[0]["id"].split("_")[1])] == SJIS.encode("Ａ" * 20)
+
+
 def test_overlays(files):
     dat, offs, ends = x.scen_entries()
     stages = []

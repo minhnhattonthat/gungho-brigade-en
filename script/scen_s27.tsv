@@ -2,12 +2,12 @@ id	max	jp	en	notes
 s27_0004	19	勝利条件：敵の全滅/	Victory: Wipe out the enemy/	
 s27_0018	103	敗北条件：プレーヤーユニットの全滅/          マコーリフへの、敵の侵入/          『特殊条件』の未達成	Defeat: All player units destroyed,/         enemy breaks into McAuliffe, or/         Special condition not met	
 s27_0080	119	特殊条件：８ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 8 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
-s27_00f8	119	特殊条件：７ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 7 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
-s27_0170	119	特殊条件：６ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 6 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
-s27_01e8	119	特殊条件：５ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 5 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
-s27_0260	119	特殊条件：４ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 4 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
-s27_02d8	119	特殊条件：３ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 3 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
-s27_0350	119	特殊条件：２ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: Within 2 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
+s27_00f8	119	特殊条件：７ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: In 7 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area and out west of McAuliffe	
+s27_0170	119	特殊条件：６ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: In 6 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area and out west of McAuliffe	
+s27_01e8	119	特殊条件：５ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: In 5 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area and out west of McAuliffe	
+s27_0260	119	特殊条件：４ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: In 4 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area and out west of McAuliffe	
+s27_02d8	119	特殊条件：３ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: In 3 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area and out west of McAuliffe	
+s27_0350	119	特殊条件：２ターン以内に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: In 2 turns, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area and out west of McAuliffe	
 s27_03c8	115	特殊条件：現ターン中に、ドラグーン２、/  シャイアン、ガンシップを指定領域に移動さ/  せ、マコーリフ西部へ脱出させる	Special condition: This turn, get the/ Dragoon 2, Cheyenne and Gunship to the/ marked area, escaping west of McAuliffe	
 s27_043c	71	敗北条件：プレーヤーユニットの全滅/          マコーリフへの、敵の侵入	Defeat: All player units destroyed, or/         enemy breaks into McAuliffe	
 s27_0484	35	パイロット/「…う、…ううっ…」/	Pilot/"...Ugh... Uuugh..."/	
@@ -17,7 +17,7 @@ s27_04f4	59	医師/「なにも心配はありません。ここはマコーリ�
 s27_0530	79	パイロット/「マコーリフ？  そうか、誰が連れてきてくれ/たんだ？  礼が言いたい」	Pilot/"McAuliffe? I see. Who brought me here? I/want to thank them."	
 s27_0580	87	看護婦/「あら、あなたは自分でたどり着いたのよ。/傷ついたマシンレッグで敵を振り切って」	Nurse/"Oh, you got here on your own. You shook/off the enemy in a damaged machine leg."	
 s27_05d8	19	パイロット/「…」/	Pilot/"..."/	
-s27_05ec	67	看護婦/「砦のみんな、感動したのよ。マシンレッグ乗/りの鑑だって」	Nurse/"Everyone in the fort was moved. They/called you a model machine leg pilot."	
+s27_05ec	67	看護婦/「砦のみんな、感動したのよ。マシンレッグ乗/りの鑑だって」	Nurse/"The whole fort was moved. They called you/a model machine leg pilot."	
 s27_0630	83	パイロット/「…そんなはずはない。俺の部隊は全滅したん/だ。奴等の包囲にあって！」	Pilot/"...That can't be. My unit was wiped out./Caught in their encirclement!"	
 s27_0684	75	パイロット/「みんな死んだ！  俺だけ生きているはずが無/い！  俺だけが！」	Pilot/"They all died! There's no way I'm the/only one alive! Only me!"	
 s27_06d0	35	医師/「君ぃ！  鎮静剤を早く！」/	Doctor/"Nurse! A sedative, quickly!"/	
@@ -41,7 +41,7 @@ s27_09a4	75	「待ってください！  外の敵は必ず来ます。/ここ�
 s27_09f0	23	ベティ/「私が残ります」	Betty/"I'll stay."	
 s27_0a08	15	マイコ/「私も」	Maiko/"Me too."	
 s27_0a18	15	「マイコ…」/	"Maiko..."/	
-s27_0a28	67	「エスメラルダ大尉が心配なんでしょ？/ここは任せて、さっさと行きな」	"You're worried about Captain Esmeralda,/right? Leave this to us and get going."	
+s27_0a28	67	「エスメラルダ大尉が心配なんでしょ？/ここは任せて、さっさと行きな」	"Worried about Captain Esmeralda, right?/Leave this to us and go."	
 s27_0a6c	39	「サンキュー、マイコ！  愛してるぜ!!」/	"Thanks, Maiko! I love ya!!"/	
 s27_0a94	15	「…バァカ」/	"...Idiot."/	
 s27_0aa4	43	「僕もこっちにしましょう。行ってください」/	"I'll stay here too. Go."/	

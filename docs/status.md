@@ -2,12 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: in progress (fit; real insert still refuses, see Next). Phase 6 done (2713/2713
-  rows, `batches.py check` 0 problems, story gate `qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts`
-  exits 0). Last build:
-  build/gungho_en.bin 2026-11-22 = **marker build + glyph torture** (`insert.py --marker --qa ...`); states in
-  work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
+- **Phase:** 8. QA in the emulator: next (phase 7 done 2026-11-22). Last build: build/gungho_en.bin 2026-11-22 =
+  **full English** (`insert.py` + `build.py`), sha1 3e2e9bc16c7bf24174ed0750226a90636741e833, smoke ok. States in
+  work/states/ = English build (`warp.py --all` 46/46 ok; e34 and s14 regenerated on the final build, the rest on the
+  build just before it, which differed only in ENDING.BIN).
 - **Done:**
+  - Phase 7 (2026-11-22, sixth session): `fitcheck.py` exits 0, `build.py` gates on new `tools/diffcheck.py` (per-file
+    romdiff: changed bytes only in text slots / pointer tables / font bitmaps / relocated tails; negative-tested),
+    tests/test_fit.py gates commits on fit, tests for overlay growth and ENDING relocation. How it fits:
+    `...` = one 5-px "…" glyph in all digraph text (~550 B saved); SCENFILE overlays may grow after their pointer table
+    by whole 0x800 sectors only (other sizes hang the next load; docs/re/text.md), only s35 grows; light rewording in
+    s06/s11/s14/s20/s21/s26/s27 (D11); ENDING.BIN roll appended at the file end + its addiu repointed; small-font names
+    shortened to slot (D9, list in docs/polish.md), batches lint now rejects `.`/`-`/`&` in small-font names;
+    memory-card messages terse (D10), 短縮 = "Cut"; `to_full` keeps non-ASCII (○). Staff-roll noise bug fixed: the roll
+    can't draw a glyph on a half cell, ending text is encoded `aligned` (e34 shots clean). New helpers
+    tools/stagerows.py (rows that grew most per stage) and tools/tlshow.py (JP + batch body by id).
   - Phase 6 review fixes (2026-11-22, phase 7 session; review ../.harness/reviews/gungho-brigade-en-phase6.md):
     compose() now writes `{n}` for every fullwidth break (5 memory-card rows printed a literal `/`; lint rejects `/`
     in full rows); s00_0078 "- Battle/Fast/Status display", glossary 戦闘シーン/短縮 split into two rows; briefs
@@ -90,37 +99,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 7):** make `python -X utf8 tools/fitcheck.py -v` exit 0 (lists everything `insert.py` would refuse),
-  then insert + build + smoke + romdiff. State 2026-11-22:
-  - **SCENFILE: done in code, 10 stages still over.** `extract.write_back` repacks an overlay whose strings don't fit
-    in place (back to back, no alignment, pointer table rewritten; the table is the only reference, checked for all
-    36 overlays; tests/test_extract.py::test_scen_repack). Not yet seen in game: check one repacked stage on screen.
-    Over their text region (bytes): s06 6926/6736, s11 1880/1824, s14 3986/3764, s20 5107/4972, s21 4201/4092, s22
-    3816/3716, s26 1386/1328, s27 4132/4016, s34 1270/1248, s35 2877/2552 (s35 = mostly its own staff roll from
-    0x420). Choice: trim English in those stages (1333 bytes, no risk) or append strings after the overlay's pointer
-    table (needs LEN rewrite and proof the loader takes LEN sizes and entries aren't loaded as one block; overlay
-    room to 0x5d60 is 4-20 KB, s29 is exactly 0x5d60 so the bound looks real).
-  - **ENDING.BIN: 2987/2439.** Verified statically: ENDING.BIN loads at 0x8015eed0 (same buffer as TABLE.BIN,
-    72 KB); variables start right after the blob (0x32f8, referenced), so it can't grow in place; the blob has ONE
-    reference (lui 0x8016 + addiu, offset 0x2970). Plan: append the blob at the file end (0x46c0, inside TABLE.BIN's
-    footprint) and repoint that addiu; check at warp e34. Also the open bug below (digraph code 0x88e6 draws as noise
-    in the staff roll): exclude bad codes in tools/digraph.py for ending text.
-  - **Fullwidth files (MENU/TABLE/SLPS/MENUMV): 2 bytes per letter.** Rows over: MENU 12 (154 B), TABLE 23 (362 B),
-    SLPS/MENUMV 10 each (86 B; dev notice + file errors, never shown in retail). No ASCII path: MENU's ASCII ->
-    fullwidth converter (0x80021860) is only called for file-error names, not the message renderer. Plan: terse
-    English to slot (`max` column = bytes; 2 per letter, 1 per {n}), e.g. "Checking card...{n}Don't remove it.".
-  - **GUNHO.EXE small-font names: 52 rows over (158 B).** Display budgets (docs/windows.md) are 7-10 chars anyway,
-    so shorten to the slot (unit names 7, weapons 11, descriptions per `max`); glossary must follow.
-  Story verdicts go stale on any script edit: after fixes rerun
-  `pairs.py`, `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, re-read the
-  changed pages and rewrite those verdicts (phase 9 gate). s08_078c/07e8/0870/08f0 not seen in the s08 intro tour
-  (other events or dead).
-  Digraph capacity 1376-75 codes. Stale SCENFILE copies: no Japanese seen in the 46-scene marker tour.
+- **Next (phase 8, QA):** QA tour of changed scenes on the English build (warp states ready) -> contact sheets,
+  `qa_gate.py init/todo`, visual-QA verdicts in a fresh read-only pass (no reviewer agents: do it yourself or `codex
+  exec`, quota back 2026-11-26), `qa_gate.py check` exit 0; graphics-text rows English in zoomed cold-boot shots (chapter
+  cards, game over, credits) per D5; `inkbox.py` on choice/centred boxes; stress saves (`save.py`: longest names,
+  full lists, max numbers); `textcover.py` exit 0. Specific checks owed:
+  - small-font names in battle hover box / weapon list / STATUS / TUNE UP (shortened, D9; docs/polish.md list); try
+    pairs for table_00440 ("Fast"); memory-card messages (title GAME LOAD, intermission GAME SAVE: 18 chars/line).
+  - s35's grown overlay: its own roll/sound-list strings (s35_0004.., s35_0420..) were never seen on screen (s35 warp
+    shows the ENDING.BIN roll); textcover will tell if anything reads them.
+  - the "…" glyph in dialogue is checked (s14 --qa shot); help line (gunho_* descriptions) not yet seen in English.
+  Story verdicts are stale for s00/s05/s06/s11/s14/s20/s21/s26/s27 + nonstory (phase 7 rewording): rerun `pairs.py`,
+  `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, re-read changed pages, rewrite
+  verdicts (phase 9 gate, with the independent reader). s08_078c/07e8/0870/08f0 not seen in the s08 intro tour.
+  Digraph pairs used: 1105 of 1375 codes.
 - **Notes:** stage index != tale number (stage 8 shows "tale 7"); event stages 3/11/32 chain into the next stage.
   The portable card tools/pcsx/memcard1.mcd must stay blank (warp.py always passes a blank `--sav`). Game over warp
   shows over the loading screen (battle view never drawn) and only the first leader's line; stage 0 has no defeat
   handler.
-- **Open bugs:** staff roll draws digraph code 0x88e6 ("Th", = 域) as coloured noise while 0x88e7 and the rest are
-  fine (marker build, e34 f006900 `[ending_066] The`): the staff roll's glyph source differs for some codes (own
-  texture/cache?); check which codes it can draw before phase 7, or keep such codes out of ending text.
+- **Open bugs:** none known (staff-roll noise fixed in phase 7: half-cell glyphs, see docs/re/text.md).
 - **Waiting on the user:** nothing.

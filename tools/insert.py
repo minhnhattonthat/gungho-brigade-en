@@ -46,7 +46,7 @@ def small_font(row):
 
 def to_full(text):
     """ASCII -> fullwidth (space -> U+3000); RAW tokens (line breaks, %s, [XX]) kept."""
-    return "".join(p if k % 2 else "".join("　" if c == " " else chr(ord(c) + 0xFEE0) for c in p)
+    return "".join(p if k % 2 else "".join("　" if c == " " else chr(ord(c) + 0xFEE0) if c.isascii() else c for c in p)
                    for k, p in enumerate(RAW.split(text)))
 
 
@@ -97,22 +97,27 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE):
         mark = mode_marker and r["id"] not in SAVE_TITLES
         r["new"] = qa.get(r["id"]) or (marker(r) if mark else en.get(r["id"], ""))
     big = [r for r in rows if r["new"] and kind(r) == "pair"]
-    dg = Digraph(tree, [r["new"] for r in big], [])
+    roll = lambda r: r["_file"] == "ENDING.BIN"  # noqa: E731  staff roll: glyphs on whole cells only
+    dg = Digraph(tree, [r["new"] for r in big if not roll(r)], [], [r["new"] for r in big if roll(r)])
 
     def encode(r):
         kd = kind(r)
-        return dg.encode(r["new"]) if kd == "pair" else SJIS.encode(to_full(r["new"]) if kd == "full" else r["new"])
+        return (dg.encode(r["new"], roll(r)) if kd == "pair" else
+                SJIS.encode(to_full(r["new"]) if kd == "full" else r["new"]))
 
     if overlay.exists():
         shutil.rmtree(overlay)
     written = []
     for name in sorted({r["_file"] for r in rows if r["new"]}):
         data = (tree / name).read_bytes()
-        out = x.write_back(name, data, [r for r in rows if r["_file"] == name], field="new", encode=encode)
-        dest = overlay / name
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(out)
-        written.append(name)
+        extra = {}
+        out = x.write_back(name, data, [r for r in rows if r["_file"] == name], field="new", encode=encode,
+                           extra=extra, tree=tree)
+        for fname, blob in [(name, out), *extra.items()]:
+            dest = overlay / fname
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(blob)
+            written.append(fname)
     for font, copies in BITMAPS.items():
         for name, off in copies:
             dest = overlay / name

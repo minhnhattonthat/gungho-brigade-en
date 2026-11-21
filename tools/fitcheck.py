@@ -20,22 +20,26 @@ def overflows(tree=x.TREE):
     en = {r["id"]: r["en"] for p in x.SCRIPT.glob("*.tsv") for r in x.read_tsv(p)}
     for r in rows:
         r["new"] = en.get(r["id"], "")
-    dg = Digraph(tree, [r["new"] for r in rows if r["new"] and ins.kind(r) == "pair"], [])
+    big = [r for r in rows if r["new"] and ins.kind(r) == "pair"]
+    roll = lambda r: r["_file"] == "ENDING.BIN"  # noqa: E731  (insert.run: aligned pairs in the staff roll)
+    dg = Digraph(tree, [r["new"] for r in big if not roll(r)], [], [r["new"] for r in big if roll(r)])
 
     def encode(r):
         kd = ins.kind(r)
-        return dg.encode(r["new"]) if kd == "pair" else ins.SJIS.encode(ins.to_full(r["new"]) if kd == "full" else r["new"])
+        return (dg.encode(r["new"], roll(r)) if kd == "pair" else
+                ins.SJIS.encode(ins.to_full(r["new"]) if kd == "full" else r["new"]))
 
     over = defaultdict(list)
     ending = [0, 0]
     data = (tree / "SCENFILE.DAT").read_bytes()
     for ovl in sorted({r["_ovl"] for r in rows if "_ovl" in r}):
-        # repacked overlay (extract.write_back): the whole text must fit its region
-        group = [r for r in rows if r.get("_ovl") == ovl]
-        need = sum(len(encode(r) if r["new"] else x.cstr(data, r["_off"])) + 1 for r in group)
-        room = group[0]["_end"] - min(r["_off"] for r in group)
-        if need > room:
-            over["SCENFILE.DAT"].append((group[0]["id"][:3], need, room))
+        # repacked overlay (extract.write_back): text region, then whole sectors after the overlay up to OVL_MAX
+        group = sorted((r for r in rows if r.get("_ovl") == ovl), key=lambda r: r["_off"])
+        enc = [encode(r) if r["new"] else x.cstr(data, r["_off"]) for r in group]
+        ovl_len = group[0]["_tail"] - ovl
+        _, grow = x.scen_layout(enc, group[0]["_off"], group[0]["_end"], ovl_len)
+        if ovl_len + grow > x.OVL_MAX:
+            over["SCENFILE.DAT"].append((group[0]["id"][:3], ovl_len + grow, x.OVL_MAX))
     for r in rows:
         if not r["new"] or "_ovl" in r:
             continue
@@ -49,7 +53,7 @@ def overflows(tree=x.TREE):
     lines = blob.split(b"\n")
     done = {int(r["id"].split("_")[1]) for r in rows if r["_file"] == "ENDING.BIN" and r["new"]}
     ending[0] += sum(len(ln) + 1 for k, ln in enumerate(lines) if k not in done) - 1
-    ending[1] = ((x.ENDING + len(blob) + 4) & ~3) - x.ENDING - 1
+    ending[1] = x.ENDING_ROOM - ((len(data) + 3) & ~3) - 1  # relocated to the file end when it outgrows its slot
     return over, tuple(ending)
 
 

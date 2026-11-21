@@ -80,6 +80,10 @@ def main():
     ap.add_argument("--overlay", default=str(OVERLAY))
     ap.add_argument("--out", default=str(OUT))
     a = ap.parse_args()
+    if Path(a.overlay).resolve() == OVERLAY.resolve() and OVERLAY.is_dir():
+        import diffcheck  # every changed byte inside an allowed text/font range (the per-file romdiff)
+        if diffcheck.main():
+            sys.exit("diffcheck failed: the overlay writes outside its allowed ranges")
     out, used = build(a.out, a.overlay)
     print(f"{out} ({len(used)} patched file(s): {', '.join(used) or 'none'})")
 

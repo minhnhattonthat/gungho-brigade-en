@@ -1,16 +1,16 @@
 id	max	jp	en	notes
-slps_00854	35	［%s］{n}鎖ファイルが見つかりません	[%s]{n}Chain file missing	
-slps_00878	35	［%s］{n}＊ファイルが見つかりません	[%s]{n}* file not found	
-slps_0089c	31	［%s］{n}！読み込みに失敗しました	[%s]{n}! Read failed	
-slps_008bc	35	［%s］{n}＃ファイルが見つかりません	[%s]{n}# file not found	
-slps_008e0	31	［%s］{n}＃読み込みに失敗しました	[%s]{n}# Read failed	
-slps_00900	35	［%s］{n}ＭＶファイルが見つかりません	[%s]{n}MV file not found	
-slps_00924	15	ないません。	for an exchange.	
-slps_00934	35	が発生してもソフトの交換などは行	bugs don't qualify	
-slps_00958	35	　本ソフトは開発中のため、不具合	As a pre-release,	
-slps_0097c	15	ただけます。	star-cast drama.	
-slps_0098c	35	ラマとアニメーションをお楽しみい	has animation and	
-slps_009b0	35	　製品版では、豪華声優陣によるド	The retail game	
-slps_009d4	11	ません。	etc. not included.	
-slps_009e0	35	アニメーションなどは収録されてい	voices, animation	
+slps_00854	35	［%s］{n}鎖ファイルが見つかりません	[%s]{n}No chain file	
+slps_00878	35	［%s］{n}＊ファイルが見つかりません	[%s]{n}* file missing	
+slps_0089c	31	［%s］{n}！読み込みに失敗しました	[%s]{n}! Read error	
+slps_008bc	35	［%s］{n}＃ファイルが見つかりません	[%s]{n}# file missing	
+slps_008e0	31	［%s］{n}＃読み込みに失敗しました	[%s]{n}# Read error	
+slps_00900	35	［%s］{n}ＭＶファイルが見つかりません	[%s]{n}No MV file	
+slps_00924	15	ないません。	bugs.	
+slps_00934	35	が発生してもソフトの交換などは行	no exchanges for	
+slps_00958	35	　本ソフトは開発中のため、不具合	Pre-release copy:	
+slps_0097c	15	ただけます。	anime!	
+slps_0098c	35	ラマとアニメーションをお楽しみい	star-cast drama &	
+slps_009b0	35	　製品版では、豪華声優陣によるド	Retail version:	
+slps_009d4	11	ません。	cut.	
+slps_009e0	35	アニメーションなどは収録されてい	voices and anime	
 slps_00a04	35	　このゲームは開発中のため、音声、	Work in progress:	

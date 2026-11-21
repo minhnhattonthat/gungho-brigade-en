@@ -18,7 +18,7 @@ s26_0280	35	ビズリィ/「ヤー！  蹴散らしてやる」	Bizley/"Yah! I'l
 s26_02a4	83	マイコ/「いいかげん、ひとりで飛び出すのやめなさい/よ！  迷惑この上ないんだから！」	Maiko/"And quit charging out alone already!/You're nothing but a nuisance!"	
 s26_02f8	15	「アイアイ！」/	"Aye aye!"/	
 s26_0308	39	ブレインズ/「敵の増援が予想されます」	Brains/"Enemy reinforcements are likely."	
-s26_0330	59	「連合軍の方々は、サンダースロック上で警戒/をお願いします」	"Will the Union troops please keep watch/from atop Thunder's Rock?"	
+s26_0330	59	「連合軍の方々は、サンダースロック上で警戒/をお願いします」	"Union troops, please keep watch from/Thunder's Rock."	
 s26_036c	39	通信音/「了解した。健闘を祈る。アウト」	Radio/"Understood. Good luck. Out."	
 s26_0394	47	ブレインズ/「奴等は逃げます。追わないで下さい」	Brains/"They're running. Don't chase them."	
 s26_03c4	23	ビズリィ/「なんでだ？」	Bizley/"Why not?"	
@@ -26,8 +26,8 @@ s26_03dc	35	「脆すぎます。罠かもしれません」/	"Too easy. It coul
 s26_0400	15	「わかった」/	"Got it."/	
 s26_0410	47	ブレインズ/「…（増援はない…か。脆すぎる）…」	Brains/"...(No reinforcements... Too easy.)..."	
 s26_0440	43	下士官/「ひとりは死亡、ひとりは重体です」	NCO/"One dead, one in critical condition."	
-s26_046c	67	エスメラルダ/「わかった。さっさと火を消して、この残骸を/どかせ」	Esmeralda/"Understood. Put out the fire and clear/this wreckage away, quickly."	
-s26_04b0	59	「それとパイロットの意識が戻り次第、私に知/らせろ。以上」/	"And inform me as soon as the pilot/regains consciousness. That's all."/	
-s26_04ec	35	下士官/「了解。消火後、速やかに…」	NCO/"Roger. After extinguishing the fire, we/will promptly..."	
+s26_046c	67	エスメラルダ/「わかった。さっさと火を消して、この残骸を/どかせ」	Esmeralda/"Understood. Put out the fire and clear/this wreckage, fast."	
+s26_04b0	59	「それとパイロットの意識が戻り次第、私に知/らせろ。以上」/	"And tell me as soon as the pilot comes/to. That's all."/	
+s26_04ec	35	下士官/「了解。消火後、速やかに…」	NCO/"Roger. Once the fire is out, we'll/promptly..."	
 s26_0510	19	/「復唱はいい」/	/"No need to repeat it back."/	
 s26_0524	15	下士官/「はっ」	NCO/"Sir!"	

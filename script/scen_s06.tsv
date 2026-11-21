@@ -1,16 +1,16 @@
 id	max	jp	en	notes
 s06_0004	75	勝利条件：アパッチＢ（エスメラルダ）の表示/          エリアからのマップ脱出	Victory: Apache B (Esmeralda) exits the/         map from the marked area	
 s06_0050	83	敗北条件：アパッチＢ（エスメラルダ）の撃破/          またはプレーヤーユニットの撃破	Defeat: Apache B (Esmeralda) destroyed,/         or player unit destroyed	
-s06_00a4	107	「残存火星軍が、ジャンキーと交戦中との情報/もありますが、通信、監視システムの崩壊によ/り詳細は不明です」	"Reports say Martian Army remnants are/fighting the Junkies, but with comms and/surveillance down, details are unclear."	
+s06_00a4	107	「残存火星軍が、ジャンキーと交戦中との情報/もありますが、通信、監視システムの崩壊によ/り詳細は不明です」	"Martian Army remnants are said to be/fighting the Junkies, but with comms and/surveillance down, details are unclear."	
 s06_0110	119	「ニーソン少佐。その報告は受けている。/  地球連邦大使である私がここにいるのは火星/の戦況報告会のためではあるまい？」	"Major Neeson, I have that report. Surely/I, the Federation Ambassador, am not here/for a Mars war briefing?"	
-s06_0188	83	地球連邦大使/「そもそも、なぜ地球航宙軍所属の君が、この/場を仕切っているのかね？」	Federation Ambassador/"And why is it that you, of the Earth/Space Force, are running this meeting?"	
+s06_0188	83	地球連邦大使/「そもそも、なぜ地球航宙軍所属の君が、この/場を仕切っているのかね？」	Federation Ambassador/"Why is it that you, of the Earth Space/Force, are running this meeting?"	
 s06_01dc	79	ニーソン/「いやぁ、このほうが風通しがいいかと…。/では大尉、あとはよろしく」	Neeson/"Oh, I thought it'd clear the air... Well/then, Captain, it's all yours."	
-s06_022c	63	「我々、外惑星連合は、火星人類の救出作戦を/計画しています」/	"We, the Outer Planets Union, are planning/an operation to rescue the people of/Mars."/	
-s06_026c	99	「作戦名『ダンケルク』、２００万人の民間人/をすべて脱出させる、外惑星連合軍史上、最大/の作戦です」	"Operation Dunkirk: evacuating all 2/million civilians. The largest operation/in the history of the Union forces."	
+s06_022c	63	「我々、外惑星連合は、火星人類の救出作戦を/計画しています」/	"We, the Outer Planets Union, plan to/rescue the people of Mars."/	
+s06_026c	99	「作戦名『ダンケルク』、２００万人の民間人/をすべて脱出させる、外惑星連合軍史上、最大/の作戦です」	"Operation Dunkirk: evacuating all 2/million civilians. The largest operation/in Union forces history."	
 s06_02d0	39	地球軍武官/「２００万人…。不可能だ」/	Earth Army Attache/"2 million... Impossible."/	
 s06_02f8	31	/「それは、我々の問題です」/	/"That is our problem."/	
 s06_0318	55	地球連邦大使/「…では、我々に何の用があるのかね？」/	Federation Ambassador/"...Then what do you want from us?"/	
-s06_0350	71	「３２地球年前、火星で正体不明の金属製組織/の残骸が発掘されました」/	"32 Earth years ago, wreckage of an/unidentified metallic organism was/unearthed on Mars."/	
+s06_0350	71	「３２地球年前、火星で正体不明の金属製組織/の残骸が発掘されました」/	"32 Earth years ago, wreckage of an/unknown metallic organism was unearthed on/Mars."/	
 s06_0398	119	「文字どおり残骸（ジャンク）と名づけられた/それらは、火星の発展に伴い、貴重な精製済み/原料として採掘され尽くしました」	"Named, quite literally, 'Junk', it was/mined out as a precious pre-refined raw/material as Mars developed."	
 s06_0410	103	「ジャンクは、その正体も、動作原理すらも/不明のまま、いくつかのサンプルを残し消滅し/た…はずでした」	"Its nature and workings still unknown,/the Junk vanished, save a few samples.../or so we thought."	
 s06_0478	87	「そのジャンクと、ジャンキーとの関係はこの/資料をご覧になるまでもなく明らかでしょう」/	"The link between that Junk and the/Junkies is clear without even looking at/these files."/	
@@ -18,7 +18,7 @@ s06_04d0	111	「そして、ジャンクが火星で生まれ、進化した/も
 s06_0540	115	「彼らは、どこか異星の文明の惑星環境改造用/自己複製機械である、という説が一般的です。/もし、それが事実ならば…」	"The usual theory: self-replicating/terraforming machines from some alien/civilization. If that is true..."	
 s06_05b4	39	/「彼らはかつて星を渡ってきたのです」/	/"They once crossed the stars to get here."/	
 s06_05dc	39	地球連邦大使/「…なにが言いたいのかね」	Federation Ambassador/"...What are you getting at?"	
-s06_0604	83	「彼らが火星で目的を達したならば、新たな/開拓地を求めて巣別れをすることでしょう」/	"Once they achieve their goal on Mars,/they will swarm off in search of new land/to settle."/	
+s06_0604	83	「彼らが火星で目的を達したならば、新たな/開拓地を求めて巣別れをすることでしょう」/	"Once they achieve their goal on Mars,/they will swarm off in search of new/land."/	
 s06_0658	63	「彼らが地球に到達した場合のシミュレーショ/ンが、これです」/	"This is a simulation of what happens if/they reach Earth."/	
 s06_0698	35	地球連邦大使/「！  …信じられん」/	Federation Ambassador/"! ...Unbelievable."/	
 s06_06bc	63	地球軍武官/「馬鹿な！  たった２ヶ月で地球が完全制圧だ/と！」	Earth Army Attache/"Ridiculous! Earth completely overrun in/just 2 months?!"	
@@ -47,7 +47,7 @@ s06_0b14	39	「カタキ討ちなど、軍人の義務にはない」/	"Revenge 
 s06_0b3c	19	「おやっさん！」/	"Old man!"/	
 s06_0b50	63	「貴様と私の二人だけでどうにかなる相手だと/思っているのか？」	"You think the two of us alone could/handle that enemy?"	
 s06_0b90	19	「私には仲間が…」/	"I've got friends..."/	
-s06_0ba4	63	「一緒に来た連中か？/  二人が十人でも結果は同じだ。頭を冷やせ」	"That bunch you came with? Two or ten, the/result's the same. Cool your head."	
+s06_0ba4	63	「一緒に来た連中か？/  二人が十人でも結果は同じだ。頭を冷やせ」	"That bunch you came with? Two or ten,/it's all the same. Cool your head."	
 s06_0be4	7	「…」/	"..."/	
 s06_0bec	39	ダイブツ/「あ－あ、お腹すいたなぁ…」	Daibutsu/"Aww, I'm so hungry..."	
 s06_0c14	71	「ベティさんは起きてくんないしなぁ。僕は/料理はからっきしだしなぁ…」	"Betty-san won't wake up, and I can't cook/at all..."	
@@ -89,7 +89,7 @@ s06_11c4	39	エスメラルダ/「こちらエスメラルダ！」	Esmeralda/"E
 s06_11ec	107	「助けに来た！  西北西３キロにいる。/すぐに南西から敵の増援が来る。俺達と合流し/東へと脱出しろ。どうぞ!?」	"We're here to help! 3 km west-northwest./Enemy backup's coming from the southwest./Join us, break out east. Over?!"	
 s06_1258	43	「エスメラルダ、了解。感謝します。オワリ」{n}	"Esmeralda, roger. Thank you. Out."{n}	
 s06_1284	23	{n}「派手に行こうぜ！」/	{n}"Let's make some noise!"/	
-s06_129c	35	シャベス/「きりがねぇな。逃げるぞ」	Chavez/"There's no end to 'em. We're pulling/out."	
+s06_129c	35	シャベス/「きりがねぇな。逃げるぞ」	Chavez/"There's no end to 'em. Let's go."	
 s06_12c0	43	ビズリィ/「あんな連中ならいくらいたって…」	Bizley/"No matter how many of those guys there/are..."	
 s06_12ec	43	マイコ/「バカ！  何しに来たのか忘れたの！」	Maiko/"Idiot! Did you forget what we came here/for?!"	
 s06_1318	23	「バカって言ったな！」/	"You called me an idiot!"/	
@@ -98,14 +98,14 @@ s06_1350	27	「痴話ゲンカなら後にしろ」/	"Save the lovers' quarrel f
 s06_136c	11	「……」/	"......"/	
 s06_1378	43	ブレインズ/「…民間人すべてを脱出させる？」	Brains/"...Evacuate every civilian?"	
 s06_13a4	35	シャベス/「火星を捨てろってのか!?」	Chavez/"You're telling us to abandon Mars?!"	
-s06_13c8	39	「戦地からの一時避難と考えてください」/	"Think of it as a temporary evacuation/from a war zone."/	
+s06_13c8	39	「戦地からの一時避難と考えてください」/	"Think of it as a temporary evacuation."/	
 s06_13f0	39	「…地球か。戻ってこられるのかな？」/	"...Earth, huh. Will we ever be able to/come back?"/	
 s06_1418	39	「正直言って、地球側の対応次第です」/	"Frankly, that depends on how Earth/responds."/	
 s06_1440	23	「…なぜ、直接来た？」/	"...Why come in person?"/	
-s06_1458	63	「そう、なぜこんな危険な方法で？  暗号通信/で用は足りるはず…」	"Right, why such a dangerous method? An/encrypted message should have done..."	
+s06_1458	63	「そう、なぜこんな危険な方法で？  暗号通信/で用は足りるはず…」	"Right, why such a risky method? An/encrypted message would've done..."	
 s06_1498	23	「…足りなかった？」/	"...It wouldn't have?"/	
 s06_14b0	107	「そうです。彼らに、我々の使っている暗号は/通用しません。アーツタノフ会戦以降の情報か/らそう判断しました」	"Yes. Our codes are useless against them./We concluded that from intel since the/Battle of Artsutanov."	
-s06_151c	51	「無茶だな。連絡に失敗したら、すべてが水の/泡だ」	"That's reckless. If the contact failed,/it'd all be for nothing."	
+s06_151c	51	「無茶だな。連絡に失敗したら、すべてが水の/泡だ」	"That's reckless. If contact failed, it'd/all be for nothing."	
 s06_1550	95	「ＬＳＴ一機あたりの成功率は２割弱と見込ま/れました。降下したＬＳＴは私のを含め２０機/です」	"The success rate was estimated at under/20% per LST. 20 LSTs came down, mine/included."	
 s06_15b0	11	「２割…」/	"20%..."/	
 s06_15bc	51	「あなたをここに送り込んだ奴は、クソッタレ/だ!」	"Whoever sent you down here is a damn/bastard!"	
@@ -123,7 +123,7 @@ s06_173c	27	「しまったっ！  くそぉ！」	"Damn it! Crap!"
 s06_1758	43	「やられちゃったぁ。ビズリィ、助けてよぉ」	"They got me. Bizley, heeelp!"	
 s06_1784	35	「フン…、老いぼれたということか」	"Hmph... So I've grown old, then."	
 s06_17a8	27	ベティ/「お客さんの到着よ」	Betty/"Our guest has arrived."	
-s06_17c4	51	シャベス/「早かったな、こっちのはまだ手がかかるぞ」	Chavez/"That was quick. This lot here's still/gonna take a while."	
+s06_17c4	51	シャベス/「早かったな、こっちのはまだ手がかかるぞ」	Chavez/"That was quick. This lot's gonna take a/while."	
 s06_17f8	19	オールドマン/「…」	Oldman/"..."	
 s06_180c	95	エスメラルダ/「こちらエスメラルダ！  無事、戦場を離脱し/ました。ガンホー・キッド、どうぞ!?」	Esmeralda/"Esmeralda here! I've safely left the/battlefield. Gungho Kid, come in?!"	
 s06_186c	67	シャベス/「ガンホー・キッドの友人、了解。俺達もすぐ/行く。オワリ」	Chavez/"Friend of the Gungho Kid here, roger./We're right behind you. Out."	
