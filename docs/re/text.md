@@ -29,6 +29,23 @@ No earlier fan patch found (web search 2026-11-21: only ROM/database pages). The
   u16 SJIS cells, **single-byte characters become a full-width space**, max 0x62/2 = 49 cells at 12 px pitch up to
   x=320 (26 visible), then draws with 0x80161080. ASCII there needs a code patch (phase 5).
 
+## Font (phase 5): digraph glyphs, no code change
+- Two 11x11 SJIS fonts, each = sorted code list (binary search, index = glyph) + 1bpp bitmap (22 bytes/glyph, u16
+  BE rows, MSB = column 0), drawn at a 12-px pitch, white, no shadow:
+  GUNHO font: list GUNHO.EXE 0x5db78 (1376) -> bitmap GAMEDATA.DAT 0x346800 (stages, battle, intermission).
+  Menu font: list MENU.EXE 0x2c59c (1175) -> bitmap TABLE/MENU.DAT 0x30800 and TABLE/OVTABLE.DAT 0x0 (same bytes).
+- English = **digraphs**: tools/digraph.py redraws kana/kanji glyphs (codes >= 0x829F) as two 5-px letters
+  (fonts/font5.txt) at columns 0-4 / 6-10. Codes present in both lists (1040) are used first, so text in TABLE.BIN /
+  MENU.EXE / SLPS / MENUMV gets pairs valid in either font; 336 GUNHO-only codes are overflow for other text.
+  Codes below 0x829F (punctuation, fullwidth digits/Latin) stay: runtime text uses them.
+- A single **0x20 byte advances half a cell (6 px)** in dialogue: **verified** (marker build, s08: "The quick brown
+  fox" spaces land on the 6-px grid). So words start on any half cell; a pair holds a space only after an odd-length
+  word. Effective pitch: 6 px per character, 1 byte per character.
+- `%` in dialogue is a literal (the overlay text is not printf'd; **guess**, only `%s`/`%d` in EXE strings are args).
+- Half-width rows (unit/weapon/pilot names, battle messages; small 8x12 font) are written as plain ASCII.
+- tools/insert.py writes every row (`en`, or `--marker`, or `--qa ID=TEXT`) plus the three font copies into
+  work/build/files/; in place only for now (phase 7 relocates strings that outgrow their slot).
+
 ## Files (LEN = little-endian u32 start offsets into the matching DAT, no end entry)
 | File | Size | Text | Notes |
 |---|---|---|---|

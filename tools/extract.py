@@ -190,10 +190,12 @@ def all_rows(tree=TREE):
 
 
 # --- write back ---------------------------------------------------------------------------------------------------
-def write_back(name, data, rows, field="jp"):
+def write_back(name, data, rows, field="jp", encode=None):
     """Return a copy of file `name` with each row's `field` text written into its slot (NUL-padded).
-    Rows whose `field` is empty keep the original bytes. Raises if a string does not fit its slot."""
+    Rows whose `field` is empty keep the original bytes. Raises if a string does not fit its slot.
+    `encode(row) -> bytes` overrides the default SJIS encoding of row[field]."""
     out = bytearray(data)
+    enc_row = encode or (lambda r: SJIS.encode(r[field]))
     rows = [r for r in rows if r["_file"] == name]
     if name == "ENDING.BIN":
         blob = cstr(data, ENDING)
@@ -201,7 +203,7 @@ def write_back(name, data, rows, field="jp"):
         for r in rows:
             k = int(r["id"].split("_")[1])
             if r[field]:
-                lines[k] = SJIS.encode(r[field])
+                lines[k] = enc_row(r)
         new = b"\n".join(lines)
         room = ((ENDING + len(blob) + 4) & ~3) - ENDING - 1  # NUL + 4-alignment padding
         if len(new) > room:
@@ -211,7 +213,7 @@ def write_back(name, data, rows, field="jp"):
     for r in rows:
         if not r[field]:
             continue
-        enc = SJIS.encode(r[field])
+        enc = enc_row(r)
         if len(enc) >= r["_slot"]:
             raise ValueError(f"{r['id']}: {len(enc)} bytes > max {r['_slot'] - 1}")
         o = r["_off"]
