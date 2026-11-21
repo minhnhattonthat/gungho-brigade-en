@@ -49,7 +49,7 @@ TABLE.BIN (other files: image-data noise). Exact list by pointer in phase 4.
 
 ## SCENFILE text overlays (pointer format)
 - Each stage's text lives in an overlay that loads at **0x80159170** (verified for tale 1 = SCENFILE entry 0, RAM
-  dump work/qa/ram2/ram_000300.bin). Layout: `u32 count` · NUL-terminated SJIS strings (4-aligned) · MIPS code (the
+  dump work/qa/ram2/ram_000300.bin). Layout: `u32 stage id + 4` · NUL-terminated SJIS strings (4-aligned) · MIPS code (the
   stage's event script, calling GUNHO.EXE routines) · **table of absolute u32 string pointers (0x8015xxxx)** at the end.
   Entry 0: table at file +0x6b0, 8 pointers, first = 0x80159174 (charset string), then +0x78, +0x9c, +0xe4 ...
 - Code inside the overlay also refers to the table / strings by absolute address (lui/addiu): moving code is unsafe;
@@ -57,9 +57,31 @@ TABLE.BIN (other files: image-data noise). Exact list by pointer in phase 4.
 - LEN boundaries do not match logical overlays: text-bearing entries (15, 22, 29, 36, 43, 49, 56, 63, 69, 70, 77, 84,
   85, 92, 99, 104, 105, 106, 152-158, 161-165, 169-171, 174, 175) carry a pointer table whose implied load base is
   0x8015xxxx minus 0x0-0x780 bytes, i.e. the overlay starts partway into the entry (e.g. entry 15: overlay at entry
-  +0x780 if it loads at 0x80159170; the bytes before are height-map data). Exact split per entry: phase 4 work.
+  +0x780 if it loads at 0x80159170; the bytes before are height-map data).
+- **Phase 4 (verified statically, tests/test_extract.py):** the overlay offset per entry is `OVERLAYS` in
+  tools/extract.py. The first u32 is not a count but the **stage id + 4** (4..39 = stages 0-35, one overlay each, 36
+  in all). Every pointer-table target starts right after a NUL; strings fill [+4, text end) with only zero padding
+  between them. After the text: data strings the code reaches by lui/addiu (OBJECT_R, OBJECT_L, \MOVIE\Snn), then
+  code, then the table at the very end. Entry 106 = a copy of entry 104's pointer table with code, no strings (not an
+  overlay). Stage 0 slot 0 (+0x4) is a fullwidth A-z charset list, left as data. Overlays hold no half-width kana.
+- Stale text copies: entries 17, 24, 31, 38, 45, 51, 58, 65, 79, 87, 107, 167 start with byte copies of lines from the
+  previous stage overlay, breaking off into binary mid-string (buffer residue). Not extracted. **guess** that nothing
+  reads them; the marker build (phase 5) will show any box still in Japanese.
 - Load buffer size: TABLE.BIN sits at 0x8015eed0, so a text overlay has at most 0x5d60 bytes (23,904) unless it
   ends before TABLE.BIN loads. **guess**; measure the largest overlay (entry 164, 25,132 bytes incl. prefix) in phase 4.
+
+## Extraction (phase 4)
+`python -X utf8 tools/extract.py` writes `script/*.tsv` (id, max, jp, en, notes; never overwrites without `--force`):
+36 `scen_sNN.tsv` (2228 lines), `gunho` (135: battle messages, weapon/unit/ability names, ability descriptions),
+`pilots` (123 records at GUNHO.EXE 0x776fc, stride 0x30, 16-byte name field), `table` (33), `menu` (15), `slps` and
+`menumv` (15 each; dev-version notice + file errors), `ending` (149 staff-roll lines, blob at ENDING.BIN 0x2970).
+EXE strings are found by references (tools/mipsrefs.py: lui + addiu/ori/load/store pairs, u32 words) into each file's
+text ranges (`EXES` in extract.py); several strings are reached only through u32 pointer tables right before them.
+Codec: tools/sjis.py (cp932 as a tbl.Table, `0x0A` = `{n}`). `max` = in-place bytes (slot to the next string, NUL
+excluded; EXE slots end at the 4-aligned NUL padding because zero words after it may be variables).
+Tests: codec roundtrip, write-back of every jp string reproduces each file, overlay sanity, TSV in sync with the disc,
+and coverage: no 4-aligned Japanese-looking run anywhere on the disc (except FMV/XA/sound) outside extracted strings
+or the listed non-text (glyph lists, ASCII->fullwidth tables, stale copies).
 
 ## Free space
 - Disc: files are opened by ISO name, not hard-coded LBA: SLPS_019.02 and MENU.EXE carry `cdrom:%s;1` (CdSearchFile
