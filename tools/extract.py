@@ -121,12 +121,16 @@ def scen_rows(tree=TREE):
     for e, x in OVERLAYS.items():
         ovl, stage, tgt, text_end = scen_overlay(dat, offs[e], ends[e], x)
         sz = slots(tgt, text_end)
+        t0 = pointer_table(ovl)[0]
+        base = offs[e] + x
         rows = []
         for o in sorted(tgt):
             if (stage, o) in SCEN_DATA:
                 continue
             rows.append({"id": f"s{stage:02d}_{o:04x}", "max": str(sz[o] - 1), "jp": dec(cstr(ovl, o)), "en": "",
-                         "notes": "", "_file": "SCENFILE.DAT", "_off": offs[e] + x + o, "_slot": sz[o]})
+                         "notes": "", "_file": "SCENFILE.DAT", "_off": base + o, "_slot": sz[o],
+                         # repack info: overlay file offset, text region end, file offsets of its pointer words
+                         "_ovl": base, "_end": base + text_end, "_ptrs": [base + t0 + 4 * k for k in tgt[o]]})
         out[f"scen_s{stage:02d}"] = rows
     return out
 
@@ -210,6 +214,27 @@ def write_back(name, data, rows, field="jp", encode=None):
             raise ValueError(f"ENDING.BIN staff roll: {len(new)} bytes > {room}")
         out[ENDING:ENDING + room + 1] = new + bytes(room + 1 - len(new))
         return bytes(out)
+    if name == "SCENFILE.DAT":
+        # An overlay whose strings don't all fit in place is repacked: strings back to back (no 4-alignment) from
+        # its first string to the text end, every pointer-table word rewritten. The table is the strings' only
+        # reference (checked statically for all 36 overlays: no lui/addiu or other word points into the text).
+        for ovl in sorted({r["_ovl"] for r in rows}):
+            group = sorted((r for r in rows if r["_ovl"] == ovl), key=lambda r: r["_off"])
+            enc = [enc_row(r) if r[field] else cstr(data, r["_off"]) for r in group]
+            if all(len(b) < r["_slot"] for b, r in zip(enc, group)):
+                continue  # in place, below
+            pos, end = group[0]["_off"], group[0]["_end"]
+            need = sum(len(b) + 1 for b in enc)
+            if pos + need > end:
+                raise ValueError(f"{group[0]['id'][:3]}: text {need} bytes > region {end - pos}")
+            out[pos:end] = bytes(end - pos)
+            for b, r in zip(enc, group):
+                out[pos:pos + len(b)] = b
+                for p in r["_ptrs"]:
+                    struct.pack_into("<I", out, p, OVL_BASE + pos - ovl)
+                pos += len(b) + 1
+            done = {id(r) for r in group}
+            rows = [r for r in rows if id(r) not in done]
     for r in rows:
         if not r[field]:
             continue

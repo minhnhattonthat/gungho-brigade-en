@@ -50,6 +50,19 @@ def test_write_back_is_identity(rows, files):
         assert x.write_back(name, files[name], flat(rows)) == files[name], name
 
 
+def test_scen_repack(rows, files):
+    """A string longer than its slot repacks its overlay; every pointer still reaches its own string."""
+    import struct
+    group = [dict(r) for r in rows["scen_s10"]]  # s10: ~400 bytes of slack in its region
+    group[0]["jp"] = "Ａ" * (group[0]["_slot"] // 2 + 3)
+    out = x.write_back("SCENFILE.DAT", files["SCENFILE.DAT"], group)
+    assert out != files["SCENFILE.DAT"]
+    for r in group:
+        for p in r["_ptrs"]:
+            addr = struct.unpack_from("<I", out, p)[0]
+            assert x.dec(x.cstr(out, r["_ovl"] + addr - x.OVL_BASE)) == r["jp"], r["id"]
+
+
 def test_overlays(files):
     dat, offs, ends = x.scen_entries()
     stages = []

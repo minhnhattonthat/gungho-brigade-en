@@ -2,8 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: not started. Phase 6 done (2713/2713 rows, `batches.py check` 0 problems,
-  story gate `qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts` exits 0). Last build:
+- **Phase:** 7. Insert, fit, check: in progress (fit; real insert still refuses, see Next). Phase 6 done (2713/2713
+  rows, `batches.py check` 0 problems, story gate `qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts`
+  exits 0). Last build:
   build/gungho_en.bin 2026-11-22 = **marker build + glyph torture** (`insert.py --marker --qa ...`); states in
   work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
 - **Done:**
@@ -89,15 +90,32 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 7):** real insert (`insert.py` without `--marker`) + build + fit. Over-budget small-font names:
-  `batches.py check -v` lists them for engine work. Story verdicts go stale on any script edit: after fixes rerun
+- **Next (phase 7):** make `python -X utf8 tools/fitcheck.py -v` exit 0 (lists everything `insert.py` would refuse),
+  then insert + build + smoke + romdiff. State 2026-11-22:
+  - **SCENFILE: done in code, 10 stages still over.** `extract.write_back` repacks an overlay whose strings don't fit
+    in place (back to back, no alignment, pointer table rewritten; the table is the only reference, checked for all
+    36 overlays; tests/test_extract.py::test_scen_repack). Not yet seen in game: check one repacked stage on screen.
+    Over their text region (bytes): s06 6926/6736, s11 1880/1824, s14 3986/3764, s20 5107/4972, s21 4201/4092, s22
+    3816/3716, s26 1386/1328, s27 4132/4016, s34 1270/1248, s35 2877/2552 (s35 = mostly its own staff roll from
+    0x420). Choice: trim English in those stages (1333 bytes, no risk) or append strings after the overlay's pointer
+    table (needs LEN rewrite and proof the loader takes LEN sizes and entries aren't loaded as one block; overlay
+    room to 0x5d60 is 4-20 KB, s29 is exactly 0x5d60 so the bound looks real).
+  - **ENDING.BIN: 2987/2439.** Verified statically: ENDING.BIN loads at 0x8015eed0 (same buffer as TABLE.BIN,
+    72 KB); variables start right after the blob (0x32f8, referenced), so it can't grow in place; the blob has ONE
+    reference (lui 0x8016 + addiu, offset 0x2970). Plan: append the blob at the file end (0x46c0, inside TABLE.BIN's
+    footprint) and repoint that addiu; check at warp e34. Also the open bug below (digraph code 0x88e6 draws as noise
+    in the staff roll): exclude bad codes in tools/digraph.py for ending text.
+  - **Fullwidth files (MENU/TABLE/SLPS/MENUMV): 2 bytes per letter.** Rows over: MENU 12 (154 B), TABLE 23 (362 B),
+    SLPS/MENUMV 10 each (86 B; dev notice + file errors, never shown in retail). No ASCII path: MENU's ASCII ->
+    fullwidth converter (0x80021860) is only called for file-error names, not the message renderer. Plan: terse
+    English to slot (`max` column = bytes; 2 per letter, 1 per {n}), e.g. "Checking card...{n}Don't remove it.".
+  - **GUNHO.EXE small-font names: 52 rows over (158 B).** Display budgets (docs/windows.md) are 7-10 chars anyway,
+    so shorten to the slot (unit names 7, weapons 11, descriptions per `max`); glossary must follow.
+  Story verdicts go stale on any script edit: after fixes rerun
   `pairs.py`, `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, re-read the
   changed pages and rewrite those verdicts (phase 9 gate). s08_078c/07e8/0870/08f0 not seen in the s08 intro tour
   (other events or dead).
-  Phase 7 concerns: English often outgrows in-place slots (unit names 7 bytes, weapons 11, pilots 15; overlay
-  buffer bound 0x5d60 still a guess; EXE strings repoint via mipsrefs sites); ENDING.BIN credits blob has 2439
-  bytes of room and the markers alone use ~2400; digraph capacity 1376-75 codes (marker uses ~300 pairs).
-  Stale SCENFILE copies: no Japanese seen in the 46-scene marker tour.
+  Digraph capacity 1376-75 codes. Stale SCENFILE copies: no Japanese seen in the 46-scene marker tour.
 - **Notes:** stage index != tale number (stage 8 shows "tale 7"); event stages 3/11/32 chain into the next stage.
   The portable card tools/pcsx/memcard1.mcd must stay blank (warp.py always passes a blank `--sav`). Game over warp
   shows over the loading screen (battle view never drawn) and only the first leader's line; stage 0 has no defeat

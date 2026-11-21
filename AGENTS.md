@@ -4,6 +4,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Commands (run from repo root)
 - Insert:   `python -X utf8 tools/insert.py [--marker] [--qa ID=TEXT]` -> work/build/files/ (text + digraph font; budgets `docs/windows.md`)
+- Fit:      `python -X utf8 tools/fitcheck.py -v`  (every string insert.py would refuse; SCENFILE overlays repack)
 - Build:    `python -X utf8 build.py`        -> build/gungho_en.bin + .cue (checks the dump against `rom.sha1` first)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; slow tests: `python -X utf8 -m pytest -m slow`)
 - Hooks:    `git config core.hooksPath tools/hooks` (once per clone)
