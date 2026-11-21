@@ -53,3 +53,18 @@ def test_marker_build_writes_every_text_file(tmp_path):
     scen = (tmp_path / "SCENFILE.DAT").read_bytes()
     row = x.scen_rows()["scen_s08"][0]
     assert scen[row["_off"]:row["_off"] + 2] == struct.pack(">H", dg.map["Th"])
+
+
+def test_english_build_spaces(tmp_path):
+    """Small-font spaces are 0xA0 (Unit-tab header stops at 0x20); help lines have no lone 0x20 (12-px cell);
+    the config row 2 is a fullwidth space (D14)."""
+    ins.run(overlay=tmp_path)
+    rows = {r["id"]: r for rs in x.all_rows(x.TREE).values() for r in rs}
+    exe = (tmp_path / "GUNHO.EXE").read_bytes()
+    r = rows["gunho_01f18"]  # Dragoon 2 (in place)
+    assert exe[r["_off"]:r["_off"] + 10] == b"Dragoon\xa02\0"
+    r = rows["gunho_021e8"]  # help line
+    assert b" " not in exe[r["_off"]:exe.index(b"\0", r["_off"])]
+    tbl = (tmp_path / "TABLE.BIN").read_bytes()
+    r = rows["table_00440"]
+    assert tbl[r["_off"]:r["_off"] + 3] == "　".encode("cp932") + b"\0"

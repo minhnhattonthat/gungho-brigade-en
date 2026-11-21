@@ -49,8 +49,8 @@ BLANK_OK = {"table_00440"}
 GUNHO_FULL = {"table_00430", "table_00440"}
 GUNHO_MISSING = set("JQRVYZbfjqvxy#&*[]")
 # small font at the 6-px pitch (tools/smallfont.py): chars per window, docs/windows.md
-# skill: battle status Ability box (11 chars); part: Eqip tab Part column (7, the Item column clips the 8th)
-NAME_BUDGET = {"pilot": 12, "weapon": 12, "unit": 10, "skill": 11, "part": 7}
+# skill: battle status Ability box (11 chars); part: Eqip tab Part column (6; a 7th touches the Item column)
+NAME_BUDGET = {"pilot": 12, "weapon": 12, "unit": 10, "skill": 11, "part": 6}
 
 
 def form_of(fname, row):

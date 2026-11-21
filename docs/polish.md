@@ -36,7 +36,10 @@ Minor issues and open questions from translation and review. Tick (`[x]`) when r
   centring in TABLE.BIN to 3n); weapon-list budget (12) is a guess from the 8-px shot, measure it.
 - [ ] Small font: add `.`, `-`, `&`, `'` glyphs (GAMEDATA 265 +0x3274 and the TABLE/MENU.DAT +0x29000 copy) and
   restore "Cmd. Ship", "Anti-Missile", "Chavez & Ralph".
-- [ ] table_00440 短縮 = "Cut" (3 fullwidth chars). Try digraph pairs there (the battle config may draw with the GUNHO
-  font: "Fast" would fit in 4 bytes) and restore "Fast" in table_00440, s00_0078, s05_13c0.
+- [x] table_00440 短縮 = "Cut": done another way (D14): row 1 "Fast", row 2 blank; s00_0078 / s05_13c0 say "Fast".
+- [ ] Eqip tab Item column cuts names at 8 chars (game limit; JP names fit 8 glyphs): Condenser, 57@Railgun,
+  88@Gun L71/L56 (both show "88@Gun L"), Randall Mag, Cond Round, 20@Gatling, 90@HE Gun, Randall 75@. The weapon
+  row under the list shows the full name. Fix = raise the copy limit in TABLE.BIN (room for ~9 before the count) or
+  8-char names; decide in phase 9.
 - [ ] D11 trims (phase 7, lighter wording to fit): s06, s11, s14, s20, s21, s26, s27; story verdicts for those
   chapters (and s00, s05) are stale: re-read in the phase 9 story pass.

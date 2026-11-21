@@ -23,6 +23,9 @@ TIM_PIXELS = 0x40  # TIM header 8 + CLUT block 44 + image block header 12
 W, CELL_W, CELL_H, TOP = 128, 8, 11, 2  # TOP: cell row of font5 row 0
 WHITE, SHADOW = 2, 1  # CLUT indices of the original glyphs
 CHARS = "0123456789:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+# Word space in names: the STATUS Unit-tab header stops at a 0x20 (JP names had none), so insert.py writes 0xA0, a
+# cell (unused in JIS X 0201) drawn blank here.
+SPACE = 0xA0
 MM = [0b10100, 0b11111, 0b10101, 0b10101, 0, 0b10100, 0b11111, 0b10101, 0b10101]  # `@` = mm, rows from cell row 1
 
 
@@ -71,6 +74,7 @@ def patch(name, data):
             for ch in CHARS:
                 put_cell(out, off + TIM_PIXELS, ord(ch), cell(GLYPHS[ch], TOP))
             put_cell(out, off + TIM_PIXELS, ord("@"), cell(MM, 1))
+            put_cell(out, off + TIM_PIXELS, SPACE, cell([], 0))
     return bytes(out)
 
 

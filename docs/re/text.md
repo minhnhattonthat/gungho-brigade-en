@@ -136,3 +136,6 @@ GUNHO.EXE 0x800388xx (0x190bc). TABLE.BIN 0x801622d8 / 0x8016248c draw the bold 
 GAMEDATA.DAT 0x363a90 (battle) and TABLE/MENU.DAT 0x29000, identical. tools/smallfont.py sets the pitch to 6 and
 redraws ASCII from fonts/font5.txt. The STATUS pilot name is centred as if 8 px per char (start = 148 - 4n), so at 6 px
 it sits n px right of centre and holds 14 chars between the portrait and "SP" (measured, ruler build 2026-11-22).
+The STATUS Unit1/Unit2 header stops the unit name at the first 0x20 ("Dragoon 2" showed "Dragoon"; JP names have no
+spaces): insert.py writes small-font spaces as 0xA0, whose font cell smallfont.py blanks (**verified** phase 8, hover
+box / TUNE UP / weapon list draw it as a space too). The Eqip Item column shows at most 8 chars of a name.

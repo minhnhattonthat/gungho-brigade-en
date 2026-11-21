@@ -138,8 +138,9 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE, strings=None):
 
     def encode(r):
         kd = kind(r)
-        return (dg.encode(r["new"], roll(r)) if kd == "pair" else
-                SJIS.encode(to_full(r["new"]) if kd == "full" else r["new"]))
+        if kd == "small":  # blank cell 0xA0 for spaces: the Unit-tab header stops at 0x20 (smallfont.SPACE)
+            return SJIS.encode(r["new"]).replace(b" ", bytes([smallfont.SPACE]))
+        return dg.encode(r["new"], roll(r)) if kd == "pair" else SJIS.encode(to_full(r["new"]) if kd == "full" else r["new"])
 
     if strings:
         write_strings(rows, encode, strings)
