@@ -1,78 +1,78 @@
 id	max	jp	en	notes
-s21_0004	19	勝利条件：敵の全滅		
-s21_0018	75	敗北条件：プレーヤーユニットの撃破、{n}          もしくはコマンドシップの撃破		
-s21_0064	35	通信員/「依然、応答ありません」/		
-s21_0088	39	エスメラルダ/「かまわない。呼び続けろ」		
-s21_00b0	79	通信員/「了解。こちら連合軍５２師団第２大隊、/ポイント５１９５にて襲撃を…」		
-s21_0100	39	ニーソン/「私の悪運もここまでですね」/		
-s21_0128	55	「ニーソン少佐、ジャミングを試みます。/あとを頼みます」		
-s21_0160	95	「『Ｗ（ビッグ・ダブリュー）』の所在は未確/認ですし、『通信機』なしでは、いくらあなた/でも…」		
-s21_01c0	71	「このままやられるわけにはいきません。もし/私が『Ｗ』を確認したら…」		
-s21_0208	47	/「個人的には、そうならないよう祈りますよ」{n}		
-s21_0238	35	シャベス/「間に合ったようだなv」		
-s21_025c	55	ビズリィ/「ははははっ、ガンホー・ブリゲイド！/参上!!」		
-s21_0294	47	エスメラルダ/「少佐！  ジャミングは中止します」		
-s21_02c4	27	ニーソン/「わかってます」		
-s21_02e0	55	「軍曹！  １７番コンテナの射出準備！/マイクを貸せ！」		
-s21_0318	39	ビズリィ/「大尉！  エスメラルダ大尉!!」		
-s21_0340	87	「ビズリィね!?  これからドラグーン２の専用/ライフルを射出します。受け取ってください」		
-s21_0398	35	「了解！  大尉、大丈夫ですか!?」/		
-s21_03bc	31	「こっちは大丈夫！  オワリ！」{n}		
-s21_03dc	15	「…大尉…」		
-s21_03ec	51	マイコ/「なに呆けてんの！  シャキッとしなさい！」		
-s21_0420	11	「…あぁ」		
-s21_042c	31	「聞いてんの！  ビズリィ!!」{n}		
-s21_044c	27	「よぅし！  いっくぜぇ!!」		
-s21_0468	11	「…バカ」/		
-s21_0474	87	エスメラルダ/「ビズリィ！  ８８ｍｍを持ったら、車両形態/への変形は避けてください！」		
-s21_04cc	35	/「駆動系に負担が掛かりすぎます」/		
-s21_04f0	19	ビズリィ/「了解！」		
-s21_0504	43	エスメラルダ/「…では、よろしく願います」/		
-s21_0530	75	シャベス/「ただでさえ狭い車内が、夜逃げトラックみた/いになっちまったなぁ」		
-s21_057c	23	/「申し訳ありません」/		
-s21_0594	75	ビズリィ/「ご心配なく！  マコーリフへの補給物資は、/必ず届けて見せます！」		
-s21_05e0	75	「ビズリィ、あなたには助けられてばかりね。/いつかお礼をさせてもらうわ」/		
-s21_062c	31	/「お礼だなんて、そんな…」/		
-s21_064c	15	マイコ/「…」/		
-s21_065c	99	「どう、専用８８ｍｍライフルは？{n}  あの機体が『ドラグーン』を名乗っている訳/がわかったでしょう？」		
-s21_06c0	59	「最高です！  あれさえあればどんなヤツだっ/て一発ですよ！」		
-s21_06fc	127	「ただ、銃とセットで運用するアウトリガー・/ユニットが、降下のドサクサで行方不明になっ/ていて、ドラグーン２本来の機動力が…」		
-s21_077c	35	「大丈夫！  うまく使いますよ！」/		
-s21_07a0	27	/「そう、頼もしいわね」/		
-s21_07bc	15	「へへへっ…」/		
-s21_07cc	11	/「…」/		
-s21_07d8	39	ブレインズ/「少佐、よろしいですか？」/		
-s21_0800	55	ニーソン/「あぁ、今日は助かったよ。君はライアル/君？」		
-s21_0838	87	「そうです。お聞きしたいことがあります。/地球軍の上陸が近いというのは事実ですか？」/		
-s21_0890	47	/「君ぃそんな機密を大声で話すもんじゃない」/		
-s21_08c0	67	「ラジオで流しておいて、機密もなにも…。/  じゃ、本当なんですね」/		
-s21_0904	95	「そうです。作戦名『ウィンゲート』。/  ２週間後に海兵２個師団が橋頭堡確保のため/降下します」		
-s21_0964	91	「降下まで艦隊は無線封止を徹底し、降下時に/は地上部隊で大規模な陽動と電波妨害を行いま/す」		
-s21_09c0	95	「いつ来るか分かっても、どこに来るかわから/なければ敵は対処しきれない、との判断だそう/です」		
-s21_0a20	55	「本隊は、橋頭堡が確保されたのち…、どうし/ました？」/		
-s21_0a58	27	/「気に入らないんです」/		
-s21_0a74	75	「ジャンキー相手に奇襲は成立しないし、その/必要もない、ということです」/		
-s21_0ac0	95	「ダンケルク作戦の時、あれだけ情報を秘匿し/たのに、作戦開始直後からジャンキーに対応さ/れた」		
-s21_0b20	71	「…作戦中、軌道上の艦艇に対する攻撃が皆無/だった。だからですか？」/		
-s21_0b68	43	/「さすがは『ブレインズ』。そのとおり」/		
-s21_0b94	27	/「茶化さないでください」/		
-s21_0bb0	127	「彼らに、軌道上への攻撃能力がない以上、/火星と連携して上陸時の混乱と被害を押さえる/ほうが賢明だ。と、『上』は考えたようで…」		
-s21_0c30	71	「『いないはずの空母が、３隻も待ち伏せ』し/ていないといいんですがね」/		
-s21_0c78	131	「まったくです。たとえ待ち伏せがあるにしろ/『虎の子の正規空母４隻が全滅』するハメにな/らないよう人類の一員として切に願いますよ」		
-s21_0cfc	75	マイコ/「ねぇ、ビズリィ。あの８８ｍｍ、使い方に/気をつけたほうがいいわよ」		
-s21_0d48	39	ビズリィ/「なんだよ？  やぶからぼうに」		
-s21_0d70	123	「あれを使うとドラグーン２の足が止まるわ。/昨日みたいな防御戦ならいいけど、いつもの/調子で突っ込んでいくには向かないわよ」		
-s21_0dec	35	「使い方の問題さ、うまくやるって」/		
-s21_0e10	15	/「そう…」/		
-s21_0e20	71	「なんたって、あの威力だ！  ハンガーの肥や/しにするにはもったいない…」		
-s21_0e68	43	「あっ！  まさかおまえ、妬いてんのかぁ!?」/		
-s21_0e94	67	「バカッ！  人が心配してんのに、なにさ！/勝手にするがいいわ!!」/		
-s21_0ed8	51	「なんだよ！  言われなくったって、勝手にす/らぁ!!」		
-s21_0f0c	15	/「フン！」/		
-s21_0f1c	27	「ド、ドラグーン２がっ！		
-s21_0f38	31	「マスタング……。ごめん！」		
-s21_0f58	27	「うおっ！  やられたっ！」		
-s21_0f74	11	「……」		
-s21_0f80	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s21_0fac	39	「…やはり、荒事には向きませんねぇ…」		
-s21_0fd4	43	「…まだやるべき事が…私にしかできない…」		
+s21_0004	19	勝利条件：敵の全滅	Victory: Wipe out the enemy	
+s21_0018	75	敗北条件：プレーヤーユニットの撃破、{n}          もしくはコマンドシップの撃破	Defeat: Player unit destroyed, or/         Command Ship destroyed	
+s21_0064	35	通信員/「依然、応答ありません」/	Comms Officer/"Still no response."/	
+s21_0088	39	エスメラルダ/「かまわない。呼び続けろ」	Esmeralda/"Doesn't matter. Keep calling."	
+s21_00b0	79	通信員/「了解。こちら連合軍５２師団第２大隊、/ポイント５１９５にて襲撃を…」	Comms Officer/"Roger. Union Army 52nd Division, 2nd/Battalion, under attack at Point 5195..."	
+s21_0100	39	ニーソン/「私の悪運もここまでですね」/	Neeson/"Looks like my bad luck has finally caught/up with me."/	
+s21_0128	55	「ニーソン少佐、ジャミングを試みます。/あとを頼みます」	"Major Neeson, I'll attempt jamming. I'm/counting on you."	
+s21_0160	95	「『Ｗ（ビッグ・ダブリュー）』の所在は未確/認ですし、『通信機』なしでは、いくらあなた/でも…」	"The whereabouts of 'W' (Big W) are still/unconfirmed, and without the/'transmitter,' even you..."	
+s21_01c0	71	「このままやられるわけにはいきません。もし/私が『Ｗ』を確認したら…」	"We can't just let them finish us here. If/I confirm 'W'..."	
+s21_0208	47	/「個人的には、そうならないよう祈りますよ」{n}	/"Personally, I pray it won't come to/that."{n}	
+s21_0238	35	シャベス/「間に合ったようだなv」	Chavez/"Looks like we made it in time."	
+s21_025c	55	ビズリィ/「ははははっ、ガンホー・ブリゲイド！/参上!!」	Bizley/"Hahahaha! The Gungho Brigade has/arrived!!"	
+s21_0294	47	エスメラルダ/「少佐！  ジャミングは中止します」	Esmeralda/"Major! I'm calling off the jamming."	
+s21_02c4	27	ニーソン/「わかってます」	Neeson/"I know."	
+s21_02e0	55	「軍曹！  １７番コンテナの射出準備！/マイクを貸せ！」	"Sergeant! Ready container 17 for launch!/Give me the mic!"	
+s21_0318	39	ビズリィ/「大尉！  エスメラルダ大尉!!」	Bizley/"Captain! Captain Esmeralda!!"	
+s21_0340	87	「ビズリィね!?  これからドラグーン２の専用/ライフルを射出します。受け取ってください」	"Bizley?! I'm launching the Dragoon 2's/custom rifle now. Catch it."	
+s21_0398	35	「了解！  大尉、大丈夫ですか!?」/	"Roger! Captain, are you all right?!"/	
+s21_03bc	31	「こっちは大丈夫！  オワリ！」{n}	"We're fine over here! Over!"{n}	
+s21_03dc	15	「…大尉…」	"...Captain..."	
+s21_03ec	51	マイコ/「なに呆けてんの！  シャキッとしなさい！」	Maiko/"What are you spacing out for?! Snap out/of it!"	
+s21_0420	11	「…あぁ」	"...Yeah."	
+s21_042c	31	「聞いてんの！  ビズリィ!!」{n}	"Are you even listening?! Bizley!!"{n}	
+s21_044c	27	「よぅし！  いっくぜぇ!!」	"All riiight! Here we goooo!!"	
+s21_0468	11	「…バカ」/	"...Idiot."/	
+s21_0474	87	エスメラルダ/「ビズリィ！  ８８ｍｍを持ったら、車両形態/への変形は避けてください！」	Esmeralda/"Bizley! Once you're holding the 88mm,/avoid transforming to vehicle mode!"	
+s21_04cc	35	/「駆動系に負担が掛かりすぎます」/	/"It puts too much strain on the drive/system."/	
+s21_04f0	19	ビズリィ/「了解！」	Bizley/"Roger!"	
+s21_0504	43	エスメラルダ/「…では、よろしく願います」/	Esmeralda/"...Then I leave it in your hands."/	
+s21_0530	75	シャベス/「ただでさえ狭い車内が、夜逃げトラックみた/いになっちまったなぁ」	Chavez/"Our cramped cab already looked bad. Now/it's like a truck doin' a midnight flit."	
+s21_057c	23	/「申し訳ありません」/	/"My apologies."/	
+s21_0594	75	ビズリィ/「ご心配なく！  マコーリフへの補給物資は、/必ず届けて見せます！」	Bizley/"Don't you worry! We'll get the supplies/to McAuliffe, I swear!"	
+s21_05e0	75	「ビズリィ、あなたには助けられてばかりね。/いつかお礼をさせてもらうわ」/	"Bizley, you keep coming to my rescue./Someday I'll repay you."/	
+s21_062c	31	/「お礼だなんて、そんな…」/	/"Repay me? Aw, no, don't..."/	
+s21_064c	15	マイコ/「…」/	Maiko/"..."/	
+s21_065c	99	「どう、専用８８ｍｍライフルは？{n}  あの機体が『ドラグーン』を名乗っている訳/がわかったでしょう？」	"How's the custom 88mm rifle? Now you see/why that machine calls itself the/'Dragoon'?"	
+s21_06c0	59	「最高です！  あれさえあればどんなヤツだっ/て一発ですよ！」	"It's the best! With that thing, any enemy/goes down in one shot!"	
+s21_06fc	127	「ただ、銃とセットで運用するアウトリガー・/ユニットが、降下のドサクサで行方不明になっ/ていて、ドラグーン２本来の機動力が…」	"Only, the outrigger unit that pairs with/the gun went missing in the chaos of the/drop, so the Dragoon 2's true mobility..."	
+s21_077c	35	「大丈夫！  うまく使いますよ！」/	"No problem! I'll make it work!"/	
+s21_07a0	27	/「そう、頼もしいわね」/	/"I see. How reassuring."/	
+s21_07bc	15	「へへへっ…」/	"Heh heh heh..."/	
+s21_07cc	11	/「…」/	/"..."/	
+s21_07d8	39	ブレインズ/「少佐、よろしいですか？」/	Brains/"Major, may I have a moment?"/	
+s21_0800	55	ニーソン/「あぁ、今日は助かったよ。君はライアル/君？」	Neeson/"Ah, you saved us today. You're.../Lyall-kun?"	
+s21_0838	87	「そうです。お聞きしたいことがあります。/地球軍の上陸が近いというのは事実ですか？」/	"Yes. I have a question. Is it true that/the Earth Army landing is near?"/	
+s21_0890	47	/「君ぃそんな機密を大声で話すもんじゃない」/	/"Now, now, you shouldn't shout secrets/like that."/	
+s21_08c0	67	「ラジオで流しておいて、機密もなにも…。/  じゃ、本当なんですね」/	"You put it out on the radio, so what/secret... So it's true, then."/	
+s21_0904	95	「そうです。作戦名『ウィンゲート』。/  ２週間後に海兵２個師団が橋頭堡確保のため/降下します」	"Yes. Operation Wingate. In two weeks, two/Marine divisions will drop to secure a/beachhead."	
+s21_0964	91	「降下まで艦隊は無線封止を徹底し、降下時に/は地上部隊で大規模な陽動と電波妨害を行いま/す」	"The fleet keeps strict radio silence/until the drop. During it, ground forces/stage a big diversion and jamming."	
+s21_09c0	95	「いつ来るか分かっても、どこに来るかわから/なければ敵は対処しきれない、との判断だそう/です」	"The thinking is, even if the enemy knows/when, it can't respond fully if it doesn't/know where."	
+s21_0a20	55	「本隊は、橋頭堡が確保されたのち…、どうし/ました？」/	"After the beachhead is secured, the main/force... What's wrong?"/	
+s21_0a58	27	/「気に入らないんです」/	/"I don't like it."/	
+s21_0a74	75	「ジャンキー相手に奇襲は成立しないし、その/必要もない、ということです」/	"What I mean is, surprise doesn't work/against the Junkies, and it isn't needed."/	
+s21_0ac0	95	「ダンケルク作戦の時、あれだけ情報を秘匿し/たのに、作戦開始直後からジャンキーに対応さ/れた」	"In Operation Dunkirk we kept everything/secret, yet the Junkies countered the/moment it began."	
+s21_0b20	71	「…作戦中、軌道上の艦艇に対する攻撃が皆無/だった。だからですか？」/	"...And during that operation, not one/attack was made on the ships in orbit. Is/that why?"/	
+s21_0b68	43	/「さすがは『ブレインズ』。そのとおり」/	/"Just what I'd expect of 'Brains.' Exactly/right."/	
+s21_0b94	27	/「茶化さないでください」/	/"Please don't tease me."/	
+s21_0bb0	127	「彼らに、軌道上への攻撃能力がない以上、/火星と連携して上陸時の混乱と被害を押さえる/ほうが賢明だ。と、『上』は考えたようで…」	"They can't attack orbit, so it's wiser to/work with Mars and limit chaos and losses/at the landing. Or so the brass thinks..."	
+s21_0c30	71	「『いないはずの空母が、３隻も待ち伏せ』し/ていないといいんですがね」/	"Let's hope there aren't 'three carriers/that shouldn't be there, lying in wait.'"/	
+s21_0c78	131	「まったくです。たとえ待ち伏せがあるにしろ/『虎の子の正規空母４隻が全滅』するハメにな/らないよう人類の一員として切に願いますよ」	"Quite. Ambush or not, as one of humankind/I truly hope we don't end up with 'all/four precious fleet carriers sunk.'"	
+s21_0cfc	75	マイコ/「ねぇ、ビズリィ。あの８８ｍｍ、使い方に/気をつけたほうがいいわよ」	Maiko/"Hey, Bizley. You'd better be careful how/you use that 88mm."	
+s21_0d48	39	ビズリィ/「なんだよ？  やぶからぼうに」	Bizley/"What's that? Out of nowhere?"	
+s21_0d70	123	「あれを使うとドラグーン２の足が止まるわ。/昨日みたいな防御戦ならいいけど、いつもの/調子で突っ込んでいくには向かないわよ」	"It stops the Dragoon 2 in its tracks./Fine for defending like yesterday, not for/charging in like you always do."	
+s21_0dec	35	「使い方の問題さ、うまくやるって」/	"It's all in how you use it. I'll manage."/	
+s21_0e10	15	/「そう…」/	/"I see..."/	
+s21_0e20	71	「なんたって、あの威力だ！  ハンガーの肥や/しにするにはもったいない…」	"I mean, look at that power! Be a waste to/leave it rottin' in the hangar..."	
+s21_0e68	43	「あっ！  まさかおまえ、妬いてんのかぁ!?」/	"Ah! Don't tell me you're jealous?!"/	
+s21_0e94	67	「バカッ！  人が心配してんのに、なにさ！/勝手にするがいいわ!!」/	"Idiot! Here I am worrying about you, and/what do I get! Do whatever you want!!"/	
+s21_0ed8	51	「なんだよ！  言われなくったって、勝手にす/らぁ!!」	"What?! I'll do what I want without you/tellin' me!!"	
+s21_0f0c	15	/「フン！」/	/"Hmph!"/	
+s21_0f1c	27	「ド、ドラグーン２がっ！	"Th-the Dragoon 2!"	
+s21_0f38	31	「マスタング……。ごめん！」	"Mustang... I'm sorry!"	
+s21_0f58	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s21_0f74	11	「……」	"......"	
+s21_0f80	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s21_0fac	39	「…やはり、荒事には向きませんねぇ…」	"...As I thought, I'm not cut out for/rough stuff..."	
+s21_0fd4	43	「…まだやるべき事が…私にしかできない…」	"...There's still something I must do.../something only I can..."	

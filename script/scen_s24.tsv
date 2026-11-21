@@ -1,42 +1,42 @@
 id	max	jp	en	notes
-s24_0004	35	勝利条件：「クロームデビル」の撃破		
-s24_0028	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅		
-s24_0078	35	敗北条件：プレーヤーユニットの撃破		
-s24_009c	47	ブレインズ/「連中、我々に気づいていませんね」		
-s24_00cc	51	ビズリィ/「そりゃぁいい！  一気にケリをつけてやる」		
-s24_0100	59	「僕たちの目的を忘れたんですか!?/ジョンをマコーリフへ…」		
-s24_013c	47	シャベス/「ここでヤツを倒せば、ぜんぶ片付く」		
-s24_016c	7	「…」/		
-s24_0174	43	「やるぞ！  マイコとベティはどうした!?」/		
-s24_01a0	23	マイコ/「…おふぁよ…」		
-s24_01b8	15	「遅いぞ！」/		
-s24_01c8	51	「…っかましいわね。/やるんならさっさとやりましょ」		
-s24_01fc	27	「…いいな、ブレインズ」{n}		
-s24_0218	19	「わかりました」/		
-s24_022c	23	ベティ/「どうしたの？」		
-s24_0244	39	「クロームデビルだ！  ヤツを倒す！」/		
-s24_026c	27	「ダイブツ、起きてるか!?」/		
-s24_0288	19	ダイブツ/「ふぁい」		
-s24_029c	35	「オーケー。ジョンはどうした？」/		
-s24_02c0	59	「寝かせておいたわ。ちょっと、お腹をこわし/たらしくて…」		
-s24_02fc	15	「…そうか」/		
-s24_030c	79	「戦闘開始のタイミングはお任せしますが、/奇襲であることを忘れないでください」		
-s24_035c	75	「クロームデビルのレーザーにアウトレンジ/されたら、ひとたまりもありません」		
-s24_03a8	43	「わかってるって、一気に殴り倒してやる！」/		
-s24_03d4	39	ビズリィ/「野郎、ふざけやがってぇ！」/		
-s24_03fc	31	マイコ/「馬っ鹿にしてぇ！」/		
-s24_041c	31	シャベス/「チクショウめ…」/		
-s24_043c	27	ベティ/「なんて奴…!?」/		
-s24_0458	35	ブレインズ/「…歯が立たない!?」/		
-s24_047c	27	マイコ/「あんのヤロー！」		
-s24_0498	31	シャベス/「追うな！  無駄だ！」		
-s24_04b8	47	ビズリィ/「眼中にないってか!?  ナメやがって!!」		
-s24_04e8	79	ブレインズ/「派手にやりすぎたようです。オリュンポス/方面の部隊が出てきました」		
-s24_0538	75	ビズリィ/「しょうがねぇ！  ヤツらをぶっちぎって、/マコーリフへ直行だ！」		
-s24_0584	27	シャベス/「やれやれ…」/		
-s24_05a0	27	「ド、ドラグーン２がっ！」		
-s24_05bc	31	「あーぁ、失敗しちゃった…」		
-s24_05dc	27	「うおっ！  やられたっ！」		
-s24_05f8	11	「……」		
-s24_0604	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s24_0630	39	「…やはり、荒事には向きませんねぇ…」		
+s24_0004	35	勝利条件：「クロームデビル」の撃破	Victory: Destroy the "Chrome Devil"	
+s24_0028	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or wipe out the/enemy	
+s24_0078	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
+s24_009c	47	ブレインズ/「連中、我々に気づいていませんね」	Brains/"They haven't noticed us."	
+s24_00cc	51	ビズリィ/「そりゃぁいい！  一気にケリをつけてやる」	Bizley/"Now that's good! I'll settle this in one/go."	
+s24_0100	59	「僕たちの目的を忘れたんですか!?/ジョンをマコーリフへ…」	"Have you forgotten our objective?!/Getting John to McAuliffe..."	
+s24_013c	47	シャベス/「ここでヤツを倒せば、ぜんぶ片付く」	Chavez/"Take him down here, and it's all over."	
+s24_016c	7	「…」/	"..."/	
+s24_0174	43	「やるぞ！  マイコとベティはどうした!?」/	"We're doing it! Where are Maiko and/Betty?!"/	
+s24_01a0	23	マイコ/「…おふぁよ…」	Maiko/"...Mornin'..."	
+s24_01b8	15	「遅いぞ！」/	"You're late!"/	
+s24_01c8	51	「…っかましいわね。/やるんならさっさとやりましょ」	"...Oh, shut up. If we're doing it, let's/get it done."	
+s24_01fc	27	「…いいな、ブレインズ」{n}	"...All right, Brains?"{n}	
+s24_0218	19	「わかりました」/	"Understood."/	
+s24_022c	23	ベティ/「どうしたの？」	Betty/"What's going on?"	
+s24_0244	39	「クロームデビルだ！  ヤツを倒す！」/	"It's the Chrome Devil! We're taking it/down!"/	
+s24_026c	27	「ダイブツ、起きてるか!?」/	"Daibutsu, you awake?!"/	
+s24_0288	19	ダイブツ/「ふぁい」	Daibutsu/"Yesh."	
+s24_029c	35	「オーケー。ジョンはどうした？」/	"OK. Where's John?"/	
+s24_02c0	59	「寝かせておいたわ。ちょっと、お腹をこわし/たらしくて…」	"I let him sleep. Seems he's got an upset/stomach..."	
+s24_02fc	15	「…そうか」/	"...I see."/	
+s24_030c	79	「戦闘開始のタイミングはお任せしますが、/奇襲であることを忘れないでください」	"I'll leave the timing of the attack to/you, but don't forget this is a surprise/attack."	
+s24_035c	75	「クロームデビルのレーザーにアウトレンジ/されたら、ひとたまりもありません」	"If the Chrome Devil's laser outranges us,/we won't stand a chance."	
+s24_03a8	43	「わかってるって、一気に殴り倒してやる！」/	"I know, I know. We'll pound it flat in/one go!"/	
+s24_03d4	39	ビズリィ/「野郎、ふざけやがってぇ！」/	Bizley/"That bastard's mockin' us!"/	
+s24_03fc	31	マイコ/「馬っ鹿にしてぇ！」/	Maiko/"Making fools of us!"/	
+s24_041c	31	シャベス/「チクショウめ…」/	Chavez/"Son of a..."/	
+s24_043c	27	ベティ/「なんて奴…!?」/	Betty/"What a monster...!?"/	
+s24_0458	35	ブレインズ/「…歯が立たない!?」/	Brains/"...We're no match for it!?"/	
+s24_047c	27	マイコ/「あんのヤロー！」	Maiko/"That jerk!"	
+s24_0498	31	シャベス/「追うな！  無駄だ！」	Chavez/"Don't chase it! It's no use!"	
+s24_04b8	47	ビズリィ/「眼中にないってか!?  ナメやがって!!」	Bizley/"Not even worth its time, huh?! Lookin'/down on us!!"	
+s24_04e8	79	ブレインズ/「派手にやりすぎたようです。オリュンポス/方面の部隊が出てきました」	Brains/"Looks like we made too much noise. Units/from the Olympus area are coming out."	
+s24_0538	75	ビズリィ/「しょうがねぇ！  ヤツらをぶっちぎって、/マコーリフへ直行だ！」	Bizley/"No choice! We blow past 'em and head/straight for McAuliffe!"	
+s24_0584	27	シャベス/「やれやれ…」/	Chavez/"Good grief..."/	
+s24_05a0	27	「ド、ドラグーン２がっ！」	"Th-the Dragoon 2!"	
+s24_05bc	31	「あーぁ、失敗しちゃった…」	"Awww, I blew it..."	
+s24_05dc	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s24_05f8	11	「……」	"......"	
+s24_0604	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s24_0630	39	「…やはり、荒事には向きませんねぇ…」	"...As I thought, I'm not cut out for/rough stuff..."	

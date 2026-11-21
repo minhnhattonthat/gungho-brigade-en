@@ -1,33 +1,33 @@
 id	max	jp	en	notes
-s26_0004	19	勝利条件：敵の全滅/		
-s26_0018	71	敗北条件：トマホークの全滅、もしくは/          プレーヤーユニットの全滅		
-s26_0060	35	ベティ/「…日はめぐり、朝きたる…		
-s26_0084	43	  …今、朝の七時、/  山辺に真珠の露煌く…」		
-s26_00b0	31	シャベス/「ベティ、コーヒー」		
-s26_00d0	15	「ありがと」/		
-s26_00e0	35	「あんたが詩人だとは知らなかった」/		
-s26_0104	39	「私が作ったんじゃないわ。覚えたの」/		
-s26_012c	71	「昔は、待つのも仕事のうちだったから。その/ころ、たくさん読んだのよ」		
-s26_0174	31	「ふぅん。…ん？  あれは？」/		
-s26_0194	39	「お客さんね、みんなを起こしましょう」/		
-s26_01bc	55	シャベス/「そこのトマホーク、大丈夫か!?/オーバー！」		
-s26_01f4	31	通信音/「…ザ…ザザザッ…」/		
-s26_0214	11	/「ちっ」/		
-s26_0220	95	ブレインズ/「ビズリィ！  マイコ！  トマホーク隊を援護/します。彼らと敵の間に割り込んで下さい」		
-s26_0280	35	ビズリィ/「ヤー！  蹴散らしてやる」		
-s26_02a4	83	マイコ/「いいかげん、ひとりで飛び出すのやめなさい/よ！  迷惑この上ないんだから！」		
-s26_02f8	15	「アイアイ！」/		
-s26_0308	39	ブレインズ/「敵の増援が予想されます」		
-s26_0330	59	「連合軍の方々は、サンダースロック上で警戒/をお願いします」		
-s26_036c	39	通信音/「了解した。健闘を祈る。アウト」		
-s26_0394	47	ブレインズ/「奴等は逃げます。追わないで下さい」		
-s26_03c4	23	ビズリィ/「なんでだ？」		
-s26_03dc	35	「脆すぎます。罠かもしれません」/		
-s26_0400	15	「わかった」/		
-s26_0410	47	ブレインズ/「…（増援はない…か。脆すぎる）…」		
-s26_0440	43	下士官/「ひとりは死亡、ひとりは重体です」		
-s26_046c	67	エスメラルダ/「わかった。さっさと火を消して、この残骸を/どかせ」		
-s26_04b0	59	「それとパイロットの意識が戻り次第、私に知/らせろ。以上」/		
-s26_04ec	35	下士官/「了解。消火後、速やかに…」		
-s26_0510	19	/「復唱はいい」/		
-s26_0524	15	下士官/「はっ」		
+s26_0004	19	勝利条件：敵の全滅/	Victory: Wipe out the enemy/	
+s26_0018	71	敗北条件：トマホークの全滅、もしくは/          プレーヤーユニットの全滅	Defeat: All Tomahawks destroyed, or/         all player units destroyed	
+s26_0060	35	ベティ/「…日はめぐり、朝きたる…	Betty/"...The year's at the spring, and day's at/the morn...	
+s26_0084	43	  …今、朝の七時、/  山辺に真珠の露煌く…」	  ...Morning's at seven;/The hill-side's dew-pearled..."	
+s26_00b0	31	シャベス/「ベティ、コーヒー」	Chavez/"Betty, coffee."	
+s26_00d0	15	「ありがと」/	"Thanks."/	
+s26_00e0	35	「あんたが詩人だとは知らなかった」/	"Didn't know you were a poet."/	
+s26_0104	39	「私が作ったんじゃないわ。覚えたの」/	"I didn't write it. I memorised it."/	
+s26_012c	71	「昔は、待つのも仕事のうちだったから。その/ころ、たくさん読んだのよ」	"Waiting used to be part of my job. I read/a lot back then."	
+s26_0174	31	「ふぅん。…ん？  あれは？」/	"Huh. ...Hm? What's that?"/	
+s26_0194	39	「お客さんね、みんなを起こしましょう」/	"Company. Let's wake everyone up."/	
+s26_01bc	55	シャベス/「そこのトマホーク、大丈夫か!?/オーバー！」	Chavez/"You, the Tomahawk there, are you OK?!/Over!"	
+s26_01f4	31	通信音/「…ザ…ザザザッ…」/	Radio/"...*Kssh*... *Kssh-kssh-kssh*..."/	
+s26_0214	11	/「ちっ」/	/"Tch."/	
+s26_0220	95	ブレインズ/「ビズリィ！  マイコ！  トマホーク隊を援護/します。彼らと敵の間に割り込んで下さい」	Brains/"Bizley! Maiko! We'll cover the Tomahawk/squad. Get between them and the enemy."	
+s26_0280	35	ビズリィ/「ヤー！  蹴散らしてやる」	Bizley/"Yah! I'll scatter 'em!"	
+s26_02a4	83	マイコ/「いいかげん、ひとりで飛び出すのやめなさい/よ！  迷惑この上ないんだから！」	Maiko/"And quit charging out alone already!/You're nothing but a nuisance!"	
+s26_02f8	15	「アイアイ！」/	"Aye aye!"/	
+s26_0308	39	ブレインズ/「敵の増援が予想されます」	Brains/"Enemy reinforcements are likely."	
+s26_0330	59	「連合軍の方々は、サンダースロック上で警戒/をお願いします」	"Will the Union troops please keep watch/from atop Thunder's Rock?"	
+s26_036c	39	通信音/「了解した。健闘を祈る。アウト」	Radio/"Understood. Good luck. Out."	
+s26_0394	47	ブレインズ/「奴等は逃げます。追わないで下さい」	Brains/"They're running. Don't chase them."	
+s26_03c4	23	ビズリィ/「なんでだ？」	Bizley/"Why not?"	
+s26_03dc	35	「脆すぎます。罠かもしれません」/	"Too easy. It could be a trap."/	
+s26_0400	15	「わかった」/	"Got it."/	
+s26_0410	47	ブレインズ/「…（増援はない…か。脆すぎる）…」	Brains/"...(No reinforcements... Too easy.)..."	
+s26_0440	43	下士官/「ひとりは死亡、ひとりは重体です」	NCO/"One dead, one in critical condition."	
+s26_046c	67	エスメラルダ/「わかった。さっさと火を消して、この残骸を/どかせ」	Esmeralda/"Understood. Put out the fire and clear/this wreckage away, quickly."	
+s26_04b0	59	「それとパイロットの意識が戻り次第、私に知/らせろ。以上」/	"And inform me as soon as the pilot/regains consciousness. That's all."/	
+s26_04ec	35	下士官/「了解。消火後、速やかに…」	NCO/"Roger. After extinguishing the fire, we/will promptly..."	
+s26_0510	19	/「復唱はいい」/	/"No need to repeat it back."/	
+s26_0524	15	下士官/「はっ」	NCO/"Sir!"	

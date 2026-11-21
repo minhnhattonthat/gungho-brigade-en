@@ -1,46 +1,46 @@
 id	max	jp	en	notes
-s23_0004	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅		
-s23_0054	35	敗北条件：プレーヤーユニットの撃破		
-s23_0078	39	シャベス/「やはり、強行突破しかないか」		
-s23_00a0	27	ブレインズ/「…そうです」/		
-s23_00bc	107	「やつらのレーザー砲陣地は、オリュンポス山/全周にあります。我々は、その内側に入り込ん/でしまったんです」		
-s23_0128	87	「どこかで突破しなければ、オリュンポスから/出られませんし、マコーリフへも着けません」/		
-s23_0180	31	ビズリィ/「で、いつ、どこを？」		
-s23_01a0	59	「明朝、今日と同じ地点を突破し、マコーリフ/へ直行します」/		
-s23_01dc	11	「…うっ」/		
-s23_01e8	27	/「だいじょうぶなのか？」/		
-s23_0204	131	「わかりません。が、今日の戦闘で、敵も少な/からず被害を出しました。やつらがその穴を埋/める前ならば、突破できる可能性があります」		
-s23_0288	111	「あのドでかいレーザー砲をどうする？/  今日は他に的があったからいいようなものの/あれをくったらイチコロだぞ」		
-s23_02f8	75	ベティ/「アレは、無視しても大丈夫。移動目標の狙撃/はできるとは思えないわ」		
-s23_0344	115	「同感です。アレは所詮、一基の巨大レーザー/砲の部品みたいなものですから…。どうあれ、/我々に選択肢はありません」		
-s23_03b8	39	/「くそっ、俺さえバカをしなければ…」/		
-s23_03e0	47	/「マイコは無事だったんだ。あまり考えるな」/		
-s23_0410	51	ジョン/「マイコさん!?  まだ、寝てなきゃだめだよ」		
-s23_0444	27	マイコ/「だいじょうぶよ…」		
-s23_0460	15	ダイブツ/「…」		
-s23_0470	27	「…ダイブツ、もういいわ」/		
-s23_048c	39	「よくないよ、なんとか直さないと…」/		
-s23_04b4	47	「…見ればわかるわ。簡単に直るかどうかくら/い」		
-s23_04e4	11	「…うん」/		
-s23_04f0	15	「それより…」/		
-s23_0500	15	「なに…？」/		
-s23_0510	31	「それより、頼みがあるの！」/		
-s23_0530	31	ジョン/「気をつけてね、みんな」		
-s23_0550	47	シャベス/「ああ。ん？  ダイブツはどうした？」		
-s23_0580	39	ジョン/「さぁ？  ハンガーじゃないの？」		
-s23_05a8	31	「今日のはキツイぞ。呼び出せ」/		
-s23_05c8	15	「りょーかい」/		
-s23_05d8	19	ビズリィ/「……」		
-s23_05ec	35	ダイブツ/「準備できた。出すよ？」		
-s23_0610	23	マイコ/「Ａ．Ｏ．Ｋ！」		
-s23_0628	35	ダイブツ/「マイコさん、調子どう？」		
-s23_064c	91	マイコ/「ごっ機嫌！  私のマスタングの３千馬力を積/んでるんだから、絶好調であったりまえよ」		
-s23_06a8	23	ビズリィ/「へへへっ！」		
-s23_06c0	43	シャベス/「引き始めた？  ジャンキーが!?」		
-s23_06ec	87	ブレインズ/「あのレーザー砲座が、よほど大事なんでしょ/う。突破するなら、今のうちです」		
-s23_0744	27	「ド、ドラグーン２がっ！		
-s23_0760	35	「ちぃっ、慣れない機体じゃ……！」		
-s23_0784	27	「うおっ！  やられたっ！」		
-s23_07a0	11	「……」		
-s23_07ac	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s23_07d8	39	「…やはり、荒事には向きませんねぇ…」		
+s23_0004	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or wipe out the/enemy	
+s23_0054	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
+s23_0078	39	シャベス/「やはり、強行突破しかないか」	Chavez/"So it's a forced breakthrough after all."	
+s23_00a0	27	ブレインズ/「…そうです」/	Brains/"...Yes."/	
+s23_00bc	107	「やつらのレーザー砲陣地は、オリュンポス山/全周にあります。我々は、その内側に入り込ん/でしまったんです」	"Their laser batteries ring all of Mount/Olympus. We've wandered inside that ring."	
+s23_0128	87	「どこかで突破しなければ、オリュンポスから/出られませんし、マコーリフへも着けません」/	"Unless we break through somewhere, we/can't get out of Olympus, and we can't/reach McAuliffe."/	
+s23_0180	31	ビズリィ/「で、いつ、どこを？」	Bizley/"So when and where?"	
+s23_01a0	59	「明朝、今日と同じ地点を突破し、マコーリフ/へ直行します」/	"Tomorrow morning, through the same spot/as today, then straight on to McAuliffe."/	
+s23_01dc	11	「…うっ」/	"...Ugh."/	
+s23_01e8	27	/「だいじょうぶなのか？」/	/"Is that gonna work?"/	
+s23_0204	131	「わかりません。が、今日の戦闘で、敵も少な/からず被害を出しました。やつらがその穴を埋/める前ならば、突破できる可能性があります」	"I don't know. But the enemy took real/losses in today's fight. If we go before/they fill the gap, we might get through."	
+s23_0288	111	「あのドでかいレーザー砲をどうする？/  今日は他に的があったからいいようなものの/あれをくったらイチコロだぞ」	"What about that huge laser cannon? We got/lucky today 'cause it had other targets./One hit from that and we're done for."	
+s23_02f8	75	ベティ/「アレは、無視しても大丈夫。移動目標の狙撃/はできるとは思えないわ」	Betty/"We can ignore that one. I doubt it can/snipe a moving target."	
+s23_0344	115	「同感です。アレは所詮、一基の巨大レーザー/砲の部品みたいなものですから…。どうあれ、/我々に選択肢はありません」	"Agreed. It's really just one part of a/giant laser battery... Either way, we have/no choice."	
+s23_03b8	39	/「くそっ、俺さえバカをしなければ…」/	/"Damn it, if only I hadn't done somethin'/stupid..."/	
+s23_03e0	47	/「マイコは無事だったんだ。あまり考えるな」/	/"Maiko came through fine. Don't dwell on/it."/	
+s23_0410	51	ジョン/「マイコさん!?  まだ、寝てなきゃだめだよ」	John/"Maiko-san?! You should still be in bed!"	
+s23_0444	27	マイコ/「だいじょうぶよ…」	Maiko/"I'm fine..."	
+s23_0460	15	ダイブツ/「…」	Daibutsu/"..."	
+s23_0470	27	「…ダイブツ、もういいわ」/	"...Daibutsu, that's enough."/	
+s23_048c	39	「よくないよ、なんとか直さないと…」/	"No it's not, I gotta fix it somehow..."/	
+s23_04b4	47	「…見ればわかるわ。簡単に直るかどうかくら/い」	"...I can tell by looking. Whether it'll/be easy to fix or not."	
+s23_04e4	11	「…うん」/	"...Okay."/	
+s23_04f0	15	「それより…」/	"More importantly..."/	
+s23_0500	15	「なに…？」/	"What...?"/	
+s23_0510	31	「それより、頼みがあるの！」/	"More importantly, I need a favour!"/	
+s23_0530	31	ジョン/「気をつけてね、みんな」	John/"Be careful, everyone."	
+s23_0550	47	シャベス/「ああ。ん？  ダイブツはどうした？」	Chavez/"Yeah. Hm? Where's Daibutsu?"	
+s23_0580	39	ジョン/「さぁ？  ハンガーじゃないの？」	John/"Dunno. Isn't he in the hangar?"	
+s23_05a8	31	「今日のはキツイぞ。呼び出せ」/	"Today's gonna be rough. Call him."/	
+s23_05c8	15	「りょーかい」/	"Rooger."/	
+s23_05d8	19	ビズリィ/「……」	Bizley/"......"	
+s23_05ec	35	ダイブツ/「準備できた。出すよ？」	Daibutsu/"All set. Sending it out?"	
+s23_0610	23	マイコ/「Ａ．Ｏ．Ｋ！」	Maiko/"A-OK!"	
+s23_0628	35	ダイブツ/「マイコさん、調子どう？」	Daibutsu/"Maiko-san, how's it running?"	
+s23_064c	91	マイコ/「ごっ機嫌！  私のマスタングの３千馬力を積/んでるんだから、絶好調であったりまえよ」	Maiko/"Feelin' great! It's got my Mustang's/3,000 horses. Of course it's in top form."	
+s23_06a8	23	ビズリィ/「へへへっ！」	Bizley/"Heh heh heh!"	
+s23_06c0	43	シャベス/「引き始めた？  ジャンキーが!?」	Chavez/"They're pulling back? The Junkies?!"	
+s23_06ec	87	ブレインズ/「あのレーザー砲座が、よほど大事なんでしょ/う。突破するなら、今のうちです」	Brains/"That battery must really matter to them./If we're breaking through, it's now."	
+s23_0744	27	「ド、ドラグーン２がっ！	"Th-the Dragoon 2!"	
+s23_0760	35	「ちぃっ、慣れない機体じゃ……！」	"Tch, in a machine I'm not used to...!"	
+s23_0784	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s23_07a0	11	「……」	"......"	
+s23_07ac	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s23_07d8	39	「…やはり、荒事には向きませんねぇ…」	"...As I thought, I'm not cut out for/rough stuff..."	

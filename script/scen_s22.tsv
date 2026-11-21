@@ -1,88 +1,88 @@
 id	max	jp	en	notes
-s22_0004	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅		
-s22_0054	35	敗北条件：プレーヤーユニットの撃破		
-s22_0078	87	  火星暦１６８年５月第５火曜日。/  私たちは、オリュンポス山西部のすそ野にい/ました。		
-s22_00d0	59	  ここから目的地マコーリフまでは、わずか/３日の距離です。/		
-s22_010c	47	  しかし、私たちの意気は上がりませんでし/た。/		
-s22_013c	99	  ささいな口論から始まったビズリィとマイコ/の確執が、周囲の雰囲気を気まずいものにして/いたのです。		
-s22_01a0	87	ビズリィ/「ぐろぉり、ぐろり、はぁれるぅやぁ♪/  ぐろぉり、ぐろり、はぁれるぅやぁ♪」		
-s22_01f8	59	シャベス/「…あれ、なんとかならんかなぁ、え、ブレイ/ンズ」		
-s22_0234	51	ジョン/「ブレインズなら、さっき抜け出しましたよ」/		
-s22_0268	51	「どうした!?  最近、暗いぞ！  パーッと行こ/う！」/		
-s22_029c	15	/「はーぁ…」/		
-s22_02ac	47	マイコ/「コール…。これで、…何連勝だっけ？」		
-s22_02dc	47	ダイブツ/「３７。イカサマしてるんじゃないの？」		
-s22_030c	51	「まさか。賭けるカネもモノもないのよ…。/ほい、次」		
-s22_0340	51	「じゃ、マスタングのエンジンを賭けようよ。/２枚」		
-s22_0374	43	「勝てもしないくせに。でも、ダメ。３枚」/		
-s22_03a0	75	「ちぇっ。マスタングにグリフォン３千馬力は/オーバーパワーなんだけどなぁ…」		
-s22_03ec	43	「ダメなものはダメ。…ほら、どうすんの？」/		
-s22_0418	39	「２枚。…いいかげん仲直りしたら？」/		
-s22_0440	19	「余計なお世話」/		
-s22_0454	35	シャベス/「敵だ！  上がってこい！」		
-s22_0478	15	「助かったぁ」/		
-s22_0488	15	「なにぃ？」/		
-s22_0498	19	「いえなんでも…」/		
-s22_04ac	31	「…（ちぇっ、縁起でもない）」		
-s22_04cc	35	シャベス/「連中、何やってんだ？」		
-s22_04f0	23	ブレインズ/「さぁ…」		
-s22_0508	47	ビズリィ/「ウダウダ悩んでても、始まらねぇぞ」		
-s22_0538	55	「そうだな、アレを突破しないとマコーリフに/は着けない」		
-s22_0570	43	「かなりの数です。迂回するという手も…」{n}		
-s22_059c	43	「ここまできて冗談じゃねぇ！  俺はやる！」/		
-s22_05c8	15	「ビズリィ！」/		
-s22_05d8	11	「…っ！」/		
-s22_05e4	51	マイコ/「ムダよシャベス。さっさとやっつけましょ」		
-s22_0618	31	シャベス/「まずいな、増援か」		
-s22_0638	51	ビズリィ/「ヘン、あんなの数のうちに入んないぜ！」		
-s22_066c	15	マイコ/「……」		
-s22_067c	35	シャベス/「引くぞ！  きりがない！」		
-s22_06a0	35	マイコ/「ビズリィ！  聞こえた!?」		
-s22_06c4	23	ビズリィ/「ちぇっ…」		
-s22_06dc	31	シャベス/「マイコの様子は？」		
-s22_06fc	79	ブリンズ/「気を失っただけで、無事です。打ち身が少々/あるかどうかぐらいで…」		
-s22_074c	47	「そいつは結構。/で、奴等、なに撃ってんだ？」		
-s22_077c	47	/「『ウィンゲート』作戦の地球艦隊でしょう」/		
-s22_07ac	35	「早いな？  もうそんな近くまで？」/		
-s22_07d0	83	「いいえ、降下予定が１０日後ですから、火星/から約１０光秒の距離にいるはずです」{n}		
-s22_0824	31	「１０光秒！  ３００万ｋｍ！」/		
-s22_0844	11	/「…」/		
-s22_0850	19	「そんなばかな！」/		
-s22_0864	19	/「…公算射撃…」/		
-s22_0878	19	「なんだって!?」/		
-s22_088c	35	/「…２０世紀の戦艦の射撃法です」/		
-s22_08b0	35	通信音/「…ザッ…トーキョー爆沈！」		
-s22_08d4	27	通信音/「…マルタ大破…」		
-s22_08f0	35	通信音/「…インチョン爆沈…ザッ」		
-s22_0914	67	ニーソン/「光学照準、試射、着弾観測、斉射…。全く見/事なものです」		
-s22_0958	43	通信音/「…ディエップ被弾！…ザザッ…」/		
-s22_0984	95	「いかに無線封止をし、対レーダー対策をしよ/うとも、艦隊が背後の星を遮るのを防ぐ事はで/きない」		
-s22_09e4	35	通信音/「…ディエップ爆沈っ！…」/		
-s22_0a08	79	「試射として広範囲にばらまかれた低出力レー/ザー光を回避しきることはできない」/		
-s22_0a58	63	「レーザーの命中による赤外線の発生を止める/ことはできない」/		
-s22_0a98	31	通信音/「…ザッ…ザザッ…」/		
-s22_0ab8	67	「その赤外線を観測し放たれた全力射撃が着弾/するまでわずか２０秒」/		
-s22_0afc	75	「回避し続ける事は不可能に近い。しかも火星/は３００万ｋｍの彼方にある」/		
-s22_0b48	19	通信音/「……」/		
-s22_0b5c	63	「火星奪還作戦『ウィンゲート』。これにて/一巻の終わり、です」/		
-s22_0b9c	87	エスメラルダ/「いまこの瞬間に１万人からの将兵が死んだと/いうのに、不謹慎でなくて？」		
-s22_0bf4	99	「兵隊は、死ぬのも仕事のうちです。とはいえ/他の仕事をする機会を永久に失った事には同情/しますがね」		
-s22_0c58	23	マイコ/「…う…んん…」		
-s22_0c70	15	ビズリィ/「…」		
-s22_0c80	35	「ん？  ビズリィ？  あ、痛たっ！」/		
-s22_0ca4	31	「まったく、無茶しやがって」/		
-s22_0cc4	11	「…うん」/		
-s22_0cd0	87	「だいたい俺は自分の身ぐらい守れるし、ドラ/グーン２の装甲だって半端じゃないんだし…」		
-s22_0d28	7	「…」/		
-s22_0d30	27	「…ごめん。俺が悪かった」/		
-s22_0d4c	15	「あ…のぅ…」/		
-s22_0d5c	15	「出てけ…」/		
-s22_0d6c	11	「え？」/		
-s22_0d78	51	「出ていけって言ってんだよ！  着替えるんだ/から！」		
-s22_0dac	35	「あ、ああ。おとなしく寝てろよ」/		
-s22_0dd0	27	「ド、ドラグーン２がっ！」		
-s22_0dec	31	「マスタング……。ごめん！」		
-s22_0e0c	27	「うおっ！  やられたっ！」		
-s22_0e28	11	「……」		
-s22_0e34	43	「やられちゃった。ビズリィ、たすけてよぉ」		
-s22_0e60	39	「…やはり、荒事には向きませんねぇ…」		
+s22_0004	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or wipe out the/enemy	
+s22_0054	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
+s22_0078	87	  火星暦１６８年５月第５火曜日。/  私たちは、オリュンポス山西部のすそ野にい/ました。	  Fifth Tuesday of May, Mars Year 168. We/were in the foothills west of Mount/Olympus.	
+s22_00d0	59	  ここから目的地マコーリフまでは、わずか/３日の距離です。/	  From here it was only three days to our/destination, McAuliffe./	
+s22_010c	47	  しかし、私たちの意気は上がりませんでし/た。/	  But our spirits were low./	
+s22_013c	99	  ささいな口論から始まったビズリィとマイコ/の確執が、周囲の雰囲気を気まずいものにして/いたのです。	  A feud between Bizley and Maiko, started/by a petty quarrel, had made the mood/around them awkward.	
+s22_01a0	87	ビズリィ/「ぐろぉり、ぐろり、はぁれるぅやぁ♪/  ぐろぉり、ぐろり、はぁれるぅやぁ♪」	Bizley/"Glo-ory, glory, halle-lu-jah!/Glo-ory, glory, halle-lu-jah!"	
+s22_01f8	59	シャベス/「…あれ、なんとかならんかなぁ、え、ブレイ/ンズ」	Chavez/"...Can't somethin' be done about that?/Eh, Brains?"	
+s22_0234	51	ジョン/「ブレインズなら、さっき抜け出しましたよ」/	John/"Brains slipped out a while ago."/	
+s22_0268	51	「どうした!?  最近、暗いぞ！  パーッと行こ/う！」/	"What's the matter?! You've been so gloomy/lately! Let's liven it up!"/	
+s22_029c	15	/「はーぁ…」/	/"Haaah..."/	
+s22_02ac	47	マイコ/「コール…。これで、…何連勝だっけ？」	Maiko/"Call... So that makes... how many wins in/a row?"	
+s22_02dc	47	ダイブツ/「３７。イカサマしてるんじゃないの？」	Daibutsu/"37. Aren't you cheating?"	
+s22_030c	51	「まさか。賭けるカネもモノもないのよ…。/ほい、次」	"As if. There's no money or stuff to bet/anyway... Here, next."	
+s22_0340	51	「じゃ、マスタングのエンジンを賭けようよ。/２枚」	"Then let's bet the Mustang's engine. Two/cards."	
+s22_0374	43	「勝てもしないくせに。でも、ダメ。３枚」/	"Like you could ever win. But no. Three/cards."/	
+s22_03a0	75	「ちぇっ。マスタングにグリフォン３千馬力は/オーバーパワーなんだけどなぁ…」	"Aww. A 3,000-horsepower Griffon is/overpowered for the Mustang anyway..."	
+s22_03ec	43	「ダメなものはダメ。…ほら、どうすんの？」/	"No means no. ...Well, what'll it be?"/	
+s22_0418	39	「２枚。…いいかげん仲直りしたら？」/	"Two cards. ...Why don't you two just make/up already?"/	
+s22_0440	19	「余計なお世話」/	"Mind your own business."/	
+s22_0454	35	シャベス/「敵だ！  上がってこい！」	Chavez/"Enemies! Get up here!"	
+s22_0478	15	「助かったぁ」/	"Saved by the bell..."/	
+s22_0488	15	「なにぃ？」/	"Whaat?"/	
+s22_0498	19	「いえなんでも…」/	"No, nothing..."/	
+s22_04ac	31	「…（ちぇっ、縁起でもない）」	"...(Tch, what a bad omen.)"	
+s22_04cc	35	シャベス/「連中、何やってんだ？」	Chavez/"What are they up to?"	
+s22_04f0	23	ブレインズ/「さぁ…」	Brains/"Who knows..."	
+s22_0508	47	ビズリィ/「ウダウダ悩んでても、始まらねぇぞ」	Bizley/"Moanin' and broodin' won't get us/anywhere."	
+s22_0538	55	「そうだな、アレを突破しないとマコーリフに/は着けない」	"Right. We can't reach McAuliffe without/breaking through that."	
+s22_0570	43	「かなりの数です。迂回するという手も…」{n}	"There are a lot of them. We could go/around..."{n}	
+s22_059c	43	「ここまできて冗談じゃねぇ！  俺はやる！」/	"After comin' this far? No way! I'm doin'/it!"/	
+s22_05c8	15	「ビズリィ！」/	"Bizley!"/	
+s22_05d8	11	「…っ！」/	"...Ngh!"/	
+s22_05e4	51	マイコ/「ムダよシャベス。さっさとやっつけましょ」	Maiko/"It's no use, Chavez. Let's just take them/out."	
+s22_0618	31	シャベス/「まずいな、増援か」	Chavez/"Not good. Reinforcements."	
+s22_0638	51	ビズリィ/「ヘン、あんなの数のうちに入んないぜ！」	Bizley/"Hah, those guys don't even count!"	
+s22_066c	15	マイコ/「……」	Maiko/"......"	
+s22_067c	35	シャベス/「引くぞ！  きりがない！」	Chavez/"Fall back! There's no end to 'em!"	
+s22_06a0	35	マイコ/「ビズリィ！  聞こえた!?」	Maiko/"Bizley! Did you hear?!"	
+s22_06c4	23	ビズリィ/「ちぇっ…」	Bizley/"Tch..."	
+s22_06dc	31	シャベス/「マイコの様子は？」	Chavez/"How's Maiko?"	
+s22_06fc	79	ブリンズ/「気を失っただけで、無事です。打ち身が少々/あるかどうかぐらいで…」	Brains/"She only fainted; she's fine. A bruise or/two at most..."	
+s22_074c	47	「そいつは結構。/で、奴等、なに撃ってんだ？」	"Good to hear./So what are those guys shooting at?"	
+s22_077c	47	/「『ウィンゲート』作戦の地球艦隊でしょう」/	/"Probably the Earth fleet for Operation/Wingate."/	
+s22_07ac	35	「早いな？  もうそんな近くまで？」/	"Already? They're that close?"/	
+s22_07d0	83	「いいえ、降下予定が１０日後ですから、火星/から約１０光秒の距離にいるはずです」{n}	"No. The drop is set for 10 days from now,/so they should be about 10 light-seconds/from Mars."{n}	
+s22_0824	31	「１０光秒！  ３００万ｋｍ！」/	"10 light-seconds! 3 million km!"/	
+s22_0844	11	/「…」/	/"..."/	
+s22_0850	19	「そんなばかな！」/	"That's crazy!"/	
+s22_0864	19	/「…公算射撃…」/	/"...Ranging fire..."/	
+s22_0878	19	「なんだって!?」/	"What?!"/	
+s22_088c	35	/「…２０世紀の戦艦の射撃法です」/	/"...The way 20th-century battleships/fired."/	
+s22_08b0	35	通信音/「…ザッ…トーキョー爆沈！」	Radio/"...*Kssh*... Tokyo blown up and sunk!"	
+s22_08d4	27	通信音/「…マルタ大破…」	Radio/"...Malta heavily damaged..."	
+s22_08f0	35	通信音/「…インチョン爆沈…ザッ」	Radio/"...Inchon blown up and sunk... *Kssh*"	
+s22_0914	67	ニーソン/「光学照準、試射、着弾観測、斉射…。全く見/事なものです」	Neeson/"Optical sighting, ranging shots,/spotting, full salvo... Simply superb."	
+s22_0958	43	通信音/「…ディエップ被弾！…ザザッ…」/	Radio/"...Dieppe hit!... *Kssh-kssh*..."/	
+s22_0984	95	「いかに無線封止をし、対レーダー対策をしよ/うとも、艦隊が背後の星を遮るのを防ぐ事はで/きない」	"Radio silence and anti-radar measures/can't stop a fleet from blocking out the/stars behind it."	
+s22_09e4	35	通信音/「…ディエップ爆沈っ！…」/	Radio/"...Dieppe blown up and sunk!..."/	
+s22_0a08	79	「試射として広範囲にばらまかれた低出力レー/ザー光を回避しきることはできない」/	"And there's no dodging the low-power/ranging lasers scattered over a wide/area."/	
+s22_0a58	63	「レーザーの命中による赤外線の発生を止める/ことはできない」/	"Nor stopping the infrared flare a laser/makes when it hits."/	
+s22_0a98	31	通信音/「…ザッ…ザザッ…」/	Radio/"...*Kssh*... *Kssh-kssh*..."/	
+s22_0ab8	67	「その赤外線を観測し放たれた全力射撃が着弾/するまでわずか２０秒」/	"Spot that infrared, open fire at full/power, and the shots land in just 20/seconds."/	
+s22_0afc	75	「回避し続ける事は不可能に近い。しかも火星/は３００万ｋｍの彼方にある」/	"Dodging them every time is next to/impossible. And Mars is 3 million km/away."/	
+s22_0b48	19	通信音/「……」/	Radio/"......"/	
+s22_0b5c	63	「火星奪還作戦『ウィンゲート』。これにて/一巻の終わり、です」/	"Operation Wingate, to retake Mars. That's/the end of that story."/	
+s22_0b9c	87	エスメラルダ/「いまこの瞬間に１万人からの将兵が死んだと/いうのに、不謹慎でなくて？」	Esmeralda/"Ten thousand men have died this very/moment. Isn't that rather tactless?"	
+s22_0bf4	99	「兵隊は、死ぬのも仕事のうちです。とはいえ/他の仕事をする機会を永久に失った事には同情/しますがね」	"Dying is part of a soldier's job. Still,/I do pity them for losing the chance to do/any other job, forever."	
+s22_0c58	23	マイコ/「…う…んん…」	Maiko/"...Ugh... Nnn..."	
+s22_0c70	15	ビズリィ/「…」	Bizley/"..."	
+s22_0c80	35	「ん？  ビズリィ？  あ、痛たっ！」/	"Hm? Bizley? Ah, ow!"/	
+s22_0ca4	31	「まったく、無茶しやがって」/	"Jeez, you went and did somethin'/reckless."/	
+s22_0cc4	11	「…うん」/	"...Yeah."/	
+s22_0cd0	87	「だいたい俺は自分の身ぐらい守れるし、ドラ/グーン２の装甲だって半端じゃないんだし…」	"I mean, I can protect myself just fine,/and the Dragoon 2's armour ain't no joke/either..."	
+s22_0d28	7	「…」/	"..."/	
+s22_0d30	27	「…ごめん。俺が悪かった」/	"...Sorry. It was my fault."/	
+s22_0d4c	15	「あ…のぅ…」/	"Um... well..."/	
+s22_0d5c	15	「出てけ…」/	"Get out..."/	
+s22_0d6c	11	「え？」/	"Huh?"/	
+s22_0d78	51	「出ていけって言ってんだよ！  着替えるんだ/から！」	"I said get out! I'm getting changed!"	
+s22_0dac	35	「あ、ああ。おとなしく寝てろよ」/	"Uh, y-yeah. Stay in bed and rest."/	
+s22_0dd0	27	「ド、ドラグーン２がっ！」	"Th-the Dragoon 2!"	
+s22_0dec	31	「マスタング……。ごめん！」	"Mustang... I'm sorry!"	
+s22_0e0c	27	「うおっ！  やられたっ！」	"Whoa! I'm hit!"	
+s22_0e28	11	「……」	"......"	
+s22_0e34	43	「やられちゃった。ビズリィ、たすけてよぉ」	"They got me. Bizley, heeelp!"	
+s22_0e60	39	「…やはり、荒事には向きませんねぇ…」	"...As I thought, I'm not cut out for/rough stuff..."	
