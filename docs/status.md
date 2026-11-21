@@ -2,11 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: all 2713 rows translated + merged (`batches.py check` 0 problems); review
-  pass s00-s07 done, s08-s35 left (see Next). Last build: build/gungho_en.bin 2026-11-22 =
-  **marker build + glyph torture** (`insert.py --marker --qa s08_0140=.. --qa s08_049c=.. --qa s08_0748=..`);
-  states in work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
+- **Phase:** 7. Insert, fit, check: not started. Phase 6 done (2713/2713 rows, `batches.py check` 0 problems,
+  story gate `qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts` exits 0). Last build:
+  build/gungho_en.bin 2026-11-22 = **marker build + glyph torture** (`insert.py --marker --qa ...`); states in
+  work/states/ are a mix of ruler and marker builds (`warp.py --all` after the next build).
 - **Done:**
+  - Phase 6 finished (2026-11-22, fifth session): review pass s08-s35 (self pass, Codex out of quota), verdicts in
+    work/qa/story/verdicts/ (all 36 current). ~45 fixes: meaning (s21_0100 luck ran out, s32_0490, s31_0880, s27_0d70
+    "to the east", s14_0af4), wording, goal rows ("or enemy wiped out"), US spelling everywhere (armor, favor,
+    defense, memorized, fertilized, traveled, Color in credits), `!?` -> `?!` in dialogue, "Dad" for John's おとうさん.
+    New minors in docs/polish.md. Fix loop: fixes as `id<TAB>body` in a scratch TSV, `tl_patch.py bNNN F`,
+    `batches.py check bNNN` (don't pipe it: exit code), `merge bNNN --overwrite`.
   - Phase 6, fourth session (2026-11-22): non-story batches b001 ending, b002 gunho, b003 menu, b004 menumv, b005
     pilots, b043 slps, b044 table translated + merged (self-reviewed while writing; terms in glossary.md). Save title
     table_11800 = "Gungho Brigade #00 clear 00h 00m" (digits at the JP offsets; tests/test_batches.py checks it).
@@ -76,16 +82,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 6):** review s08-s35 (s08 page 00 seen up to s08_03bc). Loop: `python -X utf8 tools/pairs.py`,
-  `cat work/qa/story/pages/sNN_KK.txt` one page per call (plugin stubs output over ~4 KB), judge accuracy/voice/
-  layout; fixes as `id<TAB>body` in a scratch file, `tools/tl_patch.py bNNN FILE` (batch: `grep -l ^ID
-  work/tl/*.out.tsv`), `batches.py check bNNN`, `merge bNNN --overwrite`; then pairs.py + `qa_gate.py init
-  work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"` and write `sNN<TAB>ok|fixed<TAB>note` to
-  work/qa/story/verdicts/sNN.tsv. Codex is out of quota until 2026-11-26, so review is a self pass. ~8 stages fit
-  in one worker context (pages ~2.5k tokens each); hand back at ~150k. Phase 6 done when every chapter has a
-  verdict (`qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts` exits 0). Over-budget small-font
-  names: `batches.py check -v` lists them for phase 7 engine work. s08_078c/07e8/0870/08f0 not seen in the s08 intro
-  tour (other events or dead).
+- **Next (phase 7):** real insert (`insert.py` without `--marker`) + build + fit. Over-budget small-font names:
+  `batches.py check -v` lists them for engine work. Story verdicts go stale on any script edit: after fixes rerun
+  `pairs.py`, `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, re-read the
+  changed pages and rewrite those verdicts (phase 9 gate). s08_078c/07e8/0870/08f0 not seen in the s08 intro tour
+  (other events or dead).
   Phase 7 concerns: English often outgrows in-place slots (unit names 7 bytes, weapons 11, pilots 15; overlay
   buffer bound 0x5d60 still a guess; EXE strings repoint via mipsrefs sites); ENDING.BIN credits blob has 2439
   bytes of room and the markers alone use ~2400; digraph capacity 1376-75 codes (marker uses ~300 pairs).

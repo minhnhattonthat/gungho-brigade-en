@@ -1,7 +1,7 @@
 id	max	jp	en	notes
 s29_0004	59	作戦目的：トレーラー脱出まで、敵の足止めを/          する	Objective: Hold the enemy back until the/         trailers escape	
 s29_0040	91	敗北条件：プレーヤーユニットの撃破/          敵のマコーリフ通過/          脱出車両の撃破	Defeat: Player unit destroyed, enemy gets/         past McAuliffe, or escape/         vehicle destroyed	
-s29_009c	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or wipe out the/enemy	
+s29_009c	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or enemy wiped out	
 s29_00ec	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
 s29_0110	99	  火星暦１６６年６月第１木曜日。３日前に/サンダースロックを放棄して以来、敵の攻撃は/ありません。	  First Thursday of June, Mars Year 166./Since we abandoned Thunder's Rock three/days ago, there had been no enemy attacks.	
 s29_0174	63	しかし、この状態が長く続かないことは誰もが/知っていました。/	But everyone knew this would not last/long./	
@@ -64,7 +64,7 @@ s29_0af0	75	ブレインズ/「『双子の共感』とか『虫の知らせ』�
 s29_0b3c	87	「彼女たちは、まさしくそれを期待されて生ま/れたのです。しかし、現実はより複雑でした」/	"That's exactly what they were born for./But the reality was more complicated."/	
 s29_0b94	103	「彼女たちひとりひとりには、『個』という概/念が生まれず、彼女たち全員でひとつの人格を/構成したのです」	"No sense of 'self' arose in any one of/them. Together, all of them made up a/single personality."	
 s29_0bfc	51	「…不思議な話ですが。それが、どう軍事機密/に？」	"...A strange story. But how is it a/military secret?"	
-s29_0c30	119	「彼女たち内部の情報伝達が、他の誰にも、傍/受・妨害されないとしたら？  そして、情報伝/達速度が光速を超えるとしたら？」	"What if nobody could intercept or jam the/signals between them? And what if they/travelled faster than light?"	
+s29_0c30	119	「彼女たち内部の情報伝達が、他の誰にも、傍/受・妨害されないとしたら？  そして、情報伝/達速度が光速を超えるとしたら？」	"What if nobody could intercept or jam the/signals between them? And what if they/traveled faster than light?"	
 s29_0ca8	7	「…」/	"..."/	
 s29_0cb0	103	「外宇宙連合と地球連邦軍が主体となって、彼/女たちを介して通信を行う『通信機』計画が実/行されました」	"Led by the Union and the Earth Federation/Army, the 'transmitter' project was/launched, to communicate through them."	
 s29_0d18	83	「人道的といいかねる一連の実験の結果、得ら/れたデータは予想を上回るものでした」/	"After a series of hardly humane/experiments, the data obtained surpassed/all expectations."/	
@@ -108,7 +108,7 @@ s29_172c	63	ブレインズ/「…実験のただひとりの生還者がエス�
 s29_176c	119	「そうです。そして、あなたのお仲間のジョン/・スミス、本名ジェニファー・スイフトは、/『通信機』計画の予備クローンです」	"Yes. And your comrade John Smith, real/name Jennifer Swift, is a spare clone from/the 'transmitter' project."	
 s29_17e4	11	/「！」/	/"!"/	
 s29_17f0	31	シャベス/「…ブレインズ？」/	Chavez/"...Brains?"/	
-s29_1810	83	ニーソン/「彼女は『通信機』バックアップとして、受精/卵の状態で凍結されていました」	Neeson/"She was frozen as a fertilised egg, as a/'transmitter' backup."	
+s29_1810	83	ニーソン/「彼女は『通信機』バックアップとして、受精/卵の状態で凍結されていました」	Neeson/"She was frozen as a fertilized egg, as a/'transmitter' backup."	
 s29_1864	51	「しかし、あの事故の後、計画は破棄されまし/た」/	"But after the accident, the project was/scrapped."/	
 s29_1898	115	「その直後、主任研究員のスイフト教授が、/妻といまだ受精卵だった彼女を連れ、かなり強/引な方法で火星に移住しました」	"Soon after, lead researcher Professor/Swift forced his way to Mars with his wife/and her, still an embryo."	
 s29_190c	83	「スイフト夫妻が、何を考えてジェニファーを/育てたかは、今となってはわかりません」/	"What the Swifts had in mind when they/raised Jennifer, we can no longer know."/	
@@ -136,7 +136,7 @@ s29_1c44	59	「（エスメラルダさん。ビズリィをよろしくお/願�
 s29_1c80	23	「（ジェニファー）」/	"(Jennifer.)"/	
 s29_1c98	11	「（…）」/	"(...)"/	
 s29_1ca4	91	通信音/「こちらニーソン。マコーリフからの脱出完了/逃げ切るのに、もう５分、粘ってください」	Radio/"Neeson here. We're out of McAuliffe. Hold/on five more minutes so we can get clear."	
-s29_1d00	91	通信音/「ニーソンです。おかげで距離を稼げました。/感謝します。速やかに撤退してください」	Radio/"Neeson here. Thanks to you we gained/distance. Thank you. Withdraw at once."	
+s29_1d00	91	通信音/「ニーソンです。おかげで距離を稼げました。/感謝します。速やかに撤退してください」	Radio/"Neeson here. You bought us the distance/we needed. Many thanks. Withdraw at once."	
 s29_1d5c	63	火星の虹/「…ザッ…秋の日のヴィオロンのため息の…ザ/ザッ…」	Rainbow of Mars/"...*Kssh*... The long sobs of the violins/of autumn... *Kssh-kssh*..."	
 s29_1d9c	47	シャベス/「ちっ、あいかわらず役立たずだな」/	Chavez/"Tch. Useless as ever."/	
 s29_1dcc	43	ベティ/「…身にしみてひたぶるに物悲し…」/	Betty/"...Wound my heart with a monotonous/languor..."/	

@@ -19,3 +19,8 @@ Minor issues and open questions from translation and review. Tick (`[x]`) when r
 - [ ] Unseen context, verify in game: gunho_8165e 欠 "Absent", gunho_819a4 ﾅｸﾞｯﾃ "Punch", gunho_819c4 "  ...",
   table_00168-00194 Melee/Ground/Trailer/Remove, menumv/slps pre-release notice (likely unused).
 - [ ] s06_0894 "As it was, it wasn't even a fifth." vague (= the falsified figures cover under a fifth).
+- [ ] s35_00c4 sound test "GB2F ... (Battle Screen)": JP repeats 戦闘画面 for the F track (GB1F is 操作画面); kept as JP.
+- [ ] s35_09a4 debug credit 田中福岡柴田耕平 rendered "Tanaka Fukuoka Kohei Shibata": JP has no separators, split unverified.
+- [ ] s08_03bc drops the "GF Line" alias (only "Martian Maginot Line" kept, 42x3 fit); restore if a wider box comes.
+- [ ] ヤー rendered "Yah!" throughout (s08, s20, s26, s33, s34); consider "Yeah!" / "Ja!" in a style pass.
+- [ ] Victory/Defeat rows: continuation-line indent is lost when auto-wrap breaks a line itself (e.g. s10 "or wipe out the/enemy", s30_00a4); cosmetic, check on the objective screen in phase 8.

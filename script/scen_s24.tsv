@@ -1,6 +1,6 @@
 id	max	jp	en	notes
 s24_0004	35	勝利条件：「クロームデビル」の撃破	Victory: Destroy the "Chrome Devil"	
-s24_0028	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or wipe out the/enemy	
+s24_0028	79	勝利条件：プレーヤーユニットの指定領域から/          の脱出、もしくは敵の全滅	Victory: Player unit escapes from the/         marked area, or enemy wiped out	
 s24_0078	35	敗北条件：プレーヤーユニットの撃破	Defeat: Player unit destroyed	
 s24_009c	47	ブレインズ/「連中、我々に気づいていませんね」	Brains/"They haven't noticed us."	
 s24_00cc	51	ビズリィ/「そりゃぁいい！  一気にケリをつけてやる」	Bizley/"Now that's good! I'll settle this in one/go."	
@@ -26,8 +26,8 @@ s24_03a8	43	「わかってるって、一気に殴り倒してやる！」/	"I 
 s24_03d4	39	ビズリィ/「野郎、ふざけやがってぇ！」/	Bizley/"That bastard's mockin' us!"/	
 s24_03fc	31	マイコ/「馬っ鹿にしてぇ！」/	Maiko/"Making fools of us!"/	
 s24_041c	31	シャベス/「チクショウめ…」/	Chavez/"Son of a..."/	
-s24_043c	27	ベティ/「なんて奴…!?」/	Betty/"What a monster...!?"/	
-s24_0458	35	ブレインズ/「…歯が立たない!?」/	Brains/"...We're no match for it!?"/	
+s24_043c	27	ベティ/「なんて奴…!?」/	Betty/"What a monster...?!"/	
+s24_0458	35	ブレインズ/「…歯が立たない!?」/	Brains/"...We're no match for it?!"/	
 s24_047c	27	マイコ/「あんのヤロー！」	Maiko/"That jerk!"	
 s24_0498	31	シャベス/「追うな！  無駄だ！」	Chavez/"Don't chase it! It's no use!"	
 s24_04b8	47	ビズリィ/「眼中にないってか!?  ナメやがって!!」	Bizley/"Not even worth its time, huh?! Lookin'/down on us!!"	
