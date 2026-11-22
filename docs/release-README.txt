@@ -34,13 +34,20 @@ WHAT IS TRANSLATED
   Menus, unit/weapon/ability names, help lines, memory-card messages ..... English
   Title screen, game over, battle command buttons, prologue captions ..... English (redrawn)
   Staff roll ............................................................. English
-  Video cutscenes and voiced lines ....................................... Japanese audio, no subtitles
+  Video cutscenes (30 movies, incl. the opening song) .................... Japanese audio, English subtitles
+  Voiced lines in story scenes ........................................... Japanese audio, English subtitles
+
+CHANGES
+  v1.1  English subtitles for the video cutscenes and for the voiced lines in story scenes.
+  v1.0  First release.
 
 KNOWN ISSUES
   - The battle hover box holds 10 characters, so a few unit names run words together or drop letters
     (YankApache, CloneDevil, Chrome Dvl, C Dragoon2, SuperCobra, Cmd Ship).
   - The Eqip tab Item column shows 8 characters, as in the Japanese; the row under the list shows the full name.
   - Readings of some staff names in the credits are best guesses.
+  - Subtitles were timed and transcribed from the audio by machine, then translated; a few lines may be
+    misheard or slightly off in timing. Short battle shouts may show no subtitle or show one over a text box.
   Report bugs (with a savestate or memory card if you can):
   https://github.com/minhnhattonthat/gungho-brigade-en/issues
 
@@ -48,5 +55,5 @@ CREDITS
   Translation, hacking and tools: minhnhattonthat.
   Made with extensive AI assistance (Claude by Anthropic). Corrections are very welcome.
   Fonts: a 5-px pixel font drawn for this project; DejaVu Sans Bold (Bitstream Vera licence) for the prologue
-  captions.
+  captions and video subtitles.
   Gungho Brigade is (c) Tomy. This is an unofficial fan work, not affiliated with Tomy.

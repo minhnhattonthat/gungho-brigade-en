@@ -17,7 +17,8 @@ or memory card helps most.
 | Menus, unit/weapon/ability names, help lines, memory-card messages | Translated (some names shortened to fit, below) |
 | Title screen, game over, battle command buttons, prologue captions | Translated (redrawn) |
 | Staff roll | Translated |
-| Video cutscenes and voiced lines (FMV/XA audio) | Left in Japanese (no subtitles) |
+| Video cutscenes (FMV) | Japanese audio, English subtitles (burned into the video) |
+| Voiced lines in story scenes (XA audio) | Japanese audio, English subtitles (drawn in-game) |
 
 Known issues:
 - The battle hover box holds 10 characters, so a few unit names run words together or drop letters (YankApache,
@@ -25,6 +26,8 @@ Known issues:
   Japanese (the row below the list shows the full name).
 - Readings of some staff names in the credits are best guesses.
 - Start a new game: memory-card saves from the Japanese game are untested.
+- Subtitles were transcribed and timed from the audio by machine, then translated; a few lines may be misheard or
+  slightly off in timing.
 
 ## What's here
 
@@ -52,6 +55,8 @@ cd gungho-brigade-en
 # copy your dump to: rom/Gungho Brigade (Japan).bin + .cue
 #   (.bin: 706,362,048 bytes, CRC32 F974BD94, MD5 32db47ab49de10a964361a862a89789c,
 #    SHA-1 695ccbdad4a0f20ca59cd0e662bb883073f45b7c; the build refuses any other dump, see rom.sha1)
+python -X utf8 tools/fmv.py extract && python -X utf8 tools/fmv.py burn && python -X utf8 tools/fmv.py insert
+                                                       # FMV subtitles (needs ffmpeg, Java 8 + jPSXdec 2.1)
 python -X utf8 tools/insert.py                         # English text, fonts, graphics -> work/build/files/
 python -X utf8 build.py                                # -> build/gungho_en.bin + .cue
 python -X utf8 tools/check.py                          # tests + text lint
