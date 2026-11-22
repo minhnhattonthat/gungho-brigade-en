@@ -1,0 +1,4 @@
+2847F  MENUMV.EXE: kana conversion table / binary data, not text (けだはまろ)
+28493  MENUMV.EXE: kana conversion table / binary data, not text (ェザヅフャヲ)
+28A8F  MENUMV.EXE: kana conversion table / binary data, not text (けだはまろ)
+28AA3  MENUMV.EXE: kana conversion table / binary data, not text (ェザヅフャヲ)

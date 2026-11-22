@@ -1,0 +1,5 @@
+46F6  TABLE/MENU.DAT: kana conversion table / binary data, not text (ャ粉符沸)
+881F  TABLE/MENU.DAT: kana conversion table / binary data, not text (睦リ廓劃)
+88BB  TABLE/MENU.DAT: kana conversion table / binary data, not text (ヶ涛俣椛)
+93F4  TABLE/MENU.DAT: kana conversion table / binary data, not text (リ確蜜幕)
+12603  TABLE/MENU.DAT: kana conversion table / binary data, not text (ンデ竃度較)

@@ -1,0 +1,4 @@
+80FAB  GUNHO.EXE: kana conversion table / binary data, not text (けだはまろ)
+80FBF  GUNHO.EXE: kana conversion table / binary data, not text (ェザヅフャヲ)
+815BB  GUNHO.EXE: kana conversion table / binary data, not text (けだはまろ)
+815CF  GUNHO.EXE: kana conversion table / binary data, not text (ェザヅフャヲ)

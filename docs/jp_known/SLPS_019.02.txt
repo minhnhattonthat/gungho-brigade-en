@@ -1,0 +1,4 @@
+28497  SLPS_019.02: kana conversion table / binary data, not text (けだはまろ)
+284AB  SLPS_019.02: kana conversion table / binary data, not text (ェザヅフャヲ)
+28AA7  SLPS_019.02: kana conversion table / binary data, not text (けだはまろ)
+28ABB  SLPS_019.02: kana conversion table / binary data, not text (ェザヅフャヲ)

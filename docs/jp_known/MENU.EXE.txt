@@ -1,0 +1,4 @@
+321B3  MENU.EXE: kana conversion table / binary data, not text (けだはまろ)
+321C7  MENU.EXE: kana conversion table / binary data, not text (ェザヅフャヲ)
+327C3  MENU.EXE: kana conversion table / binary data, not text (けだはまろ)
+327D7  MENU.EXE: kana conversion table / binary data, not text (ェザヅフャヲ)

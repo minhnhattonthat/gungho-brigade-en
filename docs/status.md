@@ -2,12 +2,21 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: not started (phase 8 done 2026-11-22: tour gate 75/75 and menu gate 11/11 pass for
-  8591fa79, textcover 2227/2228 + 1 waived (docs/text_unshown.tsv) exits 0, smoke ok). Last build:
-  build/gungho_en.bin 2026-11-22 sha1 8591fa79, smoke ok. States in
-  work/states/ for s01 s02 s30 s34 title* i08* go08* are from 8591fa79/7de18f57 (text-only diffs since b72aa484);
-  the rest from de1e747c (regen `warp.py --all --cue build/gungho_en.cue` if a scene matters).
+- **Phase:** 9. Release: done 2026-11-22. `tools/release.py --version 1.0` exits 0 on build/gungho_en.bin sha1
+  8fa155c7 (CRC32 C7FE41F5): release/Gungho_Brigade_EN_v1.0.zip = Gungho_Brigade_EN_v1.0.xdelta (330,611 B,
+  re-applied and compared) + README.txt. Tour gate 75/75, menus 11/11 (waived for 8fa155c7, reason in manifest),
+  story 36/36, textcover 2227/2228 + 1 waived, jp_left clean, polish.md all ticked. Not published (owner's call).
+  work/states/s34 is from 8fa155c7; the rest older (regen `warp.py --all --cue build/gungho_en.cue` if needed).
 - **Done:**
+  - Phase 9 (2026-11-22): story pass: every row changed since the phase 6 verdicts (90 story, 111 non-story) re-read
+    in a fresh self pass (Codex out of quota to 2026-11-26, D17); 16 stale chapter verdicts rewritten, story gate
+    36/36. docs/polish.md: every line closed (fixed or accepted with reason). Fixes: s31_01d0 "Clone Devil" (the fake
+    unit, not a JP typo), s06_0894 reworded, D16 item names 88@GunL71/L56, RandallMag, Randall75@ (distinct in the
+    8-char Eqip column; re-shot work/play/m34c/0001.png). Digraph pairs now 1120 -> full re-tour. New
+    `tools/release.py` (gates: build, tests, smoke, jp_left per text file with docs/jp_known/, qa_gate on every
+    manifest, textcover, polish, README placeholders + base SHA-1, debug files, xdelta3 + re-apply, zip);
+    README.md filled; zip README template docs/release-README.txt. jp_left: all leftover JP runs are kana tables,
+    binary data or the documented stale-copy SCENFILE entries (buffer residue). Menus gate waived for 8fa155c7.
   - Phase 8, fourth session (2026-11-22): menu + stress QA on the battle/intermission/title screens (play.py sessions
     work/play/mf, m34, h1; JP refs work/play/jp1, work/qa/jp_cfg). Manifest work/qa/menus/manifest.tsv (11 sheets,
     `qa_gate init ... work/qa/menus --glob "*.png" --build`), verdicts work/qa/menus/verdicts/self_001.tsv, check exits 0
@@ -170,29 +179,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     circle;300 -;6 circle;2000 -" and copy <out>/memcard1.mcd.
   - Game flow RE: `docs/re/debug.md` (exe chain, state block, stage table, event runner + args, stage-end calls,
     defeat handler).
-- **Next (phase 8, QA):**
-  Phase 9 (release), in order:
-  1. Story pass: verdicts stale for s00/s02/s05/s06/s11/s14/s20/s21/s26/s27 + nonstory (phase 7 rewording, phase 8
-     Fast/Left/part names): rerun `pairs.py`, `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters
-     --glob "*.txt"`, re-read changed pages (independent reader: codex exec, quota back 2026-11-26, else a fresh
-     read-only self pass), rewrite verdicts until check exits 0.
-  2. docs/polish.md: tick or fix every open line (incl. the Eqip Item column 8-char cut, D12 hover names).
-  3. Release script per the skill (`tools/release.py`): gates on all three manifests (tour, menus, story) +
-     textcover (`textcover.py work/qa/tour work/qa/tour/scen_strings.tsv --waive docs/text_unshown.tsv`), jp_left,
-     debug off, xdelta re-apply, README hashes, zip = patch + README. Any rebuild: re-run the tour
-     (`tour.py --jobs 7`), `qa_gate init --build` both tour and menus (menus: re-shoot or `waive` with reason).
-  Textcover scope = stage strings (scen_strings.tsv, 2228); non-stage text (gunho/pilots/table/menu/ending) is
-  covered by work/qa/menus, the e34 roll shots and the name-width lint, not by TEXT keys.
-  Notes: battle Goals screen not reached from the system menu (flaky; same objective boxes as battle start, toured).
-  Battle system menu: square, left*10, cross, circle (sometimes needs a retry of the step). s35 overlay strings never
-  drawn in play (s35 warp shows the ENDING.BIN roll).
-  Story verdicts are stale for s00/s05/s06/s11/s14/s20/s21/s26/s27 + nonstory (phase 7 rewording): rerun `pairs.py`,
-  `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`, re-read changed pages, rewrite
-  verdicts (phase 9 gate, with the independent reader). s08_078c/07e8/0870/08f0 not seen in the s08 intro tour.
-  Digraph pairs used: 1105 of 1375 codes.
+- **Next:** nothing owed for v1.0. Publishing (GitHub release of release/Gungho_Brigade_EN_v1.0.zip) is the owner's
+  call: never `gh release create` without them. Any later text fix: edit, `tools/insert.py`, `build.py`, re-run the
+  tour (`tour.py --jobs 7`, or only the touched stages), `qa_gate init --build` tour + menus (re-shoot or `waive` with
+  reason), new verdicts, then `tools/release.py --version 1.x`. Optional: a Codex story read after 2026-11-26 (D17).
+  Textcover scope = stage strings (release.py regenerates scen_strings.tsv from build/strings.tsv: keys change with
+  every digraph renumbering); non-stage text is covered by work/qa/menus, the e34 roll shots and the name-width lint.
+  Notes: battle system menu: square, left*10, cross, circle. s35 overlay strings never drawn in play. Digraph pairs
+  used: 1120 of 1375 codes.
 - **Notes:** stage index != tale number (stage 8 shows "tale 7"); event stages 3/11/32 chain into the next stage.
   The portable card tools/pcsx/memcard1.mcd must stay blank (warp.py always passes a blank `--sav`). Game over warp
   shows over the loading screen (battle view never drawn) and only the first leader's line; stage 0 has no defeat
   handler.
 - **Open bugs:** none known (staff-roll noise fixed in phase 7: half-cell glyphs, see docs/re/text.md).
-- **Waiting on the user:** nothing.
+- **Waiting on the user:** whether and when to publish v1.0 (release/Gungho_Brigade_EN_v1.0.zip, not blocking);
+  whether to hold for an independent Codex story read after 2026-11-26 (D17, not blocking).

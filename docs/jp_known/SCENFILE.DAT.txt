@@ -1,0 +1,651 @@
+29785  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29872  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29916  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29923  SCENFILE.DAT entry 6: binary data (height map / code), not text
+299D3  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29A51  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29A81  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29A9E  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29AD3  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29B03  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29B4A  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29BC9  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29BFF  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29C20  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29D00  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29EA8  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29EE0  SCENFILE.DAT entry 6: binary data (height map / code), not text
+29F5E  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2A0A1  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2A0B3  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2A116  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2A2E4  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2A361  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2A41A  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2A49B  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2D96C  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2DB65  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2DB7F  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2DBA8  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2DBFE  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2DDF4  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2DE36  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2DE79  SCENFILE.DAT entry 6: binary data (height map / code), not text
+2E1C9  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31A69  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31C9A  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31CA9  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31CB3  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31D52  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31D5E  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31E31  SCENFILE.DAT entry 6: binary data (height map / code), not text
+31EB9  SCENFILE.DAT entry 6: binary data (height map / code), not text
+32018  SCENFILE.DAT entry 6: binary data (height map / code), not text
+32064  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35CDC  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35D3C  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35DAE  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35DBC  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35DFD  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35E33  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35E4C  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35E74  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35EAD  SCENFILE.DAT entry 6: binary data (height map / code), not text
+35F9C  SCENFILE.DAT entry 6: binary data (height map / code), not text
+36018  SCENFILE.DAT entry 6: binary data (height map / code), not text
+36096  SCENFILE.DAT entry 6: binary data (height map / code), not text
+36307  SCENFILE.DAT entry 6: binary data (height map / code), not text
+36371  SCENFILE.DAT entry 6: binary data (height map / code), not text
+36799  SCENFILE.DAT entry 6: binary data (height map / code), not text
+36A13  SCENFILE.DAT entry 6: binary data (height map / code), not text
+36B16  SCENFILE.DAT entry 6: binary data (height map / code), not text
+7ED05  SCENFILE.DAT entry 14: binary data (height map / code), not text
+7EF7D  SCENFILE.DAT entry 14: binary data (height map / code), not text
+7EFFD  SCENFILE.DAT entry 14: binary data (height map / code), not text
+7F08C  SCENFILE.DAT entry 14: binary data (height map / code), not text
+80E2F  SCENFILE.DAT entry 14: binary data (height map / code), not text
+80EAF  SCENFILE.DAT entry 14: binary data (height map / code), not text
+80F2E  SCENFILE.DAT entry 14: binary data (height map / code), not text
+8102D  SCENFILE.DAT entry 14: binary data (height map / code), not text
+814A2  SCENFILE.DAT entry 14: binary data (height map / code), not text
+815A1  SCENFILE.DAT entry 14: binary data (height map / code), not text
+8161D  SCENFILE.DAT entry 14: binary data (height map / code), not text
+81891  SCENFILE.DAT entry 14: binary data (height map / code), not text
+81912  SCENFILE.DAT entry 14: binary data (height map / code), not text
+81B16  SCENFILE.DAT entry 14: binary data (height map / code), not text
+81B95  SCENFILE.DAT entry 14: binary data (height map / code), not text
+84E62  SCENFILE.DAT entry 14: binary data (height map / code), not text
+84EE0  SCENFILE.DAT entry 14: binary data (height map / code), not text
+84F6F  SCENFILE.DAT entry 14: binary data (height map / code), not text
+84FEF  SCENFILE.DAT entry 14: binary data (height map / code), not text
+8506E  SCENFILE.DAT entry 14: binary data (height map / code), not text
+850EE  SCENFILE.DAT entry 14: binary data (height map / code), not text
+8516E  SCENFILE.DAT entry 14: binary data (height map / code), not text
+851ED  SCENFILE.DAT entry 14: binary data (height map / code), not text
+852B6  SCENFILE.DAT entry 14: binary data (height map / code), not text
+85A1F  SCENFILE.DAT entry 14: binary data (height map / code), not text
+8EC36  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EC4F  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EC5D  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EC7A  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EC9B  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ECB7  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ECCA  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ECE5  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ECF5  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ED42  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ED66  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ED72  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ED8B  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8ED99  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EDB6  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EDD2  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EDEB  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EDF7  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE14  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE37  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE50  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE62  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE6C  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE80  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE8B  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EE9A  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EEBE  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EED2  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EEE7  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EEF6  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF16  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF26  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF36  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF46  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF52  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF6A  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF8A  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EF96  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EFA5  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+8EFD4  SCENFILE.DAT entry 17: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+B37D1  SCENFILE.DAT entry 20: binary data (height map / code), not text
+B3851  SCENFILE.DAT entry 20: binary data (height map / code), not text
+B38D2  SCENFILE.DAT entry 20: binary data (height map / code), not text
+B3B5A  SCENFILE.DAT entry 20: binary data (height map / code), not text
+B3CE1  SCENFILE.DAT entry 20: binary data (height map / code), not text
+B7D07  SCENFILE.DAT entry 20: binary data (height map / code), not text
+B7D86  SCENFILE.DAT entry 20: binary data (height map / code), not text
+BC336  SCENFILE.DAT entry 20: binary data (height map / code), not text
+BC3B6  SCENFILE.DAT entry 20: binary data (height map / code), not text
+BFD07  SCENFILE.DAT entry 21: binary data (height map / code), not text
+BFD86  SCENFILE.DAT entry 21: binary data (height map / code), not text
+CA488  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA4A0  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA4AD  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA4B7  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA4D6  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA4EA  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA504  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA536  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA550  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CA55A  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+CBC0E  SCENFILE.DAT entry 24: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+F64D3  SCENFILE.DAT entry 27: binary data (height map / code), not text
+FBBB3  SCENFILE.DAT entry 27: binary data (height map / code), not text
+FBC2E  SCENFILE.DAT entry 27: binary data (height map / code), not text
+112F85  SCENFILE.DAT entry 31: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+112FA0  SCENFILE.DAT entry 31: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+112FB1  SCENFILE.DAT entry 31: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+112FD2  SCENFILE.DAT entry 31: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+112FE8  SCENFILE.DAT entry 31: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F8C4  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F8E1  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F906  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F924  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F92F  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F974  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F986  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F98F  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F99D  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F9AD  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F9C0  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F9E2  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15F9F0  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA0B  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA1D  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA36  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA44  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA51  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA63  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA78  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FA88  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FAA4  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FAB7  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FAD5  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FAEC  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FAFF  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FB13  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FB46  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FB54  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FB74  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FBA6  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FBB4  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FBC1  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FBCD  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FBDC  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FBF4  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FBFF  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC0B  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC18  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC25  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC31  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC46  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC56  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC66  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC78  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC8F  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FC9D  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FCDD  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FCF0  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FCFB  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD0C  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD17  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD21  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD40  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD4D  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD6D  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD76  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD84  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FD91  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FDA9  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FDB8  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FDCF  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FDD9  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FDFC  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FE18  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FE23  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FE2D  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FE5B  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FE6F  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FE78  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FE98  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FEB6  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FECA  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FED6  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FEEE  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FF14  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FF38  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FF4E  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FF5E  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FF68  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FF78  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FF85  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FFAA  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FFBC  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FFD3  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+15FFE1  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+170295  SCENFILE.DAT entry 38: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+18D454  SCENFILE.DAT entry 41: binary data (height map / code), not text
+18D65C  SCENFILE.DAT entry 41: binary data (height map / code), not text
+18D6BD  SCENFILE.DAT entry 41: binary data (height map / code), not text
+1A1CCB  SCENFILE.DAT entry 42: binary data (height map / code), not text
+1B42B1  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B42D4  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B42EB  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4316  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4326  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B433E  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4352  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B437B  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4392  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B43A6  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B43BB  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B43D7  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B43EC  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B43FF  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4416  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B443D  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4460  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4478  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4497  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B44BC  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B44D8  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B44E3  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4510  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B451C  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4527  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4531  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B453D  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4550  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4566  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B457E  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B458F  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4599  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B45BA  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B45CE  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B45F7  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4607  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B461C  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4629  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4651  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B465B  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B468D  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B46B6  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B46D8  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B46E7  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B46F5  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4722  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4734  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4742  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B474B  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4770  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B4788  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B47A4  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B47AF  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B47BC  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B47C7  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B47D3  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B47E5  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+1B47F0  SCENFILE.DAT entry 45: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+20324E  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+203274  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+203286  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+203298  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2032A2  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2032D0  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+203308  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+203316  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+203331  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+20334C  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+20337D  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2033BF  SCENFILE.DAT entry 51: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249805  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24981E  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249838  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24984B  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249859  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249874  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24987F  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24988B  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249899  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2498A8  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2498D1  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2498DB  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2498F2  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24990C  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24991B  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249952  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24996E  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249980  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+24998C  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249997  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2499C2  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2499EE  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249A0F  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249A21  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249A38  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249A54  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249A5F  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249A6D  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249A87  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249AB6  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249ACE  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249AEF  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249B24  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249B3B  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249B66  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249B9A  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249BA4  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249BB6  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249BD6  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249BDF  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249BF3  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C08  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C13  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C2A  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C34  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C4A  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C54  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C6B  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249C7E  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249CB2  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249CD2  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249CF9  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249D34  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249D41  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249D5C  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249D6D  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249D77  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249D8C  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249D97  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249DB0  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249DBF  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249DC9  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249DE8  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249DF3  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E16  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E24  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E2F  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E44  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E4F  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E5C  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E74  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E87  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249E98  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249EA3  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249EB1  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249ED6  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249EF0  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F1A  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F24  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F30  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F44  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F50  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F5B  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F65  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249F88  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249FAB  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249FBC  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249FC7  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249FD3  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+249FEA  SCENFILE.DAT entry 58: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+270DB2  SCENFILE.DAT entry 61: binary data (height map / code), not text
+2755DF  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D0FC  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D18B  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D281  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D28A  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D2E7  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D305  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D315  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D389  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D3D3  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D3EF  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D419  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D44C  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27D54C  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27DB32  SCENFILE.DAT entry 61: binary data (height map / code), not text
+27DBB3  SCENFILE.DAT entry 61: binary data (height map / code), not text
+28CFF4  SCENFILE.DAT entry 62: binary data (height map / code), not text
+28D200  SCENFILE.DAT entry 62: binary data (height map / code), not text
+28D304  SCENFILE.DAT entry 62: binary data (height map / code), not text
+28D50E  SCENFILE.DAT entry 62: binary data (height map / code), not text
+28D8A7  SCENFILE.DAT entry 62: binary data (height map / code), not text
+28D9AD  SCENFILE.DAT entry 62: binary data (height map / code), not text
+28DCBF  SCENFILE.DAT entry 62: binary data (height map / code), not text
+28DD2E  SCENFILE.DAT entry 62: binary data (height map / code), not text
+29718D  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2971A0  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2971B4  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2971BF  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2971CB  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2971E5  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2971F8  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297203  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297228  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297233  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297248  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297253  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+29725F  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+29726F  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+29729D  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2972BC  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2972C9  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2972EC  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2972F7  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297326  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297336  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297356  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+29736A  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297374  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297390  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2973B0  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2973D2  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2973E6  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2973FC  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297419  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+29743C  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+297465  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+29748C  SCENFILE.DAT entry 65: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+2C68D8  SCENFILE.DAT entry 67: binary data (height map / code), not text
+2C6959  SCENFILE.DAT entry 67: binary data (height map / code), not text
+2CB3B2  SCENFILE.DAT entry 67: binary data (height map / code), not text
+2DE630  SCENFILE.DAT entry 68: binary data (height map / code), not text
+325C7C  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325CA4  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325CB0  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325CC5  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325CD8  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325CE5  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325CFF  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325D16  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325D28  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325D47  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325D76  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325D8A  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325D9F  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325DFB  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325E39  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325E48  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325E53  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325E84  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325E8E  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325EA6  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325EB6  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325ECF  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325EF9  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F14  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F34  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F41  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F4B  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F64  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F7C  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F89  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325F9C  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325FAC  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+325FD4  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+32740E  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+327C4E  SCENFILE.DAT entry 79: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+351CD3  SCENFILE.DAT entry 82: binary data (height map / code), not text
+3573B3  SCENFILE.DAT entry 82: binary data (height map / code), not text
+35742E  SCENFILE.DAT entry 82: binary data (height map / code), not text
+370922  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370950  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370964  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370977  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+3709A2  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+3709C1  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+3709E9  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A04  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A0F  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A1B  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A2D  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A38  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A58  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A63  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A94  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370A9F  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370AC8  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370AD8  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370AF4  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370AFF  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370B28  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370B54  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370B67  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370B88  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370BB4  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370BBF  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370BC9  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370BE8  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370C1B  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370C34  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370C42  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370C68  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370C72  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370C8B  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370CA6  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370CDA  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370CEA  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370CFB  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D14  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D1F  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D2D  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D3C  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D46  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D56  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D63  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D7E  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370D8E  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370DA5  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370DB6  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370DC8  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370DE3  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370E02  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370E16  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370E64  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370E6E  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370E7D  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+370E8F  SCENFILE.DAT entry 87: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+3EF9CD  SCENFILE.DAT entry 97: binary data (height map / code), not text
+3F569B  SCENFILE.DAT entry 98: binary data (height map / code), not text
+3F9BC2  SCENFILE.DAT entry 98: binary data (height map / code), not text
+436DED  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436DFE  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436E49  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436E69  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436E94  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436EA4  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436EB7  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436ECF  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436ED9  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436EFF  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436F10  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436F2C  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436F3B  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436F55  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436F68  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436F7B  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436F9C  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436FA8  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436FC8  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+436FD8  SCENFILE.DAT entry 107: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+474200  SCENFILE.DAT entry 110: binary data (height map / code), not text
+47427D  SCENFILE.DAT entry 110: binary data (height map / code), not text
+474515  SCENFILE.DAT entry 110: binary data (height map / code), not text
+47459E  SCENFILE.DAT entry 110: binary data (height map / code), not text
+474696  SCENFILE.DAT entry 110: binary data (height map / code), not text
+477519  SCENFILE.DAT entry 110: binary data (height map / code), not text
+477591  SCENFILE.DAT entry 110: binary data (height map / code), not text
+48328C  SCENFILE.DAT entry 111: binary data (height map / code), not text
+4832A8  SCENFILE.DAT entry 111: binary data (height map / code), not text
+4E3B37  SCENFILE.DAT entry 119: binary data (height map / code), not text
+4E4CDE  SCENFILE.DAT entry 119: binary data (height map / code), not text
+4E8A48  SCENFILE.DAT entry 119: binary data (height map / code), not text
+4F8802  SCENFILE.DAT entry 120: binary data (height map / code), not text
+4F8A04  SCENFILE.DAT entry 120: binary data (height map / code), not text
+4FD1D9  SCENFILE.DAT entry 120: binary data (height map / code), not text
+4FD2D9  SCENFILE.DAT entry 120: binary data (height map / code), not text
+4FD5D5  SCENFILE.DAT entry 120: binary data (height map / code), not text
+4FD6D8  SCENFILE.DAT entry 120: binary data (height map / code), not text
+4FD7D4  SCENFILE.DAT entry 120: binary data (height map / code), not text
+501517  SCENFILE.DAT entry 120: binary data (height map / code), not text
+501622  SCENFILE.DAT entry 120: binary data (height map / code), not text
+5016EE  SCENFILE.DAT entry 120: binary data (height map / code), not text
+501E57  SCENFILE.DAT entry 120: binary data (height map / code), not text
+501EC9  SCENFILE.DAT entry 120: binary data (height map / code), not text
+557F08  SCENFILE.DAT entry 126: binary data (height map / code), not text
+558009  SCENFILE.DAT entry 126: binary data (height map / code), not text
+55810E  SCENFILE.DAT entry 126: binary data (height map / code), not text
+55818F  SCENFILE.DAT entry 126: binary data (height map / code), not text
+5A4F08  SCENFILE.DAT entry 131: binary data (height map / code), not text
+5A5009  SCENFILE.DAT entry 131: binary data (height map / code), not text
+5A510E  SCENFILE.DAT entry 131: binary data (height map / code), not text
+5A518F  SCENFILE.DAT entry 131: binary data (height map / code), not text
+6438D3  SCENFILE.DAT entry 144: binary data (height map / code), not text
+64B776  SCENFILE.DAT entry 144: binary data (height map / code), not text
+64E390  SCENFILE.DAT entry 144: binary data (height map / code), not text
+64E410  SCENFILE.DAT entry 144: binary data (height map / code), not text
+66234B  SCENFILE.DAT entry 145: binary data (height map / code), not text
+6623CB  SCENFILE.DAT entry 145: binary data (height map / code), not text
+6623E4  SCENFILE.DAT entry 145: binary data (height map / code), not text
+66244B  SCENFILE.DAT entry 145: binary data (height map / code), not text
+662464  SCENFILE.DAT entry 145: binary data (height map / code), not text
+6624CB  SCENFILE.DAT entry 145: binary data (height map / code), not text
+6624E5  SCENFILE.DAT entry 145: binary data (height map / code), not text
+662554  SCENFILE.DAT entry 145: binary data (height map / code), not text
+6D1708  SCENFILE.DAT entry 159: binary data (height map / code), not text
+6D1809  SCENFILE.DAT entry 159: binary data (height map / code), not text
+6D190E  SCENFILE.DAT entry 159: binary data (height map / code), not text
+6D198F  SCENFILE.DAT entry 159: binary data (height map / code), not text
+6FDABD  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDAEC  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDAF6  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDB10  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDB27  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDB62  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDB84  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDBA2  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDBB2  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDBBC  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDBD8  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+6FDC02  SCENFILE.DAT entry 167: stale copy of the previous stage's lines (buffer residue, never read; docs/re/text.md)
+731D05  SCENFILE.DAT entry 172: binary data (height map / code), not text
+731D84  SCENFILE.DAT entry 172: binary data (height map / code), not text
+7320FD  SCENFILE.DAT entry 172: binary data (height map / code), not text
+7467F8  SCENFILE.DAT entry 173: binary data (height map / code), not text
