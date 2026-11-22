@@ -7,7 +7,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   re-applied and compared) + README.txt. Tour gate 75/75, menus 11/11 (waived for 8fa155c7, reason in manifest),
   story 36/36, textcover 2227/2228 + 1 waived, jp_left clean, polish.md all ticked. Not published (owner's call).
   work/states/s34 is from 8fa155c7; the rest older (regen `warp.py --all --cue build/gungho_en.cue` if needed).
-- **Post-1.0 (2026-11-22): voice (XA) subtitles working, not released** (D19, docs/re/voice.md, tools/voice.py,
+- **v1.1 (2026-11-23): FMV + voice subtitles released** (release/Gungho_Brigade_EN_v1.1.zip, patched SHA-1 4c9bcb46;
+  tour 36/36 + 10 changed sheets re-verdicted ok; menus gate waived, D20; GitHub release v1.1).
+- **Post-1.0 (2026-11-22): voice (XA) subtitles working** (D19, docs/re/voice.md, tools/voice.py,
   tools/asm/voicesubs.asm; insert.py runs it). 276 lines translated (script/voice/subs.tsv; unsure.md = listen list).
   Verified in PCSX-Redux on build/vtest.bin: s03, s05, s08 intros (work/qa/voice/*_sheet.png); unicorn tests
   tests/test_voice.py. Largest stage blob 4.5 of 8 KB. Fixed (user: "show a bit early"): clock now starts when the
