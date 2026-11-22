@@ -5,7 +5,9 @@
 Compares work/build/files/<file> with the pristine work/disc/tree/<file> (the per-file romdiff: mkpsxiso rebuilds the
 disc, so a raw .bin diff would show every moved sector). Allowed: string slots (EXEs, TABLE.BIN, pilot fields), the
 ENDING.BIN staff roll + its addiu + an appended blob, each SCENFILE overlay's text region + pointer table + whole
-sectors appended after it (entries compared one by one through the old and new SCENFILE.LEN), the font bitmaps.
+sectors appended after it (entries compared one by one through the old and new SCENFILE.LEN), the font bitmaps,
+and in a subtitled .STR only the video sectors of frames script/fmv/subs.tsv puts a line on (fmv.check); the voice
+subtitle hooks in GUNHO.EXE and their cue blobs after SCENFILE.DAT's last entry (tools/voice.py).
 Exit 1 on any byte changed outside them, or a file of unexpected size.
 """
 import struct
@@ -14,7 +16,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract as x  # noqa: E402
+import fmv  # noqa: E402
 import smallfont  # noqa: E402
+import voice  # noqa: E402
 from digraph import BITMAPS, LISTS  # noqa: E402
 from insert import GFX  # noqa: E402
 
@@ -44,7 +48,7 @@ def file_ranges(name, rows, data):
         for fname, off in copies:
             if fname == name:
                 rs.append((off, off + 22 * LISTS[font][2]))
-    return rs + smallfont.ranges(name) + [r for g in GFX for r in g.ranges(name)]
+    return rs + smallfont.ranges(name) + voice.ranges(name) + [r for g in GFX for r in g.ranges(name)]
 
 
 def ending_tail(old, new):
@@ -68,6 +72,14 @@ def ending_tail(old, new):
 
 def check_scen(rows, tree, overlay):
     old, new = (tree / "SCENFILE.DAT").read_bytes(), (overlay / "SCENFILE.DAT").read_bytes()
+    bad = 0
+    end = voice.scen_end(overlay, tree)
+    if len(new) > end:   # voice cue blobs (tools/voice.py): sector-aligned after the last entry, starting 'VSUB'
+        at = -(-end // 0x800) * 0x800
+        if any(new[end:at]) or new[at:at + 4] != voice.MAGIC or (len(new) - at) % 0x800:
+            print("SCENFILE.DAT: bytes after the last entry are not the voice cue blobs")
+            bad += 1
+        new = new[:end]
     lo = struct.unpack(f"<{len((tree / 'SCENFILE.LEN').read_bytes()) // 4}I", (tree / "SCENFILE.LEN").read_bytes())
     lpath = overlay / "SCENFILE.LEN"
     ln = struct.unpack(f"<{len(lo)}I", lpath.read_bytes()) if lpath.exists() else lo
@@ -76,7 +88,6 @@ def check_scen(rows, tree, overlay):
     for r in rows:
         if r["_file"] == "SCENFILE.DAT":
             ovl_of.setdefault(r["_tail"], r)
-    bad = 0
     for e in range(len(lo)):
         a, b = old[lo[e]:oe[e]], new[ln[e]:ne[e]]
         r = ovl_of.get(oe[e])
@@ -110,6 +121,11 @@ def main(overlay=OVERLAY, verbose=None):
             continue
         if name == "SCENFILE.DAT":
             n = check_scen(rows, tree, overlay)
+        elif name.endswith(".STR"):  # subtitled FMV: only video sectors of subtitled frames
+            hits = fmv.check((tree / name).read_bytes(), path.read_bytes(), path.stem)
+            for h in hits:
+                print(h)
+            n = len(hits)
         else:
             old, new = (tree / name).read_bytes(), path.read_bytes()
             hits = outside(old, new, file_ranges(name, rows, old), grow_at=len(old) if name == "ENDING.BIN" else None)

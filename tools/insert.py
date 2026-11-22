@@ -9,7 +9,8 @@ MENUMV rows as fullwidth Latin (see FULLWIDTH_FILES); all other rows go through 
 Where strings go (extract.write_back): EXE/TABLE/pilot rows in place (longer than the slot fails the build), except
 the GUNHO.EXE name pool, which is repacked with its u32 pointers rewritten; a SCENFILE overlay whose strings don't fit
 is repacked and may grow by whole sectors; the ENDING.BIN roll moves to the file end when it outgrows its blob.
-Then the digraph font bitmaps and the small-font pitch/glyphs (tools/smallfont.py) go onto the written files.
+Then the digraph font bitmaps and the small-font pitch/glyphs (tools/smallfont.py) go onto the written files, the
+subtitled FMVs (tools/fmv.py) are copied in, and the voice subtitles (tools/voice.py) are appended and hooked.
 
 Marker (phase 5): each line becomes filler of the same half-cell width as the Japanese line, with `[id]` at the start
 of the widest line, so every box shows which row it is without growing; markers never take more bytes than the JP.
@@ -22,9 +23,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import extract as x  # noqa: E402
+import fmv  # noqa: E402
 import gfx_captions  # noqa: E402
 import gfx_labels  # noqa: E402
 import smallfont  # noqa: E402
+import voice  # noqa: E402
 from digraph import BITMAPS, RAW, Digraph, units  # noqa: E402
 from sjis import SJIS  # noqa: E402
 from batches import BLANK_OK  # noqa: E402
@@ -175,6 +178,14 @@ def run(mode_marker=False, qa=None, overlay=OVERLAY, tree=x.TREE, strings=None):
         dest, data = current(g.FILE)
         dest.write_bytes(g.patch(data))
         written.append(g.FILE)
+    for p in sorted(fmv.DONE.rglob("*.STR")) if overlay == OVERLAY else []:  # subtitled FMVs, made by tools/fmv.py
+        name = p.relative_to(fmv.DONE).as_posix()
+        dest, _ = current(name)
+        shutil.copyfile(p, dest)
+        written.append(name)
+    # voice subtitles (tools/voice.py): per-stage cue blobs after SCENFILE.DAT's last entry, hooks into GUNHO.EXE
+    voice.apply(overlay, tree)
+    written += ["SCENFILE.DAT", "GUNHO.EXE"]
     return sorted(set(written)), dg
 
 

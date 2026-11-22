@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import digraph as d  # noqa: E402
 import extract as x  # noqa: E402
 import insert as ins  # noqa: E402
+import voice  # noqa: E402
 from sjis import SJIS  # noqa: E402
 
 pytestmark = pytest.mark.skipif(not (x.TREE / "GUNHO.EXE").exists(), reason="no unpacked disc (run build.py)")
@@ -48,8 +49,9 @@ def test_markers_fit_and_keep_tokens():
 def test_marker_build_writes_every_text_file(tmp_path):
     written, dg = ins.run(mode_marker=True, overlay=tmp_path)
     assert {"SCENFILE.DAT", "GUNHO.EXE", "TABLE.BIN", "MENU.EXE", "ENDING.BIN", "GAMEDATA.DAT"} <= set(written)
-    for name in written:
-        assert (tmp_path / name).stat().st_size == (x.TREE / name).stat().st_size, name
+    for name in written:   # SCENFILE.DAT: up to the voice cue blobs appended after its last entry (tools/voice.py)
+        size = voice.scen_end(tmp_path) if name == "SCENFILE.DAT" else (tmp_path / name).stat().st_size
+        assert size == (x.TREE / name).stat().st_size, name
     scen = (tmp_path / "SCENFILE.DAT").read_bytes()
     row = x.scen_rows()["scen_s08"][0]
     assert scen[row["_off"]:row["_off"] + 2] == struct.pack(">H", dg.map["Th"])

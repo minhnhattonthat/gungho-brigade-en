@@ -63,7 +63,8 @@ No earlier fan patch found (web search 2026-11-21: only ROM/database pages). The
 | ENDING.BIN | 18 KB | credits 0x2970-0x32f4 | staff roll, `役職：名前` |
 | LEMENU*.EXE, MOVIE.BIN, WPMOTION, BTMOTION | | none | |
 | GAMEDATA.DAT, TABLE/*.DAT, FACE.DAT | | images only (TIM) | see graphics.md |
-| MOVIE/*.STR, MOVIE2/*.STR, XA/*.XA | | FMV + voice | FMVs seen in the opening have no on-screen text; voiced. Subtitles out of scope unless the story needs them (phase 8 note) |
+| MOVIE/*.STR, MOVIE2/*.STR | 30 movies, 320x240 15 fps, mono XA audio, 2336-byte sectors | voice only | English subtitles burned in (D18): tools/fmv.py, lines in script/fmv/subs.tsv; the movie of each stage: the `\MOVIE\Snn` string in its SCENFILE overlay |
+| XA/*.XA | 14 files x 16 channels | voice only | XA000 = BGM; XA001-016 voice clips, many with no text box: docs/voice-subs-plan.md |
 
 Unit/weapon/ability names are half-width cp932 strings (see Encoding). The battle command menu labels (射撃 格闘 ...)
 are TIM graphics (graphics.md). Status-window labels (Pilot, Level, Gunshot ...) are English TIM graphics already.

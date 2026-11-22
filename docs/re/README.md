@@ -15,4 +15,5 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | text.md | encoding, files with text, SCENFILE overlay pointer tables, glyph list | partly verified |
 | graphics.md | TIM sweep, graphics-text survey | in progress |
 | debug.md | exe chain, game-state block, stage table, events, stage end, warp patches | verified (warp runs) |
+| voice.md | XA clip table, XA_Play, per-stage clip lists, voice-subtitle hooks (swap, stage load), free RAM | verified (emulator + unicorn) |
 | ../../tools/debug/save_layout.md | memory-card save layout + checksums | verified (2 game saves, edited save loads) |

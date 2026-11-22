@@ -11,12 +11,14 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/gungho_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 tools/debug/warp.py <scene..> [--cue build/gungho_en.cue]` / `--all` (regen every state in work/states/) / `--list`. Scenes: `tools/debug/scenes.tsv`; options in `tools/debug/warp.lua`; notes `docs/re/debug.md`. Never ask the user to play to a scene.
 - Saves:    `python -X utf8 tools/debug/save.py CARD.mcd --show | --out NEW.mcd --stage N --poke OFF:SIZE=VAL` (layout `tools/debug/save_layout.md`); boot with `emu.py --sav NEW.mcd`.
+- FMV subs: `python -X utf8 tools/fmv.py extract|transcribe|collect|retime|merge|burn|insert` (lines: `script/fmv/subs.tsv`; output cached in work/fmv/out/, insert.py copies it in; rerun `burn` + `insert` after editing a line)
+- Voice subs: `python -X utf8 tools/voice.py clips|log|map|collect|batch|check|merge|build` (lines: `script/voice/subs.tsv`; insert.py appends the cue blobs + assembles `tools/asm/voicesubs.asm` with armips; probe `tools/lua/voicewatch.lua`; notes `docs/re/voice.md`)
 - Release:  `python -X utf8 tools/release.py` (xdelta vs the .bin + verify; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
 ## Paths
 - Original disc: `rom/Gungho Brigade (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`). Emulator: this repo's own PCSX-Redux in `tools/pcsx/` (nightly 32338.20261121.15, `fetch_emu.py pcsx`; gitignored), BIOS `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`). Savestates: `work/states/`.
-- Disc tools (gitignored): `tools/mkpsxiso/mkpsxiso-2.30-win64/{dumpsxiso,mkpsxiso}.exe` (github.com/Lameguy64/mkpsxiso v2.30), `tools/armips/armips.exe` (Kingcom/armips v0.11.0). xdelta3 on PATH.
+- Disc tools (gitignored): `tools/mkpsxiso/mkpsxiso-2.30-win64/{dumpsxiso,mkpsxiso}.exe` (github.com/Lameguy64/mkpsxiso v2.30), `tools/armips/armips.exe` (Kingcom/armips v0.11.0), `tools/jpsxdec/jpsxdec_v2.1-beta/jpsxdec.jar` (github.com/m35/jpsxdec v2.1, Java 8). xdelta3, ffmpeg on PATH; faster-whisper (CPU, no CUDA here).
 - Disc: pristine unpack `work/disc/tree` + `layout.xml` (never edit); patched files go in `work/build/files/<disc path>`, which `build.py` swaps in.
 - Text: `script/` (TSV). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 

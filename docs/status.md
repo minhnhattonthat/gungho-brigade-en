@@ -7,6 +7,25 @@ Updated at the end of every session. Keep it to what the next session needs; his
   re-applied and compared) + README.txt. Tour gate 75/75, menus 11/11 (waived for 8fa155c7, reason in manifest),
   story 36/36, textcover 2227/2228 + 1 waived, jp_left clean, polish.md all ticked. Not published (owner's call).
   work/states/s34 is from 8fa155c7; the rest older (regen `warp.py --all --cue build/gungho_en.cue` if needed).
+- **Post-1.0 (2026-11-22): voice (XA) subtitles working, not released** (D19, docs/re/voice.md, tools/voice.py,
+  tools/asm/voicesubs.asm; insert.py runs it). 276 lines translated (script/voice/subs.tsv; unsure.md = listen list).
+  Verified in PCSX-Redux on build/vtest.bin: s03, s05, s08 intros (work/qa/voice/*_sheet.png); unicorn tests
+  tests/test_voice.py. Largest stage blob 4.5 of 8 KB. Fixed (user: "show a bit early"): clock now starts when the
+  drive reaches the clip, not at XA_Play (0.25-0.4 s later; docs/re/voice.md). FMV: STR audio/video interleave is in
+  step (no offset); 12 cue starts that Whisper put 0.3-3 s before the speech were re-timed (fmv.py retime + a 1 s
+  lead-in word pass; 4 set by hand: S02_00/01, S14B_00, S23A_13); re-burned. Voice cue starts sit on the onset (90%
+  within 0.02 s). Open: battle barks (38 clips, played by battle code) not seen
+  on screen yet; text box + voice overlap not seen; a full warp tour with tools/lua/voicewatch.lua; timing spot-checks
+  by ear; release.py not re-run (build/gungho_en.bin rebuilt with voice + FMV subs, diffcheck ok). Phase-1 clip log:
+  work/qa/xa (67/72 warp runs ok, 53 clips seen, intros only; fails = event stages 3/11/32 in clear mode and s35, a
+  warp limit); overlays name the per-stage clips statically instead.
+- **Post-1.0 (2026-11-22): FMV subtitles done, not released.** 26 of 30 movies carry speech (279 lines, Whisper
+  large-v3 -> 2 translator agents -> burned with DejaVu Sans Bold -> jPSXdec -replaceframes; D18). Verified in
+  PCSX-Redux: opening theme lyrics (work/qa/fmv_boot) and S01A at NEW GAME (work/qa/fmv_s00). diffcheck: only video
+  sectors of subtitled frames change. Open: ~30 UNSURE lines (ASR mishearings, lyrics) want a listen
+  (script/fmv/unsure.md); no story-review pass on script/fmv/subs.tsv yet; release.py not
+  re-run (v1.0 zip predates this). Next: in-game voice subtitles, plan docs/voice-subs-plan.md (203 voiced XA
+  clips, ~12 covered by text boxes; one hook point XA_Play 0x80051e2c).
 - **Done:**
   - Phase 9 (2026-11-22): story pass: every row changed since the phase 6 verdicts (90 story, 111 non-story) re-read
     in a fresh self pass (Codex out of quota to 2026-11-26, D17); 16 stale chapter verdicts rewritten, story gate

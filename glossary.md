@@ -119,6 +119,15 @@ tagged `speaker` give the speaker line of dialogue boxes.
 | 火星軍 | Martian Army / Mars Army | | | |
 | 地球軍 | Earth Army / Earth Forces | | | |
 | 地球連邦 | Earth Federation | | | |
+| 地球連邦航宙軍 | Earth Federation Space Force | | FMV S22A (heard 交通軍) | |
+| デカルブ | DeKalb | | FMV S05, Martian Army base | |
+| ニューロック・カタパルト | New Rock Catapult | | voice clips (s09 intro narration, heard 4 times); the s09 boxes say Schiaparelli Catapult: listen | |
+| ダンカン自警団 | Duncan Militia | | voice XA011_03 (s15) | |
+| チキン・ザ・キッド | Chicken the Kid | | voice; mock of Gungho Kid | |
+| ビアード | Beard | | voice; Apache callsign ("Apache Beard to Oldman") | |
+| シナイ平原 | Sinai Plain | | voice XA011_09 (heard 市内平原) | |
+| ファルクランド | Falkland | | voice XA011_08, Wingate fleet flagship (heard フォークランド) | |
+| レイテ | Leyte | | voice XA010_02, sunk ship | |
 | 北軍 | Northern Army | | | |
 | マシンレッグ | machine leg / Machine Leg | | the walking mecha class | |
 | ラグバトル | Rug Battle | | official (TIM "RUG BATTLE") | Rugby |
